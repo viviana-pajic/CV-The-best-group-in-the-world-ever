@@ -12,6 +12,7 @@
   <script defer src="assets/YoF0XeYhPL0.js"></script>
   <script defer src="assets/0BorT97NOmQ.js"></script>
   <script defer src="formation.js"></script>
+  <script defer src="heatmap.js"></script>
   <script defer src="app.js"></script>
 </head>
 <body>
@@ -159,6 +160,34 @@
         </div>
       </section>
     </div>
+    <section class="panel heatmap-panel" aria-labelledby="heatmap-title">
+      <div class="panel-header">
+        <div class="section-title">
+          <svg><use href="#i-map"/></svg>
+          <h2 id="heatmap-title">Live stage heat map</h2>
+        </div>
+        <span class="frame-label" id="heatmap-time">Through 00:00.00</span>
+      </div>
+      <div class="heatmap-body">
+        <div class="heatmap-view">
+          <div class="map-axis">Back of stage</div>
+          <canvas id="stage-heatmap" role="img" aria-label="Cumulative stage occupancy from reported floor contacts"></canvas>
+          <div class="map-axis front">Front of stage</div>
+        </div>
+        <div class="heatmap-summary">
+          <div class="heatmap-coverage">
+            <span>Detected stage coverage</span>
+            <strong id="heatmap-coverage">—</strong>
+            <span id="heatmap-squares"></span>
+          </div>
+          <div class="heatmap-scale" aria-label="Color scale for relative contact time">
+            <div class="heatmap-ramp"></div>
+            <div class="range-ends"><span>Less time</span><span>More time</span></div>
+          </div>
+          <p>The map adds reported floor contacts from the start of the clip to the current frame. A grid square counts toward coverage when a reported contact lands in it.</p>
+        </div>
+      </div>
+    </section>
     <footer class="page-footer">
       <details>
         <summary>How alignment is scored</summary>

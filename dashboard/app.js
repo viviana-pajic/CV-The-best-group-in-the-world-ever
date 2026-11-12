@@ -6,6 +6,10 @@
   const videoView = byId("video-view");
   const overlay = byId("video-overlay");
   const map = byId("stage-map");
+  const heatmapCanvas = byId("stage-heatmap");
+  const heatmapTime = byId("heatmap-time");
+  const heatmapCoverage = byId("heatmap-coverage");
+  const heatmapSquares = byId("heatmap-squares");
   const play = byId("play");
   const previous = byId("previous");
   const next = byId("next");
@@ -26,6 +30,12 @@
   const cache = new Map();
   const viewedFrames = new Map();
   const clips = window.DANCE_CLIPS ?? [];
+  const heatmapRaster = document.createElement("canvas");
+  const heatmapPixels = heatmapRaster.getContext("2d");
+  const heatColors = [
+    [0, 17, 28, 44], [.18, 38, 57, 131], [.42, 50, 103, 199],
+    [.68, 83, 197, 187], [.86, 161, 230, 178], [1, 255, 226, 151],
+  ];
   let clip;
   let index = 0;
   let pendingSeek = null;
@@ -37,6 +47,10 @@
   let latestJob;
   let frameCallback;
   let lastLineMarkup = "";
+  let heatmap;
+  let heatmapImage;
+  let heatmapFrame = -1;
+  let lastHeatmapDraw = 0;
 
   function rangeFill(input) {
     const fill = (input.valueAsNumber - Number(input.min)) / (Number(input.max) - Number(input.min));
@@ -70,6 +84,44 @@
     ctx.moveTo(...a);
     ctx.lineTo(...b);
     ctx.stroke();
+  }
+
+  function drawHeatmap(force = false) {
+    if (!heatmap) return;
+    const now = performance.now();
+    if (!force && (index === heatmapFrame || (!video.paused && now - lastHeatmapDraw < 120))) return;
+    const view = surface(heatmapCanvas);
+    if (!view) return;
+    const {ctx, width, height} = view;
+    const {density, peak, visited, coverageSide} = heatmap.at(index);
+    for (let i = 0; i < density.length; i++) {
+      const amount = peak ? Math.sqrt(density[i] / peak) : 0;
+      let stop = 1;
+      while (stop < heatColors.length - 1 && amount > heatColors[stop][0]) stop++;
+      const a = heatColors[stop - 1];
+      const b = heatColors[stop];
+      const t = (amount - a[0]) / (b[0] - a[0]);
+      const pixel = i * 4;
+      for (let c = 0; c < 3; c++) heatmapImage.data[pixel + c] = a[c + 1] + t * (b[c + 1] - a[c + 1]);
+      heatmapImage.data[pixel + 3] = 255;
+    }
+    heatmapPixels.putImageData(heatmapImage, 0, 0);
+    ctx.imageSmoothingEnabled = true;
+    ctx.drawImage(heatmapRaster, 0, 0, width, height);
+    ctx.lineWidth = 1;
+    for (let i = 1; i < coverageSide; i++) {
+      const x = width * i / coverageSide;
+      const y = height * i / coverageSide;
+      ctx.strokeStyle = i % 2 === 0 ? "#e8f6ff30" : "#e8f6ff16";
+      path(ctx, [x, 0], [x, height]);
+      path(ctx, [0, y], [width, y]);
+    }
+    const total = coverageSide ** 2;
+    heatmapTime.textContent = `Through ${time(index / clip.fps)}`;
+    heatmapCoverage.textContent = `${(100 * visited / total).toFixed(1)}%`;
+    heatmapSquares.textContent = `${visited} of ${total} stage squares visited`;
+    heatmapFrame = index;
+    lastHeatmapDraw = now;
   }
 
   function point(ctx, x, y, size, color, estimated) {
@@ -242,6 +294,7 @@
     byId("source-frame").textContent = `Frame ${(clip.firstFrame + index).toLocaleString("en-US")}`;
     updateTransport(index);
     draw();
+    drawHeatmap(force);
   }
 
   function frameAt(seconds) {
@@ -374,6 +427,10 @@
     worker = undefined;
     clip = selected;
     analyzed = null;
+    heatmap = createStageHeatmap(clip);
+    heatmapRaster.width = heatmapRaster.height = heatmap.side;
+    heatmapImage = heatmapPixels.createImageData(heatmap.side, heatmap.side);
+    heatmapCanvas.style.aspectRatio = clip.stage.join(" / ");
     mediaError.hidden = true;
     timeline.max = clip.frames.length - 1;
     videoView.style.aspectRatio = clip.resolution.join(" / ");
@@ -417,7 +474,10 @@
     updatePlayback();
     watchPlayback();
   });
-  video.addEventListener("pause", updatePlayback);
+  video.addEventListener("pause", () => {
+    updatePlayback();
+    drawHeatmap(true);
+  });
   video.addEventListener("ended", () => {
     updatePlayback();
     displayFrame(clip.frames.length - 1, true);
@@ -443,6 +503,7 @@
   const observer = new ResizeObserver(draw);
   observer.observe(videoView);
   observer.observe(map);
+  new ResizeObserver(() => drawHeatmap(true)).observe(heatmapCanvas);
 
   for (const item of clips) select.add(new Option(item.title, item.id));
   if (clips.length) loadClip(clips[0]);

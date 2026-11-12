@@ -8,6 +8,8 @@ The original replay covers source frames 3250–5673. Wicked Games, onare and De
 
 The stage is 12 × 12 m. The map and line fitter use the same scale on both axes. The additional clips align fixed venue landmarks to the original calibration as the camera zooms or shifts. Hover over a line score to see its average perpendicular offset in meters. Line scores describe the geometry of the displayed contacts. Measuring detector accuracy requires manually verified reference frames.
 
+The live stage heat map accumulates reported contact time from the first frame of the selected clip through the playhead. Scrubbing back shows only the earlier portion of the clip. Color is relative to the busiest area so far. Detected coverage counts the 1 m squares reached by at least one reported contact. Missed contacts and occasional false detections can affect that count.
+
 ## Add another choreography
 
 From the repository root, run `python tools/build_dashboard_data.py --help` with the project Python environment. Export the new clip using its source video, matching track and map exports, calibration and floor guides. Use a unique `--id` and a readable `--title`. For another clip on this stage, pass `--stage-meters 12 12`. Add a deferred script tag for the new `assets/<id>.js` in `index.html` next to the existing clip script. The selector lists every registered clip.

@@ -179,6 +179,35 @@ legend { padding: 0; margin-bottom: 4px; color: var(--muted); font-size: .69rem;
 .switch-track::after { content: ""; display: block; width: 9px; height: 9px; margin: 2px; border-radius: 50%; background: #c4d2e6; transition: transform .15s; }
 .switch input:checked + .switch-track { background: #285548; border-color: #6bc3a3; }
 .switch input:checked + .switch-track::after { transform: translateX(12px); background: #b9f7dc; }
+.heatmap-panel { margin-top: 16px; }
+.heatmap-body {
+  display: grid;
+  grid-template-columns: minmax(0, 430px) minmax(0, 285px);
+  align-items: center;
+  justify-content: center;
+  gap: clamp(20px, 5vw, 64px);
+  padding: 0 16px 18px;
+}
+.heatmap-view { min-width: 0; }
+#stage-heatmap { display: block; width: 100%; aspect-ratio: 1; border-radius: 7px; }
+.heatmap-summary { display: grid; gap: 19px; }
+.heatmap-coverage { display: grid; gap: 5px; }
+.heatmap-coverage span, .heatmap-summary p { color: var(--muted); font-size: .79rem; }
+.heatmap-coverage strong {
+  color: var(--mint);
+  font-size: clamp(1.65rem, 4vw, 2.6rem);
+  font-weight: 660;
+  letter-spacing: -.04em;
+  font-variant-numeric: tabular-nums;
+}
+.heatmap-ramp {
+  height: 9px;
+  margin-bottom: 7px;
+  border: 1px solid #5472976b;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #111c2c 0%, #263983 18%, #3267c7 42%, #53c5bb 68%, #a1e6b2 86%, #ffe297 100%);
+}
+.heatmap-summary p { margin: 0; line-height: 1.5; }
 .page-footer { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; padding: 14px 2px 0; color: var(--muted); font-size: .75rem; }
 .page-footer details { max-width: 650px; }
 .page-footer summary { width: fit-content; color: #b6c7df; }
@@ -205,6 +234,9 @@ legend { padding: 0; margin-bottom: 4px; color: var(--muted); font-size: .69rem;
   .slider-grid { grid-template-columns: 1fr; gap: 13px; }
   .map-metrics { gap: 8px; }
   .score-summary { padding-right: 8px; }
+  .heatmap-body { grid-template-columns: minmax(0, 430px); gap: 16px; }
+  .heatmap-summary { gap: 13px; }
+  #heatmap-time { font-size: .65rem; }
   .page-footer { flex-direction: column; gap: 8px; }
   #replay-meta { text-align: left; }
 }
