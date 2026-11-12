@@ -1,0 +1,78 @@
+{
+  "loss": 7.014437596003215,
+  "raw_median_pct_width": 0.9951394223853487,
+  "threshold_options": [
+    {
+      "threshold": 0.1,
+      "correct": 107,
+      "refs": 112,
+      "emitted": 141,
+      "joint_f1": 0.8458498023715415,
+      "visibility_f1": 0.8695652173913043,
+      "hidden_emitted": 31
+    },
+    {
+      "threshold": 0.25,
+      "correct": 106,
+      "refs": 112,
+      "emitted": 134,
+      "joint_f1": 0.8617886178861789,
+      "visibility_f1": 0.8861788617886179,
+      "hidden_emitted": 25
+    },
+    {
+      "threshold": 0.4,
+      "correct": 106,
+      "refs": 112,
+      "emitted": 133,
+      "joint_f1": 0.8653061224489796,
+      "visibility_f1": 0.889795918367347,
+      "hidden_emitted": 24
+    },
+    {
+      "threshold": 0.5,
+      "correct": 106,
+      "refs": 112,
+      "emitted": 131,
+      "joint_f1": 0.8724279835390947,
+      "visibility_f1": 0.897119341563786,
+      "hidden_emitted": 22
+    },
+    {
+      "threshold": 0.6,
+      "correct": 106,
+      "refs": 112,
+      "emitted": 129,
+      "joint_f1": 0.8796680497925311,
+      "visibility_f1": 0.9045643153526971,
+      "hidden_emitted": 20
+    },
+    {
+      "threshold": 0.75,
+      "correct": 104,
+      "refs": 112,
+      "emitted": 125,
+      "joint_f1": 0.8776371308016878,
+      "visibility_f1": 0.9029535864978903,
+      "hidden_emitted": 18
+    },
+    {
+      "threshold": 0.9,
+      "correct": 101,
+      "refs": 112,
+      "emitted": 117,
+      "joint_f1": 0.8820960698689956,
+      "visibility_f1": 0.9082969432314411,
+      "hidden_emitted": 13
+    }
+  ],
+  "selected": {
+    "threshold": 0.9,
+    "correct": 101,
+    "refs": 112,
+    "emitted": 117,
+    "joint_f1": 0.8820960698689956,
+    "visibility_f1": 0.9082969432314411,
+    "hidden_emitted": 13
+  }
+}

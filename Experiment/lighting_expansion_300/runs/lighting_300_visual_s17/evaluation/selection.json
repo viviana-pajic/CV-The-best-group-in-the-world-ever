@@ -1,0 +1,18 @@
+{
+  "mode": "crop5flip",
+  "threshold": 0.9,
+  "settings": {
+    "name": "robust_l128_h0.5_path1",
+    "kind": "robust_trajectory",
+    "strength": 128,
+    "huber": 0.5,
+    "path_gate": true,
+    "path_speed": 0.3,
+    "gap": 25,
+    "measured_residual": 3.0
+  },
+  "support_sha256": "1e11fe0dd69b3be59d96f48010a6572bd216b47346fa1d87d6e22dbf8352f62d",
+  "detector_sha256": "2121ca7f47686d867431670033792e89237bd7c6700ba741bf5c201069e3b380",
+  "scoring_scope": "Support checkpoint and threshold selected on the 11 development validation images. Detector checkpoint selected by Ultralytics on validation. No tuning on the reserved block.",
+  "display_threshold": 0.3
+}

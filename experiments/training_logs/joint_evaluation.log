@@ -1,0 +1,42 @@
+New detector inference 0 / 2424
+New detector inference 300 / 2424
+New detector inference 600 / 2424
+New detector inference 900 / 2424
+New detector inference 1200 / 2424
+New detector inference 1500 / 2424
+New detector inference 1800 / 2424
+New detector inference 2100 / 2424
+New detector inference 2400 / 2424
+Traceback (most recent call last):
+  File "C:\Users\tomis\OneDrive\THOMAS MORE APPLIED COMPUTER SCIENCE\YEAR 3\DL\Dance_Floor_Contact_Team_Package\build\lighting_expansion_300\evaluate_300.py", line 185, in <module>
+    main()
+  File "C:\Users\tomis\OneDrive\THOMAS MORE APPLIED COMPUTER SCIENCE\YEAR 3\DL\Dance_Floor_Contact_Team_Package\build\lighting_expansion_300\evaluate_300.py", line 162, in main
+    base = read(FROZEN_TRACKS) if args.pipeline == "support" else rebuilt_tracks(output, frozen)
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomis\OneDrive\THOMAS MORE APPLIED COMPUTER SCIENCE\YEAR 3\DL\Dance_Floor_Contact_Team_Package\build\lighting_expansion_300\evaluate_300.py", line 114, in rebuilt_tracks
+    write(cached, forward)
+  File "C:\Users\tomis\OneDrive\THOMAS MORE APPLIED COMPUTER SCIENCE\YEAR 3\DL\Dance_Floor_Contact_Team_Package\Experiment\lighting_expansion_200\build_dataset.py", line 26, in write
+    path.write_text(json.dumps(value, indent=2), encoding='utf-8')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomis\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\tomis\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\tomis\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\tomis\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\tomis\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "C:\Users\tomis\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "C:\Users\tomis\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\tomis\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\tomis\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable

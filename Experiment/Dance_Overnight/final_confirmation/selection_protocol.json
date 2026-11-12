@@ -1,0 +1,117 @@
+{
+  "created_utc": "2026-11-10T03:57:56.225101+00:00",
+  "support": {
+    "candidate": {
+      "name": "v6_attention_wide_s17_best_joint_crop5flip_point",
+      "run": "v6_attention_wide_s17",
+      "checkpoint": "best_joint.pt",
+      "epoch": 37,
+      "mode": "crop5flip",
+      "decoder": "point"
+    },
+    "threshold": 0.25,
+    "pooled": {
+      "threshold": 0.25,
+      "refs": 112,
+      "emitted": 110,
+      "correct": 106,
+      "joint_f1": 0.954954954954955,
+      "hidden_emitted": 3,
+      "median_error": 0.5319812758421468,
+      "by_type": {
+        "feet": {
+          "references": 59,
+          "emitted": 56,
+          "correct": 55
+        },
+        "hidden": {
+          "references": 68,
+          "emitted": 3,
+          "correct": 0
+        },
+        "knees": {
+          "references": 38,
+          "emitted": 36,
+          "correct": 36
+        },
+        "seat": {
+          "references": 15,
+          "emitted": 15,
+          "correct": 15
+        }
+      }
+    },
+    "old": {
+      "threshold": 0.25,
+      "refs": 104,
+      "emitted": 102,
+      "correct": 98,
+      "joint_f1": 0.9514563106796117,
+      "hidden_emitted": 3,
+      "median_error": 0.5455511487970283,
+      "by_type": {
+        "feet": {
+          "references": 59,
+          "emitted": 56,
+          "correct": 55
+        },
+        "hidden": {
+          "references": 50,
+          "emitted": 3,
+          "correct": 0
+        },
+        "knees": {
+          "references": 38,
+          "emitted": 36,
+          "correct": 36
+        },
+        "seat": {
+          "references": 7,
+          "emitted": 7,
+          "correct": 7
+        }
+      }
+    },
+    "ending": {
+      "threshold": 0.25,
+      "refs": 8,
+      "emitted": 8,
+      "correct": 8,
+      "joint_f1": 1.0,
+      "hidden_emitted": 0,
+      "median_error": 0.4113775793026889,
+      "by_type": {
+        "hidden": {
+          "references": 18,
+          "emitted": 0,
+          "correct": 0
+        },
+        "seat": {
+          "references": 8,
+          "emitted": 8,
+          "correct": 8
+        }
+      }
+    }
+  },
+  "support_rule": "Real development joint F1 with older-development F1 within 0.02 of V5 reference at the same threshold. Synthetic masked scores do not select the model.",
+  "detector_rule": "Compare the development-selected expanded detector against original frozen detector using identical support head and robust map filter. Promote detector only if correct identity matches are at least100/120, wrong identity matches at most1, and 3%-correct support count is no lower than the original detector on the same controlled validation frames. Otherwise retain original detector.",
+  "filter": {
+    "name": "robust_l128_h0.5_path1",
+    "kind": "robust_trajectory",
+    "strength": 128,
+    "huber": 0.5,
+    "path_gate": true,
+    "path_speed": 0.3,
+    "gap": 25,
+    "measured_residual": 3.0
+  },
+  "confirmation_variants": [
+    "incumbent V5 point model and original detector",
+    "development-selected V6 point model and development-approved detector",
+    "same selected pipeline with box-bottom point substitution"
+  ],
+  "confirmation_decision": "Report all three. Call the late pipeline an overall improvement on this block only if its 3%-correct count is at least the incumbent, its1%-correct count improves, and hidden contacts emitted as measured increase by no more than1. If these conditions fail, retain the incumbent as the established reference and describe the late model as a posture-specific alternative. Never tune a threshold or filter from this block.",
+  "scope": "One new labeled block in the same choreography, not independent human ground truth. Image-local IDs cannot evaluate identity switches. Assumed mat aspect1.6 unchanged. Missing visible points count as misses.",
+  "support_checkpoint_sha256": "c272f4670f471d79fcc76b9137b713a02b51b9b89707dd0ec3fb73c4044cd641"
+}

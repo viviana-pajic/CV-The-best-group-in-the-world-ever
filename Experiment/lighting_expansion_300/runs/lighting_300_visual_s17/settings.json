@@ -1,0 +1,26 @@
+{
+  "name": "lighting_300_visual_s17",
+  "manifest": "C:\\Users\\tomis\\OneDrive\\THOMAS MORE APPLIED COMPUTER SCIENCE\\YEAR 3\\DL\\Dance_Floor_Contact_Team_Package\\build\\lighting_expansion_300\\training_manifest.json",
+  "data_sha256": "cd74d8846c5141818652ba230125cb96313300b87e6598db02b29c148b0948a8",
+  "seed": 17,
+  "balance_posture": true,
+  "wide_augmentation": true,
+  "visibility_loss_weight": 0.7,
+  "max_epochs": 30,
+  "training_boxes": 4962,
+  "validation_boxes": 180,
+  "training_groups": {
+    "palms": 450,
+    "feet": 2596,
+    "hidden": 894,
+    "seat": 346,
+    "knees": 256,
+    "mixed_knee_foot": 420
+  },
+  "selection": "Lowest validation combined loss. Threshold maximizes visible-point joint F1 on development validation only.",
+  "initialization": "ImageNet ResNet18, no choreography-specific checkpoint",
+  "target_box_mask": false,
+  "contact_attention": true,
+  "ignore_uncertain": true,
+  "sampling_count_floor": 30
+}

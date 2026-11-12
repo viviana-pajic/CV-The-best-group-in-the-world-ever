@@ -1,0 +1,17 @@
+{
+  "checkpoint": "best_joint.pt",
+  "checkpoint_sha256": "c0bfcb59e41c722e93a06bd241c2981e731b5cc17af96f5540408ce243c9bd8f",
+  "mode": "crop5flip",
+  "threshold": 0.9,
+  "settings": {
+    "name": "robust_l128_h0.5_path1",
+    "kind": "robust_trajectory",
+    "strength": 128,
+    "huber": 0.5,
+    "path_gate": true,
+    "path_speed": 0.3,
+    "gap": 25,
+    "measured_residual": 3.0
+  },
+  "scope": "Checkpoint and threshold selected using only the 11 original development validation frames."
+}

@@ -1,0 +1,5104 @@
+{
+  "published_baseline": {
+    "all": {
+      "visible_references": 46,
+      "matched_visible_boxes": 44,
+      "available_visible": 34,
+      "correct_by_tolerance_pct_width": {
+        "1": 11,
+        "2": 21,
+        "3": 29,
+        "5": 30
+      },
+      "median_error_pct": 1.7149000142905035,
+      "p90_error_pct": 4.807774267027017,
+      "median_source_pixel_error": 10.716677640470635,
+      "hidden_references": 50,
+      "hidden_measured": 5,
+      "hidden_estimated": 2,
+      "measured_correct_3pct": 26,
+      "by_posture": {
+        "feet": {
+          "references": 26,
+          "measured": 16,
+          "estimated": 1,
+          "unknown": 9,
+          "correct_3pct": 13
+        },
+        "hidden": {
+          "references": 50,
+          "measured": 5,
+          "estimated": 2,
+          "unknown": 43,
+          "correct_3pct": 0
+        },
+        "knees": {
+          "references": 13,
+          "measured": 8,
+          "estimated": 3,
+          "unknown": 2,
+          "correct_3pct": 11
+        },
+        "mixed_knee_foot": {
+          "references": 2,
+          "measured": 2,
+          "estimated": 0,
+          "unknown": 0,
+          "correct_3pct": 2
+        },
+        "seat": {
+          "references": 5,
+          "measured": 3,
+          "estimated": 1,
+          "unknown": 1,
+          "correct_3pct": 3
+        },
+        "uncertain": {
+          "references": 7,
+          "measured": 6,
+          "estimated": 1,
+          "unknown": 0,
+          "correct_3pct": 0
+        }
+      }
+    },
+    "by_phase": {
+      "new_confirmation": {
+        "visible_references": 46,
+        "matched_visible_boxes": 44,
+        "available_visible": 34,
+        "correct_by_tolerance_pct_width": {
+          "1": 11,
+          "2": 21,
+          "3": 29,
+          "5": 30
+        },
+        "median_error_pct": 1.7149000142905035,
+        "p90_error_pct": 4.807774267027017,
+        "median_source_pixel_error": 10.716677640470635,
+        "hidden_references": 50,
+        "hidden_measured": 5,
+        "hidden_estimated": 2,
+        "measured_correct_3pct": 26,
+        "by_posture": {
+          "feet": {
+            "references": 26,
+            "measured": 16,
+            "estimated": 1,
+            "unknown": 9,
+            "correct_3pct": 13
+          },
+          "hidden": {
+            "references": 50,
+            "measured": 5,
+            "estimated": 2,
+            "unknown": 43,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 13,
+            "measured": 8,
+            "estimated": 3,
+            "unknown": 2,
+            "correct_3pct": 11
+          },
+          "mixed_knee_foot": {
+            "references": 2,
+            "measured": 2,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 2
+          },
+          "seat": {
+            "references": 5,
+            "measured": 3,
+            "estimated": 1,
+            "unknown": 1,
+            "correct_3pct": 3
+          },
+          "uncertain": {
+            "references": 7,
+            "measured": 6,
+            "estimated": 1,
+            "unknown": 0,
+            "correct_3pct": 0
+          }
+        }
+      }
+    },
+    "by_frame": {
+      "3953": {
+        "visible_references": 8,
+        "matched_visible_boxes": 8,
+        "available_visible": 8,
+        "correct_by_tolerance_pct_width": {
+          "1": 3,
+          "2": 5,
+          "3": 6,
+          "5": 6
+        },
+        "median_error_pct": 1.6433753522606147,
+        "p90_error_pct": 5.644074301871287,
+        "median_source_pixel_error": 14.586635562133324,
+        "hidden_references": 7,
+        "hidden_measured": 2,
+        "hidden_estimated": 1,
+        "measured_correct_3pct": 6,
+        "by_posture": {
+          "feet": {
+            "references": 7,
+            "measured": 6,
+            "estimated": 1,
+            "unknown": 0,
+            "correct_3pct": 5
+          },
+          "hidden": {
+            "references": 7,
+            "measured": 2,
+            "estimated": 1,
+            "unknown": 4,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          }
+        }
+      },
+      "3977": {
+        "visible_references": 6,
+        "matched_visible_boxes": 6,
+        "available_visible": 3,
+        "correct_by_tolerance_pct_width": {
+          "1": 0,
+          "2": 1,
+          "3": 3,
+          "5": 3
+        },
+        "median_error_pct": 2.1627777758778484,
+        "p90_error_pct": 2.5146893106637833,
+        "median_source_pixel_error": 10.033871570247578,
+        "hidden_references": 6,
+        "hidden_measured": 1,
+        "hidden_estimated": 0,
+        "measured_correct_3pct": 2,
+        "by_posture": {
+          "feet": {
+            "references": 4,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 3,
+            "correct_3pct": 1
+          },
+          "hidden": {
+            "references": 6,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 5,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 1,
+            "measured": 0,
+            "estimated": 1,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "mixed_knee_foot": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "uncertain": {
+            "references": 2,
+            "measured": 2,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 0
+          }
+        }
+      },
+      "3999": {
+        "visible_references": 7,
+        "matched_visible_boxes": 7,
+        "available_visible": 5,
+        "correct_by_tolerance_pct_width": {
+          "1": 2,
+          "2": 2,
+          "3": 4,
+          "5": 4
+        },
+        "median_error_pct": 2.3131598869301975,
+        "p90_error_pct": 4.926366244995883,
+        "median_source_pixel_error": 11.222391113097549,
+        "hidden_references": 5,
+        "hidden_measured": 0,
+        "hidden_estimated": 0,
+        "measured_correct_3pct": 4,
+        "by_posture": {
+          "feet": {
+            "references": 3,
+            "measured": 2,
+            "estimated": 0,
+            "unknown": 1,
+            "correct_3pct": 1
+          },
+          "hidden": {
+            "references": 5,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 5,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "mixed_knee_foot": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "seat": {
+            "references": 2,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 1,
+            "correct_3pct": 1
+          },
+          "uncertain": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 0
+          }
+        }
+      },
+      "4021": {
+        "visible_references": 6,
+        "matched_visible_boxes": 5,
+        "available_visible": 4,
+        "correct_by_tolerance_pct_width": {
+          "1": 2,
+          "2": 3,
+          "3": 3,
+          "5": 3
+        },
+        "median_error_pct": 0.9677551504616007,
+        "p90_error_pct": 5.707638527702491,
+        "median_source_pixel_error": 7.214840423665857,
+        "hidden_references": 7,
+        "hidden_measured": 0,
+        "hidden_estimated": 0,
+        "measured_correct_3pct": 2,
+        "by_posture": {
+          "feet": {
+            "references": 3,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 2,
+            "correct_3pct": 1
+          },
+          "hidden": {
+            "references": 7,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 7,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 2,
+            "measured": 1,
+            "estimated": 1,
+            "unknown": 0,
+            "correct_3pct": 2
+          },
+          "seat": {
+            "references": 1,
+            "measured": 0,
+            "estimated": 1,
+            "unknown": 0,
+            "correct_3pct": 0
+          },
+          "uncertain": {
+            "references": 2,
+            "measured": 1,
+            "estimated": 1,
+            "unknown": 0,
+            "correct_3pct": 0
+          }
+        }
+      },
+      "4043": {
+        "visible_references": 5,
+        "matched_visible_boxes": 5,
+        "available_visible": 3,
+        "correct_by_tolerance_pct_width": {
+          "1": 0,
+          "2": 1,
+          "3": 3,
+          "5": 3
+        },
+        "median_error_pct": 2.2265753088882922,
+        "p90_error_pct": 2.31855670992983,
+        "median_source_pixel_error": 15.56028016660454,
+        "hidden_references": 9,
+        "hidden_measured": 2,
+        "hidden_estimated": 0,
+        "measured_correct_3pct": 3,
+        "by_posture": {
+          "feet": {
+            "references": 2,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 2,
+            "correct_3pct": 0
+          },
+          "hidden": {
+            "references": 9,
+            "measured": 2,
+            "estimated": 0,
+            "unknown": 7,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 2,
+            "measured": 2,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 2
+          },
+          "seat": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "uncertain": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 0
+          }
+        }
+      },
+      "4061": {
+        "visible_references": 6,
+        "matched_visible_boxes": 5,
+        "available_visible": 3,
+        "correct_by_tolerance_pct_width": {
+          "1": 1,
+          "2": 3,
+          "3": 3,
+          "5": 3
+        },
+        "median_error_pct": 1.0129265417630358,
+        "p90_error_pct": 1.0598301783890145,
+        "median_source_pixel_error": 4.702048999077195,
+        "hidden_references": 8,
+        "hidden_measured": 0,
+        "hidden_estimated": 0,
+        "measured_correct_3pct": 2,
+        "by_posture": {
+          "feet": {
+            "references": 2,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 1,
+            "correct_3pct": 1
+          },
+          "hidden": {
+            "references": 8,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 8,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 3,
+            "measured": 0,
+            "estimated": 1,
+            "unknown": 2,
+            "correct_3pct": 1
+          },
+          "seat": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "uncertain": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 0
+          }
+        }
+      },
+      "4079": {
+        "visible_references": 8,
+        "matched_visible_boxes": 8,
+        "available_visible": 8,
+        "correct_by_tolerance_pct_width": {
+          "1": 3,
+          "2": 6,
+          "3": 7,
+          "5": 8
+        },
+        "median_error_pct": 1.7537349285465407,
+        "p90_error_pct": 2.7283002444556304,
+        "median_source_pixel_error": 10.49582711051059,
+        "hidden_references": 8,
+        "hidden_measured": 0,
+        "hidden_estimated": 1,
+        "measured_correct_3pct": 7,
+        "by_posture": {
+          "feet": {
+            "references": 5,
+            "measured": 5,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 4
+          },
+          "hidden": {
+            "references": 8,
+            "measured": 0,
+            "estimated": 1,
+            "unknown": 7,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 3,
+            "measured": 3,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 3
+          }
+        }
+      }
+    },
+    "records": [
+      {
+        "source_frame": 3953,
+        "reference_id": 1,
+        "track_id": 9,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.953146002042313,
+        "error_pixels": 13.883237401539656,
+        "error_dx": -0.8017894868001463,
+        "error_dy": 0.5153842450696402
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 2,
+        "track_id": 11,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 2,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 4,
+        "track_id": 15,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.016802849136273,
+        "error_pixels": 15.290033722726992,
+        "error_dx": -0.3334179007346023,
+        "error_dy": 1.989051592029206
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 5,
+        "track_id": 6,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 7,
+        "track_id": 5,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 2,
+        "error_pct": 6.1293971213981155,
+        "error_pixels": 55.998839100876886,
+        "error_dx": -2.710948227984133,
+        "error_dy": 5.4972964970968405
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 9,
+        "track_id": 10,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 5.436078807788361,
+        "error_pixels": 24.52484077313428,
+        "error_dx": 2.7066158289721294,
+        "error_dy": 4.714359294627769
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 10,
+        "track_id": 3,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.8504024222613018,
+        "error_pixels": 23.77221232521219,
+        "error_dx": -1.7616865631337006,
+        "error_dy": 0.5660826596749473
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 12,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 13,
+        "track_id": 13,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 14,
+        "track_id": 7,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 15,
+        "track_id": 4,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.729847467467233,
+        "error_pixels": 6.788898257484553,
+        "error_dx": -0.45974513373487724,
+        "error_dy": 0.5668436625520599
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 16,
+        "track_id": 14,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 17,
+        "track_id": 19,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.33641883256984134,
+        "error_pixels": 3.5856900819104944,
+        "error_dx": -0.29901835641374674,
+        "error_dy": -0.15416112815906757
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 18,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.4363482822599276,
+        "error_pixels": 4.38437647757632,
+        "error_dx": -0.2351590340403078,
+        "error_dy": 1.416967401410588
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 101,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 1,
+        "track_id": 9,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 2,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 4,
+        "track_id": 15,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 5,
+        "track_id": 3,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 7,
+        "track_id": 6,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 10,
+        "track_id": 11,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 11,
+        "track_id": 1,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 14,
+        "track_id": 4,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 2,
+        "error_pct": 1.9173446491007395,
+        "error_pixels": 10.033871570247578,
+        "error_dx": 0.1308658044893889,
+        "error_dy": 1.9128734000582952
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 15,
+        "track_id": 7,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 16,
+        "track_id": 19,
+        "contact": "visible",
+        "kind": "mixed_knee_foot",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.6026671943602673,
+        "error_pixels": 17.250992412620946,
+        "error_dx": -1.3255981916086554,
+        "error_dy": 2.2397914990023082
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 17,
+        "track_id": 2,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 18,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.1627777758778484,
+        "error_pixels": 6.694009447713104,
+        "error_dx": -0.27619330430579936,
+        "error_dy": 2.145069921118605
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 101,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 102,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 1,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 2,
+        "track_id": 3,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 4,
+        "track_id": 8,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 5,
+        "track_id": 17,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 7,
+        "track_id": 4,
+        "contact": "visible",
+        "kind": "mixed_knee_foot",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.8716539295186664,
+        "error_pixels": 6.196438184246747,
+        "error_dx": 0.5688767470839764,
+        "error_dy": 0.6604239694866365
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 9,
+        "track_id": 10,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 10,
+        "track_id": 1,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.8951082762909426,
+        "error_pixels": 9.94500827542136,
+        "error_dx": -0.8060167081404899,
+        "error_dy": 0.3893018012839278
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 13,
+        "track_id": 20,
+        "contact": "visible",
+        "kind": "seat",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 14,
+        "track_id": 13,
+        "contact": "visible",
+        "kind": "seat",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.3131598869301975,
+        "error_pixels": 11.222391113097549,
+        "error_dx": 0.722248195446376,
+        "error_dy": 2.1975136419775367
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 15,
+        "track_id": 19,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 6.217524535717976,
+        "error_pixels": 29.272204103031385,
+        "error_dx": 1.3905298825447332,
+        "error_dy": -6.060036138341516
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 16,
+        "track_id": 2,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 18,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.9896288089127423,
+        "error_pixels": 13.24556862348807,
+        "error_dx": 0.5274636017224239,
+        "error_dy": 2.9427304606332925
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 101,
+        "track_id": 9,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 1,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 3,
+        "track_id": 12,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 4,
+        "track_id": 11,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 5,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 6,
+        "track_id": 1,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 2,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 8,
+        "track_id": 7,
+        "contact": "visible",
+        "kind": "seat",
+        "matched": true,
+        "state": 2,
+        "error_pct": 7.72032799142025,
+        "error_pixels": 62.55364447040869,
+        "error_dx": -6.289354838312292,
+        "error_dy": -4.477441235002956
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 9,
+        "track_id": 20,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 10,
+        "track_id": 2,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 2,
+        "error_pct": 0.2912068904259426,
+        "error_pixels": 3.022657438789552,
+        "error_dx": 0.2481247853813997,
+        "error_dy": 0.15243209606569508
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 11,
+        "track_id": 19,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 12,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.9241471885621534,
+        "error_pixels": 3.6475367647972017,
+        "error_dx": -0.05040003163886553,
+        "error_dy": 0.9227718368795905
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 101,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 102,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 103,
+        "track_id": null,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 104,
+        "track_id": 4,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.011363112361048,
+        "error_pixels": 10.782144082534511,
+        "error_dx": -0.2836369035687696,
+        "error_dy": 0.9707756960176468
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 105,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 1,
+        "track_id": 9,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 2,
+        "track_id": 17,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 3,
+        "track_id": 12,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 5,
+        "track_id": 11,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 101,
+        "track_id": 10,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 102,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 103,
+        "track_id": 6,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 104,
+        "track_id": 2,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.3415520601902147,
+        "error_pixels": 15.56028016660454,
+        "error_dx": 1.2426476125933306,
+        "error_dy": 1.9846140585759073
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 105,
+        "track_id": 1,
+        "contact": "visible",
+        "kind": "seat",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.2265753088882922,
+        "error_pixels": 18.18695351712175,
+        "error_dx": -1.0327173210948999,
+        "error_dy": 1.972595381942675
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 106,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 107,
+        "track_id": 20,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 108,
+        "track_id": 14,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.5658334040727335,
+        "error_pixels": 11.11434545903307,
+        "error_dx": 0.7323736418150304,
+        "error_dy": 1.3840025643345442
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 109,
+        "track_id": 19,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 110,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 111,
+        "track_id": 18,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 1,
+        "track_id": 9,
+        "contact": "visible",
+        "kind": "seat",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.20150574449146028,
+        "error_pixels": 1.423189704645633,
+        "error_dx": 0.157471407636951,
+        "error_dy": 0.12572716826483799
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 2,
+        "track_id": 8,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 3,
+        "track_id": null,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 4,
+        "track_id": 12,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 6,
+        "track_id": 10,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.0715560875455092,
+        "error_pixels": 4.702048999077195,
+        "error_dx": 0.0475118187553889,
+        "error_dy": 1.0705022540071525
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 7,
+        "track_id": 7,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 9,
+        "track_id": 2,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 10,
+        "track_id": 20,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 11,
+        "track_id": 19,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 12,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 2,
+        "error_pct": 1.0129265417630358,
+        "error_pixels": 6.861440281251141,
+        "error_dx": -0.5102377156258271,
+        "error_dy": 0.8750300866604306
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 101,
+        "track_id": 3,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 102,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 103,
+        "track_id": 17,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 104,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 105,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 2,
+        "track_id": 9,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.928072250773376,
+        "error_pixels": 10.34044302261442,
+        "error_dx": 1.2444215189551784,
+        "error_dy": 1.472710999267541
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 3,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 4,
+        "track_id": 6,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.7689278313358687,
+        "error_pixels": 4.240504907815163,
+        "error_dx": 0.23282629957554946,
+        "error_dy": 0.7328314431223859
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 5,
+        "track_id": 4,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 6,
+        "track_id": 12,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 8,
+        "track_id": 10,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 3.341730338583885,
+        "error_pixels": 14.234935687259506,
+        "error_dx": 1.8124600726606985,
+        "error_dy": 2.8075167213790095
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 9,
+        "track_id": 15,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.5793976063197055,
+        "error_pixels": 16.89652809375101,
+        "error_dx": -1.5745226939351724,
+        "error_dy": -0.12399631095941288
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 10,
+        "track_id": 1,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.465401632686379,
+        "error_pixels": 10.651211198406758,
+        "error_dx": 0.24770609821731426,
+        "error_dy": 2.4529261911762887
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 11,
+        "track_id": 20,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 14,
+        "track_id": 14,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 2,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 15,
+        "track_id": 19,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.953253140628598,
+        "error_pixels": 11.949609254982805,
+        "error_dx": -1.1261379020049418,
+        "error_dy": -1.595935856180752
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 16,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.895321904712994,
+        "error_pixels": 4.877329182016436,
+        "error_dx": -0.3213541872454968,
+        "error_dy": 0.8356630896471913
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 17,
+        "track_id": 18,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.5108819947446265,
+        "error_pixels": 1.7051348217748232,
+        "error_dx": -0.0803782215352058,
+        "error_dy": -0.504519329716004
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 101,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 102,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 103,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      }
+    ]
+  },
+  "revision_200": {
+    "all": {
+      "visible_references": 46,
+      "matched_visible_boxes": 44,
+      "available_visible": 32,
+      "correct_by_tolerance_pct_width": {
+        "1": 9,
+        "2": 21,
+        "3": 26,
+        "5": 30
+      },
+      "median_error_pct": 1.5193821190479282,
+      "p90_error_pct": 3.4252068073771977,
+      "median_source_pixel_error": 7.846414991921255,
+      "hidden_references": 50,
+      "hidden_measured": 3,
+      "hidden_estimated": 2,
+      "measured_correct_3pct": 22,
+      "by_posture": {
+        "feet": {
+          "references": 26,
+          "measured": 12,
+          "estimated": 4,
+          "unknown": 10,
+          "correct_3pct": 13
+        },
+        "hidden": {
+          "references": 50,
+          "measured": 3,
+          "estimated": 2,
+          "unknown": 45,
+          "correct_3pct": 0
+        },
+        "knees": {
+          "references": 13,
+          "measured": 9,
+          "estimated": 3,
+          "unknown": 1,
+          "correct_3pct": 9
+        },
+        "mixed_knee_foot": {
+          "references": 2,
+          "measured": 2,
+          "estimated": 0,
+          "unknown": 0,
+          "correct_3pct": 2
+        },
+        "seat": {
+          "references": 5,
+          "measured": 2,
+          "estimated": 0,
+          "unknown": 3,
+          "correct_3pct": 2
+        },
+        "uncertain": {
+          "references": 7,
+          "measured": 4,
+          "estimated": 1,
+          "unknown": 2,
+          "correct_3pct": 0
+        }
+      }
+    },
+    "by_phase": {
+      "new_confirmation": {
+        "visible_references": 46,
+        "matched_visible_boxes": 44,
+        "available_visible": 32,
+        "correct_by_tolerance_pct_width": {
+          "1": 9,
+          "2": 21,
+          "3": 26,
+          "5": 30
+        },
+        "median_error_pct": 1.5193821190479282,
+        "p90_error_pct": 3.4252068073771977,
+        "median_source_pixel_error": 7.846414991921255,
+        "hidden_references": 50,
+        "hidden_measured": 3,
+        "hidden_estimated": 2,
+        "measured_correct_3pct": 22,
+        "by_posture": {
+          "feet": {
+            "references": 26,
+            "measured": 12,
+            "estimated": 4,
+            "unknown": 10,
+            "correct_3pct": 13
+          },
+          "hidden": {
+            "references": 50,
+            "measured": 3,
+            "estimated": 2,
+            "unknown": 45,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 13,
+            "measured": 9,
+            "estimated": 3,
+            "unknown": 1,
+            "correct_3pct": 9
+          },
+          "mixed_knee_foot": {
+            "references": 2,
+            "measured": 2,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 2
+          },
+          "seat": {
+            "references": 5,
+            "measured": 2,
+            "estimated": 0,
+            "unknown": 3,
+            "correct_3pct": 2
+          },
+          "uncertain": {
+            "references": 7,
+            "measured": 4,
+            "estimated": 1,
+            "unknown": 2,
+            "correct_3pct": 0
+          }
+        }
+      }
+    },
+    "by_frame": {
+      "3953": {
+        "visible_references": 8,
+        "matched_visible_boxes": 8,
+        "available_visible": 8,
+        "correct_by_tolerance_pct_width": {
+          "1": 3,
+          "2": 6,
+          "3": 7,
+          "5": 7
+        },
+        "median_error_pct": 1.2542717881286898,
+        "p90_error_pct": 3.958141437582924,
+        "median_source_pixel_error": 6.344816004908655,
+        "hidden_references": 7,
+        "hidden_measured": 0,
+        "hidden_estimated": 1,
+        "measured_correct_3pct": 5,
+        "by_posture": {
+          "feet": {
+            "references": 7,
+            "measured": 4,
+            "estimated": 3,
+            "unknown": 0,
+            "correct_3pct": 6
+          },
+          "hidden": {
+            "references": 7,
+            "measured": 0,
+            "estimated": 1,
+            "unknown": 6,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          }
+        }
+      },
+      "3977": {
+        "visible_references": 6,
+        "matched_visible_boxes": 6,
+        "available_visible": 4,
+        "correct_by_tolerance_pct_width": {
+          "1": 0,
+          "2": 3,
+          "3": 4,
+          "5": 4
+        },
+        "median_error_pct": 1.7712735819578627,
+        "p90_error_pct": 2.5060622876980077,
+        "median_source_pixel_error": 9.486068798958053,
+        "hidden_references": 6,
+        "hidden_measured": 1,
+        "hidden_estimated": 0,
+        "measured_correct_3pct": 4,
+        "by_posture": {
+          "feet": {
+            "references": 4,
+            "measured": 2,
+            "estimated": 0,
+            "unknown": 2,
+            "correct_3pct": 2
+          },
+          "hidden": {
+            "references": 6,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 5,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "mixed_knee_foot": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "uncertain": {
+            "references": 2,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 1,
+            "correct_3pct": 0
+          }
+        }
+      },
+      "3999": {
+        "visible_references": 7,
+        "matched_visible_boxes": 7,
+        "available_visible": 5,
+        "correct_by_tolerance_pct_width": {
+          "1": 0,
+          "2": 3,
+          "3": 4,
+          "5": 4
+        },
+        "median_error_pct": 1.584288150603985,
+        "p90_error_pct": 5.408411935226715,
+        "median_source_pixel_error": 8.319032880221828,
+        "hidden_references": 5,
+        "hidden_measured": 0,
+        "hidden_estimated": 1,
+        "measured_correct_3pct": 4,
+        "by_posture": {
+          "feet": {
+            "references": 3,
+            "measured": 1,
+            "estimated": 1,
+            "unknown": 1,
+            "correct_3pct": 1
+          },
+          "hidden": {
+            "references": 5,
+            "measured": 0,
+            "estimated": 1,
+            "unknown": 4,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "mixed_knee_foot": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "seat": {
+            "references": 2,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 1,
+            "correct_3pct": 1
+          },
+          "uncertain": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 0
+          }
+        }
+      },
+      "4021": {
+        "visible_references": 6,
+        "matched_visible_boxes": 5,
+        "available_visible": 3,
+        "correct_by_tolerance_pct_width": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "5": 3
+        },
+        "median_error_pct": 2.7527109537198786,
+        "p90_error_pct": 3.3093395916778743,
+        "median_source_pixel_error": 27.613178699469202,
+        "hidden_references": 7,
+        "hidden_measured": 0,
+        "hidden_estimated": 0,
+        "measured_correct_3pct": 2,
+        "by_posture": {
+          "feet": {
+            "references": 3,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 2,
+            "correct_3pct": 1
+          },
+          "hidden": {
+            "references": 7,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 7,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 2,
+            "measured": 1,
+            "estimated": 1,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "seat": {
+            "references": 1,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 1,
+            "correct_3pct": 0
+          },
+          "uncertain": {
+            "references": 2,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 1,
+            "correct_3pct": 0
+          }
+        }
+      },
+      "4043": {
+        "visible_references": 5,
+        "matched_visible_boxes": 5,
+        "available_visible": 3,
+        "correct_by_tolerance_pct_width": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "5": 3
+        },
+        "median_error_pct": 3.0537062448087835,
+        "p90_error_pct": 4.518707896073235,
+        "median_source_pixel_error": 39.04117933876545,
+        "hidden_references": 9,
+        "hidden_measured": 2,
+        "hidden_estimated": 0,
+        "measured_correct_3pct": 1,
+        "by_posture": {
+          "feet": {
+            "references": 2,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 1,
+            "correct_3pct": 0
+          },
+          "hidden": {
+            "references": 9,
+            "measured": 2,
+            "estimated": 0,
+            "unknown": 7,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 2,
+            "measured": 2,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "seat": {
+            "references": 1,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 1,
+            "correct_3pct": 0
+          },
+          "uncertain": {
+            "references": 1,
+            "measured": 0,
+            "estimated": 1,
+            "unknown": 0,
+            "correct_3pct": 0
+          }
+        }
+      },
+      "4061": {
+        "visible_references": 6,
+        "matched_visible_boxes": 5,
+        "available_visible": 3,
+        "correct_by_tolerance_pct_width": {
+          "1": 2,
+          "2": 2,
+          "3": 2,
+          "5": 3
+        },
+        "median_error_pct": 0.9078379484380372,
+        "p90_error_pct": 2.7540454403000996,
+        "median_source_pixel_error": 3.9778271935299045,
+        "hidden_references": 8,
+        "hidden_measured": 0,
+        "hidden_estimated": 0,
+        "measured_correct_3pct": 1,
+        "by_posture": {
+          "feet": {
+            "references": 2,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 2,
+            "correct_3pct": 0
+          },
+          "hidden": {
+            "references": 8,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 8,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 3,
+            "measured": 1,
+            "estimated": 1,
+            "unknown": 1,
+            "correct_3pct": 1
+          },
+          "seat": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "uncertain": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 0
+          }
+        }
+      },
+      "4079": {
+        "visible_references": 8,
+        "matched_visible_boxes": 8,
+        "available_visible": 6,
+        "correct_by_tolerance_pct_width": {
+          "1": 3,
+          "2": 5,
+          "3": 6,
+          "5": 6
+        },
+        "median_error_pct": 1.020679578982076,
+        "p90_error_pct": 2.020643759147596,
+        "median_source_pixel_error": 8.463085841396971,
+        "hidden_references": 8,
+        "hidden_measured": 0,
+        "hidden_estimated": 0,
+        "measured_correct_3pct": 5,
+        "by_posture": {
+          "feet": {
+            "references": 5,
+            "measured": 3,
+            "estimated": 0,
+            "unknown": 2,
+            "correct_3pct": 3
+          },
+          "hidden": {
+            "references": 8,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 8,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 3,
+            "measured": 2,
+            "estimated": 1,
+            "unknown": 0,
+            "correct_3pct": 3
+          }
+        }
+      }
+    },
+    "records": [
+      {
+        "source_frame": 3953,
+        "reference_id": 1,
+        "track_id": 9,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.8330179482020186,
+        "error_pixels": 7.072698897324178,
+        "error_dx": -0.7571854970127099,
+        "error_dy": -0.34725930533294047
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 2,
+        "track_id": 11,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 2,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 4,
+        "track_id": 15,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.598432559580518,
+        "error_pixels": 28.017009678757805,
+        "error_dx": -1.356826141983344,
+        "error_dy": 2.216049319649443
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 5,
+        "track_id": 6,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 7,
+        "track_id": 5,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 2,
+        "error_pct": 7.130795486255206,
+        "error_pixels": 75.38209664153801,
+        "error_dx": -4.341854851661726,
+        "error_dy": 5.656548480646052
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 9,
+        "track_id": 10,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 2,
+        "error_pct": 1.0268963609648785,
+        "error_pixels": 4.406320170542575,
+        "error_dx": 0.5206031348313438,
+        "error_dy": 0.8851488644102119
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 10,
+        "track_id": 3,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.9346746869601692,
+        "error_pixels": 16.268383079566334,
+        "error_dx": -1.5285264471251523,
+        "error_dy": -1.1859903223902748
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 12,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 13,
+        "track_id": 13,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 14,
+        "track_id": 7,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 15,
+        "track_id": 4,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.4401085484437414,
+        "error_pixels": 5.616933112493132,
+        "error_dx": 0.43972389405342227,
+        "error_dy": -0.01839650542227389
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 16,
+        "track_id": 14,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 17,
+        "track_id": 19,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.481647215292501,
+        "error_pixels": 5.385101680689847,
+        "error_dx": -0.043904924656750666,
+        "error_dy": -1.4809965658889652
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 18,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 2,
+        "error_pct": 0.3763769909841907,
+        "error_pixels": 1.8718411558701553,
+        "error_dx": -0.19001579522139878,
+        "error_dy": 0.32489019207832825
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 101,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 1,
+        "track_id": 9,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.729190350520424,
+        "error_pixels": 15.608382846682137,
+        "error_dx": 2.1472729228712506,
+        "error_dy": 1.684547109486033
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 2,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 4,
+        "track_id": 15,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 5,
+        "track_id": 3,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 7,
+        "track_id": 6,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 10,
+        "track_id": 11,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 11,
+        "track_id": 1,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 14,
+        "track_id": 4,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.3396348686415123,
+        "error_pixels": 6.924536357765942,
+        "error_dx": 0.09207047274263402,
+        "error_dy": 1.336467212216263
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 15,
+        "track_id": 7,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 16,
+        "track_id": 19,
+        "contact": "visible",
+        "kind": "mixed_knee_foot",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.557117022803355,
+        "error_pixels": 12.047601240150165,
+        "error_dx": -0.9867430036588019,
+        "error_dy": 1.2045545514564253
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 17,
+        "track_id": 2,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 18,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.98543014111237,
+        "error_pixels": 6.6104562288146616,
+        "error_dx": -0.5171947673088084,
+        "error_dy": 1.9168835170416259
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 101,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 102,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 1,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 2,
+        "track_id": 3,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 4,
+        "track_id": 8,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 5,
+        "track_id": 17,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 7,
+        "track_id": 4,
+        "contact": "visible",
+        "kind": "mixed_knee_foot",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.1468207308553815,
+        "error_pixels": 8.319032880221828,
+        "error_dx": 0.7589680233962568,
+        "error_dy": 0.8597472466845417
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 9,
+        "track_id": 10,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 10,
+        "track_id": 1,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.2278078790996627,
+        "error_pixels": 9.948891750562188,
+        "error_dx": -1.0380259439215465,
+        "error_dy": -0.6557547771270862
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 13,
+        "track_id": 20,
+        "contact": "visible",
+        "kind": "seat",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 14,
+        "track_id": 13,
+        "contact": "visible",
+        "kind": "seat",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.584288150603985,
+        "error_pixels": 7.201895336048576,
+        "error_dx": 0.4138203969132874,
+        "error_dy": 1.5292879464779432
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 15,
+        "track_id": 19,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 2,
+        "error_pct": 7.674888964197102,
+        "error_pixels": 29.04934563611135,
+        "error_dx": 0.5858153282876941,
+        "error_dy": -7.652499004501578
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 16,
+        "track_id": 2,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 18,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.0086963917711316,
+        "error_pixels": 7.166901094605935,
+        "error_dx": -0.021506957257841464,
+        "error_dy": 2.0085812518053316
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 101,
+        "track_id": 9,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 2,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 1,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 3,
+        "track_id": 12,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 4,
+        "track_id": 11,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 5,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 6,
+        "track_id": 1,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 8,
+        "track_id": 7,
+        "contact": "visible",
+        "kind": "seat",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 9,
+        "track_id": 20,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 10,
+        "track_id": 2,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 2,
+        "error_pct": 3.448496751167373,
+        "error_pixels": 27.613178699469202,
+        "error_dx": 2.197068747483989,
+        "error_dy": 2.65801030126692
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 11,
+        "track_id": 19,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 12,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.0495497190014804,
+        "error_pixels": 5.976870220832945,
+        "error_dx": 0.34036473640952636,
+        "error_dy": 0.9928275071053179
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 101,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 102,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 103,
+        "track_id": null,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 104,
+        "track_id": 4,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.7527109537198786,
+        "error_pixels": 41.350171497693154,
+        "error_dx": -1.904123502750366,
+        "error_dy": 1.9878961947252378
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 105,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 1,
+        "track_id": 9,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 2,
+        "track_id": 17,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 3,
+        "track_id": 12,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 5,
+        "track_id": 11,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 101,
+        "track_id": 10,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 3.0537062448087835,
+        "error_pixels": 50.410515195594314,
+        "error_dx": -2.54873751177238,
+        "error_dy": 1.6819806555571617
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 102,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 103,
+        "track_id": 6,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 104,
+        "track_id": 2,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 4.884958308889348,
+        "error_pixels": 39.04117933876545,
+        "error_dx": 3.0636152315571863,
+        "error_dy": 3.8048757394372146
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 105,
+        "track_id": 1,
+        "contact": "visible",
+        "kind": "seat",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 106,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 107,
+        "track_id": 20,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 108,
+        "track_id": 14,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.46466723863946635,
+        "error_pixels": 2.6092022608510694,
+        "error_dx": 0.14506434307131144,
+        "error_dy": 0.4414430643176033
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 109,
+        "track_id": 19,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 2,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 110,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 111,
+        "track_id": 18,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 1,
+        "track_id": 9,
+        "contact": "visible",
+        "kind": "seat",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.2412929878844894,
+        "error_pixels": 3.9778271935299045,
+        "error_dx": 0.23004528825655512,
+        "error_dy": -0.07281120348670811
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 2,
+        "track_id": 8,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 3,
+        "track_id": null,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 4,
+        "track_id": 12,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 6,
+        "track_id": 10,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 7,
+        "track_id": 7,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 9,
+        "track_id": 2,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 3.215597313265615,
+        "error_pixels": 16.240911501045343,
+        "error_dx": 0.9874825331073325,
+        "error_dy": 3.0602196535361585
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 10,
+        "track_id": 20,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 11,
+        "track_id": 19,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 12,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 2,
+        "error_pct": 0.9078379484380372,
+        "error_pixels": 3.9558711739137875,
+        "error_dx": -0.1733468885948497,
+        "error_dy": 0.8911344437505875
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 101,
+        "track_id": 3,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 102,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 103,
+        "track_id": 17,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 104,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 105,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 2,
+        "track_id": 9,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.9740204109995967,
+        "error_pixels": 7.3737971036206815,
+        "error_dx": 0.782016439264126,
+        "error_dy": 0.5806600121968799
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 3,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 4,
+        "track_id": 6,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.067338746964555,
+        "error_pixels": 13.928869447911824,
+        "error_dx": -0.5258832584439226,
+        "error_dy": 0.9287942717632731
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 5,
+        "track_id": 4,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 6,
+        "track_id": 12,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 8,
+        "track_id": 10,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 9,
+        "track_id": 15,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 10,
+        "track_id": 1,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 2,
+        "error_pct": 2.071475571620741,
+        "error_pixels": 9.552374579173259,
+        "error_dx": 0.0344200831377961,
+        "error_dy": 2.071189586131183
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 11,
+        "track_id": 20,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 14,
+        "track_id": 14,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 15,
+        "track_id": 19,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.9698119466744513,
+        "error_pixels": 11.182774091530275,
+        "error_dx": -1.0401255005424872,
+        "error_dy": -1.6728114204484115
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 16,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.670678478255547,
+        "error_pixels": 3.456226653703843,
+        "error_dx": -0.21744869899798402,
+        "error_dy": 0.6344491189207062
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 17,
+        "track_id": 18,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.6489417384305118,
+        "error_pixels": 2.7786443354787824,
+        "error_dx": -0.1934208663926782,
+        "error_dy": -0.6194463240032348
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 101,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 102,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 103,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      }
+    ]
+  },
+  "candidate_300_support": {
+    "all": {
+      "visible_references": 46,
+      "matched_visible_boxes": 44,
+      "available_visible": 32,
+      "correct_by_tolerance_pct_width": {
+        "1": 13,
+        "2": 21,
+        "3": 28,
+        "5": 31
+      },
+      "median_error_pct": 1.3299631043562918,
+      "p90_error_pct": 3.0574809403985137,
+      "median_source_pixel_error": 8.217159966815029,
+      "hidden_references": 50,
+      "hidden_measured": 3,
+      "hidden_estimated": 3,
+      "measured_correct_3pct": 24,
+      "by_posture": {
+        "feet": {
+          "references": 26,
+          "measured": 13,
+          "estimated": 4,
+          "unknown": 9,
+          "correct_3pct": 15
+        },
+        "hidden": {
+          "references": 50,
+          "measured": 3,
+          "estimated": 3,
+          "unknown": 44,
+          "correct_3pct": 0
+        },
+        "knees": {
+          "references": 13,
+          "measured": 10,
+          "estimated": 1,
+          "unknown": 2,
+          "correct_3pct": 9
+        },
+        "mixed_knee_foot": {
+          "references": 2,
+          "measured": 2,
+          "estimated": 0,
+          "unknown": 0,
+          "correct_3pct": 2
+        },
+        "seat": {
+          "references": 5,
+          "measured": 2,
+          "estimated": 0,
+          "unknown": 3,
+          "correct_3pct": 2
+        },
+        "uncertain": {
+          "references": 7,
+          "measured": 2,
+          "estimated": 3,
+          "unknown": 2,
+          "correct_3pct": 0
+        }
+      }
+    },
+    "by_phase": {
+      "new_confirmation": {
+        "visible_references": 46,
+        "matched_visible_boxes": 44,
+        "available_visible": 32,
+        "correct_by_tolerance_pct_width": {
+          "1": 13,
+          "2": 21,
+          "3": 28,
+          "5": 31
+        },
+        "median_error_pct": 1.3299631043562918,
+        "p90_error_pct": 3.0574809403985137,
+        "median_source_pixel_error": 8.217159966815029,
+        "hidden_references": 50,
+        "hidden_measured": 3,
+        "hidden_estimated": 3,
+        "measured_correct_3pct": 24,
+        "by_posture": {
+          "feet": {
+            "references": 26,
+            "measured": 13,
+            "estimated": 4,
+            "unknown": 9,
+            "correct_3pct": 15
+          },
+          "hidden": {
+            "references": 50,
+            "measured": 3,
+            "estimated": 3,
+            "unknown": 44,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 13,
+            "measured": 10,
+            "estimated": 1,
+            "unknown": 2,
+            "correct_3pct": 9
+          },
+          "mixed_knee_foot": {
+            "references": 2,
+            "measured": 2,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 2
+          },
+          "seat": {
+            "references": 5,
+            "measured": 2,
+            "estimated": 0,
+            "unknown": 3,
+            "correct_3pct": 2
+          },
+          "uncertain": {
+            "references": 7,
+            "measured": 2,
+            "estimated": 3,
+            "unknown": 2,
+            "correct_3pct": 0
+          }
+        }
+      }
+    },
+    "by_frame": {
+      "3953": {
+        "visible_references": 8,
+        "matched_visible_boxes": 8,
+        "available_visible": 8,
+        "correct_by_tolerance_pct_width": {
+          "1": 4,
+          "2": 5,
+          "3": 6,
+          "5": 7
+        },
+        "median_error_pct": 1.198933668208423,
+        "p90_error_pct": 3.904473327373322,
+        "median_source_pixel_error": 6.369739593230578,
+        "hidden_references": 7,
+        "hidden_measured": 1,
+        "hidden_estimated": 1,
+        "measured_correct_3pct": 4,
+        "by_posture": {
+          "feet": {
+            "references": 7,
+            "measured": 4,
+            "estimated": 3,
+            "unknown": 0,
+            "correct_3pct": 6
+          },
+          "hidden": {
+            "references": 7,
+            "measured": 1,
+            "estimated": 1,
+            "unknown": 5,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 0
+          }
+        }
+      },
+      "3977": {
+        "visible_references": 6,
+        "matched_visible_boxes": 6,
+        "available_visible": 4,
+        "correct_by_tolerance_pct_width": {
+          "1": 0,
+          "2": 2,
+          "3": 4,
+          "5": 4
+        },
+        "median_error_pct": 1.8348744957622576,
+        "p90_error_pct": 2.585119730437428,
+        "median_source_pixel_error": 9.458129239857143,
+        "hidden_references": 6,
+        "hidden_measured": 1,
+        "hidden_estimated": 0,
+        "measured_correct_3pct": 4,
+        "by_posture": {
+          "feet": {
+            "references": 4,
+            "measured": 2,
+            "estimated": 0,
+            "unknown": 2,
+            "correct_3pct": 2
+          },
+          "hidden": {
+            "references": 6,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 5,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "mixed_knee_foot": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "uncertain": {
+            "references": 2,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 1,
+            "correct_3pct": 0
+          }
+        }
+      },
+      "3999": {
+        "visible_references": 7,
+        "matched_visible_boxes": 7,
+        "available_visible": 4,
+        "correct_by_tolerance_pct_width": {
+          "1": 0,
+          "2": 3,
+          "3": 4,
+          "5": 4
+        },
+        "median_error_pct": 1.3299631043562918,
+        "p90_error_pct": 1.9428008418506435,
+        "median_source_pixel_error": 8.961912596821634,
+        "hidden_references": 5,
+        "hidden_measured": 0,
+        "hidden_estimated": 1,
+        "measured_correct_3pct": 4,
+        "by_posture": {
+          "feet": {
+            "references": 3,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 2,
+            "correct_3pct": 1
+          },
+          "hidden": {
+            "references": 5,
+            "measured": 0,
+            "estimated": 1,
+            "unknown": 4,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "mixed_knee_foot": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "seat": {
+            "references": 2,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 1,
+            "correct_3pct": 1
+          },
+          "uncertain": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 0
+          }
+        }
+      },
+      "4021": {
+        "visible_references": 6,
+        "matched_visible_boxes": 5,
+        "available_visible": 4,
+        "correct_by_tolerance_pct_width": {
+          "1": 2,
+          "2": 2,
+          "3": 4,
+          "5": 4
+        },
+        "median_error_pct": 1.4554516161885083,
+        "p90_error_pct": 2.5953858074725735,
+        "median_source_pixel_error": 14.137416523170955,
+        "hidden_references": 7,
+        "hidden_measured": 0,
+        "hidden_estimated": 0,
+        "measured_correct_3pct": 3,
+        "by_posture": {
+          "feet": {
+            "references": 3,
+            "measured": 1,
+            "estimated": 1,
+            "unknown": 1,
+            "correct_3pct": 2
+          },
+          "hidden": {
+            "references": 7,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 7,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 2,
+            "measured": 2,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 2
+          },
+          "seat": {
+            "references": 1,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 1,
+            "correct_3pct": 0
+          },
+          "uncertain": {
+            "references": 2,
+            "measured": 0,
+            "estimated": 2,
+            "unknown": 0,
+            "correct_3pct": 0
+          }
+        }
+      },
+      "4043": {
+        "visible_references": 5,
+        "matched_visible_boxes": 5,
+        "available_visible": 4,
+        "correct_by_tolerance_pct_width": {
+          "1": 2,
+          "2": 2,
+          "3": 2,
+          "5": 4
+        },
+        "median_error_pct": 2.1655090889975233,
+        "p90_error_pct": 4.524475992375682,
+        "median_source_pixel_error": 25.946229388565225,
+        "hidden_references": 9,
+        "hidden_measured": 1,
+        "hidden_estimated": 1,
+        "measured_correct_3pct": 2,
+        "by_posture": {
+          "feet": {
+            "references": 2,
+            "measured": 2,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "hidden": {
+            "references": 9,
+            "measured": 1,
+            "estimated": 1,
+            "unknown": 7,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 2,
+            "measured": 2,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "seat": {
+            "references": 1,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 1,
+            "correct_3pct": 0
+          },
+          "uncertain": {
+            "references": 1,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 1,
+            "correct_3pct": 0
+          }
+        }
+      },
+      "4061": {
+        "visible_references": 6,
+        "matched_visible_boxes": 5,
+        "available_visible": 2,
+        "correct_by_tolerance_pct_width": {
+          "1": 2,
+          "2": 2,
+          "3": 2,
+          "5": 2
+        },
+        "median_error_pct": 0.4926196012638868,
+        "p90_error_pct": 0.8664085462233669,
+        "median_source_pixel_error": 2.8545210579708864,
+        "hidden_references": 8,
+        "hidden_measured": 0,
+        "hidden_estimated": 0,
+        "measured_correct_3pct": 1,
+        "by_posture": {
+          "feet": {
+            "references": 2,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 2,
+            "correct_3pct": 0
+          },
+          "hidden": {
+            "references": 8,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 8,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 3,
+            "measured": 0,
+            "estimated": 1,
+            "unknown": 2,
+            "correct_3pct": 1
+          },
+          "seat": {
+            "references": 1,
+            "measured": 1,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 1
+          },
+          "uncertain": {
+            "references": 1,
+            "measured": 0,
+            "estimated": 1,
+            "unknown": 0,
+            "correct_3pct": 0
+          }
+        }
+      },
+      "4079": {
+        "visible_references": 8,
+        "matched_visible_boxes": 8,
+        "available_visible": 6,
+        "correct_by_tolerance_pct_width": {
+          "1": 3,
+          "2": 5,
+          "3": 6,
+          "5": 6
+        },
+        "median_error_pct": 1.109962032139425,
+        "p90_error_pct": 2.048940650305508,
+        "median_source_pixel_error": 7.97734625169517,
+        "hidden_references": 8,
+        "hidden_measured": 0,
+        "hidden_estimated": 0,
+        "measured_correct_3pct": 6,
+        "by_posture": {
+          "feet": {
+            "references": 5,
+            "measured": 3,
+            "estimated": 0,
+            "unknown": 2,
+            "correct_3pct": 3
+          },
+          "hidden": {
+            "references": 8,
+            "measured": 0,
+            "estimated": 0,
+            "unknown": 8,
+            "correct_3pct": 0
+          },
+          "knees": {
+            "references": 3,
+            "measured": 3,
+            "estimated": 0,
+            "unknown": 0,
+            "correct_3pct": 3
+          }
+        }
+      }
+    },
+    "records": [
+      {
+        "source_frame": 3953,
+        "reference_id": 1,
+        "track_id": 9,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.8220958438533915,
+        "error_pixels": 2.9862325853551437,
+        "error_dx": -0.48119561702812064,
+        "error_dy": -0.6665525895486013
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 2,
+        "track_id": 11,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 2,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 4,
+        "track_id": 15,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 3.0895804898525996,
+        "error_pixels": 34.992156144877136,
+        "error_dx": -1.807248604324613,
+        "error_dy": 2.505865137122221
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 5,
+        "track_id": 6,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 7,
+        "track_id": 5,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 2,
+        "error_pct": 5.805889948255009,
+        "error_pixels": 62.36058463605271,
+        "error_dx": -3.847952273560672,
+        "error_dy": 4.347599497613345
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 9,
+        "track_id": 10,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.763345442103646,
+        "error_pixels": 2.929125985845176,
+        "error_dx": -0.3512118458052491,
+        "error_dy": -0.6777510629622654
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 10,
+        "track_id": 3,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 2,
+        "error_pct": 2.2662829188086206,
+        "error_pixels": 13.303952862125435,
+        "error_dx": -1.3113408378638596,
+        "error_dy": -1.8483569663444968
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 12,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 13,
+        "track_id": 13,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 14,
+        "track_id": 7,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 15,
+        "track_id": 4,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 2,
+        "error_pct": 0.39796551513316003,
+        "error_pixels": 5.079157993584074,
+        "error_dx": 0.3976624320773823,
+        "error_dy": -0.015528726589863595
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 16,
+        "track_id": 14,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 17,
+        "track_id": 19,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.5757714925634545,
+        "error_pixels": 7.660321192877081,
+        "error_dx": -0.40112435000929025,
+        "error_dy": -1.5238618876411607
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 18,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.33496797018038577,
+        "error_pixels": 3.1797659833653618,
+        "error_dx": -0.31406169953746144,
+        "error_dy": 0.11648514896933904
+      },
+      {
+        "source_frame": 3953,
+        "reference_id": 101,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 1,
+        "track_id": 9,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.768584995311736,
+        "error_pixels": 9.856359705497566,
+        "error_dx": 1.6787268302861857,
+        "error_dy": 2.201576504585425
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 2,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 4,
+        "track_id": 15,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 5,
+        "track_id": 3,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 7,
+        "track_id": 6,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 10,
+        "track_id": 11,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 11,
+        "track_id": 1,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 14,
+        "track_id": 4,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.5127148791271396,
+        "error_pixels": 9.059898774216721,
+        "error_dx": -0.127319252416072,
+        "error_dy": 1.507347376518382
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 15,
+        "track_id": 7,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 16,
+        "track_id": 19,
+        "contact": "visible",
+        "kind": "mixed_knee_foot",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.1570341123973757,
+        "error_pixels": 16.232103894779787,
+        "error_dx": -1.3074473714531223,
+        "error_dy": 1.7156274458419745
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 17,
+        "track_id": 2,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 18,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.4123911431563596,
+        "error_pixels": 4.4236068666611885,
+        "error_dx": -0.2948077114794998,
+        "error_dy": 1.3812809831887023
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 101,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3977,
+        "reference_id": 102,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 1,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 2,
+        "track_id": 3,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 4,
+        "track_id": 8,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 5,
+        "track_id": 17,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 7,
+        "track_id": 4,
+        "contact": "visible",
+        "kind": "mixed_knee_foot",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.3038173077457387,
+        "error_pixels": 13.300217654742873,
+        "error_dx": 1.1108518705370969,
+        "error_dy": 0.6826036138943152
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 9,
+        "track_id": 10,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 10,
+        "track_id": 1,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.3382826471733693,
+        "error_pixels": 10.080610987290274,
+        "error_dx": -1.0739920451390574,
+        "error_dy": -0.7984619782452924
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 13,
+        "track_id": 20,
+        "contact": "visible",
+        "kind": "seat",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 14,
+        "track_id": 13,
+        "contact": "visible",
+        "kind": "seat",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.3216435615392144,
+        "error_pixels": 5.712308778296823,
+        "error_dx": 0.24359577374628572,
+        "error_dy": 1.299000693907054
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 15,
+        "track_id": 19,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 16,
+        "track_id": 2,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 18,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.2018800681409036,
+        "error_pixels": 7.843214206352993,
+        "error_dx": -0.054953049942582766,
+        "error_dy": 2.2011942205944024
+      },
+      {
+        "source_frame": 3999,
+        "reference_id": 101,
+        "track_id": 9,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 2,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 1,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 3,
+        "track_id": 12,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 4,
+        "track_id": 11,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 2,
+        "error_pct": 0.3453385832563693,
+        "error_pixels": 3.5649986016258204,
+        "error_dx": 0.24574306835625137,
+        "error_dy": -0.2426295147758637
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 5,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 6,
+        "track_id": 1,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 2,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 8,
+        "track_id": 7,
+        "contact": "visible",
+        "kind": "seat",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 9,
+        "track_id": 20,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 10,
+        "track_id": 2,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.758656151701898,
+        "error_pixels": 24.70983444471609,
+        "error_dx": 1.9959893490942235,
+        "error_dy": 1.9042610854673114
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 11,
+        "track_id": 19,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 2,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 12,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.6964815614395334,
+        "error_pixels": 3.034041358569397,
+        "error_dx": 0.09204752523788073,
+        "error_dy": 0.6903722318596195
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 101,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 102,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 103,
+        "track_id": null,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 104,
+        "track_id": 4,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.214421670937483,
+        "error_pixels": 34.8580245110166,
+        "error_dx": -1.8315469765465764,
+        "error_dy": 1.2446280606754172
+      },
+      {
+        "source_frame": 4021,
+        "reference_id": 105,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 1,
+        "track_id": 9,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 1,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 2,
+        "track_id": 17,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 3,
+        "track_id": 12,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 5,
+        "track_id": 11,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.8534237595346548,
+        "error_pixels": 8.591105727277066,
+        "error_dx": -0.8494272949727772,
+        "error_dy": -0.08249475070266499
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 101,
+        "track_id": 10,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 3.477594418460392,
+        "error_pixels": 57.505654655713855,
+        "error_dx": -3.313036991762914,
+        "error_dy": 1.0570945229814654
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 102,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 103,
+        "track_id": 6,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 2,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 104,
+        "track_id": 2,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 4.973139524053663,
+        "error_pixels": 43.30135304985338,
+        "error_dx": 3.415917524790558,
+        "error_dy": 3.6143635939862833
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 105,
+        "track_id": 1,
+        "contact": "visible",
+        "kind": "seat",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 106,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 107,
+        "track_id": 20,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 108,
+        "track_id": 14,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.18173097526032023,
+        "error_pixels": 1.7976198762444073,
+        "error_dx": 0.13988091336928932,
+        "error_dy": 0.11601498801465482
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 109,
+        "track_id": 19,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 110,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4043,
+        "reference_id": 111,
+        "track_id": 18,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 1,
+        "track_id": 9,
+        "contact": "visible",
+        "kind": "seat",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.0253834200645366,
+        "error_pixels": 0.43273875961130964,
+        "error_dx": -0.020275069059302098,
+        "error_dy": 0.015272183498545644
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 2,
+        "track_id": 8,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 3,
+        "track_id": null,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 4,
+        "track_id": 12,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 6,
+        "track_id": 10,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 7,
+        "track_id": 7,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 9,
+        "track_id": 2,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 10,
+        "track_id": 20,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 11,
+        "track_id": 19,
+        "contact": "uncertain",
+        "kind": "uncertain",
+        "matched": true,
+        "state": 2,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 12,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 2,
+        "error_pct": 0.959855782463237,
+        "error_pixels": 5.276303356330463,
+        "error_dx": -0.3457355905336996,
+        "error_dy": 0.8954272860296513
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 101,
+        "track_id": 3,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 102,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 103,
+        "track_id": 17,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 104,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4061,
+        "reference_id": 105,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 2,
+        "track_id": 9,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.8855746871109395,
+        "error_pixels": 6.871316461350684,
+        "error_dx": 0.7200367722226027,
+        "error_dy": 0.5155478378374738
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 3,
+        "track_id": 5,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 4,
+        "track_id": 6,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.3157638531156661,
+        "error_pixels": 16.06662499881531,
+        "error_dx": -0.5268475720354857,
+        "error_dy": 1.2056807840411565
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 5,
+        "track_id": 4,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 6,
+        "track_id": 12,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 8,
+        "track_id": 10,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 9,
+        "track_id": 15,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 10,
+        "track_id": 1,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 2.1539811591359954,
+        "error_pixels": 9.083376042039657,
+        "error_dx": 0.30769458771552394,
+        "error_dy": 2.1318909152682792
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 11,
+        "track_id": 20,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 14,
+        "track_id": 14,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": true,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 15,
+        "track_id": 19,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 1.943900141475021,
+        "error_pixels": 10.875555062098053,
+        "error_dx": -1.0079638334158574,
+        "error_dy": -1.6621542258623947
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 16,
+        "track_id": 16,
+        "contact": "visible",
+        "kind": "knees",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.45747610572138375,
+        "error_pixels": 1.9002556702393147,
+        "error_dx": -0.07667155815659044,
+        "error_dy": 0.45100538741332485
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 17,
+        "track_id": 18,
+        "contact": "visible",
+        "kind": "feet",
+        "matched": true,
+        "state": 1,
+        "error_pct": 0.904160211163184,
+        "error_pixels": 3.5224526936310094,
+        "error_dx": -0.22256311701030285,
+        "error_dy": -0.8763397437052092
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 101,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 102,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      },
+      {
+        "source_frame": 4079,
+        "reference_id": 103,
+        "track_id": null,
+        "contact": "hidden",
+        "kind": "hidden",
+        "matched": false,
+        "state": 0,
+        "error_pct": null,
+        "error_pixels": null
+      }
+    ]
+  },
+  "selection": {
+    "mode": "crop5flip",
+    "threshold": 0.9,
+    "settings": {
+      "name": "robust_l128_h0.5_path1",
+      "kind": "robust_trajectory",
+      "strength": 128,
+      "huber": 0.5,
+      "path_gate": true,
+      "path_speed": 0.3,
+      "gap": 25,
+      "measured_residual": 3.0
+    },
+    "support_sha256": "1e11fe0dd69b3be59d96f48010a6572bd216b47346fa1d87d6e22dbf8352f62d",
+    "detector_sha256": "2121ca7f47686d867431670033792e89237bd7c6700ba741bf5c201069e3b380",
+    "scoring_scope": "Support checkpoint and threshold selected on the 11 development validation images. Detector checkpoint selected by Ultralytics on validation. No tuning on the reserved block.",
+    "display_threshold": 0.3
+  },
+  "scope": "Seven reserved same-video images, sparse assistant references, full 2,424-frame offline fit. Identity accuracy is unmeasured. The same block was used by previous runs."
+}

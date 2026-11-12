@@ -1,0 +1,220 @@
+{
+  "scope": "Post-confirmation failure audit; no parameter or reference-label changes. Visible-reference misses only.",
+  "counts": {
+    "Trajectory rejection": 4,
+    "Visibility rejection": 6,
+    "No matched track": 2
+  },
+  "records": [
+    {
+      "source_frame": 3977,
+      "reference_id": 1,
+      "track_id": 9,
+      "contact": "visible",
+      "kind": "feet",
+      "matched": true,
+      "state": 0,
+      "error_pct": null,
+      "error_pixels": null,
+      "failure_stage": "Trajectory rejection",
+      "reportability": 0.9998443484306335,
+      "raw_point": [
+        218.5035400390625,
+        498.37652587890625
+      ],
+      "raw_error_pct": 2.626881990794929
+    },
+    {
+      "source_frame": 3977,
+      "reference_id": 7,
+      "track_id": 6,
+      "contact": "visible",
+      "kind": "feet",
+      "matched": true,
+      "state": 0,
+      "error_pct": null,
+      "error_pixels": null,
+      "failure_stage": "Visibility rejection",
+      "reportability": 0.0003464813213213347,
+      "raw_point": [
+        437.7322692871094,
+        472.3462829589844
+      ],
+      "raw_error_pct": 0.4228275199710188
+    },
+    {
+      "source_frame": 3977,
+      "reference_id": 10,
+      "track_id": 11,
+      "contact": "visible",
+      "kind": "feet",
+      "matched": true,
+      "state": 0,
+      "error_pct": null,
+      "error_pixels": null,
+      "failure_stage": "Trajectory rejection",
+      "reportability": 0.43648188561201096,
+      "raw_point": [
+        494.4839782714844,
+        472.25201416015625
+      ],
+      "raw_error_pct": 1.0249883233519066
+    },
+    {
+      "source_frame": 3999,
+      "reference_id": 9,
+      "track_id": 10,
+      "contact": "visible",
+      "kind": "feet",
+      "matched": true,
+      "state": 0,
+      "error_pct": null,
+      "error_pixels": null,
+      "failure_stage": "Visibility rejection",
+      "reportability": 0.0007237194819026627,
+      "raw_point": [
+        462.15460205078125,
+        479.31683349609375
+      ],
+      "raw_error_pct": 2.7012214522960036
+    },
+    {
+      "source_frame": 3999,
+      "reference_id": 13,
+      "track_id": 20,
+      "contact": "visible",
+      "kind": "seat",
+      "matched": true,
+      "state": 0,
+      "error_pct": null,
+      "error_pixels": null,
+      "failure_stage": "Visibility rejection",
+      "reportability": 0.01581250373274088,
+      "raw_point": [
+        520.9586181640625,
+        447.6459045410156
+      ],
+      "raw_error_pct": 0.8973445422797512
+    },
+    {
+      "source_frame": 4021,
+      "reference_id": 4,
+      "track_id": 11,
+      "contact": "visible",
+      "kind": "feet",
+      "matched": true,
+      "state": 0,
+      "error_pct": null,
+      "error_pixels": null,
+      "failure_stage": "Visibility rejection",
+      "reportability": 0.05326579919201322,
+      "raw_point": [
+        439.01141357421875,
+        478.5707092285156
+      ],
+      "raw_error_pct": 3.0486741728159292
+    },
+    {
+      "source_frame": 4021,
+      "reference_id": 103,
+      "track_id": null,
+      "contact": "visible",
+      "kind": "feet",
+      "matched": false,
+      "state": 0,
+      "error_pct": null,
+      "error_pixels": null,
+      "failure_stage": "No matched track",
+      "reportability": null,
+      "raw_point": null,
+      "raw_error_pct": null
+    },
+    {
+      "source_frame": 4043,
+      "reference_id": 5,
+      "track_id": 11,
+      "contact": "visible",
+      "kind": "feet",
+      "matched": true,
+      "state": 0,
+      "error_pct": null,
+      "error_pixels": null,
+      "failure_stage": "Visibility rejection",
+      "reportability": 0.0076259873574599625,
+      "raw_point": [
+        440.90570068359375,
+        461.8341369628906
+      ],
+      "raw_error_pct": 0.7902648578689196
+    },
+    {
+      "source_frame": 4043,
+      "reference_id": 101,
+      "track_id": 10,
+      "contact": "visible",
+      "kind": "feet",
+      "matched": true,
+      "state": 0,
+      "error_pct": null,
+      "error_pixels": null,
+      "failure_stage": "Trajectory rejection",
+      "reportability": 0.9999850273132325,
+      "raw_point": [
+        358.4610900878906,
+        556.3652954101562
+      ],
+      "raw_error_pct": 3.204500336167215
+    },
+    {
+      "source_frame": 4061,
+      "reference_id": 3,
+      "track_id": null,
+      "contact": "visible",
+      "kind": "feet",
+      "matched": false,
+      "state": 0,
+      "error_pct": null,
+      "error_pixels": null,
+      "failure_stage": "No matched track",
+      "reportability": null,
+      "raw_point": null,
+      "raw_error_pct": null
+    },
+    {
+      "source_frame": 4061,
+      "reference_id": 7,
+      "track_id": 7,
+      "contact": "visible",
+      "kind": "knees",
+      "matched": true,
+      "state": 0,
+      "error_pct": null,
+      "error_pixels": null,
+      "failure_stage": "Visibility rejection",
+      "reportability": 0.0036027386842761187,
+      "raw_point": [
+        482.07098388671875,
+        453.0066833496094
+      ],
+      "raw_error_pct": 5.604626480755594
+    },
+    {
+      "source_frame": 4061,
+      "reference_id": 9,
+      "track_id": 2,
+      "contact": "visible",
+      "kind": "knees",
+      "matched": true,
+      "state": 0,
+      "error_pct": null,
+      "error_pixels": null,
+      "failure_stage": "Trajectory rejection",
+      "reportability": 0.9498354256153106,
+      "raw_point": [
+        534.2514038085938,
+        512.9603881835938
+      ],
+      "raw_error_pct": 0.7684049446043656
+    }
+  ]
+}

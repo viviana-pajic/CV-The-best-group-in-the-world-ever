@@ -1,0 +1,12 @@
+{
+  "display_threshold": 0.3,
+  "frames": 2424,
+  "displayed_dots": 35695,
+  "reported_dots": 29418,
+  "estimated_dots": 6277,
+  "visibility_toggles": 356,
+  "single_frame_flickers": 10,
+  "step_p99": 0.5165941496450687,
+  "step_max": 1.3182465200729214,
+  "acceleration_p99": 0.048874244070466186
+}

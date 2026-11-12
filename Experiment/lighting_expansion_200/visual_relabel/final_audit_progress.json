@@ -1,0 +1,63 @@
+{
+  "first_visual_pass_frames": 200,
+  "secondary_audit": "complete with four explicitly unresolved contacts",
+  "uncertain_sheets_viewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "uncertain_index": "uncertain_audit_index.json",
+  "remaining_uncertain": 4,
+  "closing_pose_sources_viewed": [
+    "5440",
+    "5443",
+    "5453",
+    "5460",
+    "5480",
+    "5488",
+    "5531",
+    "5539",
+    "5561",
+    "5579",
+    "5602",
+    "5626",
+    "5648",
+    "5656",
+    "5663",
+    "5670"
+  ],
+  "cvat_dancer_revision_uploaded": true,
+  "training_revision_complete": true,
+  "coordinates": "Approximate assistant visual estimates; not human verified.",
+  "cvat_roundtrip": {
+    "status": "passed",
+    "frames": 200,
+    "dancer_boxes": 3689,
+    "support_points": 3017,
+    "floor_polylines": 2400,
+    "task_url": "https://app.cvat.ai/tasks/2754547/jobs/4717612",
+    "coordinate_tolerance_pixels": 0.02,
+    "export_sha256": "805d2e672fa531fc7f6b414a20686b87ef3c9d69fc2fc1b6b88653318abc7289",
+    "labels_sha256": "4d9cea600d41d86cf7f96dc372ffdd15b003c35b44ed3be904154405365f51b6",
+    "scope": "All frames, dancer IDs, statuses, support kinds, coordinates and floor guides compared."
+  },
+  "training_run": "lighting_200_visual_s17",
+  "training_process_session": null,
+  "evaluation_complete": true,
+  "evaluation_process_session": null,
+  "training_seconds": 420.9154897000408,
+  "comparison": {
+    "baseline_3pct": 29,
+    "revision_3pct": 26,
+    "visible_references": 46,
+    "baseline_hidden_measured": 5,
+    "revision_hidden_measured": 3,
+    "hidden_references": 50
+  },
+  "baseline_replaced": false
+}

@@ -1,0 +1,26 @@
+{
+  "name": "lighting_200_visual_s17",
+  "manifest": "build\\lighting_expansion_200\\visual_relabel\\training_manifest.json",
+  "data_sha256": "80cc7b7dddd895a423948b475e0eeecb774cf3c32c2dfb99d527027b452718ad",
+  "seed": 17,
+  "balance_posture": true,
+  "wide_augmentation": true,
+  "visibility_loss_weight": 0.7,
+  "max_epochs": 30,
+  "training_boxes": 3685,
+  "validation_boxes": 180,
+  "training_groups": {
+    "palms": 351,
+    "feet": 1976,
+    "hidden": 668,
+    "seat": 241,
+    "knees": 186,
+    "mixed_knee_foot": 263
+  },
+  "selection": "Lowest validation combined loss. Threshold maximizes visible-point joint F1 on development validation only.",
+  "initialization": "ImageNet ResNet18, no choreography-specific checkpoint",
+  "target_box_mask": false,
+  "contact_attention": true,
+  "ignore_uncertain": true,
+  "sampling_count_floor": 30
+}

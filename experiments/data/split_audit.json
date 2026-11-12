@@ -1,0 +1,108 @@
+{
+  "training": 300,
+  "validation": 11,
+  "reserved": 7,
+  "reserved_excluded_inclusive": [
+    3938,
+    4092
+  ],
+  "minimum_train_validation_gap_frames": 11,
+  "unique_verified_training_files": 300,
+  "nearest_luma_signature": {
+    "development": [
+      {
+        "source_frame": 3640,
+        "nearest_training_frame": 3652,
+        "mean_absolute_luma_difference": 16.671
+      },
+      {
+        "source_frame": 3682,
+        "nearest_training_frame": 3693,
+        "mean_absolute_luma_difference": 20.277
+      },
+      {
+        "source_frame": 3710,
+        "nearest_training_frame": 3699,
+        "mean_absolute_luma_difference": 20.695
+      },
+      {
+        "source_frame": 4585,
+        "nearest_training_frame": 4566,
+        "mean_absolute_luma_difference": 11.839
+      },
+      {
+        "source_frame": 4595,
+        "nearest_training_frame": 4572,
+        "mean_absolute_luma_difference": 11.029
+      },
+      {
+        "source_frame": 4605,
+        "nearest_training_frame": 4626,
+        "mean_absolute_luma_difference": 12.298
+      },
+      {
+        "source_frame": 4615,
+        "nearest_training_frame": 4635,
+        "mean_absolute_luma_difference": 11.145
+      },
+      {
+        "source_frame": 4705,
+        "nearest_training_frame": 4732,
+        "mean_absolute_luma_difference": 3.638
+      },
+      {
+        "source_frame": 4719,
+        "nearest_training_frame": 4732,
+        "mean_absolute_luma_difference": 1.402
+      },
+      {
+        "source_frame": 5510,
+        "nearest_training_frame": 5524,
+        "mean_absolute_luma_difference": 0.527
+      },
+      {
+        "source_frame": 5550,
+        "nearest_training_frame": 5561,
+        "mean_absolute_luma_difference": 0.307
+      }
+    ],
+    "reserved": [
+      {
+        "source_frame": 3953,
+        "nearest_training_frame": 3843,
+        "mean_absolute_luma_difference": 18.053
+      },
+      {
+        "source_frame": 3977,
+        "nearest_training_frame": 4146,
+        "mean_absolute_luma_difference": 17.456
+      },
+      {
+        "source_frame": 3999,
+        "nearest_training_frame": 4096,
+        "mean_absolute_luma_difference": 16.139
+      },
+      {
+        "source_frame": 4021,
+        "nearest_training_frame": 4096,
+        "mean_absolute_luma_difference": 14.689
+      },
+      {
+        "source_frame": 4043,
+        "nearest_training_frame": 4096,
+        "mean_absolute_luma_difference": 15.564
+      },
+      {
+        "source_frame": 4061,
+        "nearest_training_frame": 4096,
+        "mean_absolute_luma_difference": 14.214
+      },
+      {
+        "source_frame": 4079,
+        "nearest_training_frame": 4096,
+        "mean_absolute_luma_difference": 11.225
+      }
+    ]
+  },
+  "scope": "Stage crop resized to 64 \u00d7 24 in grayscale. Pixel difference is a screen for similar appearances; same-video correlation remains."
+}

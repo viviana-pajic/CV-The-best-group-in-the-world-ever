@@ -1,0 +1,180 @@
+{
+  "scope": "Eleven support validation images. These boxes cover the annotated bodies only.",
+  "imgsz": 960,
+  "merge_iou": 0.55,
+  "confidence": 0.25,
+  "models": {
+    "published_detector": {
+      "references": 197,
+      "predictions": 184,
+      "matched50": 158,
+      "matched75": 101,
+      "f1": 0.8293963254593176,
+      "per_frame": [
+        {
+          "source_frame": 3640,
+          "refs": 18,
+          "predictions": 19,
+          "matched50": 15,
+          "matched75": 14
+        },
+        {
+          "source_frame": 3682,
+          "refs": 15,
+          "predictions": 17,
+          "matched50": 15,
+          "matched75": 11
+        },
+        {
+          "source_frame": 3710,
+          "refs": 16,
+          "predictions": 15,
+          "matched50": 15,
+          "matched75": 12
+        },
+        {
+          "source_frame": 4585,
+          "refs": 20,
+          "predictions": 16,
+          "matched50": 14,
+          "matched75": 8
+        },
+        {
+          "source_frame": 4595,
+          "refs": 20,
+          "predictions": 17,
+          "matched50": 17,
+          "matched75": 11
+        },
+        {
+          "source_frame": 4605,
+          "refs": 20,
+          "predictions": 18,
+          "matched50": 14,
+          "matched75": 10
+        },
+        {
+          "source_frame": 4615,
+          "refs": 20,
+          "predictions": 19,
+          "matched50": 17,
+          "matched75": 14
+        },
+        {
+          "source_frame": 4705,
+          "refs": 20,
+          "predictions": 21,
+          "matched50": 19,
+          "matched75": 7
+        },
+        {
+          "source_frame": 4719,
+          "refs": 20,
+          "predictions": 21,
+          "matched50": 19,
+          "matched75": 7
+        },
+        {
+          "source_frame": 5510,
+          "refs": 14,
+          "predictions": 10,
+          "matched50": 5,
+          "matched75": 3
+        },
+        {
+          "source_frame": 5550,
+          "refs": 14,
+          "predictions": 11,
+          "matched50": 8,
+          "matched75": 4
+        }
+      ]
+    },
+    "detector_300": {
+      "references": 197,
+      "predictions": 203,
+      "matched50": 173,
+      "matched75": 113,
+      "f1": 0.865,
+      "per_frame": [
+        {
+          "source_frame": 3640,
+          "refs": 18,
+          "predictions": 20,
+          "matched50": 15,
+          "matched75": 13
+        },
+        {
+          "source_frame": 3682,
+          "refs": 15,
+          "predictions": 18,
+          "matched50": 15,
+          "matched75": 11
+        },
+        {
+          "source_frame": 3710,
+          "refs": 16,
+          "predictions": 18,
+          "matched50": 15,
+          "matched75": 12
+        },
+        {
+          "source_frame": 4585,
+          "refs": 20,
+          "predictions": 17,
+          "matched50": 16,
+          "matched75": 11
+        },
+        {
+          "source_frame": 4595,
+          "refs": 20,
+          "predictions": 17,
+          "matched50": 15,
+          "matched75": 10
+        },
+        {
+          "source_frame": 4605,
+          "refs": 20,
+          "predictions": 18,
+          "matched50": 15,
+          "matched75": 9
+        },
+        {
+          "source_frame": 4615,
+          "refs": 20,
+          "predictions": 20,
+          "matched50": 17,
+          "matched75": 14
+        },
+        {
+          "source_frame": 4705,
+          "refs": 20,
+          "predictions": 20,
+          "matched50": 19,
+          "matched75": 8
+        },
+        {
+          "source_frame": 4719,
+          "refs": 20,
+          "predictions": 21,
+          "matched50": 19,
+          "matched75": 8
+        },
+        {
+          "source_frame": 5510,
+          "refs": 14,
+          "predictions": 17,
+          "matched50": 14,
+          "matched75": 9
+        },
+        {
+          "source_frame": 5550,
+          "refs": 14,
+          "predictions": 17,
+          "matched50": 13,
+          "matched75": 8
+        }
+      ]
+    }
+  }
+}

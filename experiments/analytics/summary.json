@@ -1,0 +1,17 @@
+{
+  "statistics": {
+    "proxy": {
+      "covered_frames": 2421,
+      "all_frames": 2424,
+      "median_frame_nearest_neighbor_m": 1.440465824998253
+    },
+    "estimated": {
+      "covered_frames": 1913,
+      "all_frames": 2424,
+      "median_frame_nearest_neighbor_m": null
+    }
+  },
+  "cell_m": 0.25,
+  "bandwidth_m": 0.6,
+  "scope": "Every covered frame contributes equal mass within its status. Gaussian smoothing reflects at stage edges. Conditional on detected points and excludes frames without that status."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "role": "Generic COCO YOLO26m",
+    "path": "models/yolo26m.pt",
+    "sha256": "401cea9ab23ad19246ff7744859816bc599f350e93c9dd30367b6f0a0745d0b7"
+  },
+  {
+    "role": "Earlier dancer detector",
+    "path": "Experiment/Dance_Overnight/detector_expanded/runs/diverse_brightness/weights/best.pt",
+    "sha256": "2121ca7f47686d867431670033792e89237bd7c6700ba741bf5c201069e3b380"
+  },
+  {
+    "role": "300-image dancer detector",
+    "path": "Experiment/lighting_expansion_300/runs/detector_300_finetune_s17/weights/best.pt",
+    "sha256": "2f3d25cc3ade93f06d1e89e1068fe2f88259d2a74f739ab98ae9c79e7552983b"
+  },
+  {
+    "role": "300-image floor-contact head",
+    "path": "Experiment/lighting_expansion_300/runs/lighting_300_visual_s17/best_joint.pt",
+    "sha256": "1e11fe0dd69b3be59d96f48010a6572bd216b47346fa1d87d6e22dbf8352f62d"
+  }
+]

@@ -1,0 +1,12 @@
+"""Fresh selected weights on sampled source frames; compare saved predictions."""
+from frozen_holdout import *
+
+def main():
+    # Run after the temporal queue so this check does not interfere with training.
+    while not (OUT/'temporal_experiment/results.json').exists():time.sleep(5)
+    torch.set_num_threads(3);cv2.setNumThreads(2);cfg=read(OUT/'final_confirmation/frozen_selection.json');prov=read(OUT/'late_full_replay/provenance.json');base=read(OUT/prov['base_tracks']);pred=read(OUT/prov['support_predictions']);raw=read(OUT/'late_full_replay/raw_detections.json' if cfg['expanded_detector_accepted'] else OUT/'full_replay/raw_detections.json');model=YOLO(OUT/cfg['detector']['weights']);net,mask,_=load_model(OUT/'runs'/cfg['support']['run']/cfg['support']['checkpoint']);cap=cv2.VideoCapture(str(OUT/'full_replay/source.avi'));records=[]
+    for source in [3290,3640,3953,4043,4420,4719,4905,5225,5440,5550]:
+        k=source-3250;cap.set(cv2.CAP_PROP_POS_FRAMES,k);ok,im=cap.read();assert ok;fresh=candidates(model,im,960,'0');previous=raw[str(source)];assert len(fresh)==len(previous),(source,len(fresh),len(previous));boxdiff=max(np.max(np.abs(np.array(a['box'])-b['box'])) for a,b in zip(fresh,previous));rows=[o for o in base['frames'][k] if o['status']=='observed'];freshpoints=predict_aug(net,im,rows,cfg['support']['mode'],mask);diff=[np.linalg.norm(np.array(freshpoints[o['id']]['point'])-pred[k][str(o['id'])]['point']) for o in rows];visdiff=[abs(freshpoints[o['id']]['reportability']-pred[k][str(o['id'])]['reportability']) for o in rows];assert boxdiff<.2,(source,boxdiff);assert max(diff,default=0)<.2,(source,max(diff));records.append({'source_frame':source,'boxes':len(fresh),'observed_people':len(rows),'max_box_coordinate_difference_pixels':float(boxdiff),'max_support_point_difference_pixels':float(max(diff,default=0)),'max_reportability_difference':float(max(visdiff,default=0))})
+    cap.release();dest=OUT/'verification/latest_fresh_inference';dest.mkdir(parents=True,exist_ok=True);write(dest/'verification.json',{'passed':True,'scope':'Fresh selected detector and support weights on10 sampled source frames, compared to full replay caches. Actual tracking history and map fit are checked separately by reproduce_latest.py. Does not assert training reproducibility.','records':records});print('Fresh selected detector and support verified on10 frames.',flush=True)
+
+if __name__=='__main__':main()

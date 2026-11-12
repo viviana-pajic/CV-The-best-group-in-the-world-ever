@@ -1,0 +1,70 @@
+[
+  {
+    "name": "dancer",
+    "type": "rectangle",
+    "attributes": [
+      {
+        "name": "instance_id",
+        "mutable": true,
+        "input_type": "text",
+        "default_value": "0",
+        "values": [
+          "0"
+        ]
+      },
+      {
+        "name": "contact",
+        "mutable": true,
+        "input_type": "select",
+        "default_value": "uncertain",
+        "values": [
+          "uncertain",
+          "visible",
+          "hidden",
+          "airborne"
+        ]
+      },
+      {
+        "name": "support_type",
+        "mutable": true,
+        "input_type": "select",
+        "default_value": "none",
+        "values": [
+          "none",
+          "feet",
+          "knees",
+          "mixed_knee_foot",
+          "seat",
+          "palms"
+        ]
+      },
+      {
+        "name": "sample_split",
+        "mutable": true,
+        "input_type": "select",
+        "default_value": "unset",
+        "values": [
+          "unset",
+          "train",
+          "val",
+          "reserved_test"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "floor_support",
+    "type": "points",
+    "attributes": [
+      {
+        "name": "instance_id",
+        "mutable": true,
+        "input_type": "text",
+        "default_value": "0",
+        "values": [
+          "0"
+        ]
+      }
+    ]
+  }
+]

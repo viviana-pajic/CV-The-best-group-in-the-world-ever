@@ -1,0 +1,20 @@
+[
+  {
+    "name": "mat_boundary",
+    "type": "polyline",
+    "color": "#58f4d2",
+    "attributes": []
+  },
+  {
+    "name": "mat_rear_estimate",
+    "type": "polyline",
+    "color": "#ffc96c",
+    "attributes": []
+  },
+  {
+    "name": "mat_grid",
+    "type": "polyline",
+    "color": "#74bdfa",
+    "attributes": []
+  }
+]

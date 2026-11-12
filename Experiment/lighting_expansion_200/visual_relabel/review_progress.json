@@ -1,0 +1,1026 @@
+{
+  "scope": "First visual pass on listed frames, with approximate coordinates. Pending frames are still pilot drafts.",
+  "visual_pass_frames": 200,
+  "total_training_frames": 200,
+  "pending_frames": [],
+  "annotation_counts": {
+    "visible": 3017,
+    "hidden": 618,
+    "airborne": 50,
+    "uncertain": 4
+  },
+  "frames": {
+    "4791": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 21
+    },
+    "5056": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 11,
+      "dancer_boxes": 16
+    },
+    "5378": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 9,
+      "dancer_boxes": 15
+    },
+    "4808": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 21
+    },
+    "4827": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 21
+    },
+    "4844": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 21
+    },
+    "4732": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 21
+    },
+    "4744": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 21
+    },
+    "3251": {
+      "pilot_contacts": 4,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 19
+    },
+    "3265": {
+      "pilot_contacts": 3,
+      "visual_pass_contacts": 12,
+      "dancer_boxes": 15
+    },
+    "3281": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 17
+    },
+    "3290": {
+      "pilot_contacts": 15,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 19
+    },
+    "3300": {
+      "pilot_contacts": 3,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 19
+    },
+    "3304": {
+      "pilot_contacts": 13,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 19
+    },
+    "3316": {
+      "pilot_contacts": 3,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 18
+    },
+    "3318": {
+      "pilot_contacts": 15,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 17
+    },
+    "3325": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 19
+    },
+    "3332": {
+      "pilot_contacts": 10,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 20
+    },
+    "3338": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 20
+    },
+    "3346": {
+      "pilot_contacts": 19,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 20
+    },
+    "3359": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 21
+    },
+    "3360": {
+      "pilot_contacts": 9,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 21
+    },
+    "3383": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 21
+    },
+    "3423": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 20
+    },
+    "3453": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 19
+    },
+    "3465": {
+      "pilot_contacts": 14,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 19
+    },
+    "3468": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 19
+    },
+    "3479": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 16,
+      "dancer_boxes": 20
+    },
+    "3483": {
+      "pilot_contacts": 8,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 20
+    },
+    "3490": {
+      "pilot_contacts": 9,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 19
+    },
+    "3493": {
+      "pilot_contacts": 0,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 20
+    },
+    "3507": {
+      "pilot_contacts": 12,
+      "visual_pass_contacts": 16,
+      "dancer_boxes": 20
+    },
+    "3521": {
+      "pilot_contacts": 14,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 19
+    },
+    "3528": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 16,
+      "dancer_boxes": 20
+    },
+    "3535": {
+      "pilot_contacts": 14,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 19
+    },
+    "3545": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 19
+    },
+    "3553": {
+      "pilot_contacts": 3,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 19
+    },
+    "3564": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 19
+    },
+    "3574": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 17
+    },
+    "3597": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 18
+    },
+    "3620": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 19
+    },
+    "3627": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 19
+    },
+    "3652": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 19
+    },
+    "3662": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 7,
+      "dancer_boxes": 15
+    },
+    "3669": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 15
+    },
+    "3693": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 19
+    },
+    "3731": {
+      "pilot_contacts": 3,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 17
+    },
+    "3743": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 8,
+      "dancer_boxes": 14
+    },
+    "3758": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 11,
+      "dancer_boxes": 17
+    },
+    "3767": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 18
+    },
+    "3785": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 18
+    },
+    "3801": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 20
+    },
+    "3815": {
+      "pilot_contacts": 17,
+      "visual_pass_contacts": 20,
+      "dancer_boxes": 21
+    },
+    "3817": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 19
+    },
+    "3828": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "3829": {
+      "pilot_contacts": 16,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 19
+    },
+    "3843": {
+      "pilot_contacts": 13,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 19
+    },
+    "3850": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 16,
+      "dancer_boxes": 17
+    },
+    "3857": {
+      "pilot_contacts": 13,
+      "visual_pass_contacts": 16,
+      "dancer_boxes": 20
+    },
+    "3858": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 16,
+      "dancer_boxes": 21
+    },
+    "3869": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 20
+    },
+    "3871": {
+      "pilot_contacts": 11,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 20
+    },
+    "3876": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 19
+    },
+    "3885": {
+      "pilot_contacts": 11,
+      "visual_pass_contacts": 12,
+      "dancer_boxes": 18
+    },
+    "3886": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 18
+    },
+    "3894": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 18
+    },
+    "3913": {
+      "pilot_contacts": 4,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 19
+    },
+    "3923": {
+      "pilot_contacts": 3,
+      "visual_pass_contacts": 11,
+      "dancer_boxes": 17
+    },
+    "3932": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 11,
+      "dancer_boxes": 16
+    },
+    "4096": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 17
+    },
+    "4107": {
+      "pilot_contacts": 4,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 18
+    },
+    "4115": {
+      "pilot_contacts": 12,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 19
+    },
+    "4116": {
+      "pilot_contacts": 3,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 19
+    },
+    "4129": {
+      "pilot_contacts": 12,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 19
+    },
+    "4137": {
+      "pilot_contacts": 4,
+      "visual_pass_contacts": 12,
+      "dancer_boxes": 18
+    },
+    "4143": {
+      "pilot_contacts": 14,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 20
+    },
+    "4146": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 19
+    },
+    "4157": {
+      "pilot_contacts": 11,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 19
+    },
+    "4165": {
+      "pilot_contacts": 11,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 21
+    },
+    "4167": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 20
+    },
+    "4171": {
+      "pilot_contacts": 10,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 19
+    },
+    "4174": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 19
+    },
+    "4179": {
+      "pilot_contacts": 10,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 20
+    },
+    "4185": {
+      "pilot_contacts": 13,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 20
+    },
+    "4192": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 16,
+      "dancer_boxes": 19
+    },
+    "4193": {
+      "pilot_contacts": 14,
+      "visual_pass_contacts": 16,
+      "dancer_boxes": 18
+    },
+    "4207": {
+      "pilot_contacts": 13,
+      "visual_pass_contacts": 16,
+      "dancer_boxes": 18
+    },
+    "4212": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 20
+    },
+    "4221": {
+      "pilot_contacts": 13,
+      "visual_pass_contacts": 16,
+      "dancer_boxes": 18
+    },
+    "4228": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 21
+    },
+    "4235": {
+      "pilot_contacts": 14,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 20
+    },
+    "4239": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 21
+    },
+    "4257": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 18
+    },
+    "4284": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4292": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 20
+    },
+    "4315": {
+      "pilot_contacts": 17,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4324": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4329": {
+      "pilot_contacts": 18,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4336": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4343": {
+      "pilot_contacts": 17,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4344": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4352": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4357": {
+      "pilot_contacts": 17,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4361": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4369": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4371": {
+      "pilot_contacts": 17,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4376": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 20
+    },
+    "4385": {
+      "pilot_contacts": 18,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4386": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4406": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4420": {
+      "pilot_contacts": 12,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 20
+    },
+    "4432": {
+      "pilot_contacts": 12,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4444": {
+      "pilot_contacts": 12,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 20
+    },
+    "4456": {
+      "pilot_contacts": 12,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 20
+    },
+    "4460": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 20
+    },
+    "4468": {
+      "pilot_contacts": 10,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4476": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 20
+    },
+    "4480": {
+      "pilot_contacts": 11,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 20
+    },
+    "4487": {
+      "pilot_contacts": 4,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4492": {
+      "pilot_contacts": 12,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4504": {
+      "pilot_contacts": 11,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4506": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4513": {
+      "pilot_contacts": 4,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4516": {
+      "pilot_contacts": 11,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4521": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4528": {
+      "pilot_contacts": 12,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 20
+    },
+    "4536": {
+      "pilot_contacts": 4,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4540": {
+      "pilot_contacts": 10,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4544": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 20
+    },
+    "4552": {
+      "pilot_contacts": 12,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 20
+    },
+    "4569": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 20
+    },
+    "4626": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 20
+    },
+    "4635": {
+      "pilot_contacts": 4,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4645": {
+      "pilot_contacts": 12,
+      "visual_pass_contacts": 16,
+      "dancer_boxes": 20
+    },
+    "4654": {
+      "pilot_contacts": 3,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 19
+    },
+    "4661": {
+      "pilot_contacts": 4,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 19
+    },
+    "4665": {
+      "pilot_contacts": 13,
+      "visual_pass_contacts": 16,
+      "dancer_boxes": 19
+    },
+    "4668": {
+      "pilot_contacts": 6,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 19
+    },
+    "4678": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 20
+    },
+    "4685": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 20
+    },
+    "4692": {
+      "pilot_contacts": 3,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 19
+    },
+    "4866": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 20,
+      "dancer_boxes": 21
+    },
+    "4889": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4904": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 20,
+      "dancer_boxes": 21
+    },
+    "4917": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 20,
+      "dancer_boxes": 21
+    },
+    "4924": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 21
+    },
+    "4934": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 21
+    },
+    "4955": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 17,
+      "dancer_boxes": 20
+    },
+    "4973": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 19,
+      "dancer_boxes": 20
+    },
+    "4980": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 16,
+      "dancer_boxes": 19
+    },
+    "4997": {
+      "pilot_contacts": 3,
+      "visual_pass_contacts": 18,
+      "dancer_boxes": 19
+    },
+    "5025": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 18
+    },
+    "5077": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 10,
+      "dancer_boxes": 16
+    },
+    "5084": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 10,
+      "dancer_boxes": 17
+    },
+    "5095": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 9,
+      "dancer_boxes": 12
+    },
+    "5107": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 9,
+      "dancer_boxes": 12
+    },
+    "5122": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 11,
+      "dancer_boxes": 14
+    },
+    "5131": {
+      "pilot_contacts": 3,
+      "visual_pass_contacts": 11,
+      "dancer_boxes": 13
+    },
+    "5138": {
+      "pilot_contacts": 3,
+      "visual_pass_contacts": 11,
+      "dancer_boxes": 13
+    },
+    "5146": {
+      "pilot_contacts": 3,
+      "visual_pass_contacts": 11,
+      "dancer_boxes": 13
+    },
+    "5153": {
+      "pilot_contacts": 3,
+      "visual_pass_contacts": 12,
+      "dancer_boxes": 14
+    },
+    "5195": {
+      "pilot_contacts": 5,
+      "visual_pass_contacts": 12,
+      "dancer_boxes": 13
+    },
+    "5202": {
+      "pilot_contacts": 4,
+      "visual_pass_contacts": 12,
+      "dancer_boxes": 12
+    },
+    "5231": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 11,
+      "dancer_boxes": 13
+    },
+    "5244": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 8,
+      "dancer_boxes": 11
+    },
+    "5253": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 10,
+      "dancer_boxes": 15
+    },
+    "5283": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 11,
+      "dancer_boxes": 14
+    },
+    "5291": {
+      "pilot_contacts": 5,
+      "visual_pass_contacts": 11,
+      "dancer_boxes": 14
+    },
+    "5299": {
+      "pilot_contacts": 2,
+      "visual_pass_contacts": 11,
+      "dancer_boxes": 15
+    },
+    "5315": {
+      "pilot_contacts": 8,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 16
+    },
+    "5316": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 15
+    },
+    "5327": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 16
+    },
+    "5329": {
+      "pilot_contacts": 7,
+      "visual_pass_contacts": 15,
+      "dancer_boxes": 16
+    },
+    "5343": {
+      "pilot_contacts": 5,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 15
+    },
+    "5357": {
+      "pilot_contacts": 5,
+      "visual_pass_contacts": 12,
+      "dancer_boxes": 15
+    },
+    "5370": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 15
+    },
+    "5371": {
+      "pilot_contacts": 9,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 16
+    },
+    "5385": {
+      "pilot_contacts": 7,
+      "visual_pass_contacts": 16,
+      "dancer_boxes": 18
+    },
+    "5395": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 16,
+      "dancer_boxes": 19
+    },
+    "5400": {
+      "pilot_contacts": 5,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 17
+    },
+    "5409": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 16,
+      "dancer_boxes": 18
+    },
+    "5420": {
+      "pilot_contacts": 5,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 16
+    },
+    "5422": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 13,
+      "dancer_boxes": 15
+    },
+    "5433": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 14,
+      "dancer_boxes": 17
+    },
+    "5440": {
+      "pilot_contacts": 5,
+      "visual_pass_contacts": 10,
+      "dancer_boxes": 17
+    },
+    "5443": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 10,
+      "dancer_boxes": 17
+    },
+    "5453": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 10,
+      "dancer_boxes": 17
+    },
+    "5460": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 10,
+      "dancer_boxes": 16
+    },
+    "5480": {
+      "pilot_contacts": 5,
+      "visual_pass_contacts": 9,
+      "dancer_boxes": 18
+    },
+    "5488": {
+      "pilot_contacts": 0,
+      "visual_pass_contacts": 9,
+      "dancer_boxes": 18
+    },
+    "5531": {
+      "pilot_contacts": 0,
+      "visual_pass_contacts": 9,
+      "dancer_boxes": 18
+    },
+    "5539": {
+      "pilot_contacts": 0,
+      "visual_pass_contacts": 9,
+      "dancer_boxes": 18
+    },
+    "5561": {
+      "pilot_contacts": 0,
+      "visual_pass_contacts": 9,
+      "dancer_boxes": 18
+    },
+    "5579": {
+      "pilot_contacts": 0,
+      "visual_pass_contacts": 9,
+      "dancer_boxes": 18
+    },
+    "5602": {
+      "pilot_contacts": 0,
+      "visual_pass_contacts": 9,
+      "dancer_boxes": 18
+    },
+    "5626": {
+      "pilot_contacts": 0,
+      "visual_pass_contacts": 9,
+      "dancer_boxes": 18
+    },
+    "5648": {
+      "pilot_contacts": 0,
+      "visual_pass_contacts": 7,
+      "dancer_boxes": 17
+    },
+    "5656": {
+      "pilot_contacts": 1,
+      "visual_pass_contacts": 7,
+      "dancer_boxes": 17
+    },
+    "5663": {
+      "pilot_contacts": 0,
+      "visual_pass_contacts": 6,
+      "dancer_boxes": 17
+    },
+    "5670": {
+      "pilot_contacts": 0,
+      "visual_pass_contacts": 5,
+      "dancer_boxes": 17
+    }
+  },
+  "floor_roundtrip": {
+    "images": 200,
+    "floor_lines_per_frame": 12,
+    "floor_lines": 2400,
+    "existing_dancer_annotations_verified_equal": true,
+    "dancer_boxes": 3388,
+    "contacts": 926
+  },
+  "sealed_confirmation_sha256": "1bac3dbbe3ace8d89ed14925604f3436369ce8cf6a2aeb50c0746a132e47acc6",
+  "cvat_task": "https://app.cvat.ai/tasks/2754547",
+  "pilot_completed": true,
+  "pilot_confirmation_deferred": true
+}

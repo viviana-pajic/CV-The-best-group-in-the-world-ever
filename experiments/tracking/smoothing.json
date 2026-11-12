@@ -1,0 +1,44 @@
+{
+  "results": {
+    "Raw": {
+      "within_3pct": 29,
+      "visible_refs": 46,
+      "hidden_measured": 6,
+      "continuity_on_common_samples": {
+        "paired_transitions": 25282,
+        "step_p99": 4.94060131169922,
+        "acceleration_p99": 7.5218903595843924,
+        "steps_over_1pct": 2411,
+        "abrupt_changes_over_half_pct": 7608
+      },
+      "synthetic_3pct_step_half_response_frames": 0
+    },
+    "Causal Kalman": {
+      "within_3pct": 33,
+      "visible_refs": 46,
+      "hidden_measured": 6,
+      "continuity_on_common_samples": {
+        "paired_transitions": 25282,
+        "step_p99": 2.301073373459289,
+        "acceleration_p99": 1.6864365046860197,
+        "steps_over_1pct": 1083,
+        "abrupt_changes_over_half_pct": 1505
+      },
+      "synthetic_3pct_step_half_response_frames": 1
+    },
+    "Offline robust": {
+      "within_3pct": 29,
+      "visible_refs": 46,
+      "hidden_measured": 5,
+      "continuity_on_common_samples": {
+        "paired_transitions": 25282,
+        "step_p99": 0.5534955185344812,
+        "acceleration_p99": 0.0476626925382563,
+        "steps_over_1pct": 1,
+        "abrupt_changes_over_half_pct": 0
+      },
+      "synthetic_3pct_step_half_response_frames": 0
+    }
+  },
+  "scope": "Frozen boxes and support observations; diagnostic reserved references. The synthetic step isolates the smoother and disables the offline path gate."
+}

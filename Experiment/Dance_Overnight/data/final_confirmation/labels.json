@@ -1,0 +1,1802 @@
+{
+  "3953": [
+    {
+      "id": 1,
+      "box": [
+        202.35562133789062,
+        364.1954040527344,
+        312.7219543457031,
+        503.52935791015625
+      ],
+      "floor": [
+        260,
+        496
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 2,
+      "box": [
+        305.7018737792969,
+        352.5567932128906,
+        377.2214050292969,
+        433.9969482421875
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 4,
+      "box": [
+        310.8019714355469,
+        429.49940490722656,
+        397.2496643066406,
+        495.17626953125
+      ],
+      "floor": [
+        369,
+        480
+      ],
+      "contact": "visible",
+      "support_type": "knees",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 5,
+      "box": [
+        362.02227783203125,
+        351.195556640625,
+        412.8118591308594,
+        483.0777282714844
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 7,
+      "box": [
+        402.1701354980469,
+        351.23011016845703,
+        449.02459716796875,
+        472.53057861328125
+      ],
+      "floor": [
+        425,
+        468
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 9,
+      "box": [
+        438.7406921386719,
+        357.55609130859375,
+        484.38348388671875,
+        479.87298583984375
+      ],
+      "floor": [
+        455,
+        478
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 10,
+      "box": [
+        459,
+        375,
+        541,
+        503
+      ],
+      "floor": [
+        498,
+        499
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 12,
+      "box": [
+        490.5333709716797,
+        351.1314010620117,
+        518.2180480957031,
+        385.7204895019531
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 13,
+      "box": [
+        504.4548034667969,
+        361.5476531982422,
+        581.3212890625,
+        488.57908630371094
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 14,
+      "box": [
+        569.6672973632812,
+        384.2342224121094,
+        619.2080078125,
+        478.7964782714844
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 15,
+      "box": [
+        566.4651031494141,
+        377.33255767822266,
+        645.1912841796875,
+        511.14404296875
+      ],
+      "floor": [
+        605,
+        506
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 16,
+      "box": [
+        595.6703796386719,
+        344.10755157470703,
+        630.8143005371094,
+        408.6876220703125
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 17,
+      "box": [
+        641.0879516601562,
+        353.55130767822266,
+        710.1073913574219,
+        487.33966064453125
+      ],
+      "floor": [
+        679,
+        485
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 18,
+      "box": [
+        689.8138942718506,
+        348.2612609863281,
+        740.9946441650391,
+        470.1442565917969
+      ],
+      "floor": [
+        720,
+        467
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 101,
+      "box": [
+        442,
+        351,
+        491,
+        456
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local",
+      "provenance": "Source-only visual review: distinguishable white upper-body dancer behind the foreground white dress."
+    }
+  ],
+  "3977": [
+    {
+      "id": 1,
+      "box": [
+        191.7907257080078,
+        420.11614990234375,
+        300.84417724609375,
+        500.44505310058594
+      ],
+      "floor": [
+        239,
+        488
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 2,
+      "box": [
+        280.27587890625,
+        408.7658996582031,
+        374.6188049316406,
+        459.0286560058594
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 4,
+      "box": [
+        305.1316223144531,
+        421.738037109375,
+        374.51971435546875,
+        495.8791961669922
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 5,
+      "box": [
+        361.1492919921875,
+        384.8563995361328,
+        448.1378479003906,
+        517.1045532226562
+      ],
+      "floor": null,
+      "contact": "uncertain",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 7,
+      "box": [
+        400.2837829589844,
+        348.8468780517578,
+        458.679443359375,
+        474.06275939941406
+      ],
+      "floor": [
+        439,
+        471
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 10,
+      "box": [
+        455.0810241699219,
+        359.4913330078125,
+        507.8054504394531,
+        473.76670837402344
+      ],
+      "floor": [
+        488,
+        470
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 11,
+      "box": [
+        494.993896484375,
+        383.8296813964844,
+        566.4762878417969,
+        498.87062072753906
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 14,
+      "box": [
+        496.4459533691406,
+        438.7574005126953,
+        588.7662963867188,
+        545.0301208496094
+      ],
+      "floor": [
+        544,
+        520
+      ],
+      "contact": "visible",
+      "support_type": "knees",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 15,
+      "box": [
+        578.8702239990234,
+        409.92620849609375,
+        641.1734008789062,
+        485.0373077392578
+      ],
+      "floor": null,
+      "contact": "uncertain",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 16,
+      "box": [
+        614.7329406738281,
+        396.4993667602539,
+        714.6162414550781,
+        498.613525390625
+      ],
+      "floor": [
+        667,
+        487
+      ],
+      "contact": "visible",
+      "support_type": "mixed_knee_foot",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 17,
+      "box": [
+        666.9914245605469,
+        381.2024841308594,
+        725.5799255371094,
+        445.48426818847656
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 18,
+      "box": [
+        706.419921875,
+        408.9749298095703,
+        755.9790954589844,
+        476.44969177246094
+      ],
+      "floor": [
+        729,
+        468
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 101,
+      "box": [
+        616,
+        381,
+        670,
+        472
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local",
+      "provenance": "Source-only visual review: distinguishable rear white upper-body dancer."
+    },
+    {
+      "id": 102,
+      "box": [
+        581,
+        386,
+        633,
+        476
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local",
+      "provenance": "Source-only visual review: distinguishable rear dancer behind the foreground crouched person."
+    }
+  ],
+  "3999": [
+    {
+      "id": 1,
+      "box": [
+        265.48040771484375,
+        399.5825881958008,
+        302.4803161621094,
+        442.1001434326172
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 2,
+      "box": [
+        245,
+        451,
+        344,
+        532
+      ],
+      "floor": null,
+      "contact": "uncertain",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 4,
+      "box": [
+        302.22747802734375,
+        425.1472625732422,
+        367.90283203125,
+        481.64674377441406
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 5,
+      "box": [
+        351.3842468261719,
+        386.5929489135742,
+        470.0428771972656,
+        506.5381774902344
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 7,
+      "box": [
+        349,
+        455,
+        481,
+        543
+      ],
+      "floor": [
+        414,
+        531
+      ],
+      "contact": "visible",
+      "support_type": "mixed_knee_foot",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 9,
+      "box": [
+        440.2037048339844,
+        332.861385345459,
+        490.14385986328125,
+        474.6072540283203
+      ],
+      "floor": [
+        451,
+        472
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 10,
+      "box": [
+        465.6556091308594,
+        339.3379707336426,
+        511.3941345214844,
+        476.3647003173828
+      ],
+      "floor": [
+        493,
+        473
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 13,
+      "box": [
+        503.65863037109375,
+        394.3983154296875,
+        558.9183197021484,
+        452.0115966796875
+      ],
+      "floor": [
+        527,
+        449
+      ],
+      "contact": "visible",
+      "support_type": "seat",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 14,
+      "box": [
+        498,
+        426,
+        583,
+        515
+      ],
+      "floor": [
+        551,
+        502
+      ],
+      "contact": "visible",
+      "support_type": "seat",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 15,
+      "box": [
+        565.9828033447266,
+        377.1133117675781,
+        627.7853698730469,
+        496.27894592285156
+      ],
+      "floor": [
+        592,
+        494
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 16,
+      "box": [
+        612.4683837890625,
+        372.5331115722656,
+        669.3815612792969,
+        473.0689239501953
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 18,
+      "box": [
+        650.0774536132812,
+        394.2159881591797,
+        700.3381958007812,
+        492.7051696777344
+      ],
+      "floor": [
+        673,
+        480
+      ],
+      "contact": "visible",
+      "support_type": "knees",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 101,
+      "box": [
+        265,
+        435,
+        345,
+        523
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Gray middle dancer behind the foreground white dress. Independent human review required."
+    }
+  ],
+  "4021": [
+    {
+      "id": 1,
+      "box": [
+        219.9823760986328,
+        389.3203430175781,
+        266.4664611816406,
+        463.95928955078125
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 3,
+      "box": [
+        353.609769821167,
+        367.6365509033203,
+        414.79520416259766,
+        469.27720642089844
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 4,
+      "box": [
+        392.852840423584,
+        346.2517852783203,
+        455.21360778808594,
+        482.3578186035156
+      ],
+      "floor": [
+        430,
+        470
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 5,
+      "box": [
+        445.324462890625,
+        394.99109649658203,
+        471.1062927246094,
+        464.1431884765625
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 6,
+      "box": [
+        455,
+        392,
+        525,
+        470
+      ],
+      "floor": null,
+      "contact": "uncertain",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 8,
+      "box": [
+        482.37548828125,
+        412.8196563720703,
+        557.2760009765625,
+        495.3061828613281
+      ],
+      "floor": [
+        527,
+        488
+      ],
+      "contact": "visible",
+      "support_type": "seat",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 9,
+      "box": [
+        507.2412414550781,
+        383.7621536254883,
+        569.0931396484375,
+        469.1312255859375
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 10,
+      "box": [
+        513,
+        455,
+        579,
+        535
+      ],
+      "floor": [
+        530,
+        512
+      ],
+      "contact": "visible",
+      "support_type": "knees",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 11,
+      "box": [
+        549,
+        403,
+        639,
+        477
+      ],
+      "floor": null,
+      "contact": "uncertain",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 12,
+      "box": [
+        641,
+        441,
+        699,
+        508
+      ],
+      "floor": [
+        660,
+        493
+      ],
+      "contact": "visible",
+      "support_type": "knees",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 101,
+      "box": [
+        239,
+        393,
+        326,
+        474
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Rear gray dancer. Independent human review required."
+    },
+    {
+      "id": 102,
+      "box": [
+        282,
+        430,
+        353,
+        516
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Middle brown dancer. Independent human review required."
+    },
+    {
+      "id": 103,
+      "box": [
+        187,
+        446,
+        307,
+        542
+      ],
+      "floor": [
+        282,
+        531
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Foreground white dress with planted feet. Independent human review required."
+    },
+    {
+      "id": 104,
+      "box": [
+        309,
+        462,
+        457,
+        562
+      ],
+      "floor": [
+        419,
+        540
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Foreground green dancer in a supported back bend. Independent human review required."
+    },
+    {
+      "id": 105,
+      "box": [
+        638,
+        394,
+        692,
+        456
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Rear white dancer. Independent human review required."
+    }
+  ],
+  "4043": [
+    {
+      "id": 1,
+      "box": [
+        133.9813232421875,
+        429.3508605957031,
+        298.838134765625,
+        541.4384765625
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 2,
+      "box": [
+        333.75201416015625,
+        415.02772521972656,
+        374.3746337890625,
+        526.9407806396484
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 3,
+      "box": [
+        366.4105529785156,
+        365.5199203491211,
+        413.5808410644531,
+        465.1857147216797
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 5,
+      "box": [
+        398.6877136230469,
+        347.22674560546875,
+        458.96405029296875,
+        463.56727600097656
+      ],
+      "floor": [
+        449,
+        462
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 101,
+      "box": [
+        343,
+        460,
+        445,
+        563
+      ],
+      "floor": [
+        411,
+        547
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Foreground green dancer, both feet planted. Independent human review required."
+    },
+    {
+      "id": 102,
+      "box": [
+        204,
+        385,
+        331,
+        482
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Rear left gray dancer. Independent human review required."
+    },
+    {
+      "id": 103,
+      "box": [
+        259,
+        435,
+        338,
+        508
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Middle brown dancer. Independent human review required."
+    },
+    {
+      "id": 104,
+      "box": [
+        509,
+        462,
+        580,
+        534
+      ],
+      "floor": [
+        527,
+        511
+      ],
+      "contact": "visible",
+      "support_type": "knees",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Front right kneeling dancer. Independent human review required."
+    },
+    {
+      "id": 105,
+      "box": [
+        476,
+        419,
+        558,
+        496
+      ],
+      "floor": [
+        523,
+        485
+      ],
+      "contact": "visible",
+      "support_type": "seat",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Middle seated brown dancer. Independent human review required."
+    },
+    {
+      "id": 106,
+      "box": [
+        472,
+        398,
+        562,
+        465
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; White dancer immediately behind seated brown dancer. Independent human review required."
+    },
+    {
+      "id": 107,
+      "box": [
+        482,
+        388,
+        559,
+        443
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Rear center gray dancer. Independent human review required."
+    },
+    {
+      "id": 108,
+      "box": [
+        639,
+        436,
+        741,
+        508
+      ],
+      "floor": [
+        660,
+        495
+      ],
+      "contact": "visible",
+      "support_type": "knees",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Right foreground kneeling dancer. Independent human review required."
+    },
+    {
+      "id": 109,
+      "box": [
+        573,
+        411,
+        637,
+        480
+      ],
+      "floor": null,
+      "contact": "uncertain",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; White dancer in a partly obscured side-supported pose. Independent human review required."
+    },
+    {
+      "id": 110,
+      "box": [
+        627,
+        400,
+        692,
+        466
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Rear white dancer. Independent human review required."
+    },
+    {
+      "id": 111,
+      "box": [
+        644,
+        393,
+        714,
+        449
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Farthest right white dancer. Independent human review required."
+    }
+  ],
+  "4061": [
+    {
+      "id": 1,
+      "box": [
+        205,
+        463,
+        335,
+        543
+      ],
+      "floor": [
+        250,
+        534
+      ],
+      "contact": "visible",
+      "support_type": "seat",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 2,
+      "box": [
+        302.1658020019531,
+        422.52049255371094,
+        349.13018798828125,
+        478.4179382324219
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 3,
+      "box": [
+        326,
+        466,
+        447,
+        563
+      ],
+      "floor": [
+        409,
+        540
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 4,
+      "box": [
+        351.97747802734375,
+        382.3314208984375,
+        408.89068603515625,
+        442.5461120605469
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 6,
+      "box": [
+        399.9440612792969,
+        376.42745208740234,
+        466.3934326171875,
+        480.66172790527344
+      ],
+      "floor": [
+        447,
+        476
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 7,
+      "box": [
+        456.4126892089844,
+        393.58306884765625,
+        513.4152374267578,
+        481.79148864746094
+      ],
+      "floor": [
+        489,
+        468
+      ],
+      "contact": "visible",
+      "support_type": "knees",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 9,
+      "box": [
+        464,
+        463,
+        576,
+        534
+      ],
+      "floor": [
+        530,
+        510
+      ],
+      "contact": "visible",
+      "support_type": "knees",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 10,
+      "box": [
+        500.06402587890625,
+        395.48402404785156,
+        575.5022583007812,
+        469.91847229003906
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 11,
+      "box": [
+        574.6658325195312,
+        414.6788787841797,
+        638.7070922851562,
+        475.5809783935547
+      ],
+      "floor": null,
+      "contact": "uncertain",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 12,
+      "box": [
+        637,
+        441,
+        698,
+        502
+      ],
+      "floor": [
+        658,
+        493
+      ],
+      "contact": "visible",
+      "support_type": "knees",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 101,
+      "box": [
+        223,
+        405,
+        289,
+        474
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Rear left white dancer. Independent human review required."
+    },
+    {
+      "id": 102,
+      "box": [
+        245,
+        419,
+        305,
+        498
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Middle left gray dancer. Independent human review required."
+    },
+    {
+      "id": 103,
+      "box": [
+        357,
+        407,
+        413,
+        466
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Gray dancer below rear white body. Independent human review required."
+    },
+    {
+      "id": 104,
+      "box": [
+        262,
+        446,
+        330,
+        533
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Brown dancer behind foreground white dress. Independent human review required."
+    },
+    {
+      "id": 105,
+      "box": [
+        636,
+        397,
+        711,
+        456
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Rear right white dancer. Independent human review required."
+    }
+  ],
+  "4079": [
+    {
+      "id": 2,
+      "box": [
+        248.59439086914062,
+        411.5612335205078,
+        355.5142517089844,
+        534.8524017333984
+      ],
+      "floor": [
+        281,
+        525
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 3,
+      "box": [
+        274.4350280761719,
+        383.18726348876953,
+        332.1838073730469,
+        419.41424560546875
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 4,
+      "box": [
+        355.40496826171875,
+        456.3950958251953,
+        415.9521484375,
+        549.7605895996094
+      ],
+      "floor": [
+        395,
+        536
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 5,
+      "box": [
+        360.78355407714844,
+        404.60486602783203,
+        420.9415740966797,
+        505.3953857421875
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 6,
+      "box": [
+        367.85497283935547,
+        373.97826385498047,
+        414.20230865478516,
+        422.22108459472656
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 8,
+      "box": [
+        403.4262924194336,
+        358.8820343017578,
+        460.5503845214844,
+        482.70896911621094
+      ],
+      "floor": [
+        434,
+        470
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 9,
+      "box": [
+        452.7622985839844,
+        399.6094207763672,
+        508.8758850097656,
+        477.5254821777344
+      ],
+      "floor": [
+        492,
+        472
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 10,
+      "box": [
+        491.11549377441406,
+        419.5574035644531,
+        555.2503051757812,
+        505.39259338378906
+      ],
+      "floor": [
+        536,
+        498
+      ],
+      "contact": "visible",
+      "support_type": "knees",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 11,
+      "box": [
+        510.9971618652344,
+        392.7861328125,
+        541.9358520507812,
+        439.6744689941406
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 14,
+      "box": [
+        534.5739135742188,
+        421.9912109375,
+        568.8670043945312,
+        484.9727020263672
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 15,
+      "box": [
+        571.7776336669922,
+        401.6250762939453,
+        625.3417358398438,
+        476.04359436035156
+      ],
+      "floor": [
+        605,
+        470
+      ],
+      "contact": "visible",
+      "support_type": "knees",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 16,
+      "box": [
+        626,
+        440,
+        675,
+        500
+      ],
+      "floor": [
+        652,
+        490
+      ],
+      "contact": "visible",
+      "support_type": "knees",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 17,
+      "box": [
+        668.7362365722656,
+        394.0400161743164,
+        718.1502685546875,
+        455.4847869873047
+      ],
+      "floor": [
+        687,
+        453
+      ],
+      "contact": "visible",
+      "support_type": "feet",
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local proposal index; not cross-frame identity",
+      "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+    },
+    {
+      "id": 101,
+      "box": [
+        620,
+        404,
+        680,
+        464
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Rear dancer above foreground kneeling person. Independent human review required."
+    },
+    {
+      "id": 102,
+      "box": [
+        295,
+        436,
+        350,
+        500
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Middle gray dancer behind white foreground body. Independent human review required."
+    },
+    {
+      "id": 103,
+      "box": [
+        246,
+        405,
+        289,
+        483
+      ],
+      "floor": null,
+      "contact": "hidden",
+      "support_type": null,
+      "outside": false,
+      "reviewed": true,
+      "identity_scope": "image-local; not a cross-frame ID",
+      "provenance": "Assistant source-only visual estimate; Rear left brown dancer. Independent human review required."
+    }
+  ]
+}

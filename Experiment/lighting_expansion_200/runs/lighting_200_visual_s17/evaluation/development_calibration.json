@@ -1,0 +1,333 @@
+{
+  "selected": {
+    "threshold": 0.9,
+    "refs": 112,
+    "emitted": 115,
+    "correct": 97,
+    "joint_f1": 0.8546255506607929,
+    "hidden_emitted": 15,
+    "median_error": 1.0101004281887906,
+    "by_type": {
+      "feet": {
+        "references": 59,
+        "emitted": 47,
+        "correct": 46
+      },
+      "hidden": {
+        "references": 68,
+        "emitted": 5,
+        "correct": 0
+      },
+      "knees": {
+        "references": 38,
+        "emitted": 38,
+        "correct": 36
+      },
+      "seat": {
+        "references": 15,
+        "emitted": 15,
+        "correct": 15
+      },
+      "uncertain": {
+        "references": 17,
+        "emitted": 10,
+        "correct": 0
+      }
+    }
+  },
+  "options": [
+    {
+      "threshold": 0,
+      "refs": 112,
+      "emitted": 190,
+      "correct": 104,
+      "joint_f1": 0.6887417218543046,
+      "hidden_emitted": 78,
+      "median_error": 1.0436966301094066,
+      "by_type": {
+        "feet": {
+          "references": 59,
+          "emitted": 59,
+          "correct": 53
+        },
+        "hidden": {
+          "references": 68,
+          "emitted": 61,
+          "correct": 0
+        },
+        "knees": {
+          "references": 38,
+          "emitted": 38,
+          "correct": 36
+        },
+        "seat": {
+          "references": 15,
+          "emitted": 15,
+          "correct": 15
+        },
+        "uncertain": {
+          "references": 17,
+          "emitted": 17,
+          "correct": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.1,
+      "refs": 112,
+      "emitted": 174,
+      "correct": 104,
+      "joint_f1": 0.7272727272727273,
+      "hidden_emitted": 62,
+      "median_error": 1.0436966301094066,
+      "by_type": {
+        "feet": {
+          "references": 59,
+          "emitted": 59,
+          "correct": 53
+        },
+        "hidden": {
+          "references": 68,
+          "emitted": 46,
+          "correct": 0
+        },
+        "knees": {
+          "references": 38,
+          "emitted": 38,
+          "correct": 36
+        },
+        "seat": {
+          "references": 15,
+          "emitted": 15,
+          "correct": 15
+        },
+        "uncertain": {
+          "references": 17,
+          "emitted": 16,
+          "correct": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.25,
+      "refs": 112,
+      "emitted": 152,
+      "correct": 104,
+      "joint_f1": 0.7878787878787878,
+      "hidden_emitted": 40,
+      "median_error": 1.0436966301094066,
+      "by_type": {
+        "feet": {
+          "references": 59,
+          "emitted": 59,
+          "correct": 53
+        },
+        "hidden": {
+          "references": 68,
+          "emitted": 26,
+          "correct": 0
+        },
+        "knees": {
+          "references": 38,
+          "emitted": 38,
+          "correct": 36
+        },
+        "seat": {
+          "references": 15,
+          "emitted": 15,
+          "correct": 15
+        },
+        "uncertain": {
+          "references": 17,
+          "emitted": 14,
+          "correct": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.4,
+      "refs": 112,
+      "emitted": 142,
+      "correct": 102,
+      "joint_f1": 0.8031496062992126,
+      "hidden_emitted": 33,
+      "median_error": 1.0512048884347236,
+      "by_type": {
+        "feet": {
+          "references": 59,
+          "emitted": 56,
+          "correct": 51
+        },
+        "hidden": {
+          "references": 68,
+          "emitted": 19,
+          "correct": 0
+        },
+        "knees": {
+          "references": 38,
+          "emitted": 38,
+          "correct": 36
+        },
+        "seat": {
+          "references": 15,
+          "emitted": 15,
+          "correct": 15
+        },
+        "uncertain": {
+          "references": 17,
+          "emitted": 14,
+          "correct": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.5,
+      "refs": 112,
+      "emitted": 138,
+      "correct": 101,
+      "joint_f1": 0.808,
+      "hidden_emitted": 31,
+      "median_error": 1.02398322430891,
+      "by_type": {
+        "feet": {
+          "references": 59,
+          "emitted": 54,
+          "correct": 50
+        },
+        "hidden": {
+          "references": 68,
+          "emitted": 17,
+          "correct": 0
+        },
+        "knees": {
+          "references": 38,
+          "emitted": 38,
+          "correct": 36
+        },
+        "seat": {
+          "references": 15,
+          "emitted": 15,
+          "correct": 15
+        },
+        "uncertain": {
+          "references": 17,
+          "emitted": 14,
+          "correct": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.6,
+      "refs": 112,
+      "emitted": 133,
+      "correct": 101,
+      "joint_f1": 0.8244897959183674,
+      "hidden_emitted": 26,
+      "median_error": 1.02398322430891,
+      "by_type": {
+        "feet": {
+          "references": 59,
+          "emitted": 54,
+          "correct": 50
+        },
+        "hidden": {
+          "references": 68,
+          "emitted": 12,
+          "correct": 0
+        },
+        "knees": {
+          "references": 38,
+          "emitted": 38,
+          "correct": 36
+        },
+        "seat": {
+          "references": 15,
+          "emitted": 15,
+          "correct": 15
+        },
+        "uncertain": {
+          "references": 17,
+          "emitted": 14,
+          "correct": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.75,
+      "refs": 112,
+      "emitted": 124,
+      "correct": 99,
+      "joint_f1": 0.8389830508474576,
+      "hidden_emitted": 21,
+      "median_error": 1.0078511403817068,
+      "by_type": {
+        "feet": {
+          "references": 59,
+          "emitted": 50,
+          "correct": 48
+        },
+        "hidden": {
+          "references": 68,
+          "emitted": 9,
+          "correct": 0
+        },
+        "knees": {
+          "references": 38,
+          "emitted": 38,
+          "correct": 36
+        },
+        "seat": {
+          "references": 15,
+          "emitted": 15,
+          "correct": 15
+        },
+        "uncertain": {
+          "references": 17,
+          "emitted": 12,
+          "correct": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.9,
+      "refs": 112,
+      "emitted": 115,
+      "correct": 97,
+      "joint_f1": 0.8546255506607929,
+      "hidden_emitted": 15,
+      "median_error": 1.0101004281887906,
+      "by_type": {
+        "feet": {
+          "references": 59,
+          "emitted": 47,
+          "correct": 46
+        },
+        "hidden": {
+          "references": 68,
+          "emitted": 5,
+          "correct": 0
+        },
+        "knees": {
+          "references": 38,
+          "emitted": 38,
+          "correct": 36
+        },
+        "seat": {
+          "references": 15,
+          "emitted": 15,
+          "correct": 15
+        },
+        "uncertain": {
+          "references": 17,
+          "emitted": 10,
+          "correct": 0
+        }
+      }
+    }
+  ],
+  "box_baseline": {
+    "refs": 112,
+    "correct": 85,
+    "median_error": 1.976653654490523
+  }
+}

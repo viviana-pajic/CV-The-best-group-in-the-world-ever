@@ -1,0 +1,38 @@
+[
+  {
+    "frames": 4473,
+    "calibrated_frames": 4473,
+    "frames_with_boxes": 4256,
+    "frames_with_contacts": 4219,
+    "reported_contacts": 15081,
+    "estimated_contacts": 4233,
+    "gpu": "NVIDIA GeForce RTX 5080",
+    "id": "CbpSMoPItu0",
+    "title": "Wicked Games",
+    "frames_with_default_line": 14
+  },
+  {
+    "frames": 4713,
+    "calibrated_frames": 4713,
+    "frames_with_boxes": 4707,
+    "frames_with_contacts": 4684,
+    "reported_contacts": 20068,
+    "estimated_contacts": 8369,
+    "gpu": "NVIDIA GeForce RTX 5080",
+    "id": "YoF0XeYhPL0",
+    "title": "onare",
+    "frames_with_default_line": 641
+  },
+  {
+    "frames": 6278,
+    "calibrated_frames": 6278,
+    "frames_with_boxes": 6231,
+    "frames_with_contacts": 5906,
+    "reported_contacts": 54377,
+    "estimated_contacts": 14436,
+    "gpu": "NVIDIA GeForce RTX 5080",
+    "id": "0BorT97NOmQ",
+    "title": "Dernek",
+    "frames_with_default_line": 3419
+  }
+]

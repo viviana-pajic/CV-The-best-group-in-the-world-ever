@@ -1,0 +1,20 @@
+{
+  "sealed_utc": "2026-11-10T04:28:59.596215+00:00",
+  "label_sha256": "1bac3dbbe3ace8d89ed14925604f3436369ce8cf6a2aeb50c0746a132e47acc6",
+  "selection_sha256": "72dddc982f61fd51b234e807ae8d96d0568d15807ba0cf4f892d541459096e7e",
+  "scope": "Seven source-only manually reviewed confirmation images; no support points or candidate detections displayed while annotating. Generic COCO proposals corrected as needed. Image-local IDs; distinguishable bodies only. Several-pixel visual uncertainty; independent human review needed.",
+  "split": "No training/development frames inside3950..4080. This is a new labeled block within the same choreography, not an independent video. No confirmation-driven tuning allowed.",
+  "evaluation_precommit": {
+    "phases": {
+      "new_confirmation": [
+        3953,
+        3977,
+        3999,
+        4021,
+        4043,
+        4061,
+        4079
+      ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "cvat_image_id": 0,
+    "source_frame": 3953,
+    "filename": "frame_003953.png",
+    "split": "reserved_test",
+    "instances": 15
+  },
+  {
+    "cvat_image_id": 1,
+    "source_frame": 3977,
+    "filename": "frame_003977.png",
+    "split": "reserved_test",
+    "instances": 14
+  },
+  {
+    "cvat_image_id": 2,
+    "source_frame": 3999,
+    "filename": "frame_003999.png",
+    "split": "reserved_test",
+    "instances": 13
+  },
+  {
+    "cvat_image_id": 3,
+    "source_frame": 4021,
+    "filename": "frame_004021.png",
+    "split": "reserved_test",
+    "instances": 15
+  },
+  {
+    "cvat_image_id": 4,
+    "source_frame": 4043,
+    "filename": "frame_004043.png",
+    "split": "reserved_test",
+    "instances": 15
+  },
+  {
+    "cvat_image_id": 5,
+    "source_frame": 4061,
+    "filename": "frame_004061.png",
+    "split": "reserved_test",
+    "instances": 15
+  },
+  {
+    "cvat_image_id": 6,
+    "source_frame": 4079,
+    "filename": "frame_004079.png",
+    "split": "reserved_test",
+    "instances": 16
+  }
+]

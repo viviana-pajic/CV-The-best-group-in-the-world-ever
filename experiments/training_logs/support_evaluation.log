@@ -1,0 +1,31 @@
+Support inference: 0 / 2424
+Support inference: 300 / 2424
+Support inference: 600 / 2424
+Support inference: 900 / 2424
+Support inference: 1200 / 2424
+Support inference: 1500 / 2424
+Support inference: 1800 / 2424
+Support inference: 2100 / 2424
+Support inference: 2400 / 2424
+Traceback (most recent call last):
+  File "C:\Users\tomis\OneDrive\THOMAS MORE APPLIED COMPUTER SCIENCE\YEAR 3\DL\Dance_Floor_Contact_Team_Package\build\lighting_expansion_300\evaluate_300.py", line 183, in <module>
+    main()
+  File "C:\Users\tomis\OneDrive\THOMAS MORE APPLIED COMPUTER SCIENCE\YEAR 3\DL\Dance_Floor_Contact_Team_Package\build\lighting_expansion_300\evaluate_300.py", line 167, in main
+    f"candidate_300_{args.pipeline}": score(tracks, read(LABELS)), "selection": selection,
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomis\OneDrive\THOMAS MORE APPLIED COMPUTER SCIENCE\YEAR 3\DL\Dance_Floor_Contact_Team_Package\Experiment\Dance_Overnight\code\evaluate_final_confirmation.py", line 14, in score
+    return fh.result(records)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomis\OneDrive\THOMAS MORE APPLIED COMPUTER SCIENCE\YEAR 3\DL\Dance_Floor_Contact_Team_Package\Experiment\Dance_Overnight\code\frozen_holdout.py", line 73, in result
+    phases=read(D/'sealed_protocol.json')['evaluation_precommit']['phases'];return {'all':aggregate(records),'by_phase':{k:aggregate([r for r in records if r['source_frame'] in frames]) for k,frames in phases.items()},'by_frame':{str(k):aggregate([r for r in records if r['source_frame']==k]) for k in sorted({r['source_frame'] for r in records})},'records':records}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomis\OneDrive\THOMAS MORE APPLIED COMPUTER SCIENCE\YEAR 3\DL\Dance_Floor_Contact_Team_Package\Experiment\Dance_Overnight\code\evaluate_support.py", line 12, in read
+    def read(p):return json.loads(Path(p).read_text())
+                                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomis\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomis\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\tomis\\OneDrive\\THOMAS MORE APPLIED COMPUTER SCIENCE\\YEAR 3\\DL\\Dance_Floor_Contact_Team_Package\\Experiment\\Dance_Overnight\\data\\holdout\\sealed_protocol.json'

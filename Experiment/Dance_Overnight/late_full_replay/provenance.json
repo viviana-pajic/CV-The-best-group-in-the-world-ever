@@ -1,0 +1,8 @@
+{
+  "detector_changed": true,
+  "base_tracks": "late_full_replay/base_tracks.json",
+  "support_predictions": "late_full_replay/support/predictions.json",
+  "tracks": "late_full_replay/tracks.json",
+  "selection": "final_confirmation/frozen_selection.json",
+  "context": "Full2424frames; twenty reviewed seeds at4420, forward and backward tracking. Offline trajectories use future frames. Includes training frames; quantitative confirmation uses only precommitted new labels."
+}

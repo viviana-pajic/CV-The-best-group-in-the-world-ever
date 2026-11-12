@@ -1,0 +1,2150 @@
+{
+  "reviewed_frames": [
+    4839,
+    4850,
+    4887,
+    4910,
+    4926,
+    4970,
+    4978,
+    4999,
+    5023,
+    5054,
+    5093,
+    5109,
+    5129,
+    5193,
+    5200,
+    5229,
+    5246,
+    5257,
+    5281,
+    5333,
+    5376,
+    5383,
+    5426,
+    5436,
+    5446,
+    5462,
+    5473,
+    5486,
+    5524,
+    5586,
+    5595,
+    5651,
+    5658,
+    5668
+  ],
+  "changes": {
+    "4839": {
+      "add": [
+        {
+          "id": 14,
+          "box": [
+            724,
+            384,
+            754,
+            426
+          ],
+          "floor": [
+            741,
+            424
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        }
+      ]
+    },
+    "4850": {
+      "add": [
+        {
+          "id": 14,
+          "box": [
+            725,
+            384,
+            754,
+            425
+          ],
+          "floor": [
+            741,
+            423
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        }
+      ]
+    },
+    "4910": {
+      "add": [
+        {
+          "id": 14,
+          "box": [
+            726,
+            369,
+            755,
+            424
+          ],
+          "floor": [
+            738,
+            422
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        }
+      ]
+    },
+    "4926": {
+      "updates": {
+        "3": {
+          "floor": [
+            194,
+            547
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot"
+        },
+        "12": {
+          "floor": [
+            746,
+            421
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        }
+      }
+    },
+    "4970": {
+      "updates": {
+        "2": {
+          "box": [
+            181,
+            420,
+            289,
+            504
+          ]
+        },
+        "3": {
+          "box": [
+            107,
+            417,
+            252,
+            553
+          ],
+          "floor": [
+            161,
+            549
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot"
+        },
+        "8": {
+          "floor": [
+            476,
+            541
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot"
+        },
+        "13": {
+          "floor": [
+            741,
+            532
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        }
+      }
+    },
+    "5054": {
+      "updates": {
+        "3": {
+          "floor": [
+            381,
+            483
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "19": {
+          "box": [
+            1053,
+            337,
+            1135,
+            515
+          ]
+        }
+      }
+    },
+    "5109": {
+      "updates": {
+        "19": {
+          "box": [
+            1128,
+            410,
+            1206,
+            526
+          ]
+        }
+      }
+    },
+    "5193": {
+      "updates": {
+        "4": {
+          "box": [
+            491,
+            330,
+            536,
+            471
+          ]
+        }
+      },
+      "add": [
+        {
+          "id": 101,
+          "box": [
+            475,
+            321,
+            518,
+            456
+          ],
+          "floor": [
+            485,
+            452
+          ],
+          "contact": "visible",
+          "support_type": "feet",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        }
+      ]
+    },
+    "5200": {
+      "updates": {
+        "4": {
+          "box": [
+            478,
+            329,
+            527,
+            473
+          ]
+        }
+      },
+      "add": [
+        {
+          "id": 101,
+          "box": [
+            469,
+            320,
+            509,
+            458
+          ],
+          "floor": [
+            475,
+            455
+          ],
+          "contact": "visible",
+          "support_type": "feet",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        }
+      ]
+    },
+    "5229": {
+      "updates": {
+        "4": {
+          "box": [
+            477,
+            327,
+            533,
+            475
+          ]
+        }
+      },
+      "add": [
+        {
+          "id": 101,
+          "box": [
+            475,
+            320,
+            509,
+            456
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        }
+      ]
+    },
+    "5246": {
+      "updates": {
+        "4": {
+          "box": [
+            443,
+            338,
+            528,
+            478
+          ]
+        }
+      }
+    },
+    "5257": {
+      "updates": {
+        "10": {
+          "floor": [
+            631,
+            479
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "17": {
+          "floor": [
+            737,
+            481
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "19": {
+          "floor": [
+            1133,
+            509
+          ]
+        },
+        "20": {
+          "floor": [
+            782,
+            472
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "5281": {
+      "updates": {
+        "10": {
+          "floor": [
+            621,
+            477
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "5333": {
+      "updates": {
+        "10": {
+          "floor": [
+            475,
+            519
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot"
+        },
+        "19": {
+          "box": [
+            1250,
+            477,
+            1280,
+            533
+          ],
+          "floor": null,
+          "contact": "uncertain",
+          "support_type": null
+        },
+        "20": {
+          "floor": [
+            792,
+            465
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        }
+      }
+    },
+    "5376": {
+      "updates": {
+        "5": {
+          "floor": [
+            476,
+            482
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "10": {
+          "floor": [
+            540,
+            501
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "12": {
+          "floor": [
+            695,
+            432
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "5383": {
+      "remove": [
+        16
+      ]
+    },
+    "5426": {
+      "updates": {
+        "4": {
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null
+        }
+      }
+    },
+    "5436": {
+      "updates": {
+        "20": {
+          "box": [
+            701,
+            414,
+            796,
+            489
+          ]
+        }
+      }
+    },
+    "5446": {
+      "updates": {
+        "4": {
+          "box": [
+            513,
+            334,
+            539,
+            433
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null
+        },
+        "11": {
+          "box": [
+            630,
+            437,
+            676,
+            487
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null
+        },
+        "20": {
+          "box": [
+            696,
+            415,
+            791,
+            489
+          ],
+          "floor": [
+            737,
+            482
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        }
+      },
+      "add": [
+        {
+          "id": 101,
+          "box": [
+            528,
+            350,
+            556,
+            443
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 102,
+          "box": [
+            596,
+            339,
+            620,
+            417
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 103,
+          "box": [
+            644,
+            334,
+            667,
+            411
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        }
+      ]
+    },
+    "5462": {
+      "updates": {
+        "1": {
+          "box": [
+            412,
+            405,
+            487,
+            461
+          ]
+        },
+        "4": {
+          "box": [
+            514,
+            333,
+            541,
+            433
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null
+        },
+        "13": {
+          "box": [
+            511,
+            414,
+            557,
+            469
+          ],
+          "floor": [
+            537,
+            465
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "20": {
+          "box": [
+            697,
+            414,
+            788,
+            490
+          ],
+          "floor": [
+            737,
+            482
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        }
+      },
+      "add": [
+        {
+          "id": 101,
+          "box": [
+            528,
+            350,
+            556,
+            443
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 102,
+          "box": [
+            596,
+            339,
+            620,
+            417
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 103,
+          "box": [
+            644,
+            334,
+            667,
+            411
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 104,
+          "box": [
+            658,
+            341,
+            677,
+            417
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 105,
+          "box": [
+            573,
+            391,
+            620,
+            444
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 106,
+          "box": [
+            612,
+            414,
+            648,
+            479
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 107,
+          "box": [
+            640,
+            397,
+            670,
+            458
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 108,
+          "box": [
+            497,
+            441,
+            604,
+            499
+          ],
+          "floor": [
+            556,
+            484
+          ],
+          "contact": "visible",
+          "support_type": "seat",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        }
+      ]
+    },
+    "5473": {
+      "updates": {
+        "1": {
+          "box": [
+            412,
+            405,
+            487,
+            461
+          ]
+        },
+        "4": {
+          "box": [
+            514,
+            333,
+            541,
+            433
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null
+        },
+        "13": {
+          "box": [
+            511,
+            414,
+            557,
+            469
+          ],
+          "floor": [
+            537,
+            465
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "20": {
+          "box": [
+            697,
+            414,
+            788,
+            490
+          ],
+          "floor": [
+            737,
+            482
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        }
+      },
+      "add": [
+        {
+          "id": 101,
+          "box": [
+            528,
+            350,
+            556,
+            443
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 102,
+          "box": [
+            596,
+            339,
+            620,
+            417
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 103,
+          "box": [
+            644,
+            334,
+            667,
+            411
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 104,
+          "box": [
+            658,
+            341,
+            677,
+            417
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 105,
+          "box": [
+            573,
+            391,
+            620,
+            444
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 106,
+          "box": [
+            612,
+            414,
+            648,
+            479
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 107,
+          "box": [
+            640,
+            397,
+            670,
+            458
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 108,
+          "box": [
+            497,
+            441,
+            604,
+            499
+          ],
+          "floor": [
+            556,
+            484
+          ],
+          "contact": "visible",
+          "support_type": "seat",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        }
+      ]
+    },
+    "5486": {
+      "updates": {
+        "1": {
+          "box": [
+            412,
+            405,
+            487,
+            461
+          ]
+        },
+        "4": {
+          "box": [
+            514,
+            333,
+            541,
+            433
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null
+        },
+        "13": {
+          "box": [
+            511,
+            414,
+            557,
+            469
+          ],
+          "floor": [
+            537,
+            465
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "20": {
+          "box": [
+            697,
+            414,
+            788,
+            490
+          ],
+          "floor": [
+            737,
+            482
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        }
+      },
+      "add": [
+        {
+          "id": 101,
+          "box": [
+            528,
+            350,
+            556,
+            443
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 102,
+          "box": [
+            596,
+            339,
+            620,
+            417
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 103,
+          "box": [
+            644,
+            334,
+            667,
+            411
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 104,
+          "box": [
+            658,
+            341,
+            677,
+            417
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 105,
+          "box": [
+            573,
+            391,
+            620,
+            444
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 106,
+          "box": [
+            612,
+            414,
+            648,
+            479
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 107,
+          "box": [
+            640,
+            397,
+            670,
+            458
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 108,
+          "box": [
+            497,
+            441,
+            604,
+            499
+          ],
+          "floor": [
+            556,
+            484
+          ],
+          "contact": "visible",
+          "support_type": "seat",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        }
+      ]
+    },
+    "5524": {
+      "updates": {
+        "1": {
+          "box": [
+            412,
+            405,
+            487,
+            461
+          ]
+        },
+        "4": {
+          "box": [
+            514,
+            333,
+            541,
+            433
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null
+        },
+        "5": {
+          "box": [
+            478,
+            416,
+            532,
+            483
+          ],
+          "floor": [
+            495,
+            476
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "13": {
+          "box": [
+            612,
+            413,
+            649,
+            479
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null
+        },
+        "20": {
+          "box": [
+            697,
+            414,
+            788,
+            490
+          ],
+          "floor": [
+            737,
+            482
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        }
+      },
+      "add": [
+        {
+          "id": 101,
+          "box": [
+            528,
+            350,
+            556,
+            443
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 102,
+          "box": [
+            596,
+            339,
+            620,
+            417
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 103,
+          "box": [
+            644,
+            334,
+            667,
+            411
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 104,
+          "box": [
+            658,
+            341,
+            677,
+            417
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 105,
+          "box": [
+            573,
+            391,
+            620,
+            444
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 107,
+          "box": [
+            640,
+            397,
+            670,
+            458
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 108,
+          "box": [
+            497,
+            441,
+            604,
+            499
+          ],
+          "floor": [
+            556,
+            484
+          ],
+          "contact": "visible",
+          "support_type": "seat",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 109,
+          "box": [
+            513,
+            416,
+            557,
+            470
+          ],
+          "floor": [
+            537,
+            466
+          ],
+          "contact": "visible",
+          "support_type": "seat",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        }
+      ]
+    },
+    "5586": {
+      "updates": {
+        "1": {
+          "box": [
+            412,
+            405,
+            487,
+            461
+          ]
+        },
+        "4": {
+          "box": [
+            514,
+            333,
+            541,
+            433
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null
+        },
+        "13": {
+          "box": [
+            612,
+            413,
+            649,
+            479
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null
+        },
+        "20": {
+          "box": [
+            697,
+            414,
+            788,
+            490
+          ],
+          "floor": [
+            737,
+            482
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        }
+      },
+      "add": [
+        {
+          "id": 101,
+          "box": [
+            528,
+            350,
+            556,
+            443
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 102,
+          "box": [
+            596,
+            339,
+            620,
+            417
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 103,
+          "box": [
+            644,
+            334,
+            667,
+            411
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 104,
+          "box": [
+            658,
+            341,
+            677,
+            417
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 105,
+          "box": [
+            573,
+            391,
+            620,
+            444
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 107,
+          "box": [
+            640,
+            397,
+            670,
+            458
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 108,
+          "box": [
+            497,
+            441,
+            604,
+            499
+          ],
+          "floor": [
+            556,
+            484
+          ],
+          "contact": "visible",
+          "support_type": "seat",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 109,
+          "box": [
+            513,
+            416,
+            557,
+            470
+          ],
+          "floor": [
+            537,
+            466
+          ],
+          "contact": "visible",
+          "support_type": "seat",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        }
+      ]
+    },
+    "5595": {
+      "updates": {
+        "1": {
+          "box": [
+            412,
+            405,
+            487,
+            461
+          ]
+        },
+        "4": {
+          "box": [
+            514,
+            333,
+            541,
+            433
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null
+        },
+        "13": {
+          "box": [
+            612,
+            413,
+            649,
+            479
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null
+        },
+        "20": {
+          "box": [
+            697,
+            414,
+            788,
+            490
+          ],
+          "floor": [
+            737,
+            482
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        }
+      },
+      "add": [
+        {
+          "id": 101,
+          "box": [
+            528,
+            350,
+            556,
+            443
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 102,
+          "box": [
+            596,
+            339,
+            620,
+            417
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 103,
+          "box": [
+            644,
+            334,
+            667,
+            411
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 104,
+          "box": [
+            658,
+            341,
+            677,
+            417
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 105,
+          "box": [
+            573,
+            391,
+            620,
+            444
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 107,
+          "box": [
+            640,
+            397,
+            670,
+            458
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 108,
+          "box": [
+            497,
+            441,
+            604,
+            499
+          ],
+          "floor": [
+            556,
+            484
+          ],
+          "contact": "visible",
+          "support_type": "seat",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 109,
+          "box": [
+            513,
+            416,
+            557,
+            470
+          ],
+          "floor": [
+            537,
+            466
+          ],
+          "contact": "visible",
+          "support_type": "seat",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        }
+      ]
+    },
+    "5651": {
+      "updates": {
+        "1": {
+          "box": [
+            410,
+            399,
+            487,
+            469
+          ]
+        },
+        "20": {
+          "box": [
+            700,
+            415,
+            790,
+            492
+          ],
+          "floor": [
+            735,
+            484
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        }
+      },
+      "add": [
+        {
+          "id": 101,
+          "box": [
+            504,
+            331,
+            539,
+            435
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 102,
+          "box": [
+            555,
+            333,
+            594,
+            426
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 103,
+          "box": [
+            651,
+            333,
+            676,
+            418
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 104,
+          "box": [
+            675,
+            348,
+            694,
+            417
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 105,
+          "box": [
+            572,
+            392,
+            617,
+            445
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 106,
+          "box": [
+            641,
+            403,
+            672,
+            457
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 107,
+          "box": [
+            516,
+            411,
+            558,
+            474
+          ],
+          "floor": [
+            538,
+            467
+          ],
+          "contact": "visible",
+          "support_type": "seat",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 108,
+          "box": [
+            496,
+            443,
+            574,
+            500
+          ],
+          "floor": [
+            557,
+            486
+          ],
+          "contact": "visible",
+          "support_type": "seat",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        }
+      ]
+    },
+    "5658": {
+      "updates": {
+        "11": {
+          "box": [
+            625,
+            410,
+            670,
+            473
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null
+        },
+        "13": {
+          "box": [
+            632,
+            414,
+            709,
+            496
+          ],
+          "floor": [
+            680,
+            486
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "20": {
+          "box": [
+            704,
+            416,
+            779,
+            508
+          ],
+          "floor": [
+            733,
+            490
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        }
+      },
+      "add": [
+        {
+          "id": 101,
+          "box": [
+            489,
+            330,
+            535,
+            442
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 102,
+          "box": [
+            553,
+            334,
+            591,
+            427
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 103,
+          "box": [
+            649,
+            333,
+            671,
+            420
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 104,
+          "box": [
+            668,
+            345,
+            695,
+            421
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 105,
+          "box": [
+            573,
+            392,
+            616,
+            446
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 106,
+          "box": [
+            609,
+            405,
+            646,
+            482
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 107,
+          "box": [
+            509,
+            402,
+            556,
+            471
+          ],
+          "floor": null,
+          "contact": "uncertain",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 108,
+          "box": [
+            488,
+            441,
+            581,
+            502
+          ],
+          "floor": [
+            550,
+            484
+          ],
+          "contact": "visible",
+          "support_type": "seat",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 109,
+          "box": [
+            411,
+            399,
+            484,
+            470
+          ],
+          "floor": [
+            456,
+            451
+          ],
+          "contact": "visible",
+          "support_type": "seat",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        }
+      ]
+    },
+    "5668": {
+      "updates": {
+        "1": {
+          "box": [
+            484,
+            328,
+            525,
+            447
+          ]
+        },
+        "5": {
+          "box": [
+            459,
+            424,
+            514,
+            487
+          ]
+        },
+        "20": {
+          "box": [
+            704,
+            418,
+            771,
+            508
+          ]
+        }
+      },
+      "add": [
+        {
+          "id": 101,
+          "box": [
+            409,
+            399,
+            479,
+            471
+          ],
+          "floor": null,
+          "contact": "uncertain",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 102,
+          "box": [
+            555,
+            333,
+            590,
+            435
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 103,
+          "box": [
+            659,
+            344,
+            699,
+            427
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 104,
+          "box": [
+            504,
+            386,
+            555,
+            482
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 105,
+          "box": [
+            487,
+            439,
+            589,
+            503
+          ],
+          "floor": null,
+          "contact": "uncertain",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 106,
+          "box": [
+            608,
+            411,
+            651,
+            487
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        },
+        {
+          "id": 107,
+          "box": [
+            579,
+            414,
+            633,
+            498
+          ],
+          "floor": null,
+          "contact": "uncertain",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual QA of the source frame. Image-local dancer annotation."
+        }
+      ]
+    }
+  },
+  "notes": "Compared the source and proposal overlay of all 34 assigned images. Used gamma-lifted source closeups in the dark stationary ending and corroborated distinct bodies with adjacent visual labels. Patches address obvious omissions and misassigned extent or contact. Tight moving overlaps, uncertain floor supports, and some low-contrast occlusions remain unresolved. This is assistant visual QA rather than an exhaustive detector or contact reference. In particular frames 4978, 4999, 5023, 5093, 5109, 5129, 5193, 5200, 5229, 5246, 5257 and 5281 contain dense overlap or partial tracks."
+}

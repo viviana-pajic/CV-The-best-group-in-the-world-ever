@@ -1,0 +1,416 @@
+{
+  "scope": "Blind repeat assistant review of20 sampled training crops. Existing support points/status are omitted from sheets. Same-agent repeatability, not independent human agreement and not a model test. No training/test labels or model choices will be changed from this check.",
+  "samples": 20,
+  "same_contact_status": 17,
+  "both_visible": 14,
+  "median_pixel_difference": 6.324555320336759,
+  "p90_pixel_difference": 10.221903785027168,
+  "median_stage_difference_pct_width": 0.6272932292980272,
+  "p90_stage_difference_pct_width": 1.12639448435251,
+  "different_contact_status": [
+    {
+      "sample": 3,
+      "source_frame": 5371,
+      "instance_id": 8,
+      "original_contact": "visible",
+      "repeat_contact": "uncertain",
+      "original_kind": "seat",
+      "repeat_kind": null,
+      "original_point": [
+        591,
+        490
+      ],
+      "repeat_point": null,
+      "pixel_difference": null,
+      "stage_difference_pct_width": null
+    },
+    {
+      "sample": 7,
+      "source_frame": 5480,
+      "instance_id": 1,
+      "original_contact": "visible",
+      "repeat_contact": "uncertain",
+      "original_kind": "seat",
+      "repeat_kind": null,
+      "original_point": [
+        466,
+        453
+      ],
+      "repeat_point": null,
+      "pixel_difference": null,
+      "stage_difference_pct_width": null
+    },
+    {
+      "sample": 12,
+      "source_frame": 4207,
+      "instance_id": 5,
+      "original_contact": "visible",
+      "repeat_contact": "uncertain",
+      "original_kind": "feet",
+      "repeat_kind": null,
+      "original_point": [
+        409,
+        479
+      ],
+      "repeat_point": null,
+      "pixel_difference": null,
+      "stage_difference_pct_width": null
+    }
+  ],
+  "rows": [
+    {
+      "sample": 1,
+      "source_frame": 3521,
+      "instance_id": 19,
+      "original_contact": "visible",
+      "repeat_contact": "visible",
+      "original_kind": "palms",
+      "repeat_kind": "palms",
+      "original_point": [
+        1096,
+        505
+      ],
+      "repeat_point": [
+        1085,
+        503
+      ],
+      "pixel_difference": 11.180339887498949,
+      "stage_difference_pct_width": 0.7432641875664463
+    },
+    {
+      "sample": 2,
+      "source_frame": 3521,
+      "instance_id": 17,
+      "original_contact": "visible",
+      "repeat_contact": "visible",
+      "original_kind": "palms",
+      "repeat_kind": "palms",
+      "original_point": [
+        1034,
+        549
+      ],
+      "repeat_point": [
+        1034,
+        550
+      ],
+      "pixel_difference": 1.0,
+      "stage_difference_pct_width": 0.19202011772112867
+    },
+    {
+      "sample": 3,
+      "source_frame": 5371,
+      "instance_id": 8,
+      "original_contact": "visible",
+      "repeat_contact": "uncertain",
+      "original_kind": "seat",
+      "repeat_kind": null,
+      "original_point": [
+        591,
+        490
+      ],
+      "repeat_point": null,
+      "pixel_difference": null,
+      "stage_difference_pct_width": null
+    },
+    {
+      "sample": 4,
+      "source_frame": 4528,
+      "instance_id": 12,
+      "original_contact": "visible",
+      "repeat_contact": "visible",
+      "original_kind": "feet",
+      "repeat_kind": "feet",
+      "original_point": [
+        717,
+        456
+      ],
+      "repeat_point": [
+        716,
+        456
+      ],
+      "pixel_difference": 1.0,
+      "stage_difference_pct_width": 0.10129197447873933
+    },
+    {
+      "sample": 5,
+      "source_frame": 3360,
+      "instance_id": 22,
+      "original_contact": "visible",
+      "repeat_contact": "visible",
+      "original_kind": "knees",
+      "repeat_kind": "feet",
+      "original_point": [
+        1008,
+        541
+      ],
+      "repeat_point": [
+        1016,
+        540
+      ],
+      "pixel_difference": 8.06225774829855,
+      "stage_difference_pct_width": 0.6844224179327574
+    },
+    {
+      "sample": 6,
+      "source_frame": 3318,
+      "instance_id": 1,
+      "original_contact": "visible",
+      "repeat_contact": "visible",
+      "original_kind": "feet",
+      "repeat_kind": "feet",
+      "original_point": [
+        109,
+        548
+      ],
+      "repeat_point": [
+        106,
+        549
+      ],
+      "pixel_difference": 3.1622776601683795,
+      "stage_difference_pct_width": 0.17428930234376955
+    },
+    {
+      "sample": 7,
+      "source_frame": 5480,
+      "instance_id": 1,
+      "original_contact": "visible",
+      "repeat_contact": "uncertain",
+      "original_kind": "seat",
+      "repeat_kind": null,
+      "original_point": [
+        466,
+        453
+      ],
+      "repeat_point": null,
+      "pixel_difference": null,
+      "stage_difference_pct_width": null
+    },
+    {
+      "sample": 8,
+      "source_frame": 3507,
+      "instance_id": 12,
+      "original_contact": "hidden",
+      "repeat_contact": "hidden",
+      "original_kind": null,
+      "repeat_kind": null,
+      "original_point": null,
+      "repeat_point": null,
+      "pixel_difference": null,
+      "stage_difference_pct_width": null
+    },
+    {
+      "sample": 9,
+      "source_frame": 3843,
+      "instance_id": 4,
+      "original_contact": "hidden",
+      "repeat_contact": "hidden",
+      "original_kind": null,
+      "repeat_kind": null,
+      "original_point": null,
+      "repeat_point": null,
+      "pixel_difference": null,
+      "stage_difference_pct_width": null
+    },
+    {
+      "sample": 10,
+      "source_frame": 3290,
+      "instance_id": 21,
+      "original_contact": "visible",
+      "repeat_contact": "visible",
+      "original_kind": "feet",
+      "repeat_kind": "feet",
+      "original_point": [
+        979,
+        530
+      ],
+      "repeat_point": [
+        973,
+        528
+      ],
+      "pixel_difference": 6.324555320336759,
+      "stage_difference_pct_width": 0.4520918290695907
+    },
+    {
+      "sample": 11,
+      "source_frame": 5400,
+      "instance_id": 18,
+      "original_contact": "visible",
+      "repeat_contact": "visible",
+      "original_kind": "seat",
+      "repeat_kind": "seat",
+      "original_point": [
+        686,
+        481
+      ],
+      "repeat_point": [
+        689,
+        483
+      ],
+      "pixel_difference": 3.605551275463989,
+      "stage_difference_pct_width": 0.6115821284791534
+    },
+    {
+      "sample": 12,
+      "source_frame": 4207,
+      "instance_id": 5,
+      "original_contact": "visible",
+      "repeat_contact": "uncertain",
+      "original_kind": "feet",
+      "repeat_kind": null,
+      "original_point": [
+        409,
+        479
+      ],
+      "repeat_point": null,
+      "pixel_difference": null,
+      "stage_difference_pct_width": null
+    },
+    {
+      "sample": 13,
+      "source_frame": 4456,
+      "instance_id": 13,
+      "original_contact": "visible",
+      "repeat_contact": "visible",
+      "original_kind": "knees",
+      "repeat_kind": "knees",
+      "original_point": [
+        730,
+        533
+      ],
+      "repeat_point": [
+        736,
+        536
+      ],
+      "pixel_difference": 6.708203932499369,
+      "stage_difference_pct_width": 0.6430043301169011
+    },
+    {
+      "sample": 14,
+      "source_frame": 5440,
+      "instance_id": 21,
+      "original_contact": "visible",
+      "repeat_contact": "visible",
+      "original_kind": "seat",
+      "repeat_kind": "seat",
+      "original_point": [
+        724,
+        481
+      ],
+      "repeat_point": [
+        715,
+        486
+      ],
+      "pixel_difference": 10.295630140987,
+      "stage_difference_pct_width": 1.7224322740785714
+    },
+    {
+      "sample": 15,
+      "source_frame": 3507,
+      "instance_id": 21,
+      "original_contact": "visible",
+      "repeat_contact": "visible",
+      "original_kind": "feet",
+      "repeat_kind": "feet",
+      "original_point": [
+        1195,
+        546
+      ],
+      "repeat_point": [
+        1198,
+        545
+      ],
+      "pixel_difference": 3.1622776601683795,
+      "stage_difference_pct_width": 0.3934946034540741
+    },
+    {
+      "sample": 16,
+      "source_frame": 3346,
+      "instance_id": 18,
+      "original_contact": "visible",
+      "repeat_contact": "visible",
+      "original_kind": "seat",
+      "repeat_kind": "seat",
+      "original_point": [
+        956,
+        548
+      ],
+      "repeat_point": [
+        957,
+        545
+      ],
+      "pixel_difference": 3.1622776601683795,
+      "stage_difference_pct_width": 0.5921182301736259
+    },
+    {
+      "sample": 17,
+      "source_frame": 4665,
+      "instance_id": 12,
+      "original_contact": "visible",
+      "repeat_contact": "visible",
+      "original_kind": "knees",
+      "repeat_kind": "knees",
+      "original_point": [
+        715,
+        457
+      ],
+      "repeat_point": [
+        721,
+        455
+      ],
+      "pixel_difference": 6.324555320336759,
+      "stage_difference_pct_width": 1.0363917100880256
+    },
+    {
+      "sample": 18,
+      "source_frame": 5329,
+      "instance_id": 8,
+      "original_contact": "hidden",
+      "repeat_contact": "hidden",
+      "original_kind": null,
+      "repeat_kind": null,
+      "original_point": null,
+      "repeat_point": null,
+      "pixel_difference": null,
+      "stage_difference_pct_width": null
+    },
+    {
+      "sample": 19,
+      "source_frame": 4385,
+      "instance_id": 2,
+      "original_contact": "visible",
+      "repeat_contact": "visible",
+      "original_kind": "knees",
+      "repeat_kind": "knees",
+      "original_point": [
+        260,
+        479
+      ],
+      "repeat_point": [
+        250,
+        478
+      ],
+      "pixel_difference": 10.04987562112089,
+      "stage_difference_pct_width": 1.0626738645170015
+    },
+    {
+      "sample": 20,
+      "source_frame": 5357,
+      "instance_id": 12,
+      "original_contact": "visible",
+      "repeat_contact": "visible",
+      "original_kind": "knees",
+      "repeat_kind": "seat",
+      "original_point": [
+        687,
+        499
+      ],
+      "repeat_point": [
+        693,
+        495
+      ],
+      "pixel_difference": 7.211102550927978,
+      "stage_difference_pct_width": 1.1537033214248706
+    }
+  ],
+  "interpretation": "Repeat placement uncertainty is not model error or a confidence interval. The same assistant reviewed the source twice; independent teammate review remains necessary. Difficult floor poses can change both point placement and visible/uncertain status. No frozen model labels or scores were altered."
+}

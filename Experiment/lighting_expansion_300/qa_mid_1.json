@@ -1,0 +1,423 @@
+{
+  "reviewed_frames": [
+    3930,
+    3936,
+    4099,
+    4141,
+    4150,
+    4159,
+    4210,
+    4219,
+    4241,
+    4255,
+    4261,
+    4326,
+    4340,
+    4346,
+    4354,
+    4367
+  ],
+  "changes": {
+    "4141": {
+      "updates": {
+        "15": {
+          "floor": [
+            465,
+            522
+          ]
+        }
+      }
+    },
+    "4150": {
+      "updates": {
+        "6": {
+          "floor": [
+            353,
+            491
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "17": {
+          "box": [
+            517,
+            362,
+            616,
+            498
+          ]
+        },
+        "20": {
+          "box": [
+            674,
+            372,
+            719,
+            497
+          ],
+          "floor": [
+            688,
+            490
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "4159": {
+      "updates": {
+        "4": {
+          "box": [
+            416,
+            376,
+            562,
+            534
+          ]
+        }
+      }
+    },
+    "4210": {
+      "updates": {
+        "13": {
+          "box": [
+            543,
+            394,
+            646,
+            524
+          ],
+          "floor": [
+            590,
+            519
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      },
+      "add": [
+        {
+          "id": 21,
+          "box": [
+            563,
+            474,
+            625,
+            549
+          ],
+          "floor": [
+            598,
+            540
+          ],
+          "contact": "visible",
+          "support_type": "palms",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual separation of the foreground folded dancer."
+        }
+      ]
+    },
+    "4219": {
+      "updates": {
+        "8": {
+          "floor": [
+            222,
+            525
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "13": {
+          "box": [
+            539,
+            421,
+            646,
+            527
+          ],
+          "floor": [
+            592,
+            519
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "19": {
+          "floor": null,
+          "contact": "airborne",
+          "support_type": null
+        }
+      },
+      "remove": [
+        17
+      ],
+      "add": [
+        {
+          "id": 21,
+          "box": [
+            553,
+            473,
+            626,
+            540
+          ],
+          "floor": [
+            612,
+            535
+          ],
+          "contact": "visible",
+          "support_type": "palms",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual separation of the foreground crouched dancer."
+        }
+      ]
+    },
+    "4241": {
+      "updates": {
+        "8": {
+          "floor": [
+            337,
+            534
+          ]
+        }
+      }
+    },
+    "4255": {
+      "updates": {
+        "1": {
+          "box": [
+            259,
+            341,
+            307,
+            453
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null
+        },
+        "3": {
+          "floor": [
+            139,
+            494
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "5": {
+          "floor": [
+            429,
+            445
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "8": {
+          "floor": [
+            417,
+            530
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "16": {
+          "floor": [
+            832,
+            475
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      },
+      "add": [
+        {
+          "id": 2,
+          "box": [
+            254,
+            382,
+            331,
+            479
+          ],
+          "floor": [
+            287,
+            469
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false,
+          "provenance": "Assistant visual separation of the kneeling dancer from the upright dancer behind."
+        }
+      ]
+    },
+    "4261": {
+      "updates": {
+        "8": {
+          "floor": [
+            431,
+            532
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "16": {
+          "floor": [
+            852,
+            472
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "17": {
+          "box": [
+            780,
+            355,
+            821,
+            474
+          ],
+          "floor": [
+            802,
+            467
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "4326": {
+      "updates": {
+        "6": {
+          "box": [
+            374,
+            342,
+            466,
+            492
+          ]
+        }
+      }
+    },
+    "4340": {
+      "updates": {
+        "4": {
+          "floor": [
+            369,
+            425
+          ],
+          "contact": "visible",
+          "support_type": "palms"
+        },
+        "6": {
+          "box": [
+            337,
+            340,
+            502,
+            493
+          ]
+        },
+        "10": {
+          "box": [
+            547,
+            337,
+            695,
+            486
+          ]
+        },
+        "14": {
+          "floor": [
+            750,
+            414
+          ],
+          "contact": "visible",
+          "support_type": "palms"
+        }
+      }
+    },
+    "4346": {
+      "updates": {
+        "6": {
+          "box": [
+            353,
+            339,
+            463,
+            494
+          ]
+        },
+        "9": {
+          "box": [
+            505,
+            333,
+            597,
+            451
+          ]
+        },
+        "15": {
+          "box": [
+            770,
+            352,
+            843,
+            489
+          ]
+        }
+      }
+    },
+    "4354": {
+      "updates": {
+        "6": {
+          "box": [
+            368,
+            353,
+            481,
+            493
+          ]
+        },
+        "17": {
+          "box": [
+            832,
+            349,
+            908,
+            457
+          ],
+          "floor": [
+            848,
+            454
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "4367": {
+      "updates": {
+        "6": {
+          "box": [
+            349,
+            349,
+            455,
+            495
+          ]
+        },
+        "15": {
+          "box": [
+            748,
+            358,
+            850,
+            491
+          ]
+        }
+      }
+    }
+  },
+  "notes": {
+    "3930": "Dense held pose; preserved unresolved contacts and avoided moving points where two dancers overlap.",
+    "3936": "Dense held pose; ambiguous legs and partial bodies preserved.",
+    "4099": "Dancer group overlaps; clear proposed points aligned with visible shoes, and crowded back-row assignments were left uncertain.",
+    "4150": "Extended the running dancer box to cover a low visible shoe. Tagged grounded feet for the white top at x355 and the white outfit at x690; their overlapping partner remains difficult to separate confidently.",
+    "4159": "Included the green foreground dancer's extended foot at right in the box.",
+    "4210": "Separated the center upright dancer from the folded green dancer and added the latter's palm support.",
+    "4219": "Separated central standing and crouching dancers, marked the far-right lifted dancer airborne, and removed a tight duplicate box of the right-side white top.",
+    "4241": "Corrected the foreground wide-stance floor point. Right-hand lift remains hard to separate.",
+    "4255": "Separated crouching and standing left dancers and added visible shoe points in open areas.",
+    "4326": "Extended the turning foreground white-shirt dancer box to include the left arm.",
+    "4340": "Restored two clearly visible palms and included extended shoes in the standing boxes.",
+    "4346": "Expanded boxes around clipped extended arms, shoes, and the white skirt.",
+    "4354": "Added a clearly visible support foot for the rear-right turner.",
+    "4367": "Extended boxes around clearly visible arm and skirt edges.",
+    "scope": "Assistant visual inspection of source and proposal overlays. Corrections are approximate coordinates. Dense overlap and blur prevent confident separation of several neighboring dancers. These changes do not constitute human review."
+  }
+}

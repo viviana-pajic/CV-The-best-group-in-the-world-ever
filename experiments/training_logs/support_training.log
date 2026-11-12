@@ -1,0 +1,6 @@
+CUDA: NVIDIA GeForce RTX 5080 runtime 12.8 training contact counts Counter({'visible': 4068, 'hidden': 835, 'uncertain': 497, 'airborne': 59})
+lighting_300_visual_s17 1 loss 5.91 jointF1 0.83 elapsed 34.8
+lighting_300_visual_s17 10 loss 6.815 jointF1 0.832 elapsed 230.5
+lighting_300_visual_s17 20 loss 7.405 jointF1 0.85 elapsed 447.5
+lighting_300_visual_s17 30 loss 7.484 jointF1 0.864 elapsed 666.7
+FINISHED lighting_300_visual_s17 1

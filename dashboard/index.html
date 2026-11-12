@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Formation Review · Dance CV</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23192d2c'/%3E%3Cpath d='M7 21L25 11' stroke='%237de8be' stroke-width='2'/%3E%3Ccircle cx='7' cy='21' r='2.5' fill='%237de8be'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%237de8be'/%3E%3Ccircle cx='25' cy='11' r='2.5' fill='%237de8be'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="assets/stage-replay.js"></script>
+  <script defer src="assets/CbpSMoPItu0.js"></script>
+  <script defer src="assets/YoF0XeYhPL0.js"></script>
+  <script defer src="assets/0BorT97NOmQ.js"></script>
+  <script defer src="formation.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <svg class="icon-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-formation" viewBox="0 0 24 24">
+      <path d="M4 17.5 20 6.5" stroke="currentColor" stroke-width="1.5"/>
+      <circle cx="4" cy="17.5" r="2.35" fill="currentColor"/>
+      <circle cx="12" cy="12" r="2.35" fill="currentColor"/>
+      <circle cx="20" cy="6.5" r="2.35" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 5v14m6-14v14" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-prev" viewBox="0 0 24 24"><path d="m14 7-5 5 5 5M6 7v10" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-next" viewBox="0 0 24 24"><path d="m10 7 5 5-5 5m8-10v10" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-video" viewBox="0 0 24 24"><path d="M14.5 8.5 20 6v12l-5.5-2.5M5 6.5h7.5a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="m12 4 8 4.5-8 4.5L4 8.5 12 4Zm-8 8.5 8 4.5 8-4.5m-16 4 8 4.5 8-4.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-adjust" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M9 3.5v5m6 1v5m-7 1v5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12s3.5-5.5 9.5-5.5 9.5 5.5 9.5 5.5-3.5 5.5-9.5 5.5S2.5 12 2.5 12Z" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="2.25" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+  </svg>
+  <main class="workspace">
+    <header class="page-header">
+      <div class="identity">
+        <div class="brand-mark"><svg><use href="#i-formation"/></svg></div>
+        <div>
+          <p class="project-name">Dance CV Challenge</p>
+          <h1>Formation Review</h1>
+        </div>
+      </div>
+      <div class="clip-control">
+        <label for="clip-select">Choreography</label>
+        <select id="clip-select"></select>
+      </div>
+    </header>
+
+    <div class="view-grid">
+      <section class="panel video-panel" aria-labelledby="video-title">
+        <div class="panel-header">
+          <div class="section-title">
+            <svg><use href="#i-video"/></svg>
+            <h2 id="video-title">Stage replay</h2>
+          </div>
+          <span class="frame-label" id="source-frame">Frame —</span>
+        </div>
+        <div class="video-view" id="video-view">
+          <video id="video" preload="auto" playsinline aria-label="Choreography video"></video>
+          <canvas id="video-overlay" aria-hidden="true"></canvas>
+          <p class="media-error" id="media-error" role="alert" hidden></p>
+        </div>
+        <div class="transport">
+          <label class="sr-only" for="timeline">Video position</label>
+          <input type="range" class="timeline" id="timeline" min="0" max="1" value="0" step="1">
+          <div class="transport-row">
+            <div class="transport-buttons">
+              <button type="button" class="play-button" id="play" aria-label="Play" title="Play or pause (Space)">
+                <svg><use id="play-icon" href="#i-play"/></svg>
+              </button>
+              <button type="button" class="icon-button" id="previous" aria-label="Previous frame" title="Previous frame (Left arrow)">
+                <svg><use href="#i-prev"/></svg>
+              </button>
+              <button type="button" class="icon-button" id="next" aria-label="Next frame" title="Next frame (Right arrow)">
+                <svg><use href="#i-next"/></svg>
+              </button>
+            </div>
+            <p class="playback-time"><strong id="position">00:00.00</strong><span aria-hidden="true">/</span><span id="duration">00:00.00</span></p>
+            <span class="transport-hint">← / → &nbsp; step one frame</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel map-panel" aria-labelledby="map-title">
+        <div class="panel-header">
+          <div class="section-title">
+            <svg><use href="#i-map"/></svg>
+            <div>
+              <h2 id="map-title">Formation map</h2>
+              <span class="map-dimensions" id="map-dimensions" hidden></span>
+            </div>
+          </div>
+          <span id="analysis-status" class="analysis-status" role="status"></span>
+        </div>
+        <div class="map-view">
+          <div class="map-axis">Back of stage</div>
+          <canvas id="stage-map" aria-label="Top-down map of dancer contacts and fitted lines" role="img"></canvas>
+          <div class="map-axis front">Front of stage</div>
+        </div>
+        <div class="map-legend" aria-label="Contact point legend">
+          <span><i class="point-key"></i> Reported contact</span>
+          <span><i class="point-key estimated"></i> Estimated position</span>
+        </div>
+        <div class="map-metrics">
+          <div class="score-summary">
+            <span>Overall alignment</span>
+            <strong id="alignment">—</strong>
+          </div>
+          <div class="line-details">
+            <table aria-label="Alignment by fitted line">
+              <thead><tr><th scope="col">Line</th><th scope="col">Dots</th><th scope="col">Angle</th><th scope="col">Score</th></tr></thead>
+              <tbody id="line-rows"></tbody>
+            </table>
+            <p id="empty-lines" class="empty-lines" hidden>No lines meet these settings at this frame.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="settings-grid">
+      <section class="panel settings-panel" aria-labelledby="detection-title">
+        <div class="section-title">
+          <svg><use href="#i-adjust"/></svg>
+          <h2 id="detection-title">Line detection</h2>
+        </div>
+        <div class="slider-grid">
+          <div class="setting">
+            <div class="setting-label"><label for="minimum">Minimum dots per line</label><output id="minimum-value" for="minimum">4</output></div>
+            <input type="range" id="minimum" min="2" max="10" step="1" value="4">
+            <div class="range-ends"><span>2 dots</span><span>10 dots</span></div>
+          </div>
+          <div class="setting">
+            <div class="setting-label"><label for="angle">Maximum line angle</label><output id="angle-value" for="angle">±10°</output></div>
+            <input type="range" id="angle" min="0" max="30" step="1" value="10">
+            <div class="range-ends"><span>Horizontal</span><span>±30°</span></div>
+          </div>
+        </div>
+      </section>
+      <section class="panel settings-panel" aria-labelledby="layers-title">
+        <div class="section-title">
+          <svg><use href="#i-eye"/></svg>
+          <h2 id="layers-title">Display layers</h2>
+        </div>
+        <div class="layer-groups">
+          <fieldset>
+            <legend>Stage replay</legend>
+            <div class="switch-row">
+              <label class="switch"><input id="show-boxes" type="checkbox" role="switch" checked><span class="switch-track"></span>Dancer boxes</label>
+              <label class="switch"><input id="show-floor" type="checkbox" role="switch" checked><span class="switch-track"></span>Floor guides</label>
+              <label class="switch"><input id="show-contacts" type="checkbox" role="switch" checked><span class="switch-track"></span>Contact dots</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Formation map</legend>
+            <div class="switch-row">
+              <label class="switch"><input id="show-lines" type="checkbox" role="switch" checked><span class="switch-track"></span>Formation lines</label>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+    </div>
+    <footer class="page-footer">
+      <details>
+        <summary>How alignment is scored</summary>
+        <p>Each line is fitted to reported contacts. Its score starts at 100% and drops as the average perpendicular distance increases, reaching 0% at 6% of the stage width. Overall alignment averages the detected line scores. Hollow points are tracked estimates and do not contribute to a line. Two dots can define a perfect line, so use a higher minimum when judging group alignment.</p>
+      </details>
+      <span id="replay-meta"></span>
+    </footer>
+  </main>
+</body>
+</html>

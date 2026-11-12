@@ -1,0 +1,155 @@
+{
+  "protocol": {
+    "scope": "Development-only synthetic crop sensitivity. Same image, +/-4 source-pixel box changes. No physical motion, no tracking, no temporal smoothing. Not a new heldout evaluation or actual temporal jitter measurement. Settings unchanged.",
+    "perturbations": {
+      "original": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "x_-4": [
+        -4,
+        0,
+        -4,
+        0
+      ],
+      "x_4": [
+        4,
+        0,
+        4,
+        0
+      ],
+      "y_-4": [
+        0,
+        -4,
+        0,
+        -4
+      ],
+      "y_4": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "bottom_-4": [
+        0,
+        0,
+        0,
+        -4
+      ],
+      "bottom_4": [
+        0,
+        0,
+        0,
+        4
+      ],
+      "height_-4": [
+        0,
+        4,
+        0,
+        -4
+      ],
+      "height_4": [
+        0,
+        -4,
+        0,
+        4
+      ]
+    },
+    "models": {
+      "established": "v5_attention_s17",
+      "expanded": "v6_attention_wide_s17"
+    },
+    "mode": "crop5flip",
+    "threshold": 0.25
+  },
+  "models": {
+    "established": {
+      "perturbed_examples": 1440,
+      "visibility_flips": 28,
+      "visible_perturbations": 896,
+      "original_correct_3": 848,
+      "perturbed_correct_3": 838,
+      "original_box_correct_3": 680,
+      "perturbed_box_correct_3": 605,
+      "point_shift_pixels": {
+        "median": 1.0106767129569971,
+        "p90": 7.644929906856781
+      },
+      "point_shift_stage": {
+        "median": 0.2108357658648342,
+        "p90": 3.1484372194244106
+      },
+      "box_shift_pixels": {
+        "median": 4.0,
+        "p90": 4.0
+      },
+      "box_shift_stage": {
+        "median": 1.1288420323241763,
+        "p90": 2.2051413715689883
+      },
+      "visible_only_sensitivity": {
+        "point_shift_pixels": {
+          "median": 0.5273613158337639,
+          "p90": 3.40191787783012
+        },
+        "point_shift_stage": {
+          "median": 0.09515486203629614,
+          "p90": 0.6468454749641045
+        },
+        "box_shift_pixels": {
+          "median": 4.0,
+          "p90": 4.0
+        },
+        "box_shift_stage": {
+          "median": 1.029720520386512,
+          "p90": 1.9465883909103547
+        }
+      }
+    },
+    "expanded": {
+      "perturbed_examples": 1440,
+      "visibility_flips": 31,
+      "visible_perturbations": 896,
+      "original_correct_3": 888,
+      "perturbed_correct_3": 883,
+      "original_box_correct_3": 680,
+      "perturbed_box_correct_3": 605,
+      "point_shift_pixels": {
+        "median": 0.683536134323881,
+        "p90": 6.549180452533289
+      },
+      "point_shift_stage": {
+        "median": 0.12753601402455522,
+        "p90": 2.8537421148766984
+      },
+      "box_shift_pixels": {
+        "median": 4.0,
+        "p90": 4.0
+      },
+      "box_shift_stage": {
+        "median": 1.1288420323241763,
+        "p90": 2.2051413715689883
+      },
+      "visible_only_sensitivity": {
+        "point_shift_pixels": {
+          "median": 0.3592238694220192,
+          "p90": 1.7327839823003006
+        },
+        "point_shift_stage": {
+          "median": 0.06411613407713204,
+          "p90": 0.3141525777423088
+        },
+        "box_shift_pixels": {
+          "median": 4.0,
+          "p90": 4.0
+        },
+        "box_shift_stage": {
+          "median": 1.029720520386512,
+          "p90": 1.9465883909103547
+        }
+      }
+    }
+  }
+}

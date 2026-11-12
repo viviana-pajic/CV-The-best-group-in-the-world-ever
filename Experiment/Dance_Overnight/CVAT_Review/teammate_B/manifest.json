@@ -1,0 +1,170 @@
+[
+  {
+    "cvat_image_id": 0,
+    "source_frame": 3346,
+    "filename": "frame_003346.png",
+    "split": "train",
+    "instances": 19
+  },
+  {
+    "cvat_image_id": 1,
+    "source_frame": 3360,
+    "filename": "frame_003360.png",
+    "split": "train",
+    "instances": 21
+  },
+  {
+    "cvat_image_id": 2,
+    "source_frame": 3521,
+    "filename": "frame_003521.png",
+    "split": "train",
+    "instances": 19
+  },
+  {
+    "cvat_image_id": 3,
+    "source_frame": 3535,
+    "filename": "frame_003535.png",
+    "split": "train",
+    "instances": 19
+  },
+  {
+    "cvat_image_id": 4,
+    "source_frame": 3682,
+    "filename": "frame_003682.png",
+    "split": "val",
+    "instances": 15
+  },
+  {
+    "cvat_image_id": 5,
+    "source_frame": 3871,
+    "filename": "frame_003871.png",
+    "split": "train",
+    "instances": 18
+  },
+  {
+    "cvat_image_id": 6,
+    "source_frame": 3885,
+    "filename": "frame_003885.png",
+    "split": "train",
+    "instances": 15
+  },
+  {
+    "cvat_image_id": 7,
+    "source_frame": 4171,
+    "filename": "frame_004171.png",
+    "split": "train",
+    "instances": 14
+  },
+  {
+    "cvat_image_id": 8,
+    "source_frame": 4185,
+    "filename": "frame_004185.png",
+    "split": "train",
+    "instances": 16
+  },
+  {
+    "cvat_image_id": 9,
+    "source_frame": 4193,
+    "filename": "frame_004193.png",
+    "split": "train",
+    "instances": 15
+  },
+  {
+    "cvat_image_id": 10,
+    "source_frame": 4235,
+    "filename": "frame_004235.png",
+    "split": "train",
+    "instances": 17
+  },
+  {
+    "cvat_image_id": 11,
+    "source_frame": 4371,
+    "filename": "frame_004371.png",
+    "split": "train",
+    "instances": 17
+  },
+  {
+    "cvat_image_id": 12,
+    "source_frame": 4385,
+    "filename": "frame_004385.png",
+    "split": "train",
+    "instances": 18
+  },
+  {
+    "cvat_image_id": 13,
+    "source_frame": 4432,
+    "filename": "frame_004432.png",
+    "split": "train",
+    "instances": 20
+  },
+  {
+    "cvat_image_id": 14,
+    "source_frame": 4468,
+    "filename": "frame_004468.png",
+    "split": "train",
+    "instances": 20
+  },
+  {
+    "cvat_image_id": 15,
+    "source_frame": 4504,
+    "filename": "frame_004504.png",
+    "split": "train",
+    "instances": 20
+  },
+  {
+    "cvat_image_id": 16,
+    "source_frame": 4540,
+    "filename": "frame_004540.png",
+    "split": "train",
+    "instances": 20
+  },
+  {
+    "cvat_image_id": 17,
+    "source_frame": 4595,
+    "filename": "frame_004595.png",
+    "split": "val",
+    "instances": 20
+  },
+  {
+    "cvat_image_id": 18,
+    "source_frame": 4665,
+    "filename": "frame_004665.png",
+    "split": "train",
+    "instances": 20
+  },
+  {
+    "cvat_image_id": 19,
+    "source_frame": 4705,
+    "filename": "frame_004705.png",
+    "split": "val",
+    "instances": 20
+  },
+  {
+    "cvat_image_id": 20,
+    "source_frame": 5371,
+    "filename": "frame_005371.png",
+    "split": "train",
+    "instances": 14
+  },
+  {
+    "cvat_image_id": 21,
+    "source_frame": 5385,
+    "filename": "frame_005385.png",
+    "split": "train",
+    "instances": 18
+  },
+  {
+    "cvat_image_id": 22,
+    "source_frame": 5440,
+    "filename": "frame_005440.png",
+    "split": "train",
+    "instances": 15
+  },
+  {
+    "cvat_image_id": 23,
+    "source_frame": 5550,
+    "filename": "frame_005550.png",
+    "split": "val",
+    "instances": 14
+  }
+]

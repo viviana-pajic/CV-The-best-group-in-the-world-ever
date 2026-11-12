@@ -1,0 +1,1 @@
+{'published_detector': {'matched50': 158, 'matched75': 101, 'references': 197, 'predictions': 184, 'f1': 0.8293963254593176}, 'detector_300': {'matched50': 173, 'matched75': 113, 'references': 197, 'predictions': 203, 'f1': 0.865}}

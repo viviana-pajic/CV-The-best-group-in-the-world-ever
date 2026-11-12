@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "scope": "New robust map fit from supplied frozen detector/ID and support caches; full2424-frame context. No fresh detector/support inference claimed. Matches latest confirmation scores exactly.",
+  "counts": {
+    "1": 11,
+    "2": 21,
+    "3": 29,
+    "5": 30
+  },
+  "reference_file": "final_confirmation/results.json",
+  "selection_file": "final_confirmation/frozen_selection.json"
+}

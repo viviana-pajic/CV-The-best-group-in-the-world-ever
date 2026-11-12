@@ -1,0 +1,83 @@
+{
+  "best_epoch": 1,
+  "epochs_run": 30,
+  "seconds": 420.9154897000408,
+  "validation": {
+    "loss": 5.94392188390096,
+    "raw_median_pct_width": 1.280933646859937,
+    "threshold_options": [
+      {
+        "threshold": 0.1,
+        "correct": 101,
+        "refs": 112,
+        "emitted": 180,
+        "joint_f1": 0.6917808219178082,
+        "visibility_f1": 0.7671232876712328,
+        "hidden_emitted": 68
+      },
+      {
+        "threshold": 0.25,
+        "correct": 101,
+        "refs": 112,
+        "emitted": 178,
+        "joint_f1": 0.696551724137931,
+        "visibility_f1": 0.7724137931034483,
+        "hidden_emitted": 66
+      },
+      {
+        "threshold": 0.4,
+        "correct": 101,
+        "refs": 112,
+        "emitted": 162,
+        "joint_f1": 0.7372262773722628,
+        "visibility_f1": 0.8175182481751825,
+        "hidden_emitted": 50
+      },
+      {
+        "threshold": 0.5,
+        "correct": 99,
+        "refs": 112,
+        "emitted": 147,
+        "joint_f1": 0.7644787644787645,
+        "visibility_f1": 0.8494208494208494,
+        "hidden_emitted": 37
+      },
+      {
+        "threshold": 0.6,
+        "correct": 99,
+        "refs": 112,
+        "emitted": 137,
+        "joint_f1": 0.7951807228915663,
+        "visibility_f1": 0.8674698795180723,
+        "hidden_emitted": 29
+      },
+      {
+        "threshold": 0.75,
+        "correct": 97,
+        "refs": 112,
+        "emitted": 118,
+        "joint_f1": 0.8434782608695652,
+        "visibility_f1": 0.9217391304347826,
+        "hidden_emitted": 12
+      },
+      {
+        "threshold": 0.9,
+        "correct": 84,
+        "refs": 112,
+        "emitted": 93,
+        "joint_f1": 0.8195121951219512,
+        "visibility_f1": 0.8682926829268293,
+        "hidden_emitted": 4
+      }
+    ],
+    "selected": {
+      "threshold": 0.75,
+      "correct": 97,
+      "refs": 112,
+      "emitted": 118,
+      "joint_f1": 0.8434782608695652,
+      "visibility_f1": 0.9217391304347826,
+      "hidden_emitted": 12
+    }
+  }
+}

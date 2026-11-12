@@ -1,0 +1,7 @@
+Historical repository: https://github.com/GCM-Novosel/dance-floor-contact
+The submission folder includes the saved checkout and later local work.
+
+fccea00 2026-11-12 Publish the 300-frame walkthrough and project results
+20a7c4e 2026-11-11 Add offline Windows floor contact labeler
+fec901d 2026-11-11 Package 200-frame dance floor contact study and team notebooks
+b29aefc 2026-11-10 Add dance floor contact research and labeling project

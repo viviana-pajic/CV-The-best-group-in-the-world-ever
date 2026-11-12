@@ -1,0 +1,9 @@
+"""Select a clear qualitative excerpt by model coverage, never call it a test."""
+from render_weak_estimates import section
+from render_comparison import *
+
+if __name__=='__main__':
+    cv2.setNumThreads(2);tracks=read(OUT/'late_full_replay/tracks.json');box=read(OUT/'final_confirmation/box_bottom_full_tracks.json');pred=read(OUT/'late_full_replay/support/predictions.json');length=300;counts=np.array([sum(o['map_status']=='proxy' for o in row) for row in tracks['frames']]);first=max(range(0,len(counts)-length+1,25),key=lambda k:float(counts[k:k+length].mean()));last=first+length;folder=OUT/'showcase';folder.mkdir(exist_ok=True);source=folder/'source.avi';write(folder/'selection.json',{'scope':'Qualitative excerpt explicitly selected for highest average model-output coverage among12-second windows at1-second strides. Contains training and previously evaluated frames. This is not an accuracy evaluation. Coverage does not establish correct positions or identities.','source_first':3250+first,'source_last':3250+last-1,'mean_solid_dots':float(counts[first:last].mean()),'minimum_solid_dots':int(counts[first:last].min())})
+    cap=cv2.VideoCapture(str(OUT/'full_replay/source.avi'));cap.set(cv2.CAP_PROP_POS_FRAMES,first);writer=cv2.VideoWriter(str(source),cv2.VideoWriter_fourcc(*'FFV1'),25,(1280,720))
+    for k in range(first,last):ok,im=cap.read();assert ok;writer.write(im)
+    cap.release();writer.release();render(section(box,first,last),section(tracks,first,last),source,OUT/'videos/clearer_showcase.mp4',pred=pred[first:last],threshold=.25,source_first=3250+first,title='CLEARER EXCERPT / QUALITATIVE DEMONSTRATION',subtitle='Selected for model coverage | Contains training frames; not an accuracy test',before_title='Box-bottom floor point',after_title='Learned floor support',ring_description='Identical detector, IDs, visibility and offline filter. Only the input floor point changes.')

@@ -1,0 +1,74 @@
+[
+  {
+    "threshold": 0.9,
+    "frames": 2424,
+    "displayed_dots": 28153,
+    "reported_dots": 22702,
+    "estimated_dots": 5451,
+    "visibility_toggles": 500,
+    "single_frame_flickers": 26,
+    "step_p99": 0.4882828998045814,
+    "step_max": 1.6537755439431787,
+    "acceleration_p99": 0.04336155505072739
+  },
+  {
+    "threshold": 0.75,
+    "frames": 2424,
+    "displayed_dots": 30997,
+    "reported_dots": 25429,
+    "estimated_dots": 5568,
+    "visibility_toggles": 479,
+    "single_frame_flickers": 20,
+    "step_p99": 0.5138391773231665,
+    "step_max": 0.9109979563739238,
+    "acceleration_p99": 0.04453064113309924
+  },
+  {
+    "threshold": 0.6,
+    "frames": 2424,
+    "displayed_dots": 32893,
+    "reported_dots": 26925,
+    "estimated_dots": 5968,
+    "visibility_toggles": 447,
+    "single_frame_flickers": 16,
+    "step_p99": 0.5219071538884276,
+    "step_max": 0.9109979563739238,
+    "acceleration_p99": 0.04597529757325299
+  },
+  {
+    "threshold": 0.5,
+    "frames": 2424,
+    "displayed_dots": 33990,
+    "reported_dots": 27721,
+    "estimated_dots": 6269,
+    "visibility_toggles": 416,
+    "single_frame_flickers": 13,
+    "step_p99": 0.5103345556839471,
+    "step_max": 1.0763971600470605,
+    "acceleration_p99": 0.046154090865574274
+  },
+  {
+    "threshold": 0.4,
+    "frames": 2424,
+    "displayed_dots": 34693,
+    "reported_dots": 28435,
+    "estimated_dots": 6258,
+    "visibility_toggles": 398,
+    "single_frame_flickers": 9,
+    "step_p99": 0.5147857406140885,
+    "step_max": 0.9109979563739238,
+    "acceleration_p99": 0.04642186438255647
+  },
+  {
+    "threshold": 0.3,
+    "frames": 2424,
+    "displayed_dots": 35596,
+    "reported_dots": 29028,
+    "estimated_dots": 6568,
+    "visibility_toggles": 378,
+    "single_frame_flickers": 9,
+    "step_p99": 0.5159878070065828,
+    "step_max": 0.9121083466688278,
+    "acceleration_p99": 0.046451763308972334
+  }
+]

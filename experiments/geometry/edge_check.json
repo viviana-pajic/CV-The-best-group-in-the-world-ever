@@ -1,0 +1,8 @@
+{
+  "independent_edge_picks_same_image": 14,
+  "baseline_median_pixel_edge_error": 12.335,
+  "draft_median_pixel_edge_error": 0.365,
+  "median_normalized_edge_distance_pct_width": 0.1629878708627075,
+  "inverse_identity_max_error": 3.410605131648481e-13,
+  "scope": "Distance to the named edge using held-out pixel picks; front corners were extrapolated. No surveyed landmark error."
+}

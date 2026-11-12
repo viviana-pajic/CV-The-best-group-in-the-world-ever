@@ -1,0 +1,3341 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <name>teammate_C</name>
+      <size>23</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <start_frame>0</start_frame>
+      <stop_frame>22</stop_frame>
+      <labels>
+        <label>
+          <name>dancer</name>
+          <color>#e0b35e</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>instance_id</name>
+              <input_type>text</input_type>
+              <default_value>0</default_value>
+              <mutable>true</mutable>
+              <values>0</values>
+            </attribute>
+            <attribute>
+              <name>contact</name>
+              <input_type>select</input_type>
+              <default_value>uncertain</default_value>
+              <mutable>true</mutable>
+              <values>uncertain
+visible
+hidden
+airborne</values>
+            </attribute>
+            <attribute>
+              <name>support_type</name>
+              <input_type>select</input_type>
+              <default_value>none</default_value>
+              <mutable>true</mutable>
+              <values>none
+feet
+knees
+mixed_knee_foot
+seat
+palms</values>
+            </attribute>
+            <attribute>
+              <name>sample_split</name>
+              <input_type>select</input_type>
+              <default_value>unset</default_value>
+              <mutable>true</mutable>
+              <values>unset
+train
+val
+reserved_test</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>floor_support</name>
+          <color>#4cd68a</color>
+          <type>points</type>
+          <attributes>
+            <attribute>
+              <name>instance_id</name>
+              <input_type>text</input_type>
+              <default_value>0</default_value>
+              <mutable>true</mutable>
+              <values>0</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+  </meta>
+  <image id="0" name="frame_003290.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="0" ytl="376" xbr="45" ybr="548" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="8,546" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="190" ytl="368" xbr="246" ybr="450" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="196" ytl="405" xbr="283" ybr="535" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="239,532" z_order="1" group_id="4">
+      <attribute name="instance_id">4</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="320" ytl="372" xbr="377" ybr="433" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="337,430" z_order="1" group_id="5">
+      <attribute name="instance_id">5</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="364" ytl="364" xbr="426" ybr="434" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="365" ytl="376" xbr="466" ybr="536" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="429,529" z_order="1" group_id="8">
+      <attribute name="instance_id">8</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="471" ytl="377" xbr="496" ybr="434" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="477,432" z_order="1" group_id="9">
+      <attribute name="instance_id">9</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="488" ytl="339" xbr="524" ybr="459" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="501,455" z_order="1" group_id="11">
+      <attribute name="instance_id">11</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="572" ytl="420" xbr="614" ybr="489" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="600,486" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="553" ytl="377" xbr="650" ybr="535" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="620,527" z_order="1" group_id="13">
+      <attribute name="instance_id">13</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="628" ytl="377" xbr="688" ybr="459" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="644,456" z_order="1" group_id="14">
+      <attribute name="instance_id">14</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="681" ytl="401" xbr="742" ybr="493" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="710,490" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="748" ytl="391" xbr="797" ybr="458" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="764,454" z_order="1" group_id="16">
+      <attribute name="instance_id">16</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="783" ytl="413" xbr="856" ybr="539" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="816,536" z_order="1" group_id="17">
+      <attribute name="instance_id">17</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="792" ytl="377" xbr="848" ybr="424" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="849" ytl="361" xbr="945" ybr="493" z_order="0" group_id="19">
+      <attribute name="instance_id">19</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="882,491" z_order="1" group_id="19">
+      <attribute name="instance_id">19</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="853" ytl="403" xbr="1017" ybr="535" z_order="0" group_id="21">
+      <attribute name="instance_id">21</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="979,530" z_order="1" group_id="21">
+      <attribute name="instance_id">21</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="365" ytl="403" xbr="426" ybr="491" z_order="0" group_id="101">
+      <attribute name="instance_id">101</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="394,485" z_order="1" group_id="101">
+      <attribute name="instance_id">101</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="791" ytl="400" xbr="835" ybr="463" z_order="0" group_id="102">
+      <attribute name="instance_id">102</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="850" ytl="438" xbr="909" ybr="498" z_order="0" group_id="103">
+      <attribute name="instance_id">103</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+  </image>
+  <image id="1" name="frame_003304.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="0" ytl="399" xbr="116" ybr="549" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="56,548" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="190" ytl="346" xbr="229" ybr="430" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="204" ytl="407" xbr="262" ybr="490" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="232,489" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="218" ytl="377" xbr="344" ybr="535" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="307,531" z_order="1" group_id="4">
+      <attribute name="instance_id">4</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="311" ytl="375" xbr="375" ybr="425" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="335,431" z_order="1" group_id="5">
+      <attribute name="instance_id">5</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="371" ytl="351" xbr="435" ybr="491" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="398,489" z_order="1" group_id="7">
+      <attribute name="instance_id">7</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="416" ytl="397" xbr="530" ybr="538" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="480,535" z_order="1" group_id="8">
+      <attribute name="instance_id">8</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="573" ytl="388" xbr="630" ybr="489" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="606,487" z_order="1" group_id="9">
+      <attribute name="instance_id">9</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="631" ytl="353" xbr="667" ybr="409" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="594" ytl="388" xbr="719" ybr="535" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="669,531" z_order="1" group_id="11">
+      <attribute name="instance_id">11</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="688" ytl="402" xbr="744" ybr="492" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="711,490" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="754" ytl="352" xbr="791" ybr="457" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="767,455" z_order="1" group_id="13">
+      <attribute name="instance_id">13</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="779" ytl="374" xbr="828" ybr="434" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="805" ytl="414" xbr="894" ybr="544" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="853,539" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="861" ytl="340" xbr="917" ybr="455" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="878" ytl="416" xbr="915" ybr="489" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="897,489" z_order="1" group_id="17">
+      <attribute name="instance_id">17</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="979" ytl="393" xbr="1076" ybr="538" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1033,536" z_order="1" group_id="18">
+      <attribute name="instance_id">18</attribute>
+    </points>
+  </image>
+  <image id="2" name="frame_003465.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="230" ytl="443" xbr="326" ybr="544" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="297,540" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="354" ytl="373" xbr="413" ybr="462" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="387,459" z_order="1" group_id="2">
+      <attribute name="instance_id">2</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="407" ytl="393" xbr="477" ybr="496" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="447,492" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="436" ytl="444" xbr="497" ybr="546" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="473,542" z_order="1" group_id="4">
+      <attribute name="instance_id">4</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="469" ytl="360" xbr="503" ybr="438" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="485,438" z_order="1" group_id="5">
+      <attribute name="instance_id">5</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="508" ytl="395" xbr="559" ybr="461" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="531,459" z_order="1" group_id="6">
+      <attribute name="instance_id">6</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="576" ytl="406" xbr="614" ybr="501" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="597,499" z_order="1" group_id="7">
+      <attribute name="instance_id">7</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="594" ytl="368" xbr="646" ybr="438" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="666" ytl="380" xbr="703" ybr="460" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="655" ytl="434" xbr="715" ybr="537" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="680,536" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="774" ytl="420" xbr="826" ybr="515" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="799,511" z_order="1" group_id="11">
+      <attribute name="instance_id">11</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="764" ytl="380" xbr="855" ybr="463" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="822" ytl="436" xbr="882" ybr="543" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="849,541" z_order="1" group_id="14">
+      <attribute name="instance_id">14</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="909" ytl="385" xbr="962" ybr="497" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="936,495" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="938" ytl="363" xbr="971" ybr="455" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="1004" ytl="440" xbr="1084" ybr="549" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1035,545" z_order="1" group_id="18">
+      <attribute name="instance_id">18</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="1034" ytl="368" xbr="1085" ybr="447" z_order="0" group_id="19">
+      <attribute name="instance_id">19</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="1059" ytl="410" xbr="1118" ybr="501" z_order="0" group_id="20">
+      <attribute name="instance_id">20</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1089,499" z_order="1" group_id="20">
+      <attribute name="instance_id">20</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="1154" ytl="454" xbr="1259" ybr="549" z_order="0" group_id="21">
+      <attribute name="instance_id">21</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1188,546" z_order="1" group_id="21">
+      <attribute name="instance_id">21</attribute>
+    </points>
+  </image>
+  <image id="3" name="frame_003479.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="215" ytl="372" xbr="361" ybr="544" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="333" ytl="333" xbr="429" ybr="462" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="409" ytl="364" xbr="467" ybr="495" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="427" ytl="385" xbr="496" ybr="547" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="470" ytl="336" xbr="504" ybr="436" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="498" ytl="354" xbr="573" ybr="462" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="566" ytl="364" xbr="630" ybr="502" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="607" ytl="353" xbr="659" ybr="439" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="639" ytl="388" xbr="721" ybr="537" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="641" ytl="331" xbr="721" ybr="413" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="774" ytl="400" xbr="818" ybr="500" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="803,499" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="759" ytl="352" xbr="849" ybr="420" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="815" ytl="383" xbr="896" ybr="543" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="880" ytl="376" xbr="995" ybr="499" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="922" ytl="338" xbr="993" ybr="464" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="923" ytl="337" xbr="992" ybr="404" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="1007" ytl="387" xbr="1095" ybr="550" z_order="0" group_id="19">
+      <attribute name="instance_id">19</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="1059" ytl="363" xbr="1164" ybr="501" z_order="0" group_id="20">
+      <attribute name="instance_id">20</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="1142" ytl="373" xbr="1264" ybr="547" z_order="0" group_id="21">
+      <attribute name="instance_id">21</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+  </image>
+  <image id="4" name="frame_003710.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="400" ytl="337" xbr="449" ybr="437" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="424,435" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="470" ytl="345" xbr="517" ybr="421" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="473" ytl="416" xbr="536" ybr="483" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="499,480" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="534" ytl="393" xbr="587" ybr="464" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="553,459" z_order="1" group_id="4">
+      <attribute name="instance_id">4</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="553" ytl="338" xbr="589" ybr="421" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="575,419" z_order="1" group_id="5">
+      <attribute name="instance_id">5</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="586" ytl="336" xbr="638" ybr="425" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="660" ytl="411" xbr="710" ybr="490" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="690,488" z_order="1" group_id="8">
+      <attribute name="instance_id">8</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="680" ytl="344" xbr="717" ybr="416" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="689" ytl="362" xbr="799" ybr="540" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="763" ytl="368" xbr="848" ybr="505" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="828" ytl="385" xbr="873" ybr="483" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="838" ytl="384" xbr="960" ybr="532" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="903" ytl="317" xbr="935" ybr="428" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="917,430" z_order="1" group_id="14">
+      <attribute name="instance_id">14</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="929" ytl="303" xbr="1041" ybr="487" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="978" ytl="315" xbr="1013" ybr="411" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="1061" ytl="376" xbr="1167" ybr="543" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+  </image>
+  <image id="5" name="frame_003815.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="252" ytl="357" xbr="295" ybr="496" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="285,493" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="318" ytl="361" xbr="352" ybr="476" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="337,474" z_order="1" group_id="2">
+      <attribute name="instance_id">2</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="357" ytl="416" xbr="421" ybr="500" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="369,495" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="427" ytl="337" xbr="466" ybr="465" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="452,463" z_order="1" group_id="4">
+      <attribute name="instance_id">4</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="449" ytl="364" xbr="494" ybr="501" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="466,497" z_order="1" group_id="5">
+      <attribute name="instance_id">5</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="468" ytl="352" xbr="497" ybr="473" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="484" ytl="390" xbr="560" ybr="499" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="518,497" z_order="1" group_id="7">
+      <attribute name="instance_id">7</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="508" ytl="345" xbr="541" ybr="489" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="554" ytl="348" xbr="588" ybr="470" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="568,465" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="582" ytl="332" xbr="614" ybr="444" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="602,442" z_order="1" group_id="11">
+      <attribute name="instance_id">11</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="631" ytl="331" xbr="658" ybr="429" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="643,425" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="655" ytl="338" xbr="716" ybr="459" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="676,451" z_order="1" group_id="14">
+      <attribute name="instance_id">14</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="699" ytl="343" xbr="743" ybr="449" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="731,447" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="730" ytl="336" xbr="760" ybr="412" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="781" ytl="359" xbr="815" ybr="441" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="798,439" z_order="1" group_id="17">
+      <attribute name="instance_id">17</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="795" ytl="337" xbr="824" ybr="415" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="836" ytl="343" xbr="878" ybr="417" z_order="0" group_id="19">
+      <attribute name="instance_id">19</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="851,415" z_order="1" group_id="19">
+      <attribute name="instance_id">19</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="858" ytl="335" xbr="913" ybr="444" z_order="0" group_id="20">
+      <attribute name="instance_id">20</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="878,444" z_order="1" group_id="20">
+      <attribute name="instance_id">20</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="888" ytl="329" xbr="926" ybr="433" z_order="0" group_id="21">
+      <attribute name="instance_id">21</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="914,432" z_order="1" group_id="21">
+      <attribute name="instance_id">21</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="942" ytl="329" xbr="967" ybr="417" z_order="0" group_id="22">
+      <attribute name="instance_id">22</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="952,416" z_order="1" group_id="22">
+      <attribute name="instance_id">22</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="974" ytl="336" xbr="1005" ybr="430" z_order="0" group_id="23">
+      <attribute name="instance_id">23</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="991,429" z_order="1" group_id="23">
+      <attribute name="instance_id">23</attribute>
+    </points>
+  </image>
+  <image id="6" name="frame_003829.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="264" ytl="356" xbr="296" ybr="495" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="284,493" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="325" ytl="360" xbr="362" ybr="476" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="348,476" z_order="1" group_id="2">
+      <attribute name="instance_id">2</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="346" ytl="422" xbr="416" ybr="494" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="395,484" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="411" ytl="360" xbr="447" ybr="485" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="433,485" z_order="1" group_id="5">
+      <attribute name="instance_id">5</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="435" ytl="338" xbr="465" ybr="463" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="456,463" z_order="1" group_id="6">
+      <attribute name="instance_id">6</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="460" ytl="352" xbr="498" ybr="453" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="458" ytl="381" xbr="514" ybr="497" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="487,495" z_order="1" group_id="9">
+      <attribute name="instance_id">9</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="506" ytl="346" xbr="533" ybr="457" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="520,455" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="547" ytl="343" xbr="585" ybr="470" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="562,468" z_order="1" group_id="11">
+      <attribute name="instance_id">11</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="567" ytl="333" xbr="607" ybr="444" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="594,444" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="603" ytl="363" xbr="636" ybr="431" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="640" ytl="342" xbr="697" ybr="457" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="679,455" z_order="1" group_id="14">
+      <attribute name="instance_id">14</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="691" ytl="379" xbr="770" ybr="457" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="732,455" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="759" ytl="337" xbr="799" ybr="420" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="771,419" z_order="1" group_id="16">
+      <attribute name="instance_id">16</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="801" ytl="359" xbr="850" ybr="443" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="819,443" z_order="1" group_id="17">
+      <attribute name="instance_id">17</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="843" ytl="332" xbr="894" ybr="432" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="870,431" z_order="1" group_id="18">
+      <attribute name="instance_id">18</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="890" ytl="407" xbr="962" ybr="456" z_order="0" group_id="19">
+      <attribute name="instance_id">19</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="929,450" z_order="1" group_id="19">
+      <attribute name="instance_id">19</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="914" ytl="333" xbr="953" ybr="411" z_order="0" group_id="20">
+      <attribute name="instance_id">20</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="946" ytl="336" xbr="984" ybr="425" z_order="0" group_id="21">
+      <attribute name="instance_id">21</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="970,423" z_order="1" group_id="21">
+      <attribute name="instance_id">21</attribute>
+    </points>
+  </image>
+  <image id="7" name="frame_004115.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="242" ytl="359" xbr="301" ybr="491" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="276,491" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="288" ytl="338" xbr="317" ybr="473" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="303" ytl="367" xbr="355" ybr="504" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="323,502" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="355" ytl="348" xbr="411" ybr="506" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="382,504" z_order="1" group_id="4">
+      <attribute name="instance_id">4</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="396" ytl="369" xbr="436" ybr="529" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="415,525" z_order="1" group_id="5">
+      <attribute name="instance_id">5</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="401" ytl="341" xbr="443" ybr="409" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="452" ytl="344" xbr="484" ybr="461" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="472,459" z_order="1" group_id="7">
+      <attribute name="instance_id">7</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="479" ytl="359" xbr="525" ybr="511" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="504,505" z_order="1" group_id="8">
+      <attribute name="instance_id">8</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="523" ytl="358" xbr="555" ybr="478" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="540,478" z_order="1" group_id="9">
+      <attribute name="instance_id">9</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="545" ytl="348" xbr="586" ybr="450" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="561,449" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="578" ytl="357" xbr="619" ybr="457" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="589,455" z_order="1" group_id="11">
+      <attribute name="instance_id">11</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="617" ytl="373" xbr="667" ybr="495" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="646,491" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="640" ytl="348" xbr="668" ybr="477" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="663,476" z_order="1" group_id="14">
+      <attribute name="instance_id">14</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="685" ytl="365" xbr="735" ybr="479" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="723,477" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+  </image>
+  <image id="8" name="frame_004129.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="252" ytl="354" xbr="297" ybr="487" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="262,487" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="285" ytl="338" xbr="318" ybr="466" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="300,469" z_order="1" group_id="2">
+      <attribute name="instance_id">2</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="333" ytl="358" xbr="370" ybr="489" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="354,488" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="349" ytl="363" xbr="405" ybr="491" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="353" ytl="381" xbr="438" ybr="532" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="369,531" z_order="1" group_id="5">
+      <attribute name="instance_id">5</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="408" ytl="380" xbr="471" ybr="500" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="452,498" z_order="1" group_id="6">
+      <attribute name="instance_id">6</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="463" ytl="344" xbr="481" ybr="404" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="460" ytl="370" xbr="506" ybr="513" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="480,510" z_order="1" group_id="8">
+      <attribute name="instance_id">8</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="479" ytl="346" xbr="514" ybr="482" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="504" ytl="348" xbr="551" ybr="471" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="532,472" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="572" ytl="316" xbr="611" ybr="446" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="589,444" z_order="1" group_id="11">
+      <attribute name="instance_id">11</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="594" ytl="343" xbr="624" ybr="451" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="606,449" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="633" ytl="365" xbr="676" ybr="493" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="654,489" z_order="1" group_id="13">
+      <attribute name="instance_id">13</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="661" ytl="349" xbr="715" ybr="484" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="681,484" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="669" ytl="370" xbr="748" ybr="495" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="728,493" z_order="1" group_id="16">
+      <attribute name="instance_id">16</attribute>
+    </points>
+  </image>
+  <image id="9" name="frame_004165.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="166" ytl="340" xbr="273" ybr="468" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="219,466" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="255" ytl="362" xbr="309" ybr="511" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="290,509" z_order="1" group_id="2">
+      <attribute name="instance_id">2</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="371" ytl="340" xbr="423" ybr="449" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="400,448" z_order="1" group_id="4">
+      <attribute name="instance_id">4</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="458" ytl="341" xbr="491" ybr="406" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="490" ytl="357" xbr="544" ybr="487" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="509,487" z_order="1" group_id="7">
+      <attribute name="instance_id">7</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="502" ytl="354" xbr="543" ybr="435" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="627" ytl="337" xbr="659" ybr="443" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="642,440" z_order="1" group_id="9">
+      <attribute name="instance_id">9</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="622" ytl="360" xbr="697" ybr="476" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="675,476" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="690" ytl="360" xbr="727" ybr="487" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="700,487" z_order="1" group_id="11">
+      <attribute name="instance_id">11</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="718" ytl="382" xbr="758" ybr="488" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="741,486" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="731" ytl="368" xbr="825" ybr="478" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="786,474" z_order="1" group_id="13">
+      <attribute name="instance_id">13</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="282" ytl="333" xbr="336" ybr="468" z_order="0" group_id="101">
+      <attribute name="instance_id">101</attribute>
+      <attribute name="contact">airborne</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="404" ytl="393" xbr="492" ybr="535" z_order="0" group_id="102">
+      <attribute name="instance_id">102</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="449,534" z_order="1" group_id="102">
+      <attribute name="instance_id">102</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="454" ytl="399" xbr="583" ybr="527" z_order="0" group_id="103">
+      <attribute name="instance_id">103</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="482,523" z_order="1" group_id="103">
+      <attribute name="instance_id">103</attribute>
+    </points>
+  </image>
+  <image id="10" name="frame_004207.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="200" ytl="333" xbr="256" ybr="467" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="212,464" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="211" ytl="368" xbr="265" ybr="520" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="226,520" z_order="1" group_id="2">
+      <attribute name="instance_id">2</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="233" ytl="360" xbr="308" ybr="525" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="297,524" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="343" ytl="337" xbr="415" ybr="414" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="339" ytl="396" xbr="422" ybr="482" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="409,479" z_order="1" group_id="5">
+      <attribute name="instance_id">5</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="408" ytl="343" xbr="455" ybr="462" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="429,459" z_order="1" group_id="6">
+      <attribute name="instance_id">6</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="431" ytl="343" xbr="477" ybr="454" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="458,453" z_order="1" group_id="7">
+      <attribute name="instance_id">7</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="471" ytl="342" xbr="514" ybr="454" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="495,453" z_order="1" group_id="8">
+      <attribute name="instance_id">8</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="503" ytl="340" xbr="535" ybr="452" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="520,451" z_order="1" group_id="9">
+      <attribute name="instance_id">9</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="545" ytl="455" xbr="624" ybr="548" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="569" ytl="352" xbr="614" ybr="409" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="594" ytl="358" xbr="645" ybr="466" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="622,466" z_order="1" group_id="13">
+      <attribute name="instance_id">13</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="627" ytl="332" xbr="655" ybr="415" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="700" ytl="363" xbr="759" ybr="484" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="733,485" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="752" ytl="383" xbr="819" ybr="485" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="781,485" z_order="1" group_id="16">
+      <attribute name="instance_id">16</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="798" ytl="376" xbr="848" ybr="466" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="820,465" z_order="1" group_id="17">
+      <attribute name="instance_id">17</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="819" ytl="367" xbr="862" ybr="468" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="850,466" z_order="1" group_id="18">
+      <attribute name="instance_id">18</attribute>
+    </points>
+  </image>
+  <image id="11" name="frame_004315.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="204" ytl="398" xbr="246" ybr="454" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="218,452" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="227" ytl="401" xbr="286" ybr="482" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="260,479" z_order="1" group_id="2">
+      <attribute name="instance_id">2</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="244" ytl="467" xbr="311" ybr="542" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="279,538" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="358" ytl="349" xbr="425" ybr="445" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="400,444" z_order="1" group_id="4">
+      <attribute name="instance_id">4</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="415" ytl="345" xbr="510" ybr="492" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="432,488" z_order="1" group_id="5">
+      <attribute name="instance_id">5</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="463" ytl="390" xbr="504" ybr="428" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="484,426" z_order="1" group_id="6">
+      <attribute name="instance_id">6</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="456" ytl="469" xbr="552" ybr="537" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="501,534" z_order="1" group_id="7">
+      <attribute name="instance_id">7</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="534" ytl="347" xbr="595" ybr="453" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="560,452" z_order="1" group_id="8">
+      <attribute name="instance_id">8</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="588" ytl="357" xbr="654" ybr="487" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="625,485" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="673" ytl="345" xbr="777" ybr="453" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="722,452" z_order="1" group_id="11">
+      <attribute name="instance_id">11</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="684" ytl="473" xbr="787" ybr="538" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="737,533" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="736" ytl="380" xbr="766" ybr="417" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="749,415" z_order="1" group_id="13">
+      <attribute name="instance_id">13</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="765" ytl="414" xbr="845" ybr="489" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="806,488" z_order="1" group_id="14">
+      <attribute name="instance_id">14</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="790" ytl="363" xbr="837" ybr="417" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="831" ytl="358" xbr="898" ybr="461" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="845,458" z_order="1" group_id="16">
+      <attribute name="instance_id">16</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="994" ytl="484" xbr="1120" ybr="561" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1058,553" z_order="1" group_id="17">
+      <attribute name="instance_id">17</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="1068" ytl="406" xbr="1118" ybr="458" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1096,454" z_order="1" group_id="18">
+      <attribute name="instance_id">18</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="1083" ytl="432" xbr="1170" ybr="495" z_order="0" group_id="19">
+      <attribute name="instance_id">19</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1140,491" z_order="1" group_id="19">
+      <attribute name="instance_id">19</attribute>
+    </points>
+  </image>
+  <image id="12" name="frame_004329.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="204" ytl="399" xbr="248" ybr="455" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="223,452" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="231" ytl="427" xbr="285" ybr="482" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="260,478" z_order="1" group_id="2">
+      <attribute name="instance_id">2</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="245" ytl="467" xbr="311" ybr="543" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="273,538" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="347" ytl="383" xbr="393" ybr="426" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="376,422" z_order="1" group_id="4">
+      <attribute name="instance_id">4</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="381" ytl="347" xbr="420" ybr="451" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="400,446" z_order="1" group_id="5">
+      <attribute name="instance_id">5</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="406" ytl="344" xbr="493" ybr="491" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="435,489" z_order="1" group_id="6">
+      <attribute name="instance_id">6</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="468" ytl="391" xbr="503" ybr="431" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="480,429" z_order="1" group_id="7">
+      <attribute name="instance_id">7</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="459" ytl="469" xbr="551" ybr="538" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="500,533" z_order="1" group_id="8">
+      <attribute name="instance_id">8</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="502" ytl="336" xbr="610" ybr="453" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="557,450" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="606" ytl="348" xbr="680" ybr="483" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="623,483" z_order="1" group_id="11">
+      <attribute name="instance_id">11</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="702" ytl="337" xbr="750" ybr="452" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="725,451" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="684" ytl="473" xbr="788" ybr="540" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="735,533" z_order="1" group_id="13">
+      <attribute name="instance_id">13</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="738" ytl="379" xbr="766" ybr="417" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="751,414" z_order="1" group_id="14">
+      <attribute name="instance_id">14</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="757" ytl="352" xbr="840" ybr="489" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="803,488" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="815" ytl="348" xbr="904" ybr="460" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="860,458" z_order="1" group_id="16">
+      <attribute name="instance_id">16</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="994" ytl="480" xbr="1111" ybr="557" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1048,552" z_order="1" group_id="17">
+      <attribute name="instance_id">17</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="1072" ytl="409" xbr="1118" ybr="457" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1106,454" z_order="1" group_id="18">
+      <attribute name="instance_id">18</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="1075" ytl="410" xbr="1140" ybr="495" z_order="0" group_id="19">
+      <attribute name="instance_id">19</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1108,489" z_order="1" group_id="19">
+      <attribute name="instance_id">19</attribute>
+    </points>
+  </image>
+  <image id="13" name="frame_004444.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="206" ytl="400" xbr="242" ybr="454" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="236" ytl="426" xbr="283" ybr="482" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="244" ytl="468" xbr="305" ybr="543" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="265,535" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="346" ytl="383" xbr="386" ybr="428" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="383" ytl="341" xbr="421" ybr="420" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="363" ytl="343" xbr="429" ybr="495" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="411,490" z_order="1" group_id="6">
+      <attribute name="instance_id">6</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="464" ytl="391" xbr="502" ybr="430" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="484,428" z_order="1" group_id="7">
+      <attribute name="instance_id">7</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="460" ytl="470" xbr="549" ybr="540" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="510,533" z_order="1" group_id="8">
+      <attribute name="instance_id">8</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="503" ytl="334" xbr="612" ybr="449" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="556,447" z_order="1" group_id="9">
+      <attribute name="instance_id">9</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="552" ytl="344" xbr="682" ybr="486" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="625,486" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="626" ytl="330" xbr="651" ybr="366" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="704" ytl="337" xbr="738" ybr="455" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="719,452" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="684" ytl="452" xbr="787" ybr="539" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="730,533" z_order="1" group_id="13">
+      <attribute name="instance_id">13</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="738" ytl="380" xbr="765" ybr="417" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="761" ytl="354" xbr="883" ybr="493" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="828,487" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="839" ytl="382" xbr="878" ybr="429" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="869" ytl="349" xbr="903" ybr="464" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="883,458" z_order="1" group_id="17">
+      <attribute name="instance_id">17</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="994" ytl="479" xbr="1112" ybr="557" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1048,550" z_order="1" group_id="18">
+      <attribute name="instance_id">18</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="1073" ytl="412" xbr="1114" ybr="460" z_order="0" group_id="19">
+      <attribute name="instance_id">19</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="1074" ytl="440" xbr="1142" ybr="496" z_order="0" group_id="20">
+      <attribute name="instance_id">20</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1102,488" z_order="1" group_id="20">
+      <attribute name="instance_id">20</attribute>
+    </points>
+  </image>
+  <image id="14" name="frame_004480.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="192" ytl="366" xbr="245" ybr="441" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="214" ytl="372" xbr="298" ybr="482" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="256" ytl="422" xbr="310" ybr="541" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="284,537" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="331" ytl="347" xbr="379" ybr="427" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="363,427" z_order="1" group_id="4">
+      <attribute name="instance_id">4</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="369" ytl="349" xbr="405" ybr="450" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="388" ytl="353" xbr="432" ybr="494" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="414,491" z_order="1" group_id="6">
+      <attribute name="instance_id">6</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="463" ytl="352" xbr="503" ybr="428" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="478,429" z_order="1" group_id="7">
+      <attribute name="instance_id">7</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="468" ytl="406" xbr="529" ybr="539" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="510,534" z_order="1" group_id="8">
+      <attribute name="instance_id">8</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="536" ytl="328" xbr="575" ybr="458" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="555,451" z_order="1" group_id="9">
+      <attribute name="instance_id">9</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="561" ytl="352" xbr="626" ybr="486" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="607,483" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="627" ytl="336" xbr="663" ybr="430" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="677" ytl="346" xbr="732" ybr="456" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="710,454" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="679" ytl="384" xbr="795" ybr="536" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="742,534" z_order="1" group_id="13">
+      <attribute name="instance_id">13</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="732" ytl="356" xbr="771" ybr="401" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="783" ytl="361" xbr="872" ybr="495" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="840" ytl="361" xbr="875" ybr="441" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="847" ytl="355" xbr="919" ybr="467" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="890,461" z_order="1" group_id="17">
+      <attribute name="instance_id">17</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="1008" ytl="416" xbr="1086" ybr="557" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="1081" ytl="394" xbr="1115" ybr="437" z_order="0" group_id="19">
+      <attribute name="instance_id">19</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="1077" ytl="398" xbr="1144" ybr="497" z_order="0" group_id="20">
+      <attribute name="instance_id">20</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1111,491" z_order="1" group_id="20">
+      <attribute name="instance_id">20</attribute>
+    </points>
+  </image>
+  <image id="15" name="frame_004516.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="201" ytl="340" xbr="247" ybr="453" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="239,450" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="151" ytl="350" xbr="280" ybr="491" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="210" ytl="372" xbr="365" ybr="542" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="293,537" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="326" ytl="328" xbr="403" ybr="426" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="344" ytl="357" xbr="420" ybr="449" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="349" ytl="344" xbr="492" ybr="494" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="428,486" z_order="1" group_id="6">
+      <attribute name="instance_id">6</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="471" ytl="335" xbr="518" ybr="426" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="434" ytl="384" xbr="577" ybr="543" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="499,540" z_order="1" group_id="8">
+      <attribute name="instance_id">8</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="535" ytl="346" xbr="585" ybr="458" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="552,453" z_order="1" group_id="9">
+      <attribute name="instance_id">9</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="596" ytl="362" xbr="672" ybr="491" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="615,488" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="615" ytl="338" xbr="653" ybr="392" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="673" ytl="346" xbr="773" ybr="457" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="715,452" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="708" ytl="381" xbr="806" ybr="544" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="734,540" z_order="1" group_id="13">
+      <attribute name="instance_id">13</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="739" ytl="331" xbr="786" ybr="418" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="779" ytl="364" xbr="866" ybr="494" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="807,491" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="850" ytl="340" xbr="900" ybr="427" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="861" ytl="360" xbr="921" ybr="466" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="875,463" z_order="1" group_id="17">
+      <attribute name="instance_id">17</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="1023" ytl="376" xbr="1109" ybr="548" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1051,545" z_order="1" group_id="18">
+      <attribute name="instance_id">18</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="1083" ytl="350" xbr="1152" ybr="447" z_order="0" group_id="19">
+      <attribute name="instance_id">19</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="1056" ytl="359" xbr="1157" ybr="496" z_order="0" group_id="20">
+      <attribute name="instance_id">20</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+  </image>
+  <image id="16" name="frame_004552.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="205" ytl="340" xbr="246" ybr="456" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="230,450" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="219" ytl="352" xbr="274" ybr="491" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="187" ytl="356" xbr="361" ybr="545" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="284,538" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="344" ytl="324" xbr="389" ybr="428" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="353,425" z_order="1" group_id="4">
+      <attribute name="instance_id">4</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="370" ytl="350" xbr="417" ybr="453" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="385" ytl="340" xbr="480" ybr="489" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="422,482" z_order="1" group_id="6">
+      <attribute name="instance_id">6</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="475" ytl="335" xbr="522" ybr="426" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="459" ytl="372" xbr="580" ybr="544" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="498,533" z_order="1" group_id="8">
+      <attribute name="instance_id">8</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="495" ytl="336" xbr="594" ybr="459" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="543,456" z_order="1" group_id="9">
+      <attribute name="instance_id">9</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="584" ytl="351" xbr="672" ybr="489" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="630,486" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="612" ytl="337" xbr="641" ybr="365" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="681" ytl="341" xbr="756" ybr="459" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="710,456" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="694" ytl="367" xbr="797" ybr="553" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="734,554" z_order="1" group_id="13">
+      <attribute name="instance_id">13</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="734" ytl="330" xbr="763" ybr="419" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="783" ytl="358" xbr="860" ybr="509" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="825,491" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="832" ytl="330" xbr="929" ybr="427" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="836" ytl="354" xbr="915" ybr="471" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="882,467" z_order="1" group_id="17">
+      <attribute name="instance_id">17</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="999" ytl="358" xbr="1149" ybr="547" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1047,542" z_order="1" group_id="18">
+      <attribute name="instance_id">18</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="1091" ytl="347" xbr="1118" ybr="447" z_order="0" group_id="19">
+      <attribute name="instance_id">19</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="1048" ytl="355" xbr="1113" ybr="494" z_order="0" group_id="20">
+      <attribute name="instance_id">20</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+  </image>
+  <image id="17" name="frame_004605.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="162" ytl="340" xbr="235" ybr="432" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="189" ytl="345" xbr="289" ybr="491" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="125" ytl="347" xbr="341" ybr="545" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="258,543" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="334" ytl="330" xbr="376" ybr="436" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="384" ytl="349" xbr="424" ybr="450" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="338" ytl="349" xbr="445" ybr="487" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="419,478" z_order="1" group_id="6">
+      <attribute name="instance_id">6</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="462" ytl="336" xbr="506" ybr="426" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="424" ytl="374" xbr="591" ybr="530" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="514,529" z_order="1" group_id="8">
+      <attribute name="instance_id">8</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="531" ytl="342" xbr="560" ybr="456" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="551,454" z_order="1" group_id="9">
+      <attribute name="instance_id">9</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="599" ytl="358" xbr="707" ybr="489" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="649,487" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="598" ytl="338" xbr="658" ybr="378" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="677" ytl="347" xbr="770" ybr="461" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="717,457" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="674" ytl="374" xbr="809" ybr="552" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="742,547" z_order="1" group_id="13">
+      <attribute name="instance_id">13</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="714" ytl="332" xbr="774" ybr="418" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="789" ytl="357" xbr="882" ybr="497" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="818,491" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="834" ytl="334" xbr="907" ybr="429" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="841" ytl="351" xbr="920" ybr="474" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="875,471" z_order="1" group_id="17">
+      <attribute name="instance_id">17</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="1047" ytl="354" xbr="1172" ybr="554" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1059,551" z_order="1" group_id="18">
+      <attribute name="instance_id">18</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="1085" ytl="346" xbr="1138" ybr="449" z_order="0" group_id="19">
+      <attribute name="instance_id">19</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="1032" ytl="357" xbr="1158" ybr="502" z_order="0" group_id="20">
+      <attribute name="instance_id">20</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+  </image>
+  <image id="18" name="frame_004719.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="191" ytl="412" xbr="225" ybr="460" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="211,455" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="225" ytl="436" xbr="271" ybr="496" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="250,486" z_order="1" group_id="2">
+      <attribute name="instance_id">2</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="157" ytl="482" xbr="221" ybr="559" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="208,550" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="344" ytl="390" xbr="386" ybr="435" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="368,426" z_order="1" group_id="4">
+      <attribute name="instance_id">4</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="374" ytl="415" xbr="412" ybr="459" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="391,451" z_order="1" group_id="5">
+      <attribute name="instance_id">5</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="411" ytl="442" xbr="468" ybr="503" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="458,487" z_order="1" group_id="6">
+      <attribute name="instance_id">6</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="469" ytl="398" xbr="501" ybr="432" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="490,430" z_order="1" group_id="7">
+      <attribute name="instance_id">7</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="468" ytl="490" xbr="545" ybr="559" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="517,546" z_order="1" group_id="8">
+      <attribute name="instance_id">8</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="532" ytl="416" xbr="569" ybr="470" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="550,459" z_order="1" group_id="9">
+      <attribute name="instance_id">9</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="602" ytl="450" xbr="650" ybr="506" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="636,488" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="610" ytl="378" xbr="648" ybr="432" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="635,428" z_order="1" group_id="11">
+      <attribute name="instance_id">11</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="675" ytl="340" xbr="747" ybr="465" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="731" ytl="490" xbr="786" ybr="578" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="757,568" z_order="1" group_id="13">
+      <attribute name="instance_id">13</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="729" ytl="387" xbr="767" ybr="430" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="810" ytl="448" xbr="855" ybr="510" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="841,499" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="861" ytl="396" xbr="892" ybr="447" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="873" ytl="431" xbr="911" ybr="485" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="896,470" z_order="1" group_id="17">
+      <attribute name="instance_id">17</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="992" ytl="478" xbr="1071" ybr="560" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1058,550" z_order="1" group_id="18">
+      <attribute name="instance_id">18</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="1106" ytl="439" xbr="1144" ybr="477" z_order="0" group_id="19">
+      <attribute name="instance_id">19</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1133,471" z_order="1" group_id="19">
+      <attribute name="instance_id">19</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="1071" ytl="444" xbr="1122" ybr="516" z_order="0" group_id="20">
+      <attribute name="instance_id">20</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">val</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1101,497" z_order="1" group_id="20">
+      <attribute name="instance_id">20</attribute>
+    </points>
+  </image>
+  <image id="19" name="frame_005315.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="398" ytl="371" xbr="446" ybr="469" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="416,467" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="432" ytl="397" xbr="494" ybr="485" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="460,484" z_order="1" group_id="2">
+      <attribute name="instance_id">2</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="448" ytl="346" xbr="486" ybr="436" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="481" ytl="336" xbr="505" ybr="440" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="482" ytl="372" xbr="586" ybr="525" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="550,524" z_order="1" group_id="5">
+      <attribute name="instance_id">5</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="539" ytl="351" xbr="584" ybr="455" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="563,448" z_order="1" group_id="6">
+      <attribute name="instance_id">6</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="576" ytl="333" xbr="612" ybr="434" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="597" ytl="355" xbr="661" ybr="479" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="618" ytl="331" xbr="644" ybr="392" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="623" ytl="388" xbr="711" ybr="498" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="663,496" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="660" ytl="389" xbr="711" ybr="475" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="693,470" z_order="1" group_id="11">
+      <attribute name="instance_id">11</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="666" ytl="347" xbr="738" ybr="455" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="683" ytl="374" xbr="727" ybr="457" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="716" ytl="361" xbr="813" ybr="473" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="773,470" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="1239" ytl="373" xbr="1279" ybr="530" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="1258,526" z_order="1" group_id="16">
+      <attribute name="instance_id">16</attribute>
+    </points>
+  </image>
+  <image id="20" name="frame_005329.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="376" ytl="367" xbr="466" ybr="481" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="441,475" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="447" ytl="340" xbr="482" ybr="444" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="488" ytl="336" xbr="522" ybr="411" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="455" ytl="394" xbr="560" ybr="531" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="492,527" z_order="1" group_id="4">
+      <attribute name="instance_id">4</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="513" ytl="336" xbr="566" ybr="440" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="550,437" z_order="1" group_id="5">
+      <attribute name="instance_id">5</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="523" ytl="346" xbr="575" ybr="468" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="549,465" z_order="1" group_id="7">
+      <attribute name="instance_id">7</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="564" ytl="341" xbr="595" ybr="445" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="574" ytl="353" xbr="627" ybr="471" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="601" ytl="329" xbr="648" ybr="430" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="615" ytl="400" xbr="663" ybr="472" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="642,469" z_order="1" group_id="11">
+      <attribute name="instance_id">11</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="664" ytl="355" xbr="711" ybr="431" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="652" ytl="408" xbr="748" ybr="505" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="675,493" z_order="1" group_id="13">
+      <attribute name="instance_id">13</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="764" ytl="393" xbr="825" ybr="477" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="800,473" z_order="1" group_id="14">
+      <attribute name="instance_id">14</attribute>
+    </points>
+  </image>
+  <image id="21" name="frame_005400.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="416.17747497558594" ytl="409.5895538330078" xbr="475.1465301513672" ybr="463.8485412597656" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="443,455" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="475.46435546875" ytl="411.1578063964844" xbr="523.0206909179688" ybr="486.6191864013672" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="491,476" z_order="1" group_id="2">
+      <attribute name="instance_id">2</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="499.8407287597656" ytl="334.5989646911621" xbr="530.3865051269531" ybr="433.8133087158203" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="514.7391510009766" ytl="350.4144973754883" xbr="541.047119140625" ybr="438.19769287109375" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="515.4826202392578" ytl="435.33583068847656" xbr="573.7549438476562" ybr="496.1973876953125" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="538,488" z_order="1" group_id="6">
+      <attribute name="instance_id">6</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="555.7918243408203" ytl="399.13768768310547" xbr="598.197265625" ybr="489.9357604980469" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="586.8583221435547" ytl="340.52762603759766" xbr="622.7901611328125" ybr="413.43304443359375" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="592.0263977050781" ytl="409.7919921875" xbr="642.7852783203125" ybr="491.5205535888672" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="614.7789306640625" ytl="408.7829284667969" xbr="642.5283813476562" ybr="465.6214294433594" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="627.4889221191406" ytl="338.0568161010742" xbr="649.5052795410156" ybr="413.6009826660156" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="617.0828857421875" ytl="406.6044387817383" xbr="668.6986389160156" ybr="478.2914733886719" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="630.8608093261719" ytl="406.68760681152344" xbr="668.6663208007812" ybr="464.52854919433594" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="614.9825744628906" ytl="417.06689453125" xbr="706.0070190429688" ybr="493.7931213378906" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="686,481" z_order="1" group_id="18">
+      <attribute name="instance_id">18</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="660.5353393554688" ytl="343.9382858276367" xbr="680.1697998046875" ybr="403.8699188232422" z_order="0" group_id="19">
+      <attribute name="instance_id">19</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="701.1055908203125" ytl="418.7229461669922" xbr="778.6846008300781" ybr="490.0662841796875" z_order="0" group_id="20">
+      <attribute name="instance_id">20</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="714,483" z_order="1" group_id="20">
+      <attribute name="instance_id">20</attribute>
+    </points>
+  </image>
+  <image id="22" name="frame_005480.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="413.74649810791016" ytl="404.5737609863281" xbr="484.8405303955078" ybr="472.0210266113281" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="466,453" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="479.378173828125" ytl="413.9466247558594" xbr="536.0673217773438" ybr="483.4846649169922" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="490,477" z_order="1" group_id="2">
+      <attribute name="instance_id">2</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="516.0945281982422" ytl="332.018253326416" xbr="541.33447265625" ybr="421.69097900390625" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="514.7546234130859" ytl="417.25135803222656" xbr="552.5665740966797" ybr="468.25474548339844" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="499.20965576171875" ytl="416.54750061035156" xbr="571.2071685791016" ybr="495.7771453857422" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="563,482" z_order="1" group_id="6">
+      <attribute name="instance_id">6</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="532.4370880126953" ytl="348.8708190917969" xbr="556.2142486572266" ybr="442.4480743408203" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="571.2967834472656" ytl="417.27000427246094" xbr="612.9505004882812" ybr="497.6553497314453" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="577.4857330322266" ytl="393.66629791259766" xbr="610.9826049804688" ybr="436.0745544433594" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="577.8200836181641" ytl="337.5253257751465" xbr="613.9897766113281" ybr="415.330322265625" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="604.2174987792969" ytl="413.41644287109375" xbr="646.0987548828125" ybr="499.0048370361328" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="625.9190063476562" ytl="337.18907165527344" xbr="649.9615478515625" ybr="414.7964324951172" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="640.71533203125" ytl="406.2861557006836" xbr="667.4879760742188" ybr="450.62449645996094" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="649.2150573730469" ytl="350.1000289916992" xbr="683.6488037109375" ybr="440.7142791748047" z_order="0" group_id="21">
+      <attribute name="instance_id">21</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="623.4136962890625" ytl="418.1165466308594" xbr="713.8709106445312" ybr="495.8014221191406" z_order="0" group_id="22">
+      <attribute name="instance_id">22</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="693,483" z_order="1" group_id="22">
+      <attribute name="instance_id">22</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="675.0570387840271" ytl="413.9363708496094" xbr="788.1864547729492" ybr="487.7733917236328" z_order="0" group_id="23">
+      <attribute name="instance_id">23</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">train</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="722,481" z_order="1" group_id="23">
+      <attribute name="instance_id">23</attribute>
+    </points>
+  </image>
+</annotations>

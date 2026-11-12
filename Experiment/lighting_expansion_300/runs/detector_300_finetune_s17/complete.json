@@ -1,0 +1,15 @@
+{
+  "seconds": 288.6785771000432,
+  "epochs_requested": 15,
+  "training_images": 300,
+  "validation_images": 11,
+  "initialization": "detector_expanded\\runs\\diverse_brightness\\weights\\best.pt",
+  "validation": {
+    "metrics/precision(B)": 0.8816410919835703,
+    "metrics/recall(B)": 0.887905604719764,
+    "metrics/mAP50(B)": 0.9088421796068178,
+    "metrics/mAP50-95(B)": 0.5233819094759029,
+    "fitness": 0.5233819094759029
+  },
+  "best": "C:\\Users\\tomis\\OneDrive\\THOMAS MORE APPLIED COMPUTER SCIENCE\\YEAR 3\\DL\\Dance_Floor_Contact_Team_Package\\build\\lighting_expansion_300\\runs\\detector_300_finetune_s17\\weights\\best.pt"
+}

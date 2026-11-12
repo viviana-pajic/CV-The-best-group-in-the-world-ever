@@ -1,0 +1,1111 @@
+{
+  "reviewed_frames": [
+    3262,
+    3269,
+    3279,
+    3286,
+    3292,
+    3298,
+    3314,
+    3357,
+    3451,
+    3495,
+    3532,
+    3538,
+    3547,
+    3555,
+    3562,
+    3572,
+    3599,
+    3629,
+    3660,
+    3671,
+    3699,
+    3733,
+    3746,
+    3760,
+    3769,
+    3781,
+    3839,
+    3860,
+    3866,
+    3878,
+    3892,
+    3899,
+    3908,
+    3921
+  ],
+  "changes": {
+    "3262": {
+      "updates": {
+        "2": {
+          "floor": [
+            883,
+            493
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "4": {
+          "floor": [
+            396,
+            494
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "8": {
+          "floor": [
+            210,
+            488
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "12": {
+          "box": [
+            366,
+            316,
+            443,
+            452
+          ]
+        },
+        "15": {
+          "floor": [
+            24,
+            533
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "3269": {
+      "updates": {
+        "1": {
+          "floor": [
+            249,
+            526
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "3": {
+          "floor": null,
+          "contact": "uncertain",
+          "support_type": null
+        }
+      },
+      "add": [
+        {
+          "id": 7,
+          "box": [
+            384,
+            376,
+            457,
+            539
+          ],
+          "floor": [
+            429,
+            534
+          ],
+          "contact": "visible",
+          "support_type": "feet",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false
+        },
+        {
+          "id": 17,
+          "box": [
+            889,
+            402,
+            955,
+            461
+          ],
+          "floor": null,
+          "contact": "uncertain",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false
+        }
+      ]
+    },
+    "3279": {
+      "updates": {}
+    },
+    "3286": {
+      "updates": {}
+    },
+    "3292": {
+      "updates": {
+        "15": {
+          "box": [
+            0,
+            342,
+            49,
+            549
+          ]
+        }
+      }
+    },
+    "3298": {
+      "updates": {
+        "1": {
+          "floor": null,
+          "contact": "airborne",
+          "support_type": null
+        },
+        "2": {
+          "floor": [
+            882,
+            488
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "3314": {
+      "updates": {
+        "6": {
+          "floor": [
+            231,
+            478
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "10": {
+          "box": [
+            960,
+            399,
+            1119,
+            539
+          ]
+        },
+        "15": {
+          "box": [
+            0,
+            390,
+            139,
+            553
+          ]
+        },
+        "16": {
+          "floor": [
+            884,
+            540
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "3357": {
+      "updates": {
+        "4": {
+          "floor": [
+            502,
+            486
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "15": {
+          "floor": [
+            282,
+            537
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot"
+        },
+        "16": {
+          "floor": [
+            1011,
+            541
+          ],
+          "contact": "visible",
+          "support_type": "knees"
+        }
+      }
+    },
+    "3451": {
+      "updates": {}
+    },
+    "3495": {
+      "updates": {}
+    },
+    "3532": {
+      "updates": {
+        "8": {
+          "floor": [
+            322,
+            454
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "11": {
+          "box": [
+            920,
+            435,
+            1018,
+            504
+          ]
+        },
+        "16": {
+          "floor": [
+            1032,
+            548
+          ],
+          "contact": "visible",
+          "support_type": "palms"
+        },
+        "19": {
+          "floor": [
+            1047,
+            455
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "3538": {
+      "updates": {
+        "2": {
+          "floor": [
+            1084,
+            497
+          ],
+          "contact": "visible",
+          "support_type": "palms"
+        },
+        "4": {
+          "box": [
+            523,
+            371,
+            586,
+            490
+          ],
+          "floor": [
+            558,
+            484
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "9": {
+          "floor": [
+            849,
+            535
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "11": {
+          "floor": [
+            964,
+            493
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "15": {
+          "box": [
+            138,
+            376,
+            231,
+            522
+          ],
+          "floor": [
+            195,
+            518
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "16": {
+          "floor": [
+            1033,
+            547
+          ],
+          "contact": "visible",
+          "support_type": "palms"
+        },
+        "18": {
+          "floor": [
+            883,
+            437
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "3547": {
+      "updates": {
+        "1": {
+          "floor": [
+            385,
+            525
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "2": {
+          "floor": [
+            1115,
+            481
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot"
+        },
+        "9": {
+          "floor": [
+            853,
+            538
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "19": {
+          "floor": [
+            1019,
+            450
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "3555": {
+      "updates": {
+        "9": {
+          "floor": [
+            896,
+            527
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot"
+        },
+        "15": {
+          "box": [
+            144,
+            361,
+            239,
+            518
+          ]
+        },
+        "16": {
+          "floor": [
+            1045,
+            525
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot"
+        }
+      }
+    },
+    "3562": {
+      "updates": {
+        "15": {
+          "box": [
+            130,
+            358,
+            239,
+            518
+          ]
+        },
+        "16": {
+          "floor": [
+            1047,
+            523
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot"
+        },
+        "18": {
+          "floor": [
+            917,
+            435
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "3572": {
+      "updates": {
+        "2": {
+          "floor": [
+            1090,
+            483
+          ],
+          "contact": "visible",
+          "support_type": "knees"
+        },
+        "3": {
+          "floor": [
+            818,
+            469
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "10": {
+          "box": [
+            1138,
+            405,
+            1258,
+            526
+          ],
+          "floor": [
+            1216,
+            521
+          ],
+          "contact": "visible",
+          "support_type": "knees"
+        },
+        "18": {
+          "floor": [
+            917,
+            438
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "20": {
+          "floor": [
+            970,
+            487
+          ],
+          "contact": "visible",
+          "support_type": "knees"
+        }
+      }
+    },
+    "3599": {
+      "updates": {
+        "2": {
+          "floor": [
+            1064,
+            484
+          ],
+          "contact": "visible",
+          "support_type": "knees"
+        },
+        "9": {
+          "floor": [
+            857,
+            542
+          ]
+        },
+        "13": {
+          "floor": [
+            363,
+            515
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "15": {
+          "floor": [
+            178,
+            509
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "3629": {
+      "updates": {
+        "1": {
+          "floor": [
+            332,
+            517
+          ],
+          "contact": "visible",
+          "support_type": "knees"
+        },
+        "5": {
+          "floor": [
+            603,
+            509
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "9": {
+          "box": [
+            783,
+            478,
+            899,
+            563
+          ],
+          "floor": [
+            810,
+            546
+          ],
+          "contact": "visible",
+          "support_type": "palms"
+        },
+        "15": {
+          "floor": [
+            224,
+            511
+          ],
+          "contact": "visible",
+          "support_type": "palms"
+        }
+      },
+      "remove": [
+        11
+      ]
+    },
+    "3660": {
+      "updates": {
+        "2": {
+          "floor": [
+            980,
+            538
+          ],
+          "contact": "visible",
+          "support_type": "palms"
+        },
+        "10": {
+          "floor": [
+            1142,
+            530
+          ],
+          "contact": "visible",
+          "support_type": "palms"
+        },
+        "20": {
+          "floor": [
+            930,
+            495
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        }
+      }
+    },
+    "3671": {
+      "updates": {
+        "1": {
+          "floor": [
+            446,
+            490
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "2": {
+          "floor": [
+            1006,
+            530
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "9": {
+          "box": [
+            753,
+            460,
+            882,
+            549
+          ]
+        },
+        "10": {
+          "floor": [
+            1169,
+            528
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "15": {
+          "floor": [
+            350,
+            484
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "16": {
+          "floor": [
+            1056,
+            483
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "20": {
+          "floor": [
+            905,
+            492
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        }
+      }
+    },
+    "3699": {
+      "updates": {
+        "6": {
+          "floor": [
+            411,
+            423
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "9": {
+          "floor": [
+            757,
+            539
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot"
+        },
+        "10": {
+          "floor": [
+            1097,
+            535
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot"
+        },
+        "11": {
+          "floor": [
+            921,
+            529
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot"
+        },
+        "18": {
+          "box": [
+            907,
+            262,
+            980,
+            355
+          ],
+          "floor": null,
+          "contact": "airborne",
+          "support_type": null
+        }
+      }
+    },
+    "3733": {
+      "updates": {
+        "9": {
+          "box": [
+            519,
+            382,
+            630,
+            541
+          ],
+          "floor": [
+            544,
+            525
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "18": {
+          "box": [
+            949,
+            295,
+            1024,
+            328
+          ],
+          "floor": null,
+          "contact": "airborne",
+          "support_type": null
+        }
+      }
+    },
+    "3746": {
+      "updates": {
+        "8": {
+          "floor": [
+            655,
+            458
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "11": {
+          "floor": [
+            746,
+            505
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "12": {
+          "floor": [
+            526,
+            496
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "19": {
+          "floor": [
+            933,
+            461
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "3760": {
+      "updates": {
+        "10": {
+          "floor": [
+            699,
+            541
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "11": {
+          "floor": null,
+          "contact": "airborne",
+          "support_type": null
+        },
+        "13": {
+          "floor": [
+            786,
+            418
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "14": {
+          "floor": [
+            757,
+            463
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "15": {
+          "floor": null,
+          "contact": "airborne",
+          "support_type": null
+        }
+      }
+    },
+    "3769": {
+      "updates": {
+        "10": {
+          "floor": [
+            697,
+            538
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "12": {
+          "floor": [
+            392,
+            485
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "17": {
+          "floor": [
+            813,
+            450
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "3781": {
+      "updates": {
+        "9": {
+          "floor": [
+            233,
+            522
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "10": {
+          "floor": [
+            600,
+            533
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "12": {
+          "floor": [
+            374,
+            483
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "14": {
+          "floor": [
+            729,
+            457
+          ],
+          "contact": "visible",
+          "support_type": "feet",
+          "box": [
+            704,
+            344,
+            741,
+            461
+          ]
+        }
+      }
+    },
+    "3839": {
+      "updates": {
+        "4": {
+          "floor": [
+            838,
+            457
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "13": {
+          "floor": null,
+          "contact": "airborne",
+          "support_type": null
+        },
+        "14": {
+          "floor": [
+            664,
+            462
+          ],
+          "contact": "visible",
+          "support_type": "knees"
+        },
+        "16": {
+          "floor": [
+            972,
+            455
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "20": {
+          "floor": [
+            768,
+            459
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        }
+      }
+    },
+    "3860": {
+      "updates": {
+        "2": {
+          "floor": [
+            823,
+            422
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "14": {
+          "floor": [
+            684,
+            475
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "17": {
+          "floor": [
+            570,
+            482
+          ],
+          "contact": "visible",
+          "support_type": "seat"
+        },
+        "18": {
+          "floor": [
+            788,
+            420
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "20": {
+          "floor": [
+            748,
+            474
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "3866": {
+      "updates": {
+        "4": {
+          "floor": [
+            899,
+            463
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "14": {
+          "floor": [
+            689,
+            475
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot"
+        },
+        "16": {
+          "floor": [
+            954,
+            450
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "20": {
+          "floor": [
+            743,
+            474
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "3878": {
+      "updates": {
+        "2": {
+          "floor": [
+            749,
+            434
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "14": {
+          "floor": [
+            674,
+            487
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "3892": {
+      "updates": {
+        "4": {
+          "floor": [
+            773,
+            488
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "3899": {
+      "updates": {
+        "3": {
+          "floor": [
+            544,
+            486
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "4": {
+          "floor": [
+            706,
+            489
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "19": {
+          "floor": [
+            694,
+            477
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "3908": {
+      "updates": {
+        "10": {
+          "floor": [
+            463,
+            480
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "17": {
+          "floor": [
+            585,
+            474
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "3921": {
+      "updates": {
+        "3": {
+          "floor": [
+            471,
+            494
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "11": {
+          "floor": null,
+          "contact": "airborne",
+          "support_type": null
+        },
+        "16": {
+          "box": [
+            684,
+            356,
+            745,
+            467
+          ],
+          "floor": [
+            740,
+            462
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    }
+  },
+  "notes": "Reviewed all 34 source/overlay sheets against visible silhouettes and contact. Approximate pixel locations. Merged lifts, rear-row feet, motion blur and tightly overlapping bodies remain uncertain where evidence is ambiguous. The audit corrects observable issues but does not establish exhaustive dancer coverage."
+}

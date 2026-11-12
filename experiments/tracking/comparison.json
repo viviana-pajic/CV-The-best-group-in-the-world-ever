@@ -1,0 +1,36 @@
+{
+  "scope": "One 12-second same-video sample with identical merged detections. No cross-frame reference IDs; gaps and acceleration describe continuity only.",
+  "config": {
+    "track_high_thresh": 0.25,
+    "track_low_thresh": 0.06,
+    "new_track_thresh": 0.25,
+    "track_buffer": 25,
+    "match_thresh": 0.8,
+    "fuse_score": true,
+    "gmc_method": "sparseOptFlow",
+    "proximity_thresh": 0.5,
+    "appearance_thresh": 0.8,
+    "with_reid": false,
+    "model": "auto"
+  },
+  "results": {
+    "ByteTrack": {
+      "track_ids": 50,
+      "tracked_boxes": 5516,
+      "frames_with_tracks": 300,
+      "frames": 300,
+      "median_frames_per_id": 55.5,
+      "within_id_gaps": 123,
+      "box_center_acceleration_p99_pct_width": 2.5539997220039408
+    },
+    "BoT-SORT": {
+      "track_ids": 49,
+      "tracked_boxes": 5512,
+      "frames_with_tracks": 300,
+      "frames": 300,
+      "median_frames_per_id": 58.0,
+      "within_id_gaps": 100,
+      "box_center_acceleration_p99_pct_width": 2.5674224734306352
+    }
+  }
+}

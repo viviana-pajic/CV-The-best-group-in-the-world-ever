@@ -1,0 +1,846 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <name>late_confirmation</name>
+      <size>7</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <start_frame>0</start_frame>
+      <stop_frame>6</stop_frame>
+      <labels>
+        <label>
+          <name>dancer</name>
+          <color>#e0b35e</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>instance_id</name>
+              <input_type>text</input_type>
+              <default_value>0</default_value>
+              <mutable>true</mutable>
+              <values>0</values>
+            </attribute>
+            <attribute>
+              <name>contact</name>
+              <input_type>select</input_type>
+              <default_value>uncertain</default_value>
+              <mutable>true</mutable>
+              <values>uncertain
+visible
+hidden
+airborne</values>
+            </attribute>
+            <attribute>
+              <name>support_type</name>
+              <input_type>select</input_type>
+              <default_value>none</default_value>
+              <mutable>true</mutable>
+              <values>none
+feet
+knees
+mixed_knee_foot
+seat
+palms</values>
+            </attribute>
+            <attribute>
+              <name>sample_split</name>
+              <input_type>select</input_type>
+              <default_value>unset</default_value>
+              <mutable>true</mutable>
+              <values>unset
+train
+val
+reserved_test</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>floor_support</name>
+          <color>#4cd68a</color>
+          <type>points</type>
+          <attributes>
+            <attribute>
+              <name>instance_id</name>
+              <input_type>text</input_type>
+              <default_value>0</default_value>
+              <mutable>true</mutable>
+              <values>0</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+  </meta>
+  <image id="0" name="frame_003953.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="202.35562133789062" ytl="364.1954040527344" xbr="312.7219543457031" ybr="503.52935791015625" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="260,496" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="305.7018737792969" ytl="352.5567932128906" xbr="377.2214050292969" ybr="433.9969482421875" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="310.8019714355469" ytl="429.49940490722656" xbr="397.2496643066406" ybr="495.17626953125" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="369,480" z_order="1" group_id="4">
+      <attribute name="instance_id">4</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="362.02227783203125" ytl="351.195556640625" xbr="412.8118591308594" ybr="483.0777282714844" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="402.1701354980469" ytl="351.23011016845703" xbr="449.02459716796875" ybr="472.53057861328125" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="425,468" z_order="1" group_id="7">
+      <attribute name="instance_id">7</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="438.7406921386719" ytl="357.55609130859375" xbr="484.38348388671875" ybr="479.87298583984375" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="455,478" z_order="1" group_id="9">
+      <attribute name="instance_id">9</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="459" ytl="375" xbr="541" ybr="503" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="498,499" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="490.5333709716797" ytl="351.1314010620117" xbr="518.2180480957031" ybr="385.7204895019531" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="504.4548034667969" ytl="361.5476531982422" xbr="581.3212890625" ybr="488.57908630371094" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="569.6672973632812" ytl="384.2342224121094" xbr="619.2080078125" ybr="478.7964782714844" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="566.4651031494141" ytl="377.33255767822266" xbr="645.1912841796875" ybr="511.14404296875" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="605,506" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="595.6703796386719" ytl="344.10755157470703" xbr="630.8143005371094" ybr="408.6876220703125" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="641.0879516601562" ytl="353.55130767822266" xbr="710.1073913574219" ybr="487.33966064453125" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="679,485" z_order="1" group_id="17">
+      <attribute name="instance_id">17</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="689.8138942718506" ytl="348.2612609863281" xbr="740.9946441650391" ybr="470.1442565917969" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="720,467" z_order="1" group_id="18">
+      <attribute name="instance_id">18</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="442" ytl="351" xbr="491" ybr="456" z_order="0" group_id="101">
+      <attribute name="instance_id">101</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+  </image>
+  <image id="1" name="frame_003977.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="191.7907257080078" ytl="420.11614990234375" xbr="300.84417724609375" ybr="500.44505310058594" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="239,488" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="280.27587890625" ytl="408.7658996582031" xbr="374.6188049316406" ybr="459.0286560058594" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="305.1316223144531" ytl="421.738037109375" xbr="374.51971435546875" ybr="495.8791961669922" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="361.1492919921875" ytl="384.8563995361328" xbr="448.1378479003906" ybr="517.1045532226562" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="400.2837829589844" ytl="348.8468780517578" xbr="458.679443359375" ybr="474.06275939941406" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="439,471" z_order="1" group_id="7">
+      <attribute name="instance_id">7</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="455.0810241699219" ytl="359.4913330078125" xbr="507.8054504394531" ybr="473.76670837402344" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="488,470" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="494.993896484375" ytl="383.8296813964844" xbr="566.4762878417969" ybr="498.87062072753906" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="496.4459533691406" ytl="438.7574005126953" xbr="588.7662963867188" ybr="545.0301208496094" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="544,520" z_order="1" group_id="14">
+      <attribute name="instance_id">14</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="578.8702239990234" ytl="409.92620849609375" xbr="641.1734008789062" ybr="485.0373077392578" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="614.7329406738281" ytl="396.4993667602539" xbr="714.6162414550781" ybr="498.613525390625" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">mixed_knee_foot</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="667,487" z_order="1" group_id="16">
+      <attribute name="instance_id">16</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="666.9914245605469" ytl="381.2024841308594" xbr="725.5799255371094" ybr="445.48426818847656" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="706.419921875" ytl="408.9749298095703" xbr="755.9790954589844" ybr="476.44969177246094" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="729,468" z_order="1" group_id="18">
+      <attribute name="instance_id">18</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="616" ytl="381" xbr="670" ybr="472" z_order="0" group_id="101">
+      <attribute name="instance_id">101</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="581" ytl="386" xbr="633" ybr="476" z_order="0" group_id="102">
+      <attribute name="instance_id">102</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+  </image>
+  <image id="2" name="frame_003999.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="265.48040771484375" ytl="399.5825881958008" xbr="302.4803161621094" ybr="442.1001434326172" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="245" ytl="451" xbr="344" ybr="532" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="302.22747802734375" ytl="425.1472625732422" xbr="367.90283203125" ybr="481.64674377441406" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="351.3842468261719" ytl="386.5929489135742" xbr="470.0428771972656" ybr="506.5381774902344" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="349" ytl="455" xbr="481" ybr="543" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">mixed_knee_foot</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="414,531" z_order="1" group_id="7">
+      <attribute name="instance_id">7</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="440.2037048339844" ytl="332.861385345459" xbr="490.14385986328125" ybr="474.6072540283203" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="451,472" z_order="1" group_id="9">
+      <attribute name="instance_id">9</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="465.6556091308594" ytl="339.3379707336426" xbr="511.3941345214844" ybr="476.3647003173828" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="493,473" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="503.65863037109375" ytl="394.3983154296875" xbr="558.9183197021484" ybr="452.0115966796875" z_order="0" group_id="13">
+      <attribute name="instance_id">13</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="527,449" z_order="1" group_id="13">
+      <attribute name="instance_id">13</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="498" ytl="426" xbr="583" ybr="515" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="551,502" z_order="1" group_id="14">
+      <attribute name="instance_id">14</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="565.9828033447266" ytl="377.1133117675781" xbr="627.7853698730469" ybr="496.27894592285156" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="592,494" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="612.4683837890625" ytl="372.5331115722656" xbr="669.3815612792969" ybr="473.0689239501953" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="650.0774536132812" ytl="394.2159881591797" xbr="700.3381958007812" ybr="492.7051696777344" z_order="0" group_id="18">
+      <attribute name="instance_id">18</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="673,480" z_order="1" group_id="18">
+      <attribute name="instance_id">18</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="265" ytl="435" xbr="345" ybr="523" z_order="0" group_id="101">
+      <attribute name="instance_id">101</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+  </image>
+  <image id="3" name="frame_004021.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="219.9823760986328" ytl="389.3203430175781" xbr="266.4664611816406" ybr="463.95928955078125" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="353.609769821167" ytl="367.6365509033203" xbr="414.79520416259766" ybr="469.27720642089844" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="392.852840423584" ytl="346.2517852783203" xbr="455.21360778808594" ybr="482.3578186035156" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="430,470" z_order="1" group_id="4">
+      <attribute name="instance_id">4</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="445.324462890625" ytl="394.99109649658203" xbr="471.1062927246094" ybr="464.1431884765625" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="455" ytl="392" xbr="525" ybr="470" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="482.37548828125" ytl="412.8196563720703" xbr="557.2760009765625" ybr="495.3061828613281" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="527,488" z_order="1" group_id="8">
+      <attribute name="instance_id">8</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="507.2412414550781" ytl="383.7621536254883" xbr="569.0931396484375" ybr="469.1312255859375" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="513" ytl="455" xbr="579" ybr="535" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="530,512" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="549" ytl="403" xbr="639" ybr="477" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="641" ytl="441" xbr="699" ybr="508" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="660,493" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="239" ytl="393" xbr="326" ybr="474" z_order="0" group_id="101">
+      <attribute name="instance_id">101</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="282" ytl="430" xbr="353" ybr="516" z_order="0" group_id="102">
+      <attribute name="instance_id">102</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="187" ytl="446" xbr="307" ybr="542" z_order="0" group_id="103">
+      <attribute name="instance_id">103</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="282,531" z_order="1" group_id="103">
+      <attribute name="instance_id">103</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="309" ytl="462" xbr="457" ybr="562" z_order="0" group_id="104">
+      <attribute name="instance_id">104</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="419,540" z_order="1" group_id="104">
+      <attribute name="instance_id">104</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="638" ytl="394" xbr="692" ybr="456" z_order="0" group_id="105">
+      <attribute name="instance_id">105</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+  </image>
+  <image id="4" name="frame_004043.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="133.9813232421875" ytl="429.3508605957031" xbr="298.838134765625" ybr="541.4384765625" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="333.75201416015625" ytl="415.02772521972656" xbr="374.3746337890625" ybr="526.9407806396484" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="366.4105529785156" ytl="365.5199203491211" xbr="413.5808410644531" ybr="465.1857147216797" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="398.6877136230469" ytl="347.22674560546875" xbr="458.96405029296875" ybr="463.56727600097656" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="449,462" z_order="1" group_id="5">
+      <attribute name="instance_id">5</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="343" ytl="460" xbr="445" ybr="563" z_order="0" group_id="101">
+      <attribute name="instance_id">101</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="411,547" z_order="1" group_id="101">
+      <attribute name="instance_id">101</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="204" ytl="385" xbr="331" ybr="482" z_order="0" group_id="102">
+      <attribute name="instance_id">102</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="259" ytl="435" xbr="338" ybr="508" z_order="0" group_id="103">
+      <attribute name="instance_id">103</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="509" ytl="462" xbr="580" ybr="534" z_order="0" group_id="104">
+      <attribute name="instance_id">104</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="527,511" z_order="1" group_id="104">
+      <attribute name="instance_id">104</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="476" ytl="419" xbr="558" ybr="496" z_order="0" group_id="105">
+      <attribute name="instance_id">105</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="523,485" z_order="1" group_id="105">
+      <attribute name="instance_id">105</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="472" ytl="398" xbr="562" ybr="465" z_order="0" group_id="106">
+      <attribute name="instance_id">106</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="482" ytl="388" xbr="559" ybr="443" z_order="0" group_id="107">
+      <attribute name="instance_id">107</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="639" ytl="436" xbr="741" ybr="508" z_order="0" group_id="108">
+      <attribute name="instance_id">108</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="660,495" z_order="1" group_id="108">
+      <attribute name="instance_id">108</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="573" ytl="411" xbr="637" ybr="480" z_order="0" group_id="109">
+      <attribute name="instance_id">109</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="627" ytl="400" xbr="692" ybr="466" z_order="0" group_id="110">
+      <attribute name="instance_id">110</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="644" ytl="393" xbr="714" ybr="449" z_order="0" group_id="111">
+      <attribute name="instance_id">111</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+  </image>
+  <image id="5" name="frame_004061.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="205" ytl="463" xbr="335" ybr="543" z_order="0" group_id="1">
+      <attribute name="instance_id">1</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">seat</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="250,534" z_order="1" group_id="1">
+      <attribute name="instance_id">1</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="302.1658020019531" ytl="422.52049255371094" xbr="349.13018798828125" ybr="478.4179382324219" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="326" ytl="466" xbr="447" ybr="563" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="409,540" z_order="1" group_id="3">
+      <attribute name="instance_id">3</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="351.97747802734375" ytl="382.3314208984375" xbr="408.89068603515625" ybr="442.5461120605469" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="399.9440612792969" ytl="376.42745208740234" xbr="466.3934326171875" ybr="480.66172790527344" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="447,476" z_order="1" group_id="6">
+      <attribute name="instance_id">6</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="456.4126892089844" ytl="393.58306884765625" xbr="513.4152374267578" ybr="481.79148864746094" z_order="0" group_id="7">
+      <attribute name="instance_id">7</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="489,468" z_order="1" group_id="7">
+      <attribute name="instance_id">7</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="464" ytl="463" xbr="576" ybr="534" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="530,510" z_order="1" group_id="9">
+      <attribute name="instance_id">9</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="500.06402587890625" ytl="395.48402404785156" xbr="575.5022583007812" ybr="469.91847229003906" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="574.6658325195312" ytl="414.6788787841797" xbr="638.7070922851562" ybr="475.5809783935547" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">uncertain</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="637" ytl="441" xbr="698" ybr="502" z_order="0" group_id="12">
+      <attribute name="instance_id">12</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="658,493" z_order="1" group_id="12">
+      <attribute name="instance_id">12</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="223" ytl="405" xbr="289" ybr="474" z_order="0" group_id="101">
+      <attribute name="instance_id">101</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="245" ytl="419" xbr="305" ybr="498" z_order="0" group_id="102">
+      <attribute name="instance_id">102</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="357" ytl="407" xbr="413" ybr="466" z_order="0" group_id="103">
+      <attribute name="instance_id">103</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="262" ytl="446" xbr="330" ybr="533" z_order="0" group_id="104">
+      <attribute name="instance_id">104</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="636" ytl="397" xbr="711" ybr="456" z_order="0" group_id="105">
+      <attribute name="instance_id">105</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+  </image>
+  <image id="6" name="frame_004079.png" width="1280" height="720">
+    <box label="dancer" source="manual" occluded="0" xtl="248.59439086914062" ytl="411.5612335205078" xbr="355.5142517089844" ybr="534.8524017333984" z_order="0" group_id="2">
+      <attribute name="instance_id">2</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="281,525" z_order="1" group_id="2">
+      <attribute name="instance_id">2</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="274.4350280761719" ytl="383.18726348876953" xbr="332.1838073730469" ybr="419.41424560546875" z_order="0" group_id="3">
+      <attribute name="instance_id">3</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="355.40496826171875" ytl="456.3950958251953" xbr="415.9521484375" ybr="549.7605895996094" z_order="0" group_id="4">
+      <attribute name="instance_id">4</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="395,536" z_order="1" group_id="4">
+      <attribute name="instance_id">4</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="360.78355407714844" ytl="404.60486602783203" xbr="420.9415740966797" ybr="505.3953857421875" z_order="0" group_id="5">
+      <attribute name="instance_id">5</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="367.85497283935547" ytl="373.97826385498047" xbr="414.20230865478516" ybr="422.22108459472656" z_order="0" group_id="6">
+      <attribute name="instance_id">6</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="403.4262924194336" ytl="358.8820343017578" xbr="460.5503845214844" ybr="482.70896911621094" z_order="0" group_id="8">
+      <attribute name="instance_id">8</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="434,470" z_order="1" group_id="8">
+      <attribute name="instance_id">8</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="452.7622985839844" ytl="399.6094207763672" xbr="508.8758850097656" ybr="477.5254821777344" z_order="0" group_id="9">
+      <attribute name="instance_id">9</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="492,472" z_order="1" group_id="9">
+      <attribute name="instance_id">9</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="491.11549377441406" ytl="419.5574035644531" xbr="555.2503051757812" ybr="505.39259338378906" z_order="0" group_id="10">
+      <attribute name="instance_id">10</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="536,498" z_order="1" group_id="10">
+      <attribute name="instance_id">10</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="510.9971618652344" ytl="392.7861328125" xbr="541.9358520507812" ybr="439.6744689941406" z_order="0" group_id="11">
+      <attribute name="instance_id">11</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="534.5739135742188" ytl="421.9912109375" xbr="568.8670043945312" ybr="484.9727020263672" z_order="0" group_id="14">
+      <attribute name="instance_id">14</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="571.7776336669922" ytl="401.6250762939453" xbr="625.3417358398438" ybr="476.04359436035156" z_order="0" group_id="15">
+      <attribute name="instance_id">15</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="605,470" z_order="1" group_id="15">
+      <attribute name="instance_id">15</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="626" ytl="440" xbr="675" ybr="500" z_order="0" group_id="16">
+      <attribute name="instance_id">16</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">knees</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="652,490" z_order="1" group_id="16">
+      <attribute name="instance_id">16</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="668.7362365722656" ytl="394.0400161743164" xbr="718.1502685546875" ybr="455.4847869873047" z_order="0" group_id="17">
+      <attribute name="instance_id">17</attribute>
+      <attribute name="contact">visible</attribute>
+      <attribute name="support_type">feet</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <points label="floor_support" source="manual" occluded="0" points="687,453" z_order="1" group_id="17">
+      <attribute name="instance_id">17</attribute>
+    </points>
+    <box label="dancer" source="manual" occluded="0" xtl="620" ytl="404" xbr="680" ybr="464" z_order="0" group_id="101">
+      <attribute name="instance_id">101</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="295" ytl="436" xbr="350" ybr="500" z_order="0" group_id="102">
+      <attribute name="instance_id">102</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+    <box label="dancer" source="manual" occluded="0" xtl="246" ytl="405" xbr="289" ybr="483" z_order="0" group_id="103">
+      <attribute name="instance_id">103</attribute>
+      <attribute name="contact">hidden</attribute>
+      <attribute name="support_type">none</attribute>
+      <attribute name="sample_split">reserved_test</attribute>
+    </box>
+  </image>
+</annotations>

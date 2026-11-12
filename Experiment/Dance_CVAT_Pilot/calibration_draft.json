@@ -1,0 +1,275 @@
+{
+  "reference_seconds": 205.0,
+  "source_frame": 5125,
+  "source_resolution": [
+    1280,
+    720
+  ],
+  "points_order": [
+    "back_left",
+    "back_right",
+    "front_right",
+    "front_left"
+  ],
+  "image_points": [
+    [
+      314.43842854280376,
+      395.50116707169775
+    ],
+    [
+      987.0019125447753,
+      400.4308472073386
+    ],
+    [
+      1563.2477285877321,
+      606.899489797629
+    ],
+    [
+      -245.45120100612252,
+      599.0158809087027
+    ]
+  ],
+  "normalized_floor_points": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "pixel_to_relative_mat_homography": [
+    [
+      -0.0006494203223930095,
+      -0.0017866212084434484,
+      0.9108134570112862
+    ],
+    [
+      4.308016922072102e-05,
+      -0.0058774817636998485,
+      2.3110047933202154
+    ],
+    [
+      3.355769895994048e-05,
+      -0.0036927859000953803,
+      1.0
+    ]
+  ],
+  "assumed_width_depth_ratio": 1.6,
+  "assumed_ratio_note": "Display only. Physical mat width and depth remain unknown.",
+  "status": "Visual draft for fixed-camera section. Front intersections are outside the frame. Rear reference is partly obscured. The mapping assumes a rectangular mat.",
+  "fit_observations_px": {
+    "back": [
+      [
+        345,
+        395
+      ],
+      [
+        410,
+        397
+      ],
+      [
+        785,
+        399
+      ],
+      [
+        945,
+        400
+      ]
+    ],
+    "right": [
+      [
+        990,
+        402
+      ],
+      [
+        1080,
+        433
+      ],
+      [
+        1220,
+        484
+      ],
+      [
+        1270,
+        502
+      ]
+    ],
+    "front": [
+      [
+        74,
+        600
+      ],
+      [
+        398,
+        602
+      ],
+      [
+        745,
+        604
+      ],
+      [
+        1228,
+        605
+      ]
+    ],
+    "left": [
+      [
+        15,
+        504
+      ],
+      [
+        100,
+        474
+      ],
+      [
+        200,
+        437
+      ],
+      [
+        277,
+        409
+      ]
+    ]
+  },
+  "check_observations": [
+    {
+      "edge": "back",
+      "point_px": [
+        365,
+        395
+      ],
+      "baseline_distance_px": 1.0,
+      "draft_distance_px": 0.87
+    },
+    {
+      "edge": "back",
+      "point_px": [
+        814,
+        399
+      ],
+      "baseline_distance_px": 5.0,
+      "draft_distance_px": 0.16
+    },
+    {
+      "edge": "back",
+      "point_px": [
+        932,
+        400
+      ],
+      "baseline_distance_px": 6.0,
+      "draft_distance_px": 0.03
+    },
+    {
+      "edge": "right",
+      "point_px": [
+        1015,
+        410
+      ],
+      "baseline_distance_px": 18.67,
+      "draft_distance_px": 0.44
+    },
+    {
+      "edge": "right",
+      "point_px": [
+        1055,
+        424
+      ],
+      "baseline_distance_px": 30.33,
+      "draft_distance_px": 0.75
+    },
+    {
+      "edge": "right",
+      "point_px": [
+        1105,
+        442
+      ],
+      "baseline_distance_px": 44.48,
+      "draft_distance_px": 0.67
+    },
+    {
+      "edge": "right",
+      "point_px": [
+        1250,
+        495
+      ],
+      "baseline_distance_px": 84.88,
+      "draft_distance_px": 0.32
+    },
+    {
+      "edge": "front",
+      "point_px": [
+        154,
+        601
+      ],
+      "baseline_distance_px": 5.0,
+      "draft_distance_px": 0.24
+    },
+    {
+      "edge": "front",
+      "point_px": [
+        625,
+        604
+      ],
+      "baseline_distance_px": 2.0,
+      "draft_distance_px": 1.19
+    },
+    {
+      "edge": "front",
+      "point_px": [
+        1070,
+        605
+      ],
+      "baseline_distance_px": 1.0,
+      "draft_distance_px": 0.25
+    },
+    {
+      "edge": "front",
+      "point_px": [
+        1130,
+        605
+      ],
+      "baseline_distance_px": 1.0,
+      "draft_distance_px": 0.01
+    },
+    {
+      "edge": "left",
+      "point_px": [
+        55,
+        490
+      ],
+      "baseline_distance_px": 77.37,
+      "draft_distance_px": 0.18
+    },
+    {
+      "edge": "left",
+      "point_px": [
+        147,
+        455
+      ],
+      "baseline_distance_px": 55.74,
+      "draft_distance_px": 1.28
+    },
+    {
+      "edge": "left",
+      "point_px": [
+        240,
+        423
+      ],
+      "baseline_distance_px": 31.05,
+      "draft_distance_px": 0.41
+    }
+  ],
+  "baseline_median_edge_distance_px": 12.335,
+  "draft_median_edge_distance_px": 0.365,
+  "check_scope": "Separate pixel picks on the same physical edges and frame. This checks image overlay alignment only."
+}

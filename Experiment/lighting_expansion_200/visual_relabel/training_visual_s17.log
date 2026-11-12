@@ -1,0 +1,6 @@
+Training: 200 frames, Counter({'visible': 3017, 'hidden': 618, 'airborne': 50, 'uncertain': 4})
+lighting_200_visual_s17 1 loss 5.944 jointF1 0.843 elapsed 22.0
+lighting_200_visual_s17 10 loss 6.856 jointF1 0.852 elapsed 146.7
+lighting_200_visual_s17 20 loss 7.18 jointF1 0.837 elapsed 283.9
+lighting_200_visual_s17 30 loss 7.644 jointF1 0.815 elapsed 420.9
+FINISHED lighting_200_visual_s17 1

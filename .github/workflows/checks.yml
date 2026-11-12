@@ -1,0 +1,13 @@
+name: Notebook and source checks
+on: [push, pull_request]
+jobs:
+  notebook:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-notebooks.txt
+      - run: python -m compileall -q app src scripts tools
+      - run: python tools/run_notebooks.py

@@ -1,0 +1,3288 @@
+{
+  "scope": "Eleven support validation images. These boxes cover the annotated bodies only.",
+  "frames": [
+    3640,
+    3682,
+    3710,
+    4585,
+    4595,
+    4605,
+    4615,
+    4705,
+    4719,
+    5510,
+    5550
+  ],
+  "labels": {
+    "4585": [
+      {
+        "id": 1,
+        "box": [
+          191,
+          325,
+          250,
+          443
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 2,
+        "box": [
+          220,
+          339,
+          282,
+          509
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 3,
+        "box": [
+          177,
+          325,
+          288,
+          547
+        ],
+        "outside": false,
+        "floor": [
+          260,
+          541
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 4,
+        "box": [
+          329,
+          310,
+          387,
+          431
+        ],
+        "outside": false,
+        "floor": [
+          350,
+          427
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 5,
+        "box": [
+          359,
+          324,
+          422,
+          451
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 6,
+        "box": [
+          383,
+          325,
+          447,
+          484
+        ],
+        "outside": false,
+        "floor": [
+          429,
+          477
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 7,
+        "box": [
+          471,
+          312,
+          509,
+          427
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 8,
+        "box": [
+          459,
+          351,
+          591,
+          537
+        ],
+        "outside": false,
+        "floor": [
+          497,
+          534
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 9,
+        "box": [
+          540,
+          343,
+          573,
+          456
+        ],
+        "outside": false,
+        "floor": [
+          553,
+          452
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 10,
+        "box": [
+          582,
+          350,
+          709,
+          489
+        ],
+        "outside": false,
+        "floor": [
+          640,
+          486
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 11,
+        "box": [
+          610,
+          338,
+          678,
+          430
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 12,
+        "box": [
+          675,
+          337,
+          767,
+          453
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 13,
+        "box": [
+          689,
+          371,
+          792,
+          552
+        ],
+        "outside": false,
+        "floor": [
+          740,
+          547
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 14,
+        "box": [
+          713,
+          326,
+          785,
+          420
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 15,
+        "box": [
+          799,
+          326,
+          874,
+          494
+        ],
+        "outside": false,
+        "floor": [
+          821,
+          491
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 16,
+        "box": [
+          844,
+          335,
+          907,
+          427
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 17,
+        "box": [
+          849,
+          322,
+          915,
+          473
+        ],
+        "outside": false,
+        "floor": [
+          879,
+          471
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 18,
+        "box": [
+          975,
+          332,
+          1103,
+          552
+        ],
+        "outside": false,
+        "floor": [
+          1058,
+          548
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 19,
+        "box": [
+          1080,
+          339,
+          1145,
+          449
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 20,
+        "box": [
+          1057,
+          349,
+          1117,
+          505
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      }
+    ],
+    "4595": [
+      {
+        "id": 1,
+        "box": [
+          193,
+          339,
+          256,
+          454
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 2,
+        "box": [
+          236,
+          343,
+          291,
+          490
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 3,
+        "box": [
+          223,
+          343,
+          332,
+          546
+        ],
+        "outside": false,
+        "floor": [
+          244,
+          541
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 4,
+        "box": [
+          316,
+          316,
+          363,
+          433
+        ],
+        "outside": false,
+        "floor": [
+          353,
+          430
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 5,
+        "box": [
+          377,
+          340,
+          423,
+          451
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 6,
+        "box": [
+          375,
+          334,
+          473,
+          487
+        ],
+        "outside": false,
+        "floor": [
+          414,
+          477
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 7,
+        "box": [
+          472,
+          316,
+          525,
+          426
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 8,
+        "box": [
+          470,
+          372,
+          561,
+          537
+        ],
+        "outside": false,
+        "floor": [
+          503,
+          531
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 9,
+        "box": [
+          510,
+          325,
+          569,
+          458
+        ],
+        "outside": false,
+        "floor": [
+          548,
+          453
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 10,
+        "box": [
+          606,
+          318,
+          651,
+          487
+        ],
+        "outside": false,
+        "floor": [
+          646,
+          485
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 11,
+        "box": [
+          610,
+          320,
+          656,
+          408
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 12,
+        "box": [
+          699,
+          329,
+          746,
+          460
+        ],
+        "outside": false,
+        "floor": [
+          713,
+          453
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 13,
+        "box": [
+          714,
+          361,
+          785,
+          552
+        ],
+        "outside": false,
+        "floor": [
+          742,
+          547
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 14,
+        "box": [
+          715,
+          320,
+          772,
+          420
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 15,
+        "box": [
+          793,
+          351,
+          867,
+          495
+        ],
+        "outside": false,
+        "floor": [
+          821,
+          492
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 16,
+        "box": [
+          850,
+          319,
+          910,
+          429
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 17,
+        "box": [
+          851,
+          342,
+          926,
+          474
+        ],
+        "outside": false,
+        "floor": [
+          873,
+          470
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 18,
+        "box": [
+          1036,
+          351,
+          1178,
+          559
+        ],
+        "outside": false,
+        "floor": [
+          1068,
+          553
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 19,
+        "box": [
+          1080,
+          345,
+          1151,
+          449
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 20,
+        "box": [
+          1040,
+          353,
+          1122,
+          500
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      }
+    ],
+    "4605": [
+      {
+        "id": 1,
+        "box": [
+          162,
+          340,
+          235,
+          432
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 2,
+        "box": [
+          189,
+          345,
+          289,
+          491
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 3,
+        "box": [
+          125,
+          347,
+          341,
+          545
+        ],
+        "outside": false,
+        "floor": [
+          258,
+          543
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 4,
+        "box": [
+          334,
+          330,
+          376,
+          436
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 5,
+        "box": [
+          384,
+          349,
+          424,
+          450
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 6,
+        "box": [
+          338,
+          349,
+          445,
+          487
+        ],
+        "outside": false,
+        "floor": [
+          419,
+          478
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 7,
+        "box": [
+          462,
+          336,
+          506,
+          426
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 8,
+        "box": [
+          424,
+          374,
+          591,
+          530
+        ],
+        "outside": false,
+        "floor": [
+          514,
+          529
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 9,
+        "box": [
+          531,
+          342,
+          560,
+          456
+        ],
+        "outside": false,
+        "floor": [
+          551,
+          454
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 10,
+        "box": [
+          599,
+          358,
+          707,
+          489
+        ],
+        "outside": false,
+        "floor": [
+          649,
+          487
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 11,
+        "box": [
+          598,
+          338,
+          658,
+          378
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 12,
+        "box": [
+          677,
+          347,
+          770,
+          461
+        ],
+        "outside": false,
+        "floor": [
+          717,
+          457
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 13,
+        "box": [
+          674,
+          374,
+          809,
+          552
+        ],
+        "outside": false,
+        "floor": [
+          742,
+          547
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 14,
+        "box": [
+          714,
+          332,
+          774,
+          418
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 15,
+        "box": [
+          789,
+          357,
+          882,
+          497
+        ],
+        "outside": false,
+        "floor": [
+          818,
+          491
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 16,
+        "box": [
+          834,
+          334,
+          907,
+          429
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 17,
+        "box": [
+          841,
+          351,
+          920,
+          474
+        ],
+        "outside": false,
+        "floor": [
+          875,
+          471
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 18,
+        "box": [
+          1047,
+          354,
+          1172,
+          554
+        ],
+        "outside": false,
+        "floor": [
+          1059,
+          551
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 19,
+        "box": [
+          1085,
+          346,
+          1138,
+          449
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 20,
+        "box": [
+          1032,
+          357,
+          1158,
+          502
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      }
+    ],
+    "4615": [
+      {
+        "id": 1,
+        "box": [
+          184,
+          341,
+          232,
+          449
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 2,
+        "box": [
+          233,
+          339,
+          298,
+          496
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 3,
+        "box": [
+          127,
+          359,
+          339,
+          551
+        ],
+        "outside": false,
+        "floor": [
+          231,
+          542
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 4,
+        "box": [
+          304,
+          340,
+          393,
+          437
+        ],
+        "outside": false,
+        "floor": [
+          353,
+          433
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 5,
+        "box": [
+          377,
+          341,
+          412,
+          452
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 6,
+        "box": [
+          378,
+          338,
+          479,
+          487
+        ],
+        "outside": false,
+        "floor": [
+          431,
+          474
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 7,
+        "box": [
+          474,
+          334,
+          506,
+          424
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 8,
+        "box": [
+          451,
+          361,
+          553,
+          534
+        ],
+        "outside": false,
+        "floor": [
+          512,
+          534
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 9,
+        "box": [
+          517,
+          338,
+          569,
+          457
+        ],
+        "outside": false,
+        "floor": [
+          543,
+          455
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 10,
+        "box": [
+          592,
+          349,
+          659,
+          489
+        ],
+        "outside": false,
+        "floor": [
+          645,
+          486
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 11,
+        "box": [
+          610,
+          344,
+          634,
+          385
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 12,
+        "box": [
+          679,
+          342,
+          744,
+          461
+        ],
+        "outside": false,
+        "floor": [
+          720,
+          456
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 13,
+        "box": [
+          690,
+          368,
+          773,
+          555
+        ],
+        "outside": false,
+        "floor": [
+          753,
+          551
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 14,
+        "box": [
+          728,
+          316,
+          766,
+          422
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 15,
+        "box": [
+          791,
+          352,
+          869,
+          494
+        ],
+        "outside": false,
+        "floor": [
+          830,
+          484
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 16,
+        "box": [
+          850,
+          330,
+          914,
+          429
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 17,
+        "box": [
+          860,
+          354,
+          922,
+          474
+        ],
+        "outside": false,
+        "floor": [
+          885,
+          470
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 18,
+        "box": [
+          1032,
+          352,
+          1169,
+          554
+        ],
+        "outside": false,
+        "floor": [
+          1058,
+          551
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 19,
+        "box": [
+          1080,
+          345,
+          1138,
+          449
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 20,
+        "box": [
+          1035,
+          351,
+          1115,
+          505
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      }
+    ],
+    "4705": [
+      {
+        "id": 1,
+        "box": [
+          190,
+          412,
+          224,
+          460
+        ],
+        "outside": false,
+        "floor": [
+          211,
+          455
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 2,
+        "box": [
+          225,
+          435,
+          271,
+          496
+        ],
+        "outside": false,
+        "floor": [
+          250,
+          486
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 3,
+        "box": [
+          151,
+          464,
+          222,
+          558
+        ],
+        "outside": false,
+        "floor": [
+          208,
+          550
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 4,
+        "box": [
+          344,
+          390,
+          386,
+          435
+        ],
+        "outside": false,
+        "floor": [
+          368,
+          426
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 5,
+        "box": [
+          374,
+          415,
+          412,
+          459
+        ],
+        "outside": false,
+        "floor": [
+          391,
+          451
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 6,
+        "box": [
+          411,
+          442,
+          468,
+          503
+        ],
+        "outside": false,
+        "floor": [
+          458,
+          487
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 7,
+        "box": [
+          469,
+          397,
+          500,
+          432
+        ],
+        "outside": false,
+        "floor": [
+          490,
+          430
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 8,
+        "box": [
+          468,
+          491,
+          546,
+          559
+        ],
+        "outside": false,
+        "floor": [
+          517,
+          546
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 9,
+        "box": [
+          532,
+          416,
+          569,
+          470
+        ],
+        "outside": false,
+        "floor": [
+          550,
+          459
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 10,
+        "box": [
+          602,
+          450,
+          649,
+          506
+        ],
+        "outside": false,
+        "floor": [
+          636,
+          488
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 11,
+        "box": [
+          610,
+          378,
+          648,
+          432
+        ],
+        "outside": false,
+        "floor": [
+          635,
+          428
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 12,
+        "box": [
+          696,
+          346,
+          745,
+          465
+        ],
+        "outside": false,
+        "floor": [
+          709,
+          460
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "reviewed": true
+      },
+      {
+        "id": 13,
+        "box": [
+          732,
+          491,
+          788,
+          578
+        ],
+        "outside": false,
+        "floor": [
+          757,
+          568
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 14,
+        "box": [
+          727,
+          387,
+          765,
+          430
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 15,
+        "box": [
+          810,
+          448,
+          857,
+          510
+        ],
+        "outside": false,
+        "floor": [
+          841,
+          499
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 16,
+        "box": [
+          861,
+          396,
+          892,
+          447
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 17,
+        "box": [
+          873,
+          431,
+          911,
+          485
+        ],
+        "outside": false,
+        "floor": [
+          896,
+          470
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 18,
+        "box": [
+          992,
+          477,
+          1071,
+          559
+        ],
+        "outside": false,
+        "floor": [
+          1058,
+          550
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 19,
+        "box": [
+          1106,
+          440,
+          1141,
+          477
+        ],
+        "outside": false,
+        "floor": [
+          1133,
+          471
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 20,
+        "box": [
+          1071,
+          444,
+          1122,
+          516
+        ],
+        "outside": false,
+        "floor": [
+          1101,
+          497
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      }
+    ],
+    "4719": [
+      {
+        "id": 1,
+        "box": [
+          191,
+          412,
+          225,
+          460
+        ],
+        "outside": false,
+        "floor": [
+          211,
+          455
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 2,
+        "box": [
+          225,
+          436,
+          271,
+          496
+        ],
+        "outside": false,
+        "floor": [
+          250,
+          486
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 3,
+        "box": [
+          157,
+          482,
+          221,
+          559
+        ],
+        "outside": false,
+        "floor": [
+          208,
+          550
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 4,
+        "box": [
+          344,
+          390,
+          386,
+          435
+        ],
+        "outside": false,
+        "floor": [
+          368,
+          426
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 5,
+        "box": [
+          374,
+          415,
+          412,
+          459
+        ],
+        "outside": false,
+        "floor": [
+          391,
+          451
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 6,
+        "box": [
+          411,
+          442,
+          468,
+          503
+        ],
+        "outside": false,
+        "floor": [
+          458,
+          487
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 7,
+        "box": [
+          469,
+          398,
+          501,
+          432
+        ],
+        "outside": false,
+        "floor": [
+          490,
+          430
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 8,
+        "box": [
+          468,
+          490,
+          545,
+          559
+        ],
+        "outside": false,
+        "floor": [
+          517,
+          546
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 9,
+        "box": [
+          532,
+          416,
+          569,
+          470
+        ],
+        "outside": false,
+        "floor": [
+          550,
+          459
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 10,
+        "box": [
+          602,
+          450,
+          650,
+          506
+        ],
+        "outside": false,
+        "floor": [
+          636,
+          488
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 11,
+        "box": [
+          610,
+          378,
+          648,
+          432
+        ],
+        "outside": false,
+        "floor": [
+          635,
+          428
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 12,
+        "box": [
+          675,
+          340,
+          747,
+          465
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 13,
+        "box": [
+          731,
+          490,
+          786,
+          578
+        ],
+        "outside": false,
+        "floor": [
+          757,
+          568
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 14,
+        "box": [
+          729,
+          387,
+          767,
+          430
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 15,
+        "box": [
+          810,
+          448,
+          855,
+          510
+        ],
+        "outside": false,
+        "floor": [
+          841,
+          499
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 16,
+        "box": [
+          861,
+          396,
+          892,
+          447
+        ],
+        "outside": false,
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "reviewed": true
+      },
+      {
+        "id": 17,
+        "box": [
+          873,
+          431,
+          911,
+          485
+        ],
+        "outside": false,
+        "floor": [
+          896,
+          470
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 18,
+        "box": [
+          992,
+          478,
+          1071,
+          560
+        ],
+        "outside": false,
+        "floor": [
+          1058,
+          550
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 19,
+        "box": [
+          1106,
+          439,
+          1144,
+          477
+        ],
+        "outside": false,
+        "floor": [
+          1133,
+          471
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      },
+      {
+        "id": 20,
+        "box": [
+          1071,
+          444,
+          1122,
+          516
+        ],
+        "outside": false,
+        "floor": [
+          1101,
+          497
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "reviewed": true
+      }
+    ],
+    "3640": [
+      {
+        "id": 2,
+        "box": [
+          219,
+          396,
+          311,
+          516
+        ],
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 3,
+        "box": [
+          260,
+          400,
+          311,
+          460
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 4,
+        "box": [
+          318,
+          383,
+          404,
+          511
+        ],
+        "floor": [
+          334,
+          505
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 6,
+        "box": [
+          422,
+          357,
+          466,
+          428
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 7,
+        "box": [
+          405,
+          407,
+          491,
+          481
+        ],
+        "floor": [
+          445,
+          475
+        ],
+        "contact": "visible",
+        "support_type": "seat",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 8,
+        "box": [
+          464,
+          351,
+          494,
+          443
+        ],
+        "floor": [
+          485,
+          443
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 9,
+        "box": [
+          527,
+          363,
+          600,
+          449
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 10,
+        "box": [
+          546,
+          433,
+          607,
+          481
+        ],
+        "floor": [
+          568,
+          476
+        ],
+        "contact": "visible",
+        "support_type": "seat",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 11,
+        "box": [
+          597,
+          395,
+          653,
+          517
+        ],
+        "floor": [
+          615,
+          503
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 12,
+        "box": [
+          665,
+          381,
+          707,
+          454
+        ],
+        "floor": [
+          680,
+          449
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 13,
+        "box": [
+          784,
+          452,
+          899,
+          565
+        ],
+        "floor": [
+          862,
+          540
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 14,
+        "box": [
+          863,
+          336,
+          916,
+          433
+        ],
+        "floor": [
+          893,
+          429
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 15,
+        "box": [
+          908,
+          344,
+          945,
+          442
+        ],
+        "floor": [
+          922,
+          439
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 16,
+        "box": [
+          882,
+          438,
+          986,
+          502
+        ],
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 17,
+        "box": [
+          931,
+          347,
+          967,
+          440
+        ],
+        "floor": [
+          947,
+          437
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 18,
+        "box": [
+          968,
+          476,
+          1043,
+          551
+        ],
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 21,
+        "box": [
+          1009,
+          428,
+          1149,
+          484
+        ],
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 22,
+        "box": [
+          1133,
+          470,
+          1260,
+          549
+        ],
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      }
+    ],
+    "3682": [
+      {
+        "id": 1,
+        "box": [
+          375,
+          365,
+          450,
+          490
+        ],
+        "floor": [
+          404,
+          489
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 2,
+        "box": [
+          442,
+          336,
+          486,
+          436
+        ],
+        "floor": [
+          468,
+          432
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 3,
+        "box": [
+          499,
+          336,
+          538,
+          441
+        ],
+        "floor": [
+          514,
+          440
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 4,
+        "box": [
+          527,
+          328,
+          570,
+          439
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 6,
+        "box": [
+          527,
+          369,
+          617,
+          501
+        ],
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 7,
+        "box": [
+          595,
+          365,
+          647,
+          478
+        ],
+        "floor": [
+          608,
+          475
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 8,
+        "box": [
+          633,
+          342,
+          659,
+          400
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 9,
+        "box": [
+          723,
+          361,
+          798,
+          487
+        ],
+        "floor": [
+          739,
+          486
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 11,
+        "box": [
+          789,
+          465,
+          898,
+          555
+        ],
+        "floor": [
+          815,
+          539
+        ],
+        "contact": "visible",
+        "support_type": "seat",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 12,
+        "box": [
+          846,
+          437,
+          899,
+          499
+        ],
+        "floor": [
+          877,
+          498
+        ],
+        "contact": "visible",
+        "support_type": "seat",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 13,
+        "box": [
+          894,
+          337,
+          939,
+          441
+        ],
+        "floor": [
+          926,
+          434
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 14,
+        "box": [
+          937,
+          320,
+          963,
+          440
+        ],
+        "floor": [
+          949,
+          437
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 15,
+        "box": [
+          934,
+          460,
+          1028,
+          542
+        ],
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 16,
+        "box": [
+          994,
+          424,
+          1056,
+          499
+        ],
+        "floor": [
+          1017,
+          496
+        ],
+        "contact": "visible",
+        "support_type": "seat",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 17,
+        "box": [
+          1110,
+          458,
+          1200,
+          541
+        ],
+        "floor": [
+          1146,
+          537
+        ],
+        "contact": "visible",
+        "support_type": "seat",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      }
+    ],
+    "3710": [
+      {
+        "id": 1,
+        "box": [
+          400,
+          337,
+          449,
+          437
+        ],
+        "floor": [
+          424,
+          435
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 2,
+        "box": [
+          470,
+          345,
+          517,
+          421
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 3,
+        "box": [
+          473,
+          416,
+          536,
+          483
+        ],
+        "floor": [
+          499,
+          480
+        ],
+        "contact": "visible",
+        "support_type": "seat",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 4,
+        "box": [
+          534,
+          393,
+          587,
+          464
+        ],
+        "floor": [
+          553,
+          459
+        ],
+        "contact": "visible",
+        "support_type": "knees",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 5,
+        "box": [
+          553,
+          338,
+          589,
+          421
+        ],
+        "floor": [
+          575,
+          419
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 6,
+        "box": [
+          586,
+          336,
+          638,
+          425
+        ],
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 8,
+        "box": [
+          660,
+          411,
+          710,
+          490
+        ],
+        "floor": [
+          690,
+          488
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 9,
+        "box": [
+          680,
+          344,
+          717,
+          416
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 10,
+        "box": [
+          689,
+          362,
+          799,
+          540
+        ],
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 11,
+        "box": [
+          763,
+          368,
+          848,
+          505
+        ],
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 12,
+        "box": [
+          828,
+          385,
+          873,
+          483
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 13,
+        "box": [
+          838,
+          384,
+          960,
+          532
+        ],
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 14,
+        "box": [
+          903,
+          317,
+          935,
+          428
+        ],
+        "floor": [
+          917,
+          430
+        ],
+        "contact": "visible",
+        "support_type": "feet",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 16,
+        "box": [
+          929,
+          303,
+          1041,
+          487
+        ],
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 17,
+        "box": [
+          978,
+          315,
+          1013,
+          411
+        ],
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 18,
+        "box": [
+          1061,
+          376,
+          1167,
+          543
+        ],
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      }
+    ],
+    "5510": [
+      {
+        "id": 1,
+        "box": [
+          413.4547424316406,
+          397.6649856567383,
+          485.1727600097656,
+          465.065185546875
+        ],
+        "floor": [
+          467,
+          452
+        ],
+        "contact": "visible",
+        "support_type": "seat",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 2,
+        "box": [
+          478.08331298828125,
+          415.6753845214844,
+          538.1502075195312,
+          482.07342529296875
+        ],
+        "floor": [
+          491,
+          476
+        ],
+        "contact": "visible",
+        "support_type": "seat",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 3,
+        "box": [
+          515.3885498046875,
+          332.4810981750488,
+          540.74951171875,
+          430.8932800292969
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 4,
+        "box": [
+          515.6502380371094,
+          422.59356689453125,
+          554.4022064208984,
+          463.48468017578125
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 6,
+        "box": [
+          532.10302734375,
+          349.3839569091797,
+          556.5030059814453,
+          439.8907012939453
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 8,
+        "box": [
+          576.8177795410156,
+          395.66149139404297,
+          606.2989196777344,
+          434.4345703125
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 9,
+        "box": [
+          570.2942504882812,
+          416.9316864013672,
+          616.0255432128906,
+          497.99119567871094
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 10,
+        "box": [
+          594.7723388671875,
+          341.3085136413574,
+          614.6289367675781,
+          415.9801788330078
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 12,
+        "box": [
+          614.779296875,
+          412.9662780761719,
+          644.5299377441406,
+          475.1900939941406
+        ],
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 14,
+        "box": [
+          626.5873107910156,
+          337.537109375,
+          650.902099609375,
+          415.0653533935547
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 17,
+        "box": [
+          637.9385986328125,
+          407.1233673095703,
+          666.4837036132812,
+          450.2549743652344
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 18,
+        "box": [
+          647.5550231933594,
+          348.13524627685547,
+          682.7662353515625,
+          440.52032470703125
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 19,
+        "box": [
+          626.6017456054688,
+          417.7014617919922,
+          715.1456298828125,
+          496.3629913330078
+        ],
+        "floor": [
+          693,
+          483
+        ],
+        "contact": "visible",
+        "support_type": "seat",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 20,
+        "box": [
+          703.9700622558594,
+          414.0215759277344,
+          788.4552001953125,
+          487.5099334716797
+        ],
+        "floor": [
+          723,
+          480
+        ],
+        "contact": "visible",
+        "support_type": "seat",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      }
+    ],
+    "5550": [
+      {
+        "id": 1,
+        "box": [
+          412.4557189941406,
+          399.3659973144531,
+          484.96612548828125,
+          468.83888244628906
+        ],
+        "floor": [
+          467,
+          452
+        ],
+        "contact": "visible",
+        "support_type": "seat",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 2,
+        "box": [
+          478.4938049316406,
+          416.4629821777344,
+          537.8567504882812,
+          483.09320068359375
+        ],
+        "floor": [
+          491,
+          476
+        ],
+        "contact": "visible",
+        "support_type": "seat",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 3,
+        "box": [
+          515.6217346191406,
+          333.0093536376953,
+          541.0031127929688,
+          422.06407165527344
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 4,
+        "box": [
+          515.3821411132812,
+          416.74891662597656,
+          553.9714965820312,
+          466.5790710449219
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 6,
+        "box": [
+          531.9685821533203,
+          349.1000671386719,
+          556.0165252685547,
+          439.6835632324219
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 8,
+        "box": [
+          569.9510650634766,
+          417.0289306640625,
+          614.9648742675781,
+          496.9729461669922
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 10,
+        "box": [
+          577.3126068115234,
+          395.34681701660156,
+          613.8166809082031,
+          435.0925598144531
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 11,
+        "box": [
+          596.316162109375,
+          341.74926376342773,
+          614.1678771972656,
+          414.9537048339844
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 13,
+        "box": [
+          627.3243713378906,
+          337.7289695739746,
+          651.7968444824219,
+          416.93040466308594
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 14,
+        "box": [
+          620.5096130371094,
+          405.0344924926758,
+          666.7707824707031,
+          478.7672576904297
+        ],
+        "floor": null,
+        "contact": "uncertain",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 15,
+        "box": [
+          637.5386657714844,
+          405.2038040161133,
+          666.4562377929688,
+          450.4171142578125
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 16,
+        "box": [
+          648.54638671875,
+          347.9178466796875,
+          683.9472045898438,
+          440.2735137939453
+        ],
+        "floor": null,
+        "contact": "hidden",
+        "support_type": null,
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 17,
+        "box": [
+          625.5354309082031,
+          417.3209991455078,
+          714.6836547851562,
+          496.35789489746094
+        ],
+        "floor": [
+          693,
+          483
+        ],
+        "contact": "visible",
+        "support_type": "seat",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      },
+      {
+        "id": 18,
+        "box": [
+          704.7920227050781,
+          414.24171447753906,
+          788.7776489257812,
+          487.3912048339844
+        ],
+        "floor": [
+          724,
+          480
+        ],
+        "contact": "visible",
+        "support_type": "seat",
+        "outside": false,
+        "reviewed": true,
+        "identity_scope": "image-local proposal index; not cross-frame identity",
+        "provenance": "Assistant visual estimate from original frame and magnified crop; not independent human ground truth"
+      }
+    ]
+  }
+}

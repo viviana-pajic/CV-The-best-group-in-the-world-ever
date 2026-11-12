@@ -1,0 +1,166 @@
+{
+  "completed": {
+    "best_epoch": 1,
+    "epochs_run": 30,
+    "seconds": 420.9154897000408,
+    "validation": {
+      "loss": 5.94392188390096,
+      "raw_median_pct_width": 1.280933646859937,
+      "threshold_options": [
+        {
+          "threshold": 0.1,
+          "correct": 101,
+          "refs": 112,
+          "emitted": 180,
+          "joint_f1": 0.6917808219178082,
+          "visibility_f1": 0.7671232876712328,
+          "hidden_emitted": 68
+        },
+        {
+          "threshold": 0.25,
+          "correct": 101,
+          "refs": 112,
+          "emitted": 178,
+          "joint_f1": 0.696551724137931,
+          "visibility_f1": 0.7724137931034483,
+          "hidden_emitted": 66
+        },
+        {
+          "threshold": 0.4,
+          "correct": 101,
+          "refs": 112,
+          "emitted": 162,
+          "joint_f1": 0.7372262773722628,
+          "visibility_f1": 0.8175182481751825,
+          "hidden_emitted": 50
+        },
+        {
+          "threshold": 0.5,
+          "correct": 99,
+          "refs": 112,
+          "emitted": 147,
+          "joint_f1": 0.7644787644787645,
+          "visibility_f1": 0.8494208494208494,
+          "hidden_emitted": 37
+        },
+        {
+          "threshold": 0.6,
+          "correct": 99,
+          "refs": 112,
+          "emitted": 137,
+          "joint_f1": 0.7951807228915663,
+          "visibility_f1": 0.8674698795180723,
+          "hidden_emitted": 29
+        },
+        {
+          "threshold": 0.75,
+          "correct": 97,
+          "refs": 112,
+          "emitted": 118,
+          "joint_f1": 0.8434782608695652,
+          "visibility_f1": 0.9217391304347826,
+          "hidden_emitted": 12
+        },
+        {
+          "threshold": 0.9,
+          "correct": 84,
+          "refs": 112,
+          "emitted": 93,
+          "joint_f1": 0.8195121951219512,
+          "visibility_f1": 0.8682926829268293,
+          "hidden_emitted": 4
+        }
+      ],
+      "selected": {
+        "threshold": 0.75,
+        "correct": 97,
+        "refs": 112,
+        "emitted": 118,
+        "joint_f1": 0.8434782608695652,
+        "visibility_f1": 0.9217391304347826,
+        "hidden_emitted": 12
+      }
+    }
+  },
+  "deployed_checkpoint": "best_joint.pt",
+  "deployed_epoch": 3,
+  "deployed_validation": {
+    "loss": 6.557095845540364,
+    "raw_median_pct_width": 1.0858840194329757,
+    "threshold_options": [
+      {
+        "threshold": 0.1,
+        "correct": 106,
+        "refs": 112,
+        "emitted": 159,
+        "joint_f1": 0.7822878228782287,
+        "visibility_f1": 0.8265682656826568,
+        "hidden_emitted": 47
+      },
+      {
+        "threshold": 0.25,
+        "correct": 105,
+        "refs": 112,
+        "emitted": 136,
+        "joint_f1": 0.8467741935483871,
+        "visibility_f1": 0.8951612903225806,
+        "hidden_emitted": 25
+      },
+      {
+        "threshold": 0.4,
+        "correct": 103,
+        "refs": 112,
+        "emitted": 128,
+        "joint_f1": 0.8583333333333333,
+        "visibility_f1": 0.9,
+        "hidden_emitted": 20
+      },
+      {
+        "threshold": 0.5,
+        "correct": 102,
+        "refs": 112,
+        "emitted": 124,
+        "joint_f1": 0.864406779661017,
+        "visibility_f1": 0.9067796610169492,
+        "hidden_emitted": 17
+      },
+      {
+        "threshold": 0.6,
+        "correct": 102,
+        "refs": 112,
+        "emitted": 120,
+        "joint_f1": 0.8793103448275862,
+        "visibility_f1": 0.9224137931034483,
+        "hidden_emitted": 13
+      },
+      {
+        "threshold": 0.75,
+        "correct": 99,
+        "refs": 112,
+        "emitted": 116,
+        "joint_f1": 0.868421052631579,
+        "visibility_f1": 0.9122807017543859,
+        "hidden_emitted": 12
+      },
+      {
+        "threshold": 0.9,
+        "correct": 96,
+        "refs": 112,
+        "emitted": 107,
+        "joint_f1": 0.8767123287671232,
+        "visibility_f1": 0.9041095890410958,
+        "hidden_emitted": 8
+      }
+    ],
+    "selected": {
+      "threshold": 0.6,
+      "correct": 102,
+      "refs": 112,
+      "emitted": 120,
+      "joint_f1": 0.8793103448275862,
+      "visibility_f1": 0.9224137931034483,
+      "hidden_emitted": 13
+    }
+  },
+  "training_manifest_sha256": "80cc7b7dddd895a423948b475e0eeecb774cf3c32c2dfb99d527027b452718ad"
+}

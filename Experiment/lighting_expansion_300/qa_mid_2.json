@@ -1,0 +1,635 @@
+{
+  "reviewed_frames": [
+    4373,
+    4434,
+    4489,
+    4523,
+    4549,
+    4555,
+    4566,
+    4572,
+    4631,
+    4651,
+    4670,
+    4676,
+    4687,
+    4806,
+    4812,
+    4821
+  ],
+  "changes": {
+    "4373": {
+      "add": [
+        {
+          "id": 11,
+          "box": [
+            598,
+            339,
+            666,
+            417
+          ],
+          "floor": null,
+          "contact": "hidden",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false
+        }
+      ]
+    },
+    "4489": {
+      "updates": {
+        "3": {
+          "box": [
+            190.6,
+            368.42,
+            367,
+            543.69
+          ]
+        },
+        "2": {
+          "box": [
+            193.88,
+            350.46,
+            315,
+            494.03
+          ]
+        },
+        "18": {
+          "floor": [
+            1067,
+            553
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "4523": {
+      "updates": {
+        "2": {
+          "floor": [
+            257,
+            483
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "6": {
+          "floor": [
+            439,
+            488
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      },
+      "add": [
+        {
+          "id": 17,
+          "box": [
+            831,
+            349,
+            942,
+            502
+          ],
+          "floor": [
+            877,
+            495
+          ],
+          "contact": "visible",
+          "support_type": "feet",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false
+        }
+      ]
+    },
+    "4549": {
+      "updates": {
+        "1": {
+          "floor": [
+            229,
+            452
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "3": {
+          "floor": [
+            287,
+            539
+          ],
+          "contact": "visible",
+          "support_type": "feet",
+          "box": [
+            230.89,
+            358.02,
+            340,
+            546.63
+          ]
+        },
+        "6": {
+          "floor": [
+            430,
+            485
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "9": {
+          "floor": [
+            551,
+            452
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "13": {
+          "floor": [
+            738,
+            548
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "15": {
+          "floor": [
+            818,
+            490
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "19": {
+          "floor": [
+            1100,
+            455
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "4555": {
+      "updates": {
+        "1": {
+          "floor": [
+            241,
+            451
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "4": {
+          "floor": [
+            373,
+            424
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "6": {
+          "floor": [
+            428,
+            481
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "9": {
+          "floor": [
+            543,
+            450
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "13": {
+          "floor": [
+            725,
+            546
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "17": {
+          "floor": [
+            878,
+            465
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "4566": {
+      "updates": {
+        "1": {
+          "floor": [
+            225,
+            446
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "2": {
+          "floor": [
+            268,
+            483
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "17": {
+          "floor": [
+            880,
+            467
+          ],
+          "contact": "visible",
+          "support_type": "feet",
+          "box": [
+            840.65,
+            330.39,
+            940,
+            472.07
+          ]
+        },
+        "19": {
+          "floor": [
+            1094,
+            455
+          ],
+          "contact": "visible",
+          "support_type": "feet",
+          "box": [
+            1085.01,
+            342.13,
+            1126.7,
+            457
+          ]
+        },
+        "3": {
+          "box": [
+            193,
+            356.75,
+            350.67,
+            547.29
+          ]
+        }
+      }
+    },
+    "4572": {
+      "updates": {
+        "1": {
+          "floor": [
+            221,
+            448
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "5": {
+          "floor": [
+            407,
+            449
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "6": {
+          "floor": [
+            425,
+            478
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "13": {
+          "floor": [
+            747,
+            545
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "17": {
+          "floor": [
+            874,
+            466
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "18": {
+          "floor": [
+            1049,
+            548
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "19": {
+          "floor": [
+            1103,
+            455
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      },
+      "add": [
+        {
+          "id": 2,
+          "box": [
+            212,
+            339,
+            327,
+            480
+          ],
+          "floor": null,
+          "contact": "uncertain",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false
+        }
+      ]
+    },
+    "4631": {
+      "updates": {
+        "2": {
+          "floor": [
+            275,
+            480
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "3": {
+          "floor": [
+            230,
+            541
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "9": {
+          "floor": [
+            565,
+            451
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "13": {
+          "floor": [
+            749,
+            546
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "17": {
+          "floor": [
+            896,
+            470
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "4651": {
+      "updates": {
+        "2": {
+          "floor": [
+            277,
+            481
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "6": {
+          "floor": [
+            428,
+            476
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "15": {
+          "floor": [
+            841,
+            492
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "9": {
+          "floor": [
+            553,
+            454
+          ],
+          "contact": "visible",
+          "support_type": "knees"
+        },
+        "17": {
+          "floor": [
+            890,
+            476
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot"
+        }
+      }
+    },
+    "4670": {
+      "remove": [
+        1
+      ],
+      "updates": {
+        "2": {
+          "floor": [
+            242,
+            485
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "6": {
+          "floor": [
+            435,
+            484
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "15": {
+          "floor": [
+            834,
+            493
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    },
+    "4676": {
+      "updates": {
+        "2": {
+          "floor": [
+            265,
+            476
+          ],
+          "contact": "visible",
+          "support_type": "knees"
+        },
+        "18": {
+          "floor": [
+            1055,
+            558
+          ],
+          "contact": "visible",
+          "support_type": "feet",
+          "box": [
+            1022.12,
+            383.65,
+            1106,
+            563.46
+          ]
+        }
+      },
+      "add": [
+        {
+          "id": 19,
+          "box": [
+            1101,
+            418,
+            1144,
+            471
+          ],
+          "floor": null,
+          "contact": "uncertain",
+          "support_type": null,
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false
+        }
+      ]
+    },
+    "4687": {
+      "updates": {
+        "3": {
+          "box": [
+            136.09,
+            357.35,
+            273,
+            555.72
+          ]
+        },
+        "18": {
+          "box": [
+            962,
+            369.39,
+            1105.0,
+            563.46
+          ]
+        },
+        "8": {
+          "floor": [
+            508,
+            540
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        },
+        "19": {
+          "floor": [
+            1126,
+            459
+          ],
+          "contact": "visible",
+          "support_type": "knees"
+        }
+      }
+    },
+    "4806": {
+      "add": [
+        {
+          "id": 21,
+          "box": [
+            725,
+            384,
+            755,
+            430
+          ],
+          "floor": [
+            740,
+            424
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false
+        }
+      ]
+    },
+    "4812": {
+      "add": [
+        {
+          "id": 21,
+          "box": [
+            725,
+            384,
+            755,
+            430
+          ],
+          "floor": [
+            740,
+            424
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false
+        }
+      ]
+    },
+    "4821": {
+      "add": [
+        {
+          "id": 21,
+          "box": [
+            725,
+            384,
+            755,
+            430
+          ],
+          "floor": [
+            740,
+            424
+          ],
+          "contact": "visible",
+          "support_type": "mixed_knee_foot",
+          "sample_split": "train",
+          "outside": false,
+          "reviewed": false
+        }
+      ],
+      "updates": {
+        "12": {
+          "floor": [
+            708,
+            451
+          ],
+          "contact": "visible",
+          "support_type": "feet"
+        }
+      }
+    }
+  },
+  "notes": "Source and overlay inspected for each frame. Corrected clearly visible extents and support, added separable missed dancers, and left ambiguous overlaps unresolved. Pixel values are approximate assistant visual estimates."
+}

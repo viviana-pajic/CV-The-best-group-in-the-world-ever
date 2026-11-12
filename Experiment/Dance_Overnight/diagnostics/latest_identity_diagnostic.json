@@ -1,0 +1,1253 @@
+{
+  "scope": "Later diagnostic using already inspected limited identity references. Four held-pose frames/80 bodies with original seed IDs. Does not audit later crowded motion or the new confirmation block. Full2424-frame map-fit context is retained, then arrays are indexed from4420 for scoring.",
+  "candidates": {
+    "incumbent": {
+      "protocol": {
+        "created_utc": "2026-11-10T01:27:48.691040+00:00",
+        "sha256": "23cfaf0ec507f134f8f0de2b8eeef9fac3f430c5f79b77dfe715e6f8e598ef83",
+        "source_frames": [
+          4800,
+          4835,
+          4870,
+          4905
+        ],
+        "references": 80,
+        "scope": "Supplementary identity audit on the held-pose block only. Assistant visual continuation from reviewed source4719 identities through source-only bridge samples4720..4795 and the four reserved held-pose images. Nineteen dancers remain in their places; the standing soloist is distinguishable. No tracker/model predictions used. Not an independent human audit and not identity ground truth for the subsequent crowded transition.",
+        "selection": "Evaluation only; never used for model, tracker or filter selection. Primary all-frame evaluation remains image-local box matching."
+      },
+      "box_references": 80,
+      "matched_observed_boxes": 73,
+      "matches_with_correct_initial_id": 73,
+      "wrong_initial_id_matches": 0,
+      "identity_aware_floor": {
+        "scope": "Same initial dancer ID required. Missing or wrong-ID outputs count as misses; held/interpolated outputs assessed separately. Uncertain labels excluded from visibility/F1.",
+        "visible_references": 80,
+        "available_visible": 71,
+        "correct_by_tolerance_pct_width": {
+          "1": 58,
+          "2": 71,
+          "3": 71,
+          "5": 71
+        },
+        "correct_measured_3pct": 69,
+        "measured_emitted_known_labels": 69,
+        "measured_joint_f1": 0.9261744966442953,
+        "hidden_measured": 0,
+        "median_error_pct": 0.5876216268315974,
+        "p90_error_pct": 1.156770373760867,
+        "by_posture": {
+          "mixed_knee_foot": {
+            "refs": 76,
+            "available": 67,
+            "correct_3pct": 67
+          },
+          "feet": {
+            "refs": 4,
+            "available": 4,
+            "correct_3pct": 4
+          }
+        },
+        "status_counts": {
+          "mixed_knee_foot": {
+            "refs": 76,
+            "measured": 65,
+            "estimated": 2,
+            "unknown": 9
+          },
+          "feet": {
+            "refs": 4,
+            "measured": 4,
+            "estimated": 0,
+            "unknown": 0
+          }
+        },
+        "records": [
+          {
+            "frame": 380,
+            "id": 3,
+            "kind": "mixed_knee_foot",
+            "error": 0.16382728518167564,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 1,
+            "kind": "mixed_knee_foot",
+            "error": 1.156770373760867,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 2,
+            "kind": "mixed_knee_foot",
+            "error": 0.35228766833105685,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 4,
+            "kind": "mixed_knee_foot",
+            "error": 0.49712018043747597,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 5,
+            "kind": "mixed_knee_foot",
+            "error": 0.7080436650856867,
+            "state": 2
+          },
+          {
+            "frame": 380,
+            "id": 6,
+            "kind": "mixed_knee_foot",
+            "error": 1.3382538235800732,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 7,
+            "kind": "mixed_knee_foot",
+            "error": 0.2782590970621552,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 8,
+            "kind": "mixed_knee_foot",
+            "error": 0.22935144312133707,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 9,
+            "kind": "mixed_knee_foot",
+            "error": 0.99055721188479,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 10,
+            "kind": "mixed_knee_foot",
+            "error": 0.5035129247180775,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 11,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 380,
+            "id": 12,
+            "kind": "feet",
+            "error": 0.3994777891872366,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 14,
+            "kind": "mixed_knee_foot",
+            "error": 0.8717860578459637,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 13,
+            "kind": "mixed_knee_foot",
+            "error": 0.707796805631424,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 15,
+            "kind": "mixed_knee_foot",
+            "error": 0.445268693787418,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 16,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 380,
+            "id": 17,
+            "kind": "mixed_knee_foot",
+            "error": 0.23548580193318963,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 18,
+            "kind": "mixed_knee_foot",
+            "error": 0.6226625085159269,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 20,
+            "kind": "mixed_knee_foot",
+            "error": 1.0401470474816903,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 19,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 415,
+            "id": 3,
+            "kind": "mixed_knee_foot",
+            "error": 0.17596373212625482,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 1,
+            "kind": "mixed_knee_foot",
+            "error": 1.0922853085713768,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 2,
+            "kind": "mixed_knee_foot",
+            "error": 0.4020390666979649,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 4,
+            "kind": "mixed_knee_foot",
+            "error": 0.4869109808617432,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 5,
+            "kind": "mixed_knee_foot",
+            "error": 0.7339068856343689,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 6,
+            "kind": "mixed_knee_foot",
+            "error": 1.215039918663091,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 7,
+            "kind": "mixed_knee_foot",
+            "error": 0.37707871710415997,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 8,
+            "kind": "mixed_knee_foot",
+            "error": 0.10639071667893961,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 9,
+            "kind": "mixed_knee_foot",
+            "error": 0.9677669675990278,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 10,
+            "kind": "mixed_knee_foot",
+            "error": 0.6023159624601602,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 11,
+            "kind": "mixed_knee_foot",
+            "error": 0.607345237154214,
+            "state": 2
+          },
+          {
+            "frame": 415,
+            "id": 12,
+            "kind": "feet",
+            "error": 0.35385905040414867,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 14,
+            "kind": "mixed_knee_foot",
+            "error": 1.168663281288528,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 13,
+            "kind": "mixed_knee_foot",
+            "error": 0.819416819021913,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 15,
+            "kind": "mixed_knee_foot",
+            "error": 0.5882553150967323,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 16,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 415,
+            "id": 17,
+            "kind": "mixed_knee_foot",
+            "error": 0.24252619348201596,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 18,
+            "kind": "mixed_knee_foot",
+            "error": 0.4844841554776352,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 20,
+            "kind": "mixed_knee_foot",
+            "error": 1.0777780689032914,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 19,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 450,
+            "id": 3,
+            "kind": "mixed_knee_foot",
+            "error": 0.14237786050214843,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 1,
+            "kind": "mixed_knee_foot",
+            "error": 1.0961469845922938,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 2,
+            "kind": "mixed_knee_foot",
+            "error": 0.3467540406682713,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 4,
+            "kind": "mixed_knee_foot",
+            "error": 0.39974749155545924,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 5,
+            "kind": "mixed_knee_foot",
+            "error": 0.3202470628767304,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 6,
+            "kind": "mixed_knee_foot",
+            "error": 1.1751879862151473,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 7,
+            "kind": "mixed_knee_foot",
+            "error": 0.3789606115013312,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 8,
+            "kind": "mixed_knee_foot",
+            "error": 0.16909088846049677,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 9,
+            "kind": "mixed_knee_foot",
+            "error": 0.8767867905768033,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 10,
+            "kind": "mixed_knee_foot",
+            "error": 0.5922890171620193,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 11,
+            "kind": "mixed_knee_foot",
+            "error": 0.5934289573387367,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 12,
+            "kind": "feet",
+            "error": 0.7081371579818289,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 14,
+            "kind": "mixed_knee_foot",
+            "error": 0.505858861003183,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 13,
+            "kind": "mixed_knee_foot",
+            "error": 0.8148355509788123,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 15,
+            "kind": "mixed_knee_foot",
+            "error": 0.4381475488231952,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 16,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 450,
+            "id": 17,
+            "kind": "mixed_knee_foot",
+            "error": 0.5876216268315974,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 18,
+            "kind": "mixed_knee_foot",
+            "error": 0.5059736381468773,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 20,
+            "kind": "mixed_knee_foot",
+            "error": 1.1434962422202821,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 19,
+            "kind": "mixed_knee_foot",
+            "error": 1.8404416420428893,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 3,
+            "kind": "mixed_knee_foot",
+            "error": 0.30675247977600745,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 1,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 485,
+            "id": 2,
+            "kind": "mixed_knee_foot",
+            "error": 0.3655488326857904,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 4,
+            "kind": "mixed_knee_foot",
+            "error": 0.4234805602366022,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 5,
+            "kind": "mixed_knee_foot",
+            "error": 0.393913724647353,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 6,
+            "kind": "mixed_knee_foot",
+            "error": 0.8401739022905784,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 7,
+            "kind": "mixed_knee_foot",
+            "error": 0.5235801353231795,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 8,
+            "kind": "mixed_knee_foot",
+            "error": 0.10513609209167712,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 9,
+            "kind": "mixed_knee_foot",
+            "error": 0.6221960954803626,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 11,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 485,
+            "id": 10,
+            "kind": "mixed_knee_foot",
+            "error": 0.8241894744787849,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 14,
+            "kind": "mixed_knee_foot",
+            "error": 0.2513059913290384,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 13,
+            "kind": "mixed_knee_foot",
+            "error": 0.6764914659069576,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 12,
+            "kind": "feet",
+            "error": 0.9203528659082015,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 15,
+            "kind": "mixed_knee_foot",
+            "error": 1.2279323397349338,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 16,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 485,
+            "id": 17,
+            "kind": "mixed_knee_foot",
+            "error": 0.22854987943771915,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 18,
+            "kind": "mixed_knee_foot",
+            "error": 0.40264155322560974,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 20,
+            "kind": "mixed_knee_foot",
+            "error": 0.8023042849448261,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 19,
+            "kind": "mixed_knee_foot",
+            "error": 1.6009834295790373,
+            "state": 1
+          }
+        ]
+      }
+    },
+    "expanded": {
+      "protocol": {
+        "created_utc": "2026-11-10T01:27:48.691040+00:00",
+        "sha256": "23cfaf0ec507f134f8f0de2b8eeef9fac3f430c5f79b77dfe715e6f8e598ef83",
+        "source_frames": [
+          4800,
+          4835,
+          4870,
+          4905
+        ],
+        "references": 80,
+        "scope": "Supplementary identity audit on the held-pose block only. Assistant visual continuation from reviewed source4719 identities through source-only bridge samples4720..4795 and the four reserved held-pose images. Nineteen dancers remain in their places; the standing soloist is distinguishable. No tracker/model predictions used. Not an independent human audit and not identity ground truth for the subsequent crowded transition.",
+        "selection": "Evaluation only; never used for model, tracker or filter selection. Primary all-frame evaluation remains image-local box matching."
+      },
+      "box_references": 80,
+      "matched_observed_boxes": 70,
+      "matches_with_correct_initial_id": 70,
+      "wrong_initial_id_matches": 0,
+      "identity_aware_floor": {
+        "scope": "Same initial dancer ID required. Missing or wrong-ID outputs count as misses; held/interpolated outputs assessed separately. Uncertain labels excluded from visibility/F1.",
+        "visible_references": 80,
+        "available_visible": 68,
+        "correct_by_tolerance_pct_width": {
+          "1": 57,
+          "2": 68,
+          "3": 68,
+          "5": 68
+        },
+        "correct_measured_3pct": 68,
+        "measured_emitted_known_labels": 68,
+        "measured_joint_f1": 0.918918918918919,
+        "hidden_measured": 0,
+        "median_error_pct": 0.6340720452865991,
+        "p90_error_pct": 1.0504738319348292,
+        "by_posture": {
+          "mixed_knee_foot": {
+            "refs": 76,
+            "available": 64,
+            "correct_3pct": 64
+          },
+          "feet": {
+            "refs": 4,
+            "available": 4,
+            "correct_3pct": 4
+          }
+        },
+        "status_counts": {
+          "mixed_knee_foot": {
+            "refs": 76,
+            "measured": 64,
+            "estimated": 0,
+            "unknown": 12
+          },
+          "feet": {
+            "refs": 4,
+            "measured": 4,
+            "estimated": 0,
+            "unknown": 0
+          }
+        },
+        "records": [
+          {
+            "frame": 380,
+            "id": 3,
+            "kind": "mixed_knee_foot",
+            "error": 0.16249999398433357,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 1,
+            "kind": "mixed_knee_foot",
+            "error": 1.0403053008085785,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 2,
+            "kind": "mixed_knee_foot",
+            "error": 0.24420729566154242,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 4,
+            "kind": "mixed_knee_foot",
+            "error": 0.45857128079055764,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 5,
+            "kind": "mixed_knee_foot",
+            "error": 0.3219671622446274,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 6,
+            "kind": "mixed_knee_foot",
+            "error": 0.9834211148614518,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 7,
+            "kind": "mixed_knee_foot",
+            "error": 0.8285606481570368,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 8,
+            "kind": "mixed_knee_foot",
+            "error": 0.30044797744914664,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 9,
+            "kind": "mixed_knee_foot",
+            "error": 0.8224638825386816,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 10,
+            "kind": "mixed_knee_foot",
+            "error": 0.7386885139109072,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 11,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 380,
+            "id": 12,
+            "kind": "feet",
+            "error": 1.0005130884343907,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 14,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 380,
+            "id": 13,
+            "kind": "mixed_knee_foot",
+            "error": 0.3756424624690099,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 15,
+            "kind": "mixed_knee_foot",
+            "error": 0.5852272665425732,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 16,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 380,
+            "id": 17,
+            "kind": "mixed_knee_foot",
+            "error": 0.4565632298575255,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 18,
+            "kind": "mixed_knee_foot",
+            "error": 0.5298542527275694,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 20,
+            "kind": "mixed_knee_foot",
+            "error": 1.4077864938048463,
+            "state": 1
+          },
+          {
+            "frame": 380,
+            "id": 19,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 415,
+            "id": 3,
+            "kind": "mixed_knee_foot",
+            "error": 0.096589178668305,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 1,
+            "kind": "mixed_knee_foot",
+            "error": 0.9840302273922417,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 2,
+            "kind": "mixed_knee_foot",
+            "error": 0.4048145900639233,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 4,
+            "kind": "mixed_knee_foot",
+            "error": 0.4463647000963925,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 5,
+            "kind": "mixed_knee_foot",
+            "error": 0.5600925305696982,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 6,
+            "kind": "mixed_knee_foot",
+            "error": 0.8835746632206665,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 7,
+            "kind": "mixed_knee_foot",
+            "error": 0.8068596833020066,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 8,
+            "kind": "mixed_knee_foot",
+            "error": 0.28506775963440634,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 9,
+            "kind": "mixed_knee_foot",
+            "error": 0.769206058837757,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 10,
+            "kind": "mixed_knee_foot",
+            "error": 0.8052560565006309,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 11,
+            "kind": "mixed_knee_foot",
+            "error": 0.2794128818807385,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 12,
+            "kind": "feet",
+            "error": 0.3643207874224883,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 14,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 415,
+            "id": 13,
+            "kind": "mixed_knee_foot",
+            "error": 0.42507438408119996,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 15,
+            "kind": "mixed_knee_foot",
+            "error": 0.8615728851309685,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 16,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 415,
+            "id": 17,
+            "kind": "mixed_knee_foot",
+            "error": 0.6328767807408252,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 18,
+            "kind": "mixed_knee_foot",
+            "error": 0.6303340318239529,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 20,
+            "kind": "mixed_knee_foot",
+            "error": 1.4631470253289327,
+            "state": 1
+          },
+          {
+            "frame": 415,
+            "id": 19,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 450,
+            "id": 3,
+            "kind": "mixed_knee_foot",
+            "error": 0.1279241660287788,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 1,
+            "kind": "mixed_knee_foot",
+            "error": 0.9465355649593193,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 2,
+            "kind": "mixed_knee_foot",
+            "error": 0.10070637325808435,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 4,
+            "kind": "mixed_knee_foot",
+            "error": 0.45740881429314234,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 5,
+            "kind": "mixed_knee_foot",
+            "error": 0.3713716702956537,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 6,
+            "kind": "mixed_knee_foot",
+            "error": 0.8372009339506804,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 7,
+            "kind": "mixed_knee_foot",
+            "error": 1.0306921564097795,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 8,
+            "kind": "mixed_knee_foot",
+            "error": 0.20206706836774854,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 9,
+            "kind": "mixed_knee_foot",
+            "error": 0.8582729460924932,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 10,
+            "kind": "mixed_knee_foot",
+            "error": 0.6352673098323731,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 11,
+            "kind": "mixed_knee_foot",
+            "error": 0.46446618807162693,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 12,
+            "kind": "feet",
+            "error": 0.6909369094755224,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 14,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 450,
+            "id": 13,
+            "kind": "mixed_knee_foot",
+            "error": 0.36398451303072565,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 15,
+            "kind": "mixed_knee_foot",
+            "error": 0.7044859608261506,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 16,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 450,
+            "id": 17,
+            "kind": "mixed_knee_foot",
+            "error": 0.811572597742594,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 18,
+            "kind": "mixed_knee_foot",
+            "error": 0.5680906365952436,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 20,
+            "kind": "mixed_knee_foot",
+            "error": 1.4714502277250532,
+            "state": 1
+          },
+          {
+            "frame": 450,
+            "id": 19,
+            "kind": "mixed_knee_foot",
+            "error": 1.4420372826122592,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 3,
+            "kind": "mixed_knee_foot",
+            "error": 0.19178674077448332,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 1,
+            "kind": "mixed_knee_foot",
+            "error": 0.5927347556735864,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 2,
+            "kind": "mixed_knee_foot",
+            "error": 0.3612848152932092,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 4,
+            "kind": "mixed_knee_foot",
+            "error": 0.3986000893120697,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 5,
+            "kind": "mixed_knee_foot",
+            "error": 0.5249874082537943,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 6,
+            "kind": "mixed_knee_foot",
+            "error": 0.822779923076913,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 7,
+            "kind": "mixed_knee_foot",
+            "error": 0.6817378425589758,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 8,
+            "kind": "mixed_knee_foot",
+            "error": 0.11507159600201688,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 9,
+            "kind": "mixed_knee_foot",
+            "error": 0.6497640116348058,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 11,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 485,
+            "id": 10,
+            "kind": "mixed_knee_foot",
+            "error": 0.9451627552222638,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 14,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 485,
+            "id": 13,
+            "kind": "mixed_knee_foot",
+            "error": 0.6009736058550019,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 12,
+            "kind": "feet",
+            "error": 1.0489467269065105,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 15,
+            "kind": "mixed_knee_foot",
+            "error": 1.0540370770009064,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 16,
+            "kind": "mixed_knee_foot",
+            "error": null,
+            "state": 0
+          },
+          {
+            "frame": 485,
+            "id": 17,
+            "kind": "mixed_knee_foot",
+            "error": 0.6513704461654454,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 18,
+            "kind": "mixed_knee_foot",
+            "error": 0.7274880947281931,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 20,
+            "kind": "mixed_knee_foot",
+            "error": 1.149707556694544,
+            "state": 1
+          },
+          {
+            "frame": 485,
+            "id": 19,
+            "kind": "mixed_knee_foot",
+            "error": 1.1951646273821868,
+            "state": 1
+          }
+        ]
+      }
+    }
+  }
+}

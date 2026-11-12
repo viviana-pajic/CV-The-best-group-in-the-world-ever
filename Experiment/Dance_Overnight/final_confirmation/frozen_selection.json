@@ -1,0 +1,1274 @@
+{
+  "frozen_utc": "2026-11-10T04:15:04.734113+00:00",
+  "selection_protocol_sha256": "fa5f1938d3b268ba102a9c0b08ab067b5d516944d6ea0e19f369c3eec7fefb0e",
+  "support": {
+    "name": "v6_attention_wide_s17_best_joint_crop5flip_point",
+    "run": "v6_attention_wide_s17",
+    "checkpoint": "best_joint.pt",
+    "epoch": 37,
+    "mode": "crop5flip",
+    "decoder": "point"
+  },
+  "threshold": 0.25,
+  "settings": {
+    "name": "robust_l128_h0.5_path1",
+    "kind": "robust_trajectory",
+    "strength": 128,
+    "huber": 0.5,
+    "path_gate": true,
+    "path_speed": 0.3,
+    "gap": 25,
+    "measured_residual": 3.0
+  },
+  "detector": {
+    "weights": "detector_expanded/runs/diverse_brightness/weights/best.pt",
+    "config": {
+      "high_conf": 0.25,
+      "low_conf": 0.06,
+      "ground_weight": 0,
+      "ground_gate": 8.0,
+      "max_prediction_frames": 25,
+      "identity_memory_frames": 300,
+      "map_alpha": 0.35,
+      "map_jump": 2.0,
+      "map_persistence": 3,
+      "roster": 20,
+      "fps": 25,
+      "body_rescue": true,
+      "appearance_weight": 0.7,
+      "initial_gallery": true,
+      "flow_blend": 1.0,
+      "flow_max_gap": 1
+    },
+    "detector_merge_iou": 0.55,
+    "source": "expanded development-selected detector"
+  },
+  "expanded_detector_accepted": true,
+  "detector_development": {
+    "original_same_head": {
+      "scope": "Same initial dancer ID required. Missing or wrong-ID outputs count as misses; held/interpolated outputs assessed separately. Uncertain labels excluded from visibility/F1.",
+      "visible_references": 77,
+      "available_visible": 75,
+      "correct_by_tolerance_pct_width": {
+        "1": 65,
+        "2": 72,
+        "3": 74,
+        "5": 75
+      },
+      "correct_measured_3pct": 70,
+      "measured_emitted_known_labels": 73,
+      "measured_joint_f1": 0.9333333333333333,
+      "hidden_measured": 2,
+      "median_error_pct": 0.4825512260787168,
+      "p90_error_pct": 1.2531123993604545,
+      "by_posture": {
+        "feet": {
+          "refs": 43,
+          "available": 43,
+          "correct_3pct": 43
+        },
+        "knees": {
+          "refs": 34,
+          "available": 32,
+          "correct_3pct": 31
+        }
+      },
+      "status_counts": {
+        "hidden": {
+          "refs": 42,
+          "measured": 2,
+          "estimated": 10,
+          "unknown": 30
+        },
+        "feet": {
+          "refs": 43,
+          "measured": 41,
+          "estimated": 2,
+          "unknown": 0
+        },
+        "knees": {
+          "refs": 34,
+          "measured": 30,
+          "estimated": 2,
+          "unknown": 2
+        },
+        "uncertain": {
+          "refs": 1,
+          "measured": 1,
+          "estimated": 0,
+          "unknown": 0
+        }
+      },
+      "records": [
+        {
+          "frame": 165,
+          "id": 3,
+          "kind": "feet",
+          "error": 0.14728782707012275,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 4,
+          "kind": "feet",
+          "error": 1.6653187284429931,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 6,
+          "kind": "feet",
+          "error": 0.3393539755619644,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 8,
+          "kind": "feet",
+          "error": 0.24953831517472996,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 9,
+          "kind": "feet",
+          "error": 0.44083483333413315,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 10,
+          "kind": "feet",
+          "error": 0.48268622548553336,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 13,
+          "kind": "feet",
+          "error": 0.20380816839552796,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 15,
+          "kind": "feet",
+          "error": 0.6674015862363518,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 17,
+          "kind": "feet",
+          "error": 0.616161837173942,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 18,
+          "kind": "feet",
+          "error": 0.14780938591052895,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 3,
+          "kind": "feet",
+          "error": 0.4825512260787168,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 4,
+          "kind": "feet",
+          "error": 0.4018558624237957,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 6,
+          "kind": "feet",
+          "error": 0.5983385634151696,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 8,
+          "kind": "feet",
+          "error": 0.5233619165360981,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 9,
+          "kind": "feet",
+          "error": 0.07813301773297097,
+          "state": 2
+        },
+        {
+          "frame": 175,
+          "id": 10,
+          "kind": "feet",
+          "error": 0.4194884578224713,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 12,
+          "kind": "feet",
+          "error": 1.3152259047117765,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 13,
+          "kind": "feet",
+          "error": 0.21669466683229874,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 15,
+          "kind": "feet",
+          "error": 0.7416278990787997,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 17,
+          "kind": "feet",
+          "error": 0.698807169713685,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 18,
+          "kind": "feet",
+          "error": 0.30331936831508155,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 3,
+          "kind": "feet",
+          "error": 0.8015398612323564,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 6,
+          "kind": "feet",
+          "error": 0.305494862794722,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 8,
+          "kind": "feet",
+          "error": 0.06472891858661817,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 9,
+          "kind": "feet",
+          "error": 0.2603479693349376,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 10,
+          "kind": "feet",
+          "error": 0.4257999698513789,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 12,
+          "kind": "feet",
+          "error": 0.9472271041801577,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 13,
+          "kind": "feet",
+          "error": 0.348833789981423,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 15,
+          "kind": "feet",
+          "error": 0.31311361271625177,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 17,
+          "kind": "feet",
+          "error": 1.2964484983511397,
+          "state": 2
+        },
+        {
+          "frame": 185,
+          "id": 18,
+          "kind": "feet",
+          "error": 0.5128172585284675,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 3,
+          "kind": "feet",
+          "error": 0.10702022815808583,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 4,
+          "kind": "feet",
+          "error": 0.2771775657771296,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 6,
+          "kind": "feet",
+          "error": 0.4989524385336178,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 8,
+          "kind": "feet",
+          "error": 0.6979647687120124,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 9,
+          "kind": "feet",
+          "error": 0.14900594069618864,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 10,
+          "kind": "feet",
+          "error": 0.2437243944607167,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 12,
+          "kind": "feet",
+          "error": 0.8340623801749927,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 13,
+          "kind": "feet",
+          "error": 0.18099774950599332,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 15,
+          "kind": "feet",
+          "error": 0.9389514413431104,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 17,
+          "kind": "feet",
+          "error": 0.6744522102380913,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 18,
+          "kind": "feet",
+          "error": 0.3199969727468943,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 1,
+          "kind": "knees",
+          "error": null,
+          "state": 0
+        },
+        {
+          "frame": 285,
+          "id": 2,
+          "kind": "knees",
+          "error": 0.16259192328455532,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 3,
+          "kind": "knees",
+          "error": 0.7949272392680152,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 4,
+          "kind": "knees",
+          "error": 0.12590125656106135,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 5,
+          "kind": "knees",
+          "error": 0.2282887905929994,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 6,
+          "kind": "knees",
+          "error": 1.1881082508744245,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 7,
+          "kind": "knees",
+          "error": 2.170887968740754,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 8,
+          "kind": "knees",
+          "error": 0.596010893420688,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 9,
+          "kind": "knees",
+          "error": 0.8113924432771764,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 10,
+          "kind": "knees",
+          "error": 0.7964449399761885,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 11,
+          "kind": "knees",
+          "error": 1.8438573087742998,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 12,
+          "kind": "feet",
+          "error": 0.3891634430264424,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 13,
+          "kind": "knees",
+          "error": 0.4021831194557456,
+          "state": 2
+        },
+        {
+          "frame": 285,
+          "id": 15,
+          "kind": "knees",
+          "error": 0.8396868319141859,
+          "state": 2
+        },
+        {
+          "frame": 285,
+          "id": 17,
+          "kind": "knees",
+          "error": 0.18026774678604784,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 18,
+          "kind": "knees",
+          "error": 0.3243186382312735,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 19,
+          "kind": "knees",
+          "error": 3.895002709138334,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 20,
+          "kind": "knees",
+          "error": 0.44283819794276175,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 1,
+          "kind": "knees",
+          "error": 0.13220274144463964,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 2,
+          "kind": "knees",
+          "error": 0.24726660159643232,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 3,
+          "kind": "knees",
+          "error": 0.9260852949735889,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 4,
+          "kind": "knees",
+          "error": 0.15536770695746857,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 5,
+          "kind": "knees",
+          "error": 0.07410249587924685,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 6,
+          "kind": "knees",
+          "error": 1.1407913344562897,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 7,
+          "kind": "knees",
+          "error": 1.5510705080098641,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 8,
+          "kind": "knees",
+          "error": 0.6301596277973268,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 9,
+          "kind": "knees",
+          "error": 0.6910289067385269,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 10,
+          "kind": "knees",
+          "error": 0.7647823090093685,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 11,
+          "kind": "knees",
+          "error": 2.312266196342641,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 13,
+          "kind": "knees",
+          "error": 0.10024181663557784,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 15,
+          "kind": "knees",
+          "error": 0.9291929383245244,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 17,
+          "kind": "knees",
+          "error": 0.42073114721719224,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 18,
+          "kind": "knees",
+          "error": 0.7350540687581631,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 19,
+          "kind": "knees",
+          "error": null,
+          "state": 0
+        },
+        {
+          "frame": 299,
+          "id": 20,
+          "kind": "knees",
+          "error": 0.7342414599626013,
+          "state": 1
+        }
+      ]
+    },
+    "expanded_same_head": {
+      "scope": "Same initial dancer ID required. Missing or wrong-ID outputs count as misses; held/interpolated outputs assessed separately. Uncertain labels excluded from visibility/F1.",
+      "visible_references": 77,
+      "available_visible": 75,
+      "correct_by_tolerance_pct_width": {
+        "1": 62,
+        "2": 72,
+        "3": 74,
+        "5": 75
+      },
+      "correct_measured_3pct": 69,
+      "measured_emitted_known_labels": 72,
+      "measured_joint_f1": 0.9261744966442953,
+      "hidden_measured": 2,
+      "median_error_pct": 0.47617244393204966,
+      "p90_error_pct": 1.2133604521109758,
+      "by_posture": {
+        "feet": {
+          "refs": 43,
+          "available": 43,
+          "correct_3pct": 43
+        },
+        "knees": {
+          "refs": 34,
+          "available": 32,
+          "correct_3pct": 31
+        }
+      },
+      "status_counts": {
+        "hidden": {
+          "refs": 42,
+          "measured": 2,
+          "estimated": 10,
+          "unknown": 30
+        },
+        "feet": {
+          "refs": 43,
+          "measured": 40,
+          "estimated": 3,
+          "unknown": 0
+        },
+        "knees": {
+          "refs": 34,
+          "measured": 30,
+          "estimated": 2,
+          "unknown": 2
+        },
+        "uncertain": {
+          "refs": 1,
+          "measured": 1,
+          "estimated": 0,
+          "unknown": 0
+        }
+      },
+      "records": [
+        {
+          "frame": 165,
+          "id": 3,
+          "kind": "feet",
+          "error": 0.12963813421689244,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 4,
+          "kind": "feet",
+          "error": 1.7109865360995467,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 6,
+          "kind": "feet",
+          "error": 0.32416225843606167,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 8,
+          "kind": "feet",
+          "error": 0.246157160644912,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 9,
+          "kind": "feet",
+          "error": 0.4365640647652064,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 10,
+          "kind": "feet",
+          "error": 0.5048095310014334,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 13,
+          "kind": "feet",
+          "error": 0.22295706071602572,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 15,
+          "kind": "feet",
+          "error": 0.6275653001344264,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 17,
+          "kind": "feet",
+          "error": 0.6893637761893912,
+          "state": 1
+        },
+        {
+          "frame": 165,
+          "id": 18,
+          "kind": "feet",
+          "error": 0.24842100446211918,
+          "state": 2
+        },
+        {
+          "frame": 175,
+          "id": 3,
+          "kind": "feet",
+          "error": 0.47801099007975606,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 4,
+          "kind": "feet",
+          "error": 0.3967275339067749,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 6,
+          "kind": "feet",
+          "error": 0.5868428280956034,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 8,
+          "kind": "feet",
+          "error": 0.5329388376245979,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 9,
+          "kind": "feet",
+          "error": 0.08861920795624201,
+          "state": 2
+        },
+        {
+          "frame": 175,
+          "id": 10,
+          "kind": "feet",
+          "error": 0.4469071088872801,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 12,
+          "kind": "feet",
+          "error": 1.2831124526474287,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 13,
+          "kind": "feet",
+          "error": 0.2978587353962937,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 15,
+          "kind": "feet",
+          "error": 0.7182272428475494,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 17,
+          "kind": "feet",
+          "error": 0.757314647298901,
+          "state": 1
+        },
+        {
+          "frame": 175,
+          "id": 18,
+          "kind": "feet",
+          "error": 0.2910573637858752,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 3,
+          "kind": "feet",
+          "error": 0.7939828586349227,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 6,
+          "kind": "feet",
+          "error": 0.3079227355897627,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 8,
+          "kind": "feet",
+          "error": 0.07149955438849433,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 9,
+          "kind": "feet",
+          "error": 0.27662558933366416,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 10,
+          "kind": "feet",
+          "error": 0.4356453476227277,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 12,
+          "kind": "feet",
+          "error": 0.985349184511382,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 13,
+          "kind": "feet",
+          "error": 0.34658361513505465,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 15,
+          "kind": "feet",
+          "error": 0.28675139674803646,
+          "state": 1
+        },
+        {
+          "frame": 185,
+          "id": 17,
+          "kind": "feet",
+          "error": 1.2155409113435833,
+          "state": 2
+        },
+        {
+          "frame": 185,
+          "id": 18,
+          "kind": "feet",
+          "error": 0.5136992031640266,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 3,
+          "kind": "feet",
+          "error": 0.10442408834305433,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 4,
+          "kind": "feet",
+          "error": 0.27003442868846456,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 6,
+          "kind": "feet",
+          "error": 0.47617244393204966,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 8,
+          "kind": "feet",
+          "error": 0.7175589761605559,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 9,
+          "kind": "feet",
+          "error": 0.10733979388366259,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 10,
+          "kind": "feet",
+          "error": 0.2391476456635258,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 12,
+          "kind": "feet",
+          "error": 0.8682065752043057,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 13,
+          "kind": "feet",
+          "error": 0.14506218348634473,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 15,
+          "kind": "feet",
+          "error": 0.9735827823953997,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 17,
+          "kind": "feet",
+          "error": 0.6720635731887855,
+          "state": 1
+        },
+        {
+          "frame": 195,
+          "id": 18,
+          "kind": "feet",
+          "error": 0.3067673931055984,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 1,
+          "kind": "knees",
+          "error": null,
+          "state": 0
+        },
+        {
+          "frame": 285,
+          "id": 2,
+          "kind": "knees",
+          "error": 0.15920756742667228,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 3,
+          "kind": "knees",
+          "error": 0.7980794477156955,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 4,
+          "kind": "knees",
+          "error": 0.1470679310819408,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 5,
+          "kind": "knees",
+          "error": 0.3152792528207323,
+          "state": 2
+        },
+        {
+          "frame": 285,
+          "id": 6,
+          "kind": "knees",
+          "error": 1.2100897632620644,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 7,
+          "kind": "knees",
+          "error": 2.1415252731032854,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 8,
+          "kind": "knees",
+          "error": 0.6057827497262739,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 9,
+          "kind": "knees",
+          "error": 1.0029442851936954,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 10,
+          "kind": "knees",
+          "error": 0.7524957787914641,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 11,
+          "kind": "knees",
+          "error": 1.9318755131987875,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 12,
+          "kind": "feet",
+          "error": 0.405667113481593,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 13,
+          "kind": "knees",
+          "error": 0.414671440872669,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 15,
+          "kind": "knees",
+          "error": 0.7905876637061364,
+          "state": 2
+        },
+        {
+          "frame": 285,
+          "id": 17,
+          "kind": "knees",
+          "error": 0.20734500765672528,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 18,
+          "kind": "knees",
+          "error": 0.33611682906973717,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 19,
+          "kind": "knees",
+          "error": 3.625738741488564,
+          "state": 1
+        },
+        {
+          "frame": 285,
+          "id": 20,
+          "kind": "knees",
+          "error": 0.4715419373843356,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 1,
+          "kind": "knees",
+          "error": 0.20503347346675233,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 2,
+          "kind": "knees",
+          "error": 0.24856331096856757,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 3,
+          "kind": "knees",
+          "error": 0.9188714238882523,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 4,
+          "kind": "knees",
+          "error": 0.12620123219536264,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 5,
+          "kind": "knees",
+          "error": 0.15786185920568435,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 6,
+          "kind": "knees",
+          "error": 1.1533288355836857,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 7,
+          "kind": "knees",
+          "error": 1.3271012202058288,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 8,
+          "kind": "knees",
+          "error": 0.641568057328844,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 9,
+          "kind": "knees",
+          "error": 1.031152818494365,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 10,
+          "kind": "knees",
+          "error": 0.8777310607698603,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 11,
+          "kind": "knees",
+          "error": 2.3641678712909227,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 13,
+          "kind": "knees",
+          "error": 0.1042662459366785,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 15,
+          "kind": "knees",
+          "error": 1.010712594614248,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 17,
+          "kind": "knees",
+          "error": 0.3300875137973972,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 18,
+          "kind": "knees",
+          "error": 0.7879043846621088,
+          "state": 1
+        },
+        {
+          "frame": 299,
+          "id": 19,
+          "kind": "knees",
+          "error": null,
+          "state": 0
+        },
+        {
+          "frame": 299,
+          "id": 20,
+          "kind": "knees",
+          "error": 0.6855984939995234,
+          "state": 1
+        }
+      ]
+    },
+    "expanded_identity": {
+      "reference_boxes": 120,
+      "observed_boxes": 112,
+      "matched_boxes": 101,
+      "precision": 0.9017857142857143,
+      "recall": 0.8416666666666667,
+      "correct_initial_ids": 101,
+      "wrong_initial_ids": 0,
+      "correct_id_fraction_of_matches": 1.0,
+      "correct_id_recall": 0.8416666666666667,
+      "identity_pairs": 63,
+      "id_changes": 0,
+      "visible_floor_references": 84,
+      "matched_output_floor_points": 77,
+      "floor_points_emitted_observed_tracks": 98,
+      "floor_correct_within_3pct": 67,
+      "floor_and_initial_id_correct": 67,
+      "median_floor_error_pct": 1.3195576956912807,
+      "p90_floor_error_pct": 3.4131171844140487,
+      "predicted_boxes_matching_visible_person": 1,
+      "predicted_boxes_with_correct_initial_id": 1,
+      "fully_hidden_id_records": 0,
+      "fully_hidden_ids_claimed_observed": 0,
+      "matched_hidden_supports": 21,
+      "hidden_supports_flagged_uncertain": 20,
+      "matched_visible_supports": 80,
+      "visible_supports_flagged_uncertain": 16
+    }
+  },
+  "confirmation": "No confirmation image labels or model outputs inspected to make this choice. Three variants fixed in selection_protocol.json.",
+  "sha256": {
+    "support": "c272f4670f471d79fcc76b9137b713a02b51b9b89707dd0ec3fb73c4044cd641",
+    "detector": "2121ca7f47686d867431670033792e89237bd7c6700ba741bf5c201069e3b380"
+  }
+}
