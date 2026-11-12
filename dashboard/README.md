@@ -1,5 +1,7 @@
 # Formation Review
 
+Formation Review helps dance judges assess group formation accuracy. Fitted rows show how closely dancers line up on the stage map, and a live heat map shows stage use over time. Floor contacts provide the positions used in both views.
+
 Extract the dashboard ZIP and open `index.html` in Chrome or Edge. Keep the `assets` folder beside it. The replay runs locally in the browser.
 
 Use the timeline to pause on a formation. The arrow buttons move by one frame. Change **Minimum dots per line** and **Maximum line angle** to refit the same contacts. The initial settings are four contacts and up to 10° on either side of horizontal. The four display switches work independently.

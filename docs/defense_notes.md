@@ -1,9 +1,10 @@
 # Defense walkthrough
 
-Start in the [master notebook](../Master_Notebook.ipynb). Show the live app on the bundled clip and the saved dashboard on onare near 3:05. Change the angle and dot count while paused, then show the dark opening of Wicked Games. Open one case with missed or unmatched boxes and trace the cause to the labeling rule and model comparison.
+Start with the judging task. Pause onare near 3:05 and show the fitted row and its alignment score. Change the angle and minimum dancer count to see how the fit changes. Then scroll down to the live heat map and show how stage coverage builds during Dernek. Use the bundled clip to demonstrate fresh inference. Show the dark opening of Wicked Games to explain how missing floor contacts affect the positions a judge can review. [Master notebook](../Master_Notebook.ipynb) · [Dashboard](../dashboard/index.html)
 
 | If asked | Code to open | What to explain |
 |---|---|---|
+| What does the formation score measure? | [Dashboard engine](../dashboard/formation.js) | The score measures the perpendicular distance from reported dancer positions to a fitted row. Judges interpret the result alongside the intended formation. |
 | Why tile the image? | [detector_probe.py](../Experiment/Dance_Overnight/code/detector_probe.py) | Crop scale helps small people. Offsets restore full-frame coordinates. Duplicate suppression can also remove genuine overlap. |
 | What was fine-tuned and how was it chosen? | [train_300.py](../Experiment/lighting_expansion_300/train_300.py), [AP script](../tools/evaluate_submission_detector.py) | Backbone features, box/class outputs, frozen layers, validation, IoU, PR curve and the AP50 versus AP50:95 tradeoff. |
 | Why a support point and a visibility score? | [candidate_evaluate.py](../Experiment/Dance_Overnight/code/candidate_evaluate.py) | The crop head predicts heatmap coordinates and reportability. A knee, seat or palm may carry weight. Explain when to abstain. |

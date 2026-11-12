@@ -4,6 +4,13 @@ import nbformat as nb
 
 ROOT = Path(__file__).resolve().parents[1]
 SECTION = "## 10. Evaluate boxes with standard AP"
+RESEARCH_INTRO = """
+# Research behind Formation Review
+
+Formation Review helps dance judges assess group formation accuracy. The experiments below test how reliably we can locate dancers on the stage and how those positions support alignment scores and the live stage-use heat map. The contact benchmarks measure the quality of the position estimates that feed the formation analysis.
+
+The cells read saved results. The [master notebook](Master_Notebook.ipynb) walks through the judging tool, and the [300-image results](Experiment/lighting_expansion_300/RESULTS.md) give the training details.
+""".strip()
 
 
 def md(text):
@@ -67,9 +74,13 @@ table(['Pipeline', 'Within 1%', 'Within 2%', 'Within 3%', 'Within 5%', 'Hidden r
 
 master = [
     md("""
-# Dance formation and floor contact
+# Formation Review for dance judges
 
-We built an offline tool to inspect where dancers touch the floor and how they line up. The original fixed-camera choreography is our development source. Wicked Games, onare and Dernek are new-performance visual checks. The team roadmap records verbal approval to use dance for the challenge.
+Formation Review helps dance judges assess group formation accuracy. Judges can pause the video, see fitted lines on the 12 × 12 m stage map, and review how closely the dancers align in each detected row.
+
+Floor contacts give us the stage positions used to fit those lines. The live heat map adds a view of how widely the group uses the stage and where dancers spend the most time.
+
+We developed the tool on the original fixed-camera choreography and visually checked it on Wicked Games, onare and Dernek. The team roadmap records verbal approval to use dance for the challenge.
 
 [Interactive replay](dashboard/index.html) · [Research evidence](Research_Notebook.ipynb) · [Labeling guide](Labeling_Guide.ipynb) · [Rubric and remaining work](docs/rubric_and_gaps.md)
 
@@ -77,9 +88,9 @@ The cells below read saved experiment evidence and run on CPU. [Run a fresh clip
 """),
     setup,
     md("""
-## 1. Find dancers, then find their floor contact
+## 1. Locate the dancers on the stage
 
-Generic YOLO finds many standing dancers. Overlapping crops help keep small performers large enough for inference, then cross-crop IoU suppression merges duplicates. Tracking links detections across frames. A box bottom was a useful first baseline, but floor work often puts the actual support at a knee, seat or palm. The learned head uses a body crop to estimate a point and whether the frame provides enough evidence to report it.
+Generic YOLO finds many standing dancers. Overlapping crops help keep small performers large enough for inference, then cross-crop IoU suppression merges duplicates. Tracking links detections across frames. We first used the bottom of each box as the dancer's floor position. During floor work, a knee, seat or palm may be the clearest point to project onto the stage. The learned head uses a body crop to estimate that point and whether the frame provides enough evidence to report it.
 
 [Tiled detector](Experiment/Dance_Overnight/code/detector_probe.py) · [Contact model and crop averaging](Experiment/Dance_Overnight/code/candidate_evaluate.py)
 """),
@@ -155,11 +166,11 @@ The offline trajectory fit uses future frames to stabilize motion and bridge som
 """),
     contact_cell,
     md("""
-## 7. Fit formations and inspect the result
+## 7. Measure formation alignment
 
-We started with horizontal rows and then allowed tilted lines. The detector searches for narrow groups of dots, fits a line to the current group and checks that it persists across nearby frames. The dashboard defaults to four dots and ±10°. A line's score drops with mean perpendicular offset. At 6% of stage width the score reaches zero. Hollow positions are excluded and the overall score is the mean across detected lines.
+We started with horizontal rows and then allowed tilted lines. The detector searches for narrow groups of dancer positions, fits a line to each group and checks that it persists across nearby frames. The dashboard defaults to four dancers and ±10°. A row scores 100% when every reported position lies on the fitted line. The score falls as the mean perpendicular distance grows and reaches zero at 6% of stage width. The overall score averages the detected rows.
 
-The score describes the geometry of the reported points. A choreography reference and independently labeled contacts would be needed to grade intended formations or timing.
+Judges can use these scores to assess how cleanly dancers form rows, taking the intended choreography into account. The additional heat map shows cumulative stage use up to the playhead, with warmer areas showing more time spent there.
 """),
     code(r"""
 summary = load(evidence / 'replays/summary.json')
@@ -170,9 +181,9 @@ show(evidence / 'analytics/stage_occupancy.png')
     md("""
 ## 8. Run it live in the defense
 
-Open the [dashboard](dashboard/index.html), switch to onare near 3:05, and change the angle or minimum dot count while paused. Compare it with Wicked Games during the dark opening. In the [upload app](README.md), process the bundled 12-second sample and open the downloaded contact CSV. Each row records frame, time, track ID, stage coordinates and contact state. The combined MP4 draws video and map on the same output frame.
+Open the dashboard and pause onare near 3:05 to inspect the fitted row and its alignment score. Change the angle or minimum dancer count and see how the fit changes. Then scroll to the live heat map and scrub through Dernek to see stage coverage build. Use the bundled 12-second clip in the upload app to demonstrate how an MP4 becomes a synchronized replay and position export. [Dashboard](dashboard/index.html) · [Upload app](README.md)
 
-Highest priority before submission: independent review of 30–45 frames and an annotated holdout from a different performance. See the [rubric checklist](docs/rubric_and_gaps.md), [casebook](docs/error_casebook.md), [decision log](docs/experiment_log.md), [AI disclosure](docs/genai_disclosure.md) and [defense notes](docs/defense_notes.md).
+The highest priorities before submission are independent review of 30–45 frames and an annotated holdout from a different performance. [Rubric checklist](docs/rubric_and_gaps.md) · [Casebook](docs/error_casebook.md) · [Decision log](docs/experiment_log.md) · [AI disclosure](docs/genai_disclosure.md) · [Defense notes](docs/defense_notes.md)
 """),
     code(r"""
 for label, folder in [('RTX sample', 'rtx_sample'), ('CPU smoke test', 'cpu_smoke')]:
@@ -286,6 +297,7 @@ def main():
     research = nb.read(research_path, as_version=4)
     prior = research.cells[:next((i for i, cell in enumerate(research.cells)
                                   if cell.source.startswith(SECTION)), len(research.cells))]
+    prior[0].source = RESEARCH_INTRO
     research.cells = prior + extra
     for filename, notebook in (("Master_Notebook.ipynb", nb.v4.new_notebook(cells=master, metadata=research.metadata)),
                                ("Labeling_Guide.ipynb", nb.v4.new_notebook(cells=labeling, metadata=research.metadata)),

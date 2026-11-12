@@ -1,6 +1,6 @@
 # Rubric and submission status
 
-Requirements are from the [class brief](briefs/CV_Challenge_2026_2027.pdf) and [team roadmap](briefs/Dance_CV_Challenge_Team_Roadmap.pdf). The roadmap records verbal approval to use dance. Our scope is reviewing floor positions, spacing and fitted formations on a 12 × 12 m stage.
+Formation Review helps dance judges assess group formation accuracy by measuring alignment in detected rows. Floor contacts provide the stage positions used to fit each row. The live heat map adds a view of stage use over time. The team roadmap records verbal approval to use dance for the challenge. [Class brief](briefs/CV_Challenge_2026_2027.pdf) · [Team roadmap](briefs/Dance_CV_Challenge_Team_Roadmap.pdf)
 
 | Rubric | Evidence ready to defend | Still open |
 |---|---|---|
@@ -14,7 +14,7 @@ Requirements are from the [class brief](briefs/CV_Challenge_2026_2027.pdf) and [
 
 - **Tracking and trajectories.** ByteTrack runs in the upload app. A same-detections ByteTrack/BoT-SORT continuity experiment and the earlier held-pose ID diagnostic are included. Add continuous human identity references before reporting ID switches, IDF1 or HOTA.
 - **Automated keypoints.** Venue landmark registration adjusts camera framing on three new clips. The [alignment log](../experiments/replays/calibration.log) and [edge check](../experiments/geometry/edge_check.json) show what was checked. Training a stage landmark model requires independently labeled, repeatedly visible floor anchors. The extrapolated front corners and limited venue coverage make that a separate study.
-- **Tactical analytics.** The dashboard fits and scores rows and the research notebook compares KDE occupancy for reported versus estimated points. Spacing is descriptive. Symmetry and transitions against choreography references remain open. Pose and timing synchronization would require a separate human-annotated task.
+- **Tactical analytics.** Judges can review row alignment, then use the live heat map and detected coverage to see how widely the group used the stage. The research notebook compares occupancy for reported and estimated positions. Symmetry, timing and alignment against a planned choreography would require separate references.
 
 ## Finish in this order
 

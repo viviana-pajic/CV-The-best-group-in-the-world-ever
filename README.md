@@ -1,6 +1,8 @@
-# Dance floor contact and formations
+# Formation Review for dance judges
 
-Start with the [master notebook](Master_Notebook.ipynb). It follows the project from labels and model comparisons to the 12 × 12 m map. The [research notebook](Research_Notebook.ipynb) contains the detailed evidence. Open [Formation Review](dashboard/index.html) in a browser to switch among the four saved replays.
+Formation Review helps dance judges assess group formation accuracy by measuring how closely dancers align with fitted lines on a 12 × 12 m stage map. Floor contacts provide the positions used in those measurements. The live heat map shows how the group uses the stage over time.
+
+Open Formation Review in a browser to switch among the four saved performances. The notebooks explain the scoring, position estimates and experiments behind the tool. [Dashboard](dashboard/index.html) · [Master notebook](Master_Notebook.ipynb) · [Research notebook](Research_Notebook.ipynb)
 
 - [Grading checklist and remaining work](docs/rubric_and_gaps.md)
 - [Annotation guide](Labeling_Guide.ipynb), [review packs](data/review_packs) and [Windows labeler](annotator/README.md)
