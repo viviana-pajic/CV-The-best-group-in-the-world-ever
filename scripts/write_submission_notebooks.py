@@ -82,7 +82,7 @@ Floor contacts give us the stage positions used to fit those lines. The live hea
 
 We developed the tool on the original fixed-camera choreography and visually checked it on Wicked Games, onare and Dernek. The team roadmap records verbal approval to use dance for the challenge.
 
-[Interactive replay](dashboard/index.html) · [Research evidence](Research_Notebook.ipynb) · [Labeling guide](Labeling_Guide.ipynb) · [Rubric and remaining work](docs/rubric_and_gaps.md)
+[Interactive replay](dashboard/index.html) · [Research evidence](Research_Notebook.ipynb) · [Labeling guide](Labeling_Guide.ipynb) · [Submission handoff](docs/final_handoff.md)
 
 The cells below read saved experiment evidence and run on CPU. [Run a fresh clip](README.md) to execute the detector, tracker, support model, map and export from an MP4.
 """),
@@ -108,6 +108,8 @@ show(early / 'figures/label_examples.jpg')
 The pilot used 60 training frames and 11 validation frames. The 200-frame revision added lighting and floor-work variation, then the final run added another 100. We corrected proposals for cut-off boxes, duplicates, missed dancers and misplaced contacts. Only a visible contact gets a point. Hidden, airborne and uncertain remain separate label states.
 
 A/B/C are review batches. The saved work documents model-assisted proposals and assistant visual review. The blind repeat was by the assistant and is evidence of repeatability within that workflow. Independent agreement still requires separate team labels.
+
+The final audit reviewed one selected dancer in each of 36 raw frames, 12 from each batch. The AI reviewer recorded their judgments before opening the current labels. The review pack is ready for independent team annotation. [Audit report](experiments/final_data_review/REPORT.md) · [Blank review pack](data/final_annotation_review/README.md)
 """),
     code(r"""
 audit = load(trial / 'structural_qa.json')
@@ -117,13 +119,18 @@ table(['Pack', 'Frames', 'Boxes', 'Visible contact points'],
 print(f"{split['unique_verified_training_files']} verified unique training files; "
       f"{split['minimum_train_validation_gap_frames']} frames at the closest train/validation boundary.")
 print(f"Reserved exclusion: {split['reserved_excluded_inclusive']}. Same performance across splits.")
+review = load(evidence / 'final_data_review/comparison.json')['overall']
+print(f"Targeted AI review: {review['contact_state_agreement']}/{review['contact_state_denominator']} matched contact states. "
+      f"Median point difference was {review['point_distance_median_px']:.1f} px across {review['joint_visible_points']} visible pairs.")
 """),
     md("""
 ## 3. Fine-tune and compare the box detectors
 
 The 300-frame detector starts from the earlier dance checkpoint and fine-tunes on tiled dancer boxes. It freezes the first ten layers, uses AdamW with learning rate 0.00025, and keeps mosaic off. For the comparison below we reran all three checkpoints with the same tiles, 960-pixel inference and merge IoU. AP integrates the precision–recall curve at an IoU threshold. AP50:95 averages ten IoU thresholds, so it penalizes loose boxes more.
 
-The 300-frame model leads development AP50. Generic YOLO leads AP50:95 on both available diagnostic splits. We kept the joint model for the interactive demo because its contact benchmark shows better tight localization and fewer hidden reports. The two tests measure different things.
+The 300-frame model leads development AP50. Generic YOLO leads AP50:95 on the two original diagnostic splits. The joint model used in the interactive demo had better tight localization and fewer hidden reports on the original contact comparison.
+
+The later Wicked Games sample contains ten frames held out from training and reviewed visually by an AI contributor before scoring. Generic YOLO reached 0.965 AP50 and 0.622 AP50:95. The 300-frame detector reached 0.932 and 0.492 on the same references. [Wicked Games results](experiments/final_evaluation/results.json)
 """),
     ap_cell,
     md("""
@@ -163,6 +170,8 @@ print(f"Median edge residual: {check['baseline_median_pixel_edge_error']:.2f} �
 The seven reserved images contain 46 visible and 50 hidden reference contacts. Missing visible predictions count as misses. The 300-image joint model improves the tight 1% result and makes fewer hidden reports. The published pipeline still leads at 3%. These references were checked on one performance and reused in prior comparisons.
 
 The offline trajectory fit uses future frames to stabilize motion and bridge some gaps. A hollow dot means an estimated position. For the demo we lowered reportability to 0.30 after comparing the number of displayed dots and replay jitter. The table uses thresholds selected on validation.
+
+The Wicked Games check exposed a transfer weakness. A box-bottom baseline landed within 0.48 m of 20 of 29 visual references. Solid replay dots reached 7 of 29, and the replay reported fewer positions when the reference contact was uncertain. That trade-off matters when a judge reviews a row under difficult lighting. [Wicked Games results](experiments/final_evaluation/results.json)
 """),
     contact_cell,
     md("""
@@ -171,11 +180,17 @@ The offline trajectory fit uses future frames to stabilize motion and bridge som
 We started with horizontal rows and then allowed tilted lines. The detector searches for narrow groups of dancer positions, fits a line to each group and checks that it persists across nearby frames. The dashboard defaults to four dancers and ±10°. A row scores 100% when every reported position lies on the fitted line. The score falls as the mean perpendicular distance grows and reaches zero at 6% of stage width. The overall score averages the detected rows.
 
 Judges can use these scores to assess how cleanly dancers form rows, taking the intended choreography into account. The additional heat map shows cumulative stage use up to the playhead, with warmer areas showing more time spent there.
+
+Seven known formations verified the scoring engine. In a four-person row, moving one dancer 0.48 m off the line lowered the score to 83.33%. Moving the whole straight row by 0.48 m kept its alignment at 100%. The stage map lets a judge inspect the row's placement. [Formation validation](experiments/final_formation_validation/README.md)
 """),
     code(r"""
 summary = load(evidence / 'replays/summary.json')
 table(['New choreography', 'Frames processed', 'Frames with ≥1 contact', 'Frames with ≥1 line (4 dots, ±10°)'],
       [[r['title'], f"{r['frames']:,}", f"{r['frames_with_contacts']:,}", f"{r['frames_with_default_line']:,}"] for r in summary])
+example = load(evidence / 'final_formation_validation/onare_comparison.json')
+reference = example['same_dancers_visual_reference'][0]['score']
+print(f"onare at {example['time_s']:.2f} s · Six dancers scored {example['dashboard_line_score_pct']:.2f}% "
+      f"from detected positions and {reference:.2f}% from approximate visual picks.")
 show(evidence / 'analytics/stage_occupancy.png')
 """),
     md("""
@@ -183,7 +198,7 @@ show(evidence / 'analytics/stage_occupancy.png')
 
 Open the dashboard and pause onare near 3:05 to inspect the fitted row and its alignment score. Change the angle or minimum dancer count and see how the fit changes. Then scroll to the live heat map and scrub through Dernek to see stage coverage build. Use the bundled 12-second clip in the upload app to demonstrate how an MP4 becomes a synchronized replay and position export. [Dashboard](dashboard/index.html) · [Upload app](README.md)
 
-The highest priorities before submission are independent review of 30–45 frames and an annotated holdout from a different performance. [Rubric checklist](docs/rubric_and_gaps.md) · [Casebook](docs/error_casebook.md) · [Decision log](docs/experiment_log.md) · [AI disclosure](docs/genai_disclosure.md) · [Defense notes](docs/defense_notes.md)
+The submission handoff links to the AI-assisted label audit, Wicked Games evaluation, and product verification. The team can use the included review pack for independent human agreement and complete the personal contribution records. [Submission handoff](docs/final_handoff.md) · [Rubric checklist](docs/rubric_and_gaps.md) · [AI disclosure](docs/genai_disclosure.md)
 """),
     code(r"""
 for label, folder in [('RTX sample', 'rtx_sample'), ('CPU smoke test', 'cpu_smoke')]:
@@ -262,6 +277,71 @@ show(evidence / 'analytics/stage_occupancy.png')
 """),
     md("""
 The causal Kalman run localized 33/46 within 3% on the reused reserved images and reached half of the synthetic step one frame later. The offline fit localized 29/46 and produced the smoothest common samples. We kept the offline replay fit for visual review. The small diagnostic motivates an independent filter comparison before choosing a method for real-time feedback.
+"""),
+    md("""
+## 13. Check the judging measurements
+
+Known stage positions test the line fitting and scoring independently of the detector. The onare example compares the production score at one previously viewed frame with approximate visual references. The edge check compares the original static calibration with the registered camera views. Visible edge residuals are approximate pixel measurements.
+"""),
+    code(r"""
+folder = evidence / 'final_formation_validation'
+formation = load(folder / 'summary.json')
+table(['Known stage positions', 'Expected rows', 'Fitted rows', 'Alignment scores'],
+      [[r['case'], r['expected_rows'], r['fitted_rows'], ', '.join(f'{v:.2f}%' for v in r['scores_pct']) or '—']
+       for r in formation['cases']])
+registration = load(folder / 'registration_check.json')['cases']
+table(['Replay', 'Edge picks', 'Static median error (px)', 'Registered median error (px)'],
+      [[r['clip'], r['points'], r['static_median_px'], r['registered_median_px']] for r in registration])
+"""),
+    md("""
+The registered calibration lowered the median error in the three sampled frames. The left edge of onare still had a 17.16 px residual, so treat the stage positions as estimates. The synthetic translated row retains a perfect alignment score because each dancer stays on the fitted row. Measuring placement against choreography needs a planned reference row. [Validation evidence](experiments/final_formation_validation/README.md)
+"""),
+    md("""
+## 14. Evaluate a performance outside training
+
+Ten Wicked Games frames were selected by time. An AI contributor reviewed the clean frames and froze the box and contact references before scoring predictions. The reference set covers a dark opening, a title overlay and later choreography. This video was used for earlier demonstrations, and the visual references are approximate. [Protocol](experiments/final_evaluation/protocol.json)
+"""),
+    code(r"""
+external = load(evidence / 'final_evaluation/results.json')
+table(['Detector', 'AP50', 'AP50:95', 'Unmatched predictions at .25', 'Missed boxes at .25'],
+      [[names[key], f"{r['ap50']:.3f}", f"{r['ap50_95']:.3f}", r['false_positives'], r['false_negatives']]
+       for key in names for r in [external['detectors'][key]['all']]])
+contacts = external['contacts']
+table(['Position method', 'Within 0.48 m', 'Median error on paired positions', 'Reported when reference uncertain'],
+      [[label, f"{r['within_threshold_m']['0.48']}/{contacts['reference_points']}", f"{r['paired_median_error_m']:.3f} m",
+        f"{r['reported_when_reference_uncertain']}/{contacts['uncertain_reference_points']}"]
+       for key, label in [('box_bottom', 'Box bottom'), ('dashboard_solid', 'Solid dashboard contacts')]
+       for r in [contacts['methods'][key]]])
+"""),
+    md("""
+Lowering the tuned detector's cross-tile merge IoU from 0.55 to 0.40 removed one unmatched box and lost one matched dancer. AP50 fell from 0.932 to 0.900. The replay still uses 0.55. The contact results expose a trade-off between coverage, position error and reporting uncertain contacts. A broader human-reviewed set is needed before using these comparisons to change the judging pipeline. [Results and cases](experiments/final_evaluation/results.json)
+"""),
+    code(r"""
+raw = contacts['post_hoc_raw_head']
+table(['Post-hoc check on the same 20 visible cases', 'Median position error'],
+      [[label, f"{raw['paired_medians_m'][key]:.3f} m"]
+       for key, label in [('box_bottom', 'Box bottom'), ('raw_head', 'Raw contact head'), ('dashboard_solid', 'Solid replay dot')]])
+"""),
+    md("""
+The five largest paired replay errors were already large in the raw contact estimates. This points to a contact-placement problem before smoothing on those cases. [Raw-cache diagnostic](experiments/final_evaluation/results.json)
+
+## 15. Audit a wider sample of training labels
+
+The AI reviewer looked at 36 raw frames, selected one dancer per frame, and recorded estimates before comparing with the merged annotation file. Matching allowed one unambiguous existing box per target. This measures disagreement on a targeted sample. The blank pack supports a separate full human review.
+"""),
+    code(r"""
+review = load(evidence / 'final_data_review/comparison.json')['overall']
+print(f"{review['frames_reviewed']} frames · {review['blind_box_count']} estimated boxes · "
+      f"{review['matching_counts']['matched']} unambiguous matches")
+table(['Agreement measure', 'Result'], [
+    ['Median matched box IoU', f"{review['box_iou_median']:.3f}"],
+    ['Contact-state agreement', f"{review['contact_state_agreement']}/{review['contact_state_denominator']}"],
+    ['Median difference on jointly visible points', f"{review['point_distance_median_px']:.1f} px"],
+    ['90th-percentile difference on jointly visible points', f"{review['point_distance_p90_px']:.2f} px"],
+])
+"""),
+    md("""
+The longer tail of point disagreements gives the team concrete cases to inspect. [Audit and discrepancies](experiments/final_data_review/REPORT.md) · [Blank review pack](data/final_annotation_review/README.md)
 """),
 ]
 

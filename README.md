@@ -4,6 +4,7 @@ Formation Review helps dance judges assess group formation accuracy by measuring
 
 Open Formation Review in a browser to switch among the four saved performances. The notebooks explain the scoring, position estimates and experiments behind the tool. [Dashboard](dashboard/index.html) · [Master notebook](Master_Notebook.ipynb) · [Research notebook](Research_Notebook.ipynb)
 
+- [Submission handoff and demo steps](docs/final_handoff.md)
 - [Grading checklist and remaining work](docs/rubric_and_gaps.md)
 - [Annotation guide](Labeling_Guide.ipynb), [review packs](data/review_packs) and [Windows labeler](annotator/README.md)
 - [Error casebook](docs/error_casebook.md), [experiment log](docs/experiment_log.md), [AI disclosure](docs/genai_disclosure.md) and [defense notes](docs/defense_notes.md)

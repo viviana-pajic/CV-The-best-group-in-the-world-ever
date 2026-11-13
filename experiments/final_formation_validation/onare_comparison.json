@@ -1,0 +1,28 @@
+{
+  "clip": "onare",
+  "frame": 4617,
+  "time_s": 184.68,
+  "reference_dancers": 7,
+  "reported_contacts_within_30_px": 6,
+  "estimated_positions_within_30_px": 1,
+  "mean_reported_contact_error_m": 0.088,
+  "dashboard_line_dancers": 6,
+  "dashboard_line_dancers_with_reference": 6,
+  "dashboard_line_angle_deg": -5.49,
+  "dashboard_line_score_pct": 91.67,
+  "same_dancers_visual_reference": [
+    {
+      "angle": -3.9843422218434554,
+      "score": 91.37119676534702,
+      "members": 6
+    }
+  ],
+  "all_visual_references": [
+    {
+      "angle": -3.9843422218434554,
+      "score": 91.37119676534702,
+      "members": 6
+    }
+  ],
+  "scope": "One illustrative frame. Reference-only inputs are repeated to isolate spatial fitting. The dashboard result uses the full replay with temporal context."
+}

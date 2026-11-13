@@ -1,0 +1,17 @@
+{
+  "standard_library_only": true,
+  "loopback_only": true,
+  "dashboard_from_extracted_submission": true,
+  "http_checks": {
+    "GET /": 200,
+    "GET /heatmap.js": 200,
+    "HEAD /assets/stage-replay.mp4": 200,
+    "GET /assets/stage-replay.mp4 bytes=128-255": 206,
+    "GET /assets/stage-replay.mp4 bytes=-64": 206,
+    "GET /assets/stage-replay.mp4 bytes=999999999-": 416,
+    "GET /%2e%2e/SHA256SUMS.txt": 404
+  },
+  "range_bytes_match_video": true,
+  "browser_ui_checked_with_loopback_preview": true,
+  "direct_file_url_checked": false
+}

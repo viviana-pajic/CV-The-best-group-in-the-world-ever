@@ -1,0 +1,37 @@
+source_frame,seconds,batch,revision,time_quarter,sample_reason,mean_stage_luma,stage_laplacian_variance,sha256,path
+3383,135.32,B,200-frame revision,1,typical lighting,107.9,149.7,f6e0f63fb2846d6d5a07a007163a9439493c445c9f469351e5a20406d2694a0c,Experiment/lighting_expansion_200/frames/frame_003383.png
+3468,138.72,A,200-frame revision,1,typical lighting,105.9,161.4,006ece50d90e5236d24ab8629659e8f85e86efaf34479f26de1e302f73f8aae8,Experiment/lighting_expansion_200/frames/frame_003468.png
+3553,142.12,C,200-frame revision,1,typical lighting,104.3,157.0,93b7eefeb873b930f5161c2de37179cdedff147ffad4e0f0812ce5fed143a44d,Experiment/lighting_expansion_200/frames/frame_003553.png
+3574,142.96,B,200-frame revision,1,darker,89.0,142.6,fffd8518f6d4d81a34c097bda9383140ce0c10d33fdad8b4f079326aa75f1590,Experiment/lighting_expansion_200/frames/frame_003574.png
+3627,145.08,C,200-frame revision,1,darker,89.3,155.4,38a2361e642929db96a5506d124447d9fa26564bfa2e51a2583e96a30e55b049,Experiment/lighting_expansion_200/frames/frame_003627.png
+3671,146.84,C,100-frame expansion,1,lower edge contrast,100.6,136.9,3d726de31fe603c22322aeab6bdf832931b9d783453ce8f02be85378854d14b0,Experiment/lighting_expansion_300/new_frames/frame_003671.png
+3733,149.32,A,100-frame expansion,1,lower edge contrast,86.3,115.7,1159aae8ab614b498240f7fcaff65a9115d0c77f020522529424331f0fe4573d,Experiment/lighting_expansion_300/new_frames/frame_003733.png
+3760,150.4,B,100-frame expansion,1,lower edge contrast,92.9,118.7,95760c46f446e7a30cb65a2fab49a910a86fe57b3a33371566d84a7a6c416712,Experiment/lighting_expansion_300/new_frames/frame_003760.png
+3843,153.72,A,200-frame revision,1,darker,89.0,127.3,442394c732d557c7e8f285b116939f6681bd81ff537c868f62816e6f5a947970,Experiment/lighting_expansion_200/frames/frame_003843.png
+3866,154.64,C,100-frame expansion,2,darker,90.2,131.6,8e2a7ee74960ded13ce275beff0d320dc7ac92adb3c00b359c6f10c98d35c7ca,Experiment/lighting_expansion_300/new_frames/frame_003866.png
+3886,155.44,C,200-frame revision,2,lower edge contrast,91.2,118.6,627627cfabdba834ae2dec5f4f87b9f692c21dd0d6e0125e1104f7f500aa38bd,Experiment/lighting_expansion_200/frames/frame_003886.png
+4096,163.84,B,200-frame revision,2,lower edge contrast,75.9,108.0,ca1836a3082c2b47464e5ab413f9dbafdc124df59169a1d1cfe1b785cbca23f5,Experiment/lighting_expansion_200/frames/frame_004096.png
+4157,166.28,A,200-frame revision,2,lower edge contrast,78.3,121.2,f2939c451e3d81c20cb719d2fa04c0f8908f3475caa3b60e5473b1c50e80e265,Experiment/lighting_expansion_200/frames/frame_004157.png
+4219,168.76,B,100-frame expansion,2,darker,78.6,141.5,d67cda248190f52655c48733118041872037c91c6cf6de9e27cb710330395c60,Experiment/lighting_expansion_300/new_frames/frame_004219.png
+4239,169.56,C,200-frame revision,2,typical lighting,81.1,133.0,8467dc532539e576c8fccbeb3e903a03a4393fc917e90b41ba44fda780954f12,Experiment/lighting_expansion_200/frames/frame_004239.png
+4261,170.44,A,100-frame expansion,2,darker,80.6,137.3,3ffb4e31d442278fa292794e77ae81c608b97b2c46a80b499851f694d6490d0e,Experiment/lighting_expansion_300/new_frames/frame_004261.png
+4284,171.36,B,200-frame revision,2,typical lighting,79.8,139.4,85d1f1a385f76fff55b600e7ec9e6fc61a8402d05d332758adef4e5cee64d80e,Experiment/lighting_expansion_200/frames/frame_004284.png
+4343,173.72,A,200-frame revision,2,typical lighting,82.4,150.2,4fa35ac219fdc67c0a6279383e609796d2d3d926286d3284801c8d3a1943c97b,Experiment/lighting_expansion_200/frames/frame_004343.png
+4476,179.04,B,200-frame revision,3,typical lighting,114.5,144.6,c6cf25d731475e5036fcfea4e58233a18986a7930020edfacebb81d94f92fa2b,Experiment/lighting_expansion_200/frames/frame_004476.png
+4665,186.6,C,200-frame revision,3,typical lighting,115.3,131.7,d2cfb56d77ebb9d7260e61b5176e68b47119087aedfec25f87a81e734d021ce1,Experiment/lighting_expansion_200/frames/frame_004665.png
+4692,187.68,A,200-frame revision,3,typical lighting,113.2,128.8,e264e484de1a90b1e8b4b5223465699e5800d1878e8af806ddb00c534d97d226,Experiment/lighting_expansion_200/frames/frame_004692.png
+4812,192.48,A,100-frame expansion,3,lower edge contrast,101.5,109.3,738a402f9841d3ee90c59878a4545e409c3cabb0a137bdcecc7016e48c9d7936,Experiment/lighting_expansion_300/new_frames/frame_004812.png
+4850,194.0,C,100-frame expansion,3,lower edge contrast,89.4,108.1,ae80460e44c046ee6a1a5c2a6e192f4e90bdc5cceb9cc758ff4f56bd98aed5f0,Experiment/lighting_expansion_300/new_frames/frame_004850.png
+4887,195.48,B,100-frame expansion,3,lower edge contrast,82.7,114.7,aee78458f47bf8ce4847a36bb45c367050a1cd4718feb7dff34552abb6987f34,Experiment/lighting_expansion_300/new_frames/frame_004887.png
+4924,196.96,A,200-frame revision,3,darker,78.1,150.9,b17d6ddcc26b6bad0020369cff79b6153893ae125ff73d59e2b8212cf1c84e28,Experiment/lighting_expansion_200/frames/frame_004924.png
+4980,199.2,B,200-frame revision,3,darker,75.3,144.6,3d36d77c9455a4359c0a3a8987dd0da585dadd59824d707b15fc4ebedd099762,Experiment/lighting_expansion_200/frames/frame_004980.png
+5025,201.0,C,200-frame revision,3,darker,77.4,139.2,f41b0c297dcfbd2b0d8f3fc1ef175ba0f1a1ab7b1fcc96cb1416ef79d19b7599,Experiment/lighting_expansion_200/frames/frame_005025.png
+5077,203.08,C,200-frame revision,4,typical lighting,70.8,111.7,7aa220bc0e35a0f4cbdf494095c9c33e0de8a8ffd90dea6e90950d4f2bde20ba,Experiment/lighting_expansion_200/frames/frame_005077.png
+5131,205.24,B,200-frame revision,4,typical lighting,71.9,104.5,0078d07e2b4874743b2162cbd2b18420b6cb6b3028453b1d20ae4a55012c8711,Experiment/lighting_expansion_200/frames/frame_005131.png
+5422,216.88,A,200-frame revision,4,typical lighting,75.0,108.0,a0f84833ca7692d8f9b656a8d7e57d49ec9701c1850274c5c72ab463e9551721,Experiment/lighting_expansion_200/frames/frame_005422.png
+5473,218.92,B,100-frame expansion,4,darker,44.3,45.7,aa78b9e5c8cb42228451ad4d7d317237730755fff0fbe5b1b72246f34bb9c6fa,Experiment/lighting_expansion_300/new_frames/frame_005473.png
+5524,220.96,C,100-frame expansion,4,darker,43.8,48.9,90f58d8d61aa15814aad1c8c1f24ae9b6323383d4c3074e82ffb7618849b7f86,Experiment/lighting_expansion_300/new_frames/frame_005524.png
+5579,223.16,A,200-frame revision,4,lower edge contrast,43.6,47.3,194984bae61e37f681dfad4a64323208254fe0debd9046d6f830e754c88eab21,Experiment/lighting_expansion_200/frames/frame_005579.png
+5626,225.04,B,200-frame revision,4,lower edge contrast,43.5,47.9,09a7b15eb84254b53aee5db99a321a4d3a7312ae9672ab10470d9a74d61ace4b,Experiment/lighting_expansion_200/frames/frame_005626.png
+5651,226.04,A,100-frame expansion,4,darker,40.6,48.3,3c8430326a141c19a63f024fec38f03df9bcbddf9730c08a8dfb49d1c9d45988,Experiment/lighting_expansion_300/new_frames/frame_005651.png
+5670,226.8,C,200-frame revision,4,lower edge contrast,14.4,9.7,f78afe4985c665797d0992cfd812828942db6b3172d046f68d7b57eba14bfdd8,Experiment/lighting_expansion_200/frames/frame_005670.png

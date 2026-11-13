@@ -1,0 +1,13 @@
+source_frame,issue,post_comparison_observation,disposition
+3468,17.1 px point difference,Existing point is lower and aligns with visible foot-floor junctions. Blind point lands near the lower legs.,Prefer existing point
+3733,Visible versus uncertain,Toe and shadow meet near the blind point. Motion blur leaves support status unclear in this still.,Review adjacent frames before changing state
+4096,Ambiguous identity match,Two existing boxes overlap the same foreground target. The best IoU exceeds the next by only 0.065.,Resolve visible extents and body identities
+4261,10.3 px point difference,Both points are close to the support area. Blur and overlapping motion affect the exact junction.,Retain as a low-confidence localization difference
+4980,37.1 px point difference and palms versus seat,The right palm and the seated region each look like plausible support. The larger offset depends on which region the policy prioritizes.,Clarify dominant-support rule for simultaneous hand and seat contact
+5131,Low box overlap at 0.608,Standing bodies overlap along the left edge of the group. The points differ by only 4.2 px.,Review visible box extents
+5422,19.2 px point difference,Both annotations identify a seated dancer. Contact extends along the seated region and the limb boundary is unclear.,Review seat reference point under a consistent policy
+5473,Ambiguous identity match,Rear standing bodies overlap and the foreground group blocks their lower legs.,Retain hidden state assessment and resolve identity match separately
+5524,Uncertain versus visible,Existing point lies near the seated body but the dark layered pose makes the exact support difficult to confirm.,Review contact visibility at original display brightness
+5626,Uncertain versus visible,Existing point is near the dark junction of seated silhouettes.,Review contact visibility and nearby identities
+5651,Uncertain versus visible,Existing point lies near the seated base in a dark foreground cluster with legs crossing.,Review contact visibility at original display brightness
+5670,Blind abstention,Low contrast and overlap make the selected silhouette difficult to distinguish.,Retain abstention and keep case in reviewer pack

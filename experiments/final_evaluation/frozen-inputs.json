@@ -1,0 +1,15 @@
+{
+  "experiments/final_evaluation/protocol.json": "4003f99db184210dc6a82a0e68b6effc4f075dccf4b83604c323784340b098f0",
+  "experiments/final_evaluation/annotations.json": "a6c19779f4e9ad31c688c9004bf8933055236152d829a9a02d0e3765c9884a5a",
+  "dashboard/assets/CbpSMoPItu0.mp4": "629a91d7f70b99c36b2787917b2f2132fe45b00ad14906a93ff836dfbdde95af",
+  "experiments/final_evaluation/frames/0050.png": "ff7e650c6ee8dba3247d5690853b6094e64d477620c2a4190ecef9c3e69a65ad",
+  "experiments/final_evaluation/frames/0275.png": "0ed71cf30789d027b695a87c35afbcbc7eff7be1baacce5db386441e35b35fc6",
+  "experiments/final_evaluation/frames/0425.png": "1305f6b020974213b4238f99e85d5d3be00a6ab3cf20b24e1185a70d9c035df9",
+  "experiments/final_evaluation/frames/0625.png": "e8dffe03fde928ac5354d0ee1136a2fe3f63d353ba9c3dd69d56a9ca3ab98846",
+  "experiments/final_evaluation/frames/1125.png": "f6794acd78014b35a1cc4b13df04cf7b08897c469cd75ae0c0ee85379ecf3319",
+  "experiments/final_evaluation/frames/1750.png": "8c3b4738c41dd3e034fcefb11d794b9653e5ebd22e7a1874bf0bcfefb9f42d61",
+  "experiments/final_evaluation/frames/2375.png": "a8f23fcc5f3fd0ec433f6fb3f7044c2977ddc176e60a3482c62a87c816266644",
+  "experiments/final_evaluation/frames/3000.png": "4e236f147eaed67542513c6f2683be7867fcddcd5801618b429b003c368be3f4",
+  "experiments/final_evaluation/frames/3750.png": "4c97667a5f5c4b61b5d8ceff48a6b9591015704f6aaa28c056ce4af26c485c39",
+  "experiments/final_evaluation/frames/4250.png": "a276adfef64d906dbbf51a8b84f8eed3938f99428873314b1642f72d7aa6e696"
+}

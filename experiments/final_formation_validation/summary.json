@@ -1,0 +1,87 @@
+{
+  "evidence": "Deterministic synthetic dancer positions supplied directly to the production dashboard engine",
+  "stage_m": [
+    12,
+    12
+  ],
+  "fps": 25,
+  "minimum_dancers": 4,
+  "tested_frame": 12,
+  "cases": [
+    {
+      "case": "Two straight rows",
+      "angle_limit_deg": 0,
+      "expected_rows": 2,
+      "fitted_rows": 2,
+      "fitted_angles_deg": [
+        0,
+        0
+      ],
+      "scores_pct": [
+        100,
+        100
+      ]
+    },
+    {
+      "case": "One dancer displaced by 0.48 m",
+      "angle_limit_deg": 0,
+      "expected_rows": 1,
+      "fitted_rows": 1,
+      "fitted_angles_deg": [
+        0
+      ],
+      "scores_pct": [
+        83.33
+      ]
+    },
+    {
+      "case": "Twenty-degree row within the angle limit",
+      "angle_limit_deg": 30,
+      "expected_rows": 1,
+      "fitted_rows": 1,
+      "fitted_angles_deg": [
+        20
+      ],
+      "scores_pct": [
+        100
+      ]
+    },
+    {
+      "case": "Twenty-degree row outside the angle limit",
+      "angle_limit_deg": 0,
+      "expected_rows": 0,
+      "fitted_rows": 0,
+      "fitted_angles_deg": [],
+      "scores_pct": []
+    },
+    {
+      "case": "Fourth position is estimated",
+      "angle_limit_deg": 0,
+      "expected_rows": 0,
+      "fitted_rows": 0,
+      "fitted_angles_deg": [],
+      "scores_pct": []
+    },
+    {
+      "case": "Six-frame alignment during a transition",
+      "angle_limit_deg": 0,
+      "expected_rows": 0,
+      "fitted_rows": 0,
+      "fitted_angles_deg": [],
+      "scores_pct": []
+    },
+    {
+      "case": "Straight row translated 0.48 m from its reference",
+      "angle_limit_deg": 0,
+      "expected_rows": 1,
+      "fitted_rows": 1,
+      "fitted_angles_deg": [
+        0
+      ],
+      "scores_pct": [
+        100
+      ],
+      "mean_offset_to_reference_m": 0.48
+    }
+  ]
+}

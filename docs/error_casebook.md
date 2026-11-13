@@ -14,3 +14,5 @@ Detector cases use the seven reserved same-video frames and approximate referenc
 | E08 · Airborne or uncertain support | A jump or unresolvable blur breaks the measured floor-contact assumption. Near-boundary map position can be ambiguous. | Withhold a measured point. The UI draws temporal estimates as hollow. Collect labeled jumps and edge cases before scoring these separately. |
 
 For the defense, open a labeled error example, point to the body or contact, explain how the label was made, and show which comparison supports the proposed fix.
+
+The frozen Wicked Games check also found a large contact error at frame 425. The solid replay dot missed an approximate visual reference by 2.68 m, and the raw contact estimate was already 2.68 m away on the same box. The matched box-bottom position was 0.39 m away. This case points toward the raw contact estimate, with the stage calibration and visual-reference uncertainty shared across the comparison. [Wicked Games results](../experiments/final_evaluation/results.json)

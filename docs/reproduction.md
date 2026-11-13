@@ -25,7 +25,7 @@ python -m unittest discover -s tests -v
 
 The [300-frame recipe](../Experiment/lighting_expansion_300/REPRODUCE.md) documents how to retrain. A historical contact refit uses `python Experiment/Dance_Overnight/code/reproduce_latest.py --output build/refit`; this reuses saved detection and support caches. `scripts/run_demo.py` loads both checkpoints and performs fresh inference. The [integration outputs](../experiments/integration) include GPU sample and CPU smoke test metadata, frame exports, MP4 and calibration.
 
-The interactive HTML dashboard reads saved replays. Open its `index.html` with the `assets` directory next to it. See the [dashboard README](../dashboard/README.md) to export a new replay. The Windows annotation app is portable. See its [README](../annotator/README.md) for import/export and build commands.
+The interactive HTML dashboard reads saved replays. Double-click **Open Formation Review.cmd** from the extracted package on Windows. From a terminal, run `python open_dashboard.py` in the package root. The local server supports seeking through MP4s. The Windows annotation app is portable. [Dashboard guide](../dashboard/README.md) · [Annotation app guide](../annotator/README.md)
 
 [Model inventory](../models/checkpoints.json) · [Configuration snapshots](../configs) · [Project commit history](git-history.txt)
 
@@ -36,4 +36,6 @@ The interactive HTML dashboard reads saved replays. Open its `index.html` with t
 - Geometry, split, timing, export and labeler tests passed. Four dashboard clips passed frame and line checks. A synthetic empty stage exported an empty contact table and synchronized video. Wrong aspect ratio, corrupt input, variable frame rate, absent venue anchors and a missing checkpoint produced explicit errors.
 - The historical confirmation was reproduced from frozen caches. For earlier material the package uses the preserved repository. Some separate OneDrive-only archives were unavailable on this machine. A same-input Kalman comparison was rerun from the accessible frozen evidence.
 
-The CI workflow is included for the eventual team repository. Team-machine setup, human annotation agreement, and an independently labeled new performance remain open.
+The final QA used an extracted local package and includes browser playback, live heat map, launcher, upload and export checks. For the new evidence, run `node scripts/validate_formation.cjs`, `python scripts/check_replay_calibration.py`, and `python scripts/audit_reference_formation.py`. The training audit and Wicked Games evaluation have their own protocols. [Product QA](../experiments/final_product_validation/README.md) · [Training audit](../experiments/final_data_review/REPORT.md) · [Wicked Games protocol](../experiments/final_evaluation/protocol.json)
+
+Human annotation agreement, team-machine setup and individual defense rehearsal require the team.

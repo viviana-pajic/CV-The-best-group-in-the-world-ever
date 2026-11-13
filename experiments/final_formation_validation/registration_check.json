@@ -1,0 +1,60 @@
+{
+  "method": "Approximate visual picks of exposed mat edges on raw replay stills at 1280 \u00d7 720. Picks were entered before calculating residuals.",
+  "cases": [
+    {
+      "clip": "Wicked Games",
+      "frame": 1922,
+      "points": 13,
+      "static_median_px": 6.01,
+      "registered_median_px": 3.16,
+      "edge_medians_px": {
+        "front": {
+          "static": 6.22,
+          "registered": 2.91
+        },
+        "left": {
+          "static": 4.78,
+          "registered": 6.09
+        }
+      }
+    },
+    {
+      "clip": "onare",
+      "frame": 4617,
+      "points": 14,
+      "static_median_px": 11.06,
+      "registered_median_px": 5.51,
+      "edge_medians_px": {
+        "front": {
+          "static": 42.71,
+          "registered": 0.95
+        },
+        "left": {
+          "static": 4.46,
+          "registered": 17.16
+        },
+        "right": {
+          "static": 10.98,
+          "registered": 5.58
+        }
+      }
+    },
+    {
+      "clip": "Dernek",
+      "frame": 2699,
+      "points": 11,
+      "static_median_px": 27.9,
+      "registered_median_px": 1.37,
+      "edge_medians_px": {
+        "front": {
+          "static": 28.48,
+          "registered": 0.95
+        },
+        "left": {
+          "static": 7.26,
+          "registered": 2.41
+        }
+      }
+    }
+  ]
+}

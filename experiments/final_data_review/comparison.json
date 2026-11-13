@@ -1,0 +1,1354 @@
+{
+  "scope": "One selected target per training frame, one AI visual pass against the existing merged export.",
+  "sources": {
+    "experiments/final_data_review/sample.csv": "5f2bc4b09660afa7f4ae561174fce00aeaa6000909842ecf194120eed605c5ef",
+    "experiments/final_data_review/blind_observations.csv": "e86ab245cfad71bf2eba738d8afbe6b33f4a0639db7a21bc120cb3254ca0e13e",
+    "Experiment/lighting_expansion_300/merged_annotations.xml": "a3b9dfdcff93168b368e0ea22a722b9b7a7884d673489d7744d7c8dbd814290a",
+    "experiments/final_data_review/targets.csv": "f6eed4f98295d08be7b8cad33a02de1cd784c06a8a7d0d7a46a8a5d422a23e59"
+  },
+  "matching": {
+    "minimum_iou": 0.5,
+    "minimum_iou_margin_over_runner_up": 0.1
+  },
+  "overall": {
+    "frames_reviewed": 36,
+    "blind_box_count": 35,
+    "matching_counts": {
+      "matched": 33,
+      "ambiguous": 2,
+      "abstained": 1
+    },
+    "box_iou_median": 0.8436469713772746,
+    "box_iou_p10": 0.6623758415390909,
+    "contact_state_agreement": 29,
+    "contact_state_denominator": 33,
+    "joint_visible_points": 26,
+    "support_type_agreement": 24,
+    "point_distance_median_px": 5.0,
+    "point_distance_p90_px": 13.715667534968244,
+    "points_within_10_px": 22
+  },
+  "by_batch": {
+    "A": {
+      "frames_reviewed": 12,
+      "blind_box_count": 12,
+      "matching_counts": {
+        "matched": 12
+      },
+      "box_iou_median": 0.8724246770216105,
+      "box_iou_p10": 0.6810833758513709,
+      "contact_state_agreement": 10,
+      "contact_state_denominator": 12,
+      "joint_visible_points": 9,
+      "support_type_agreement": 8,
+      "point_distance_median_px": 5.385164807134504,
+      "point_distance_p90_px": 17.540871027233223,
+      "points_within_10_px": 6
+    },
+    "B": {
+      "frames_reviewed": 12,
+      "blind_box_count": 12,
+      "matching_counts": {
+        "matched": 10,
+        "ambiguous": 2
+      },
+      "box_iou_median": 0.8214455702849521,
+      "box_iou_p10": 0.729196270688665,
+      "contact_state_agreement": 9,
+      "contact_state_denominator": 10,
+      "joint_visible_points": 8,
+      "support_type_agreement": 7,
+      "point_distance_median_px": 5.0,
+      "point_distance_p90_px": 15.02462809833005,
+      "points_within_10_px": 7
+    },
+    "C": {
+      "frames_reviewed": 12,
+      "blind_box_count": 11,
+      "matching_counts": {
+        "matched": 11,
+        "abstained": 1
+      },
+      "box_iou_median": 0.8479398851739277,
+      "box_iou_p10": 0.6586099963516965,
+      "contact_state_agreement": 10,
+      "contact_state_denominator": 11,
+      "joint_visible_points": 9,
+      "support_type_agreement": 9,
+      "point_distance_median_px": 5.385164807134504,
+      "point_distance_p90_px": 8.34997690148945,
+      "points_within_10_px": 9
+    }
+  },
+  "per_frame": [
+    {
+      "source_frame": 3383,
+      "batch": "B",
+      "blind_contact": "visible",
+      "blind_box": [
+        261.0,
+        449.0,
+        324.0,
+        541.0
+      ],
+      "blind_point": [
+        295.0,
+        536.0
+      ],
+      "blind_support_type": "feet",
+      "blind_note": "Front folded dancer with two visible feet",
+      "match": "matched",
+      "candidate_id": "15",
+      "prior_box": [
+        262.56,
+        455.29,
+        319.82,
+        543.01
+      ],
+      "prior_point": [
+        295.0,
+        537.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "feet",
+      "box_iou": 0.8302618368725944,
+      "runner_up_iou": 0.031037147617261812,
+      "runner_up_id": "8",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 1.0
+    },
+    {
+      "source_frame": 3468,
+      "batch": "A",
+      "blind_contact": "visible",
+      "blind_box": [
+        648.0,
+        428.0,
+        705.0,
+        519.0
+      ],
+      "blind_point": [
+        680.0,
+        516.0
+      ],
+      "blind_support_type": "feet",
+      "blind_note": "Dark top and rust trousers with both feet down",
+      "match": "matched",
+      "candidate_id": "7",
+      "prior_box": [
+        648.52,
+        436.59,
+        705.74,
+        537.59
+      ],
+      "prior_point": [
+        678.0,
+        533.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "feet",
+      "box_iou": 0.737442280239033,
+      "runner_up_iou": 0.18862302560568522,
+      "runner_up_id": "5",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 17.11724276862369
+    },
+    {
+      "source_frame": 3553,
+      "batch": "C",
+      "blind_contact": "visible",
+      "blind_box": [
+        1154.0,
+        418.0,
+        1219.0,
+        524.0
+      ],
+      "blind_point": [
+        1197.0,
+        520.0
+      ],
+      "blind_support_type": "knees",
+      "blind_note": "Rightmost kneeler with contact near lower knee",
+      "match": "matched",
+      "candidate_id": "10",
+      "prior_box": [
+        1152.4,
+        418.08,
+        1219.49,
+        528.71
+      ],
+      "prior_point": [
+        1190.0,
+        525.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "knees",
+      "box_iou": 0.9269503281694719,
+      "runner_up_iou": 0.11597644466320046,
+      "runner_up_id": "2",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 8.602325267042627
+    },
+    {
+      "source_frame": 3574,
+      "batch": "B",
+      "blind_contact": "visible",
+      "blind_box": [
+        808.0,
+        413.0,
+        933.0,
+        535.0
+      ],
+      "blind_point": [
+        883.0,
+        530.0
+      ],
+      "blind_support_type": "knees",
+      "blind_note": "Front kneeler with forearms spread",
+      "match": "matched",
+      "candidate_id": "9",
+      "prior_box": [
+        809.59,
+        419.19,
+        930.53,
+        539.27
+      ],
+      "prior_point": [
+        883.0,
+        535.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "knees",
+      "box_iou": 0.8883479513901882,
+      "runner_up_iou": 0.15447741038546778,
+      "runner_up_id": "3",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 5.0
+    },
+    {
+      "source_frame": 3627,
+      "batch": "C",
+      "blind_contact": "visible",
+      "blind_box": [
+        1132.0,
+        396.0,
+        1219.0,
+        547.0
+      ],
+      "blind_point": [
+        1170.0,
+        537.0
+      ],
+      "blind_support_type": "palms",
+      "blind_note": "Inverted dancer supported by both hands",
+      "match": "matched",
+      "candidate_id": "10",
+      "prior_box": [
+        1131.19,
+        398.92,
+        1217.27,
+        547.23
+      ],
+      "prior_point": [
+        1168.0,
+        539.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "palms",
+      "box_iou": 0.9510451026875326,
+      "runner_up_iou": 0.0,
+      "runner_up_id": "1",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 2.8284271247461903
+    },
+    {
+      "source_frame": 3671,
+      "batch": "C",
+      "blind_contact": "visible",
+      "blind_box": [
+        753.0,
+        457.0,
+        874.0,
+        543.0
+      ],
+      "blind_point": [
+        842.0,
+        533.0
+      ],
+      "blind_support_type": "seat",
+      "blind_note": "Front seated dancer with an extended hand",
+      "match": "matched",
+      "candidate_id": "9",
+      "prior_box": [
+        753.0,
+        460.0,
+        882.0,
+        549.0
+      ],
+      "prior_point": [
+        848.260009765625,
+        538.4299926757812
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "seat",
+      "box_iou": 0.8479398851739277,
+      "runner_up_iou": 0.0005390899361187103,
+      "runner_up_id": "20",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 8.286889810101156
+    },
+    {
+      "source_frame": 3733,
+      "batch": "A",
+      "blind_contact": "visible",
+      "blind_box": [
+        915.0,
+        382.0,
+        1014.0,
+        545.0
+      ],
+      "blind_point": [
+        1007.0,
+        541.0
+      ],
+      "blind_support_type": "feet",
+      "blind_note": "Foreground long stride with rear toe at the floor",
+      "match": "matched",
+      "candidate_id": "10",
+      "prior_box": [
+        921.04,
+        383.3,
+        1015.3,
+        546.18
+      ],
+      "prior_point": null,
+      "prior_contact": "uncertain",
+      "prior_support_type": "none",
+      "box_iou": 0.9133086077773811,
+      "runner_up_iou": 0.19022479457128347,
+      "runner_up_id": "19",
+      "contact_agrees": false,
+      "support_agrees": null,
+      "point_distance_px": null
+    },
+    {
+      "source_frame": 3760,
+      "batch": "B",
+      "blind_contact": "airborne",
+      "blind_box": [
+        459.0,
+        373.0,
+        612.0,
+        509.0
+      ],
+      "blind_point": null,
+      "blind_support_type": null,
+      "blind_note": "Foreground split leap above shadow",
+      "match": "matched",
+      "candidate_id": "15",
+      "prior_box": [
+        465.54,
+        364.53,
+        613.48,
+        518.11
+      ],
+      "prior_point": null,
+      "prior_contact": "airborne",
+      "prior_support_type": "none",
+      "box_iou": 0.8436469713772746,
+      "runner_up_iou": 0.27760020804380314,
+      "runner_up_id": "1",
+      "contact_agrees": true,
+      "support_agrees": null,
+      "point_distance_px": null
+    },
+    {
+      "source_frame": 3843,
+      "batch": "A",
+      "blind_contact": "visible",
+      "blind_box": [
+        945.0,
+        395.0,
+        1009.0,
+        457.0
+      ],
+      "blind_point": [
+        986.0,
+        449.0
+      ],
+      "blind_support_type": "mixed knee and foot",
+      "blind_note": "Right crouched dancer with bent knee and forward foot",
+      "match": "matched",
+      "candidate_id": "20",
+      "prior_box": [
+        947.0,
+        399.0,
+        1010.0,
+        459.0
+      ],
+      "prior_point": [
+        981.0,
+        451.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "mixed_knee_foot",
+      "box_iou": 0.8660886319845857,
+      "runner_up_iou": 0.0,
+      "runner_up_id": "1",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 5.385164807134504
+    },
+    {
+      "source_frame": 3866,
+      "batch": "C",
+      "blind_contact": "visible",
+      "blind_box": [
+        538.0,
+        417.0,
+        604.0,
+        484.0
+      ],
+      "blind_point": [
+        581.0,
+        481.0
+      ],
+      "blind_support_type": "seat",
+      "blind_note": "Front seated dancer by green reflection",
+      "match": "matched",
+      "candidate_id": "17",
+      "prior_box": [
+        537.33,
+        412.3,
+        604.27,
+        488.46
+      ],
+      "prior_point": [
+        579.22998046875,
+        484.2799987792969
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "seat",
+      "box_iou": 0.8673733909458626,
+      "runner_up_iou": 0.15358125186821353,
+      "runner_up_id": "11",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 3.727111634120376
+    },
+    {
+      "source_frame": 3886,
+      "batch": "C",
+      "blind_contact": "visible",
+      "blind_box": [
+        255.0,
+        352.0,
+        297.0,
+        497.0
+      ],
+      "blind_point": [
+        275.0,
+        493.0
+      ],
+      "blind_support_type": "feet",
+      "blind_note": "Left isolated standing dancer",
+      "match": "matched",
+      "candidate_id": "9",
+      "prior_box": [
+        255.41,
+        358.85,
+        294.11,
+        499.27
+      ],
+      "prior_point": [
+        274.0,
+        493.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "feet",
+      "box_iou": 0.8654152926042709,
+      "runner_up_iou": 0.0,
+      "runner_up_id": "2",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 1.0
+    },
+    {
+      "source_frame": 4096,
+      "batch": "B",
+      "blind_contact": "visible",
+      "blind_box": [
+        357.0,
+        346.0,
+        416.0,
+        541.0
+      ],
+      "blind_point": [
+        386.0,
+        535.0
+      ],
+      "blind_support_type": "feet",
+      "blind_note": "Front green skirt with back to camera",
+      "match": "ambiguous",
+      "candidate_id": "10",
+      "prior_box": [
+        370.0,
+        390.0,
+        419.0,
+        542.0
+      ],
+      "prior_point": [
+        395.0,
+        536.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "feet",
+      "box_iou": 0.5784958774048472,
+      "runner_up_iou": 0.5127813811522319,
+      "runner_up_id": "6",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 9.055385138137417
+    },
+    {
+      "source_frame": 4157,
+      "batch": "A",
+      "blind_contact": "visible",
+      "blind_box": [
+        402.0,
+        379.0,
+        477.0,
+        530.0
+      ],
+      "blind_point": [
+        448.0,
+        527.0
+      ],
+      "blind_support_type": "feet",
+      "blind_note": "Foreground olive top with one clear supporting foot",
+      "match": "matched",
+      "candidate_id": "5",
+      "prior_box": [
+        417.0,
+        381.0,
+        468.0,
+        534.0
+      ],
+      "prior_point": [
+        450.0,
+        530.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "feet",
+      "box_iou": 0.6591204787926099,
+      "runner_up_iou": 0.360489712197936,
+      "runner_up_id": "7",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 3.605551275463989
+    },
+    {
+      "source_frame": 4219,
+      "batch": "B",
+      "blind_contact": "visible",
+      "blind_box": [
+        555.0,
+        467.0,
+        616.0,
+        537.0
+      ],
+      "blind_point": [
+        609.0,
+        531.0
+      ],
+      "blind_support_type": "palms",
+      "blind_note": "Seated green top beneath split stance with right palm clear",
+      "match": "matched",
+      "candidate_id": "21",
+      "prior_box": [
+        553.0,
+        473.0,
+        626.0,
+        540.0
+      ],
+      "prior_point": [
+        612.0,
+        535.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "palms",
+      "box_iou": 0.7426288757846681,
+      "runner_up_iou": 0.30622489959839355,
+      "runner_up_id": "13",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 5.0
+    },
+    {
+      "source_frame": 4239,
+      "batch": "C",
+      "blind_contact": "airborne",
+      "blind_box": [
+        875.0,
+        292.0,
+        963.0,
+        375.0
+      ],
+      "blind_point": null,
+      "blind_support_type": null,
+      "blind_note": "Lifted dancer above carrier on right",
+      "match": "matched",
+      "candidate_id": "20",
+      "prior_box": [
+        876.0,
+        292.0,
+        969.0,
+        409.0
+      ],
+      "prior_point": null,
+      "prior_contact": "airborne",
+      "prior_support_type": "none",
+      "box_iou": 0.6586099963516965,
+      "runner_up_iou": 0.12424315814967304,
+      "runner_up_id": "19",
+      "contact_agrees": true,
+      "support_agrees": null,
+      "point_distance_px": null
+    },
+    {
+      "source_frame": 4261,
+      "batch": "A",
+      "blind_contact": "visible",
+      "blind_box": [
+        129.0,
+        356.0,
+        222.0,
+        500.0
+      ],
+      "blind_point": [
+        137.0,
+        495.0
+      ],
+      "blind_support_type": "feet",
+      "blind_note": "Motion-blurred white top with one visible planted foot",
+      "match": "matched",
+      "candidate_id": "3",
+      "prior_box": [
+        128.53,
+        360.21,
+        223.2,
+        505.43
+      ],
+      "prior_point": [
+        147.13,
+        493.06
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "feet",
+      "box_iou": 0.9194429220356007,
+      "runner_up_iou": 0.0,
+      "runner_up_id": "1",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 10.314092301312796
+    },
+    {
+      "source_frame": 4284,
+      "batch": "B",
+      "blind_contact": "visible",
+      "blind_box": [
+        645.0,
+        442.0,
+        710.0,
+        532.0
+      ],
+      "blind_point": [
+        655.0,
+        527.0
+      ],
+      "blind_support_type": "palms",
+      "blind_note": "Front low crouch with planted hand",
+      "match": "matched",
+      "candidate_id": "13",
+      "prior_box": [
+        643.29,
+        449.34,
+        707.12,
+        537.13
+      ],
+      "prior_point": [
+        655.0,
+        532.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "palms",
+      "box_iou": 0.8126293036973099,
+      "runner_up_iou": 0.06114677563770498,
+      "runner_up_id": "10",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 5.0
+    },
+    {
+      "source_frame": 4343,
+      "batch": "A",
+      "blind_contact": "visible",
+      "blind_box": [
+        682.0,
+        466.0,
+        789.0,
+        539.0
+      ],
+      "blind_point": [
+        736.0,
+        531.0
+      ],
+      "blind_support_type": "palms",
+      "blind_note": "Front lowered dancer with both palms clear",
+      "match": "matched",
+      "candidate_id": "12",
+      "prior_box": [
+        684.0,
+        473.0,
+        788.0,
+        539.0
+      ],
+      "prior_point": [
+        736.0,
+        532.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "knees",
+      "box_iou": 0.8787607220586353,
+      "runner_up_iou": 0.03815947964345941,
+      "runner_up_id": "13",
+      "contact_agrees": true,
+      "support_agrees": false,
+      "point_distance_px": 1.0
+    },
+    {
+      "source_frame": 4476,
+      "batch": "B",
+      "blind_contact": "visible",
+      "blind_box": [
+        465.0,
+        435.0,
+        546.0,
+        535.0
+      ],
+      "blind_point": [
+        512.0,
+        533.0
+      ],
+      "blind_support_type": "feet",
+      "blind_note": "Folded dancer against green reflection",
+      "match": "matched",
+      "candidate_id": "8",
+      "prior_box": [
+        465.1,
+        437.49,
+        542.35,
+        544.56
+      ],
+      "prior_point": [
+        511.0,
+        535.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "feet",
+      "box_iou": 0.8522530946958257,
+      "runner_up_iou": 0.04289104258235285,
+      "runner_up_id": "9",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 2.23606797749979
+    },
+    {
+      "source_frame": 4665,
+      "batch": "C",
+      "blind_contact": "visible",
+      "blind_box": [
+        165.0,
+        354.0,
+        253.0,
+        545.0
+      ],
+      "blind_point": [
+        212.0,
+        540.0
+      ],
+      "blind_support_type": "feet",
+      "blind_note": "White top balanced on one foot",
+      "match": "matched",
+      "candidate_id": "3",
+      "prior_box": [
+        158.0,
+        365.0,
+        249.0,
+        554.0
+      ],
+      "prior_point": [
+        215.0,
+        546.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "feet",
+      "box_iou": 0.8005506432996241,
+      "runner_up_iou": 0.1857684666787069,
+      "runner_up_id": "2",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 6.708203932499369
+    },
+    {
+      "source_frame": 4692,
+      "batch": "A",
+      "blind_contact": "visible",
+      "blind_box": [
+        727.0,
+        350.0,
+        775.0,
+        570.0
+      ],
+      "blind_point": [
+        740.0,
+        568.0
+      ],
+      "blind_support_type": "feet",
+      "blind_note": "Arms raised and toe at floor",
+      "match": "matched",
+      "candidate_id": "13",
+      "prior_box": [
+        725.0,
+        350.0,
+        777.0,
+        579.0
+      ],
+      "prior_point": [
+        746.0,
+        575.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "feet",
+      "box_iou": 0.8867987907289218,
+      "runner_up_iou": 0.1709382588465489,
+      "runner_up_id": "12",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 9.219544457292887
+    },
+    {
+      "source_frame": 4812,
+      "batch": "A",
+      "blind_contact": "visible",
+      "blind_box": [
+        160.0,
+        468.0,
+        225.0,
+        550.0
+      ],
+      "blind_point": [
+        194.0,
+        546.0
+      ],
+      "blind_support_type": "mixed knee and foot",
+      "blind_note": "Left foreground kneeler with opposite foot down",
+      "match": "matched",
+      "candidate_id": "3",
+      "prior_box": [
+        162.29,
+        475.09,
+        227.67,
+        554.13
+      ],
+      "prior_point": [
+        194.99000549316406,
+        547.9199829101562
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "mixed_knee_foot",
+      "box_iou": 0.8099280226025077,
+      "runner_up_iou": 0.0,
+      "runner_up_id": "1",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 2.1601956512749214
+    },
+    {
+      "source_frame": 4850,
+      "batch": "C",
+      "blind_contact": "visible",
+      "blind_box": [
+        725.0,
+        485.0,
+        792.0,
+        575.0
+      ],
+      "blind_point": [
+        765.0,
+        566.0
+      ],
+      "blind_support_type": "mixed knee and foot",
+      "blind_note": "Front right kneeler with opposite forefoot down",
+      "match": "matched",
+      "candidate_id": "13",
+      "prior_box": [
+        732.06,
+        489.76,
+        787.05,
+        577.32
+      ],
+      "prior_point": [
+        760.1900024414062,
+        569.7000122070312
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "mixed_knee_foot",
+      "box_iou": 0.7612325030196943,
+      "runner_up_iou": 0.0,
+      "runner_up_id": "1",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 6.068456710388408
+    },
+    {
+      "source_frame": 4887,
+      "batch": "B",
+      "blind_contact": "visible",
+      "blind_box": [
+        722.0,
+        337.0,
+        758.0,
+        438.0
+      ],
+      "blind_point": [
+        737.0,
+        433.0
+      ],
+      "blind_support_type": "feet",
+      "blind_note": "Rear standing dancer above crouched group",
+      "match": "matched",
+      "candidate_id": "12",
+      "prior_box": [
+        724.56,
+        340.62,
+        754.76,
+        436.21
+      ],
+      "prior_point": [
+        742.3699951171875,
+        434.4200134277344
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "feet",
+      "box_iou": 0.7939543454345445,
+      "runner_up_iou": 0.0,
+      "runner_up_id": "1",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 5.5545734033824345
+    },
+    {
+      "source_frame": 4924,
+      "batch": "A",
+      "blind_contact": "visible",
+      "blind_box": [
+        470.0,
+        455.0,
+        551.0,
+        548.0
+      ],
+      "blind_point": [
+        497.0,
+        539.0
+      ],
+      "blind_support_type": "mixed knee and foot",
+      "blind_note": "Left foot and right knee in foreground kneel",
+      "match": "matched",
+      "candidate_id": "8",
+      "prior_box": [
+        469.26,
+        457.81,
+        550.36,
+        549.6
+      ],
+      "prior_point": [
+        499.0,
+        542.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "mixed_knee_foot",
+      "box_iou": 0.9376632172070728,
+      "runner_up_iou": 0.03580794232577641,
+      "runner_up_id": "6",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 3.605551275463989
+    },
+    {
+      "source_frame": 4980,
+      "batch": "B",
+      "blind_contact": "visible",
+      "blind_box": [
+        493.0,
+        467.0,
+        578.0,
+        545.0
+      ],
+      "blind_point": [
+        568.0,
+        542.0
+      ],
+      "blind_support_type": "palms",
+      "blind_note": "Clear right palm under curled foreground dancer",
+      "match": "matched",
+      "candidate_id": "8",
+      "prior_box": [
+        492.13,
+        473.76,
+        579.17,
+        547.86
+      ],
+      "prior_point": [
+        531.0,
+        539.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "seat",
+      "box_iou": 0.8620689655172417,
+      "runner_up_iou": 0.0,
+      "runner_up_id": "1",
+      "contact_agrees": true,
+      "support_agrees": false,
+      "point_distance_px": 37.12142238654117
+    },
+    {
+      "source_frame": 5025,
+      "batch": "C",
+      "blind_contact": "visible",
+      "blind_box": [
+        841.0,
+        392.0,
+        943.0,
+        516.0
+      ],
+      "blind_point": [
+        893.0,
+        510.0
+      ],
+      "blind_support_type": "feet",
+      "blind_note": "Front bending dancer with separated toes",
+      "match": "matched",
+      "candidate_id": "20",
+      "prior_box": [
+        851.82,
+        389.36,
+        943.13,
+        518.94
+      ],
+      "prior_point": [
+        894.0,
+        512.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "feet",
+      "box_iou": 0.8582539642946391,
+      "runner_up_iou": 0.41157702825888787,
+      "runner_up_id": "21",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 2.23606797749979
+    },
+    {
+      "source_frame": 5077,
+      "batch": "C",
+      "blind_contact": "visible",
+      "blind_box": [
+        1130.0,
+        439.0,
+        1208.0,
+        524.0
+      ],
+      "blind_point": [
+        1170.0,
+        521.0
+      ],
+      "blind_support_type": "feet",
+      "blind_note": "Isolated right deep bend with foot and hand visible",
+      "match": "matched",
+      "candidate_id": "19",
+      "prior_box": [
+        1137.5,
+        445.8,
+        1206.23,
+        527.07
+      ],
+      "prior_point": [
+        1175.0,
+        523.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "feet",
+      "box_iou": 0.7856578184149099,
+      "runner_up_iou": 0.0,
+      "runner_up_id": "16",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 5.385164807134504
+    },
+    {
+      "source_frame": 5131,
+      "batch": "B",
+      "blind_contact": "visible",
+      "blind_box": [
+        491.0,
+        339.0,
+        531.0,
+        467.0
+      ],
+      "blind_point": [
+        507.0,
+        465.0
+      ],
+      "blind_support_type": "feet",
+      "blind_note": "White top at left of dense group with feet visible",
+      "match": "matched",
+      "candidate_id": "3",
+      "prior_box": [
+        477.11,
+        343.64,
+        525.62,
+        470.86
+      ],
+      "prior_point": [
+        504.0,
+        468.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "feet",
+      "box_iou": 0.608302824824637,
+      "runner_up_iou": 0.2763250883392226,
+      "runner_up_id": "21",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 4.242640687119285
+    },
+    {
+      "source_frame": 5422,
+      "batch": "A",
+      "blind_contact": "visible",
+      "blind_box": [
+        695.0,
+        409.0,
+        790.0,
+        489.0
+      ],
+      "blind_point": [
+        714.0,
+        480.0
+      ],
+      "blind_support_type": "seat",
+      "blind_note": "Front right seated dancer with arm extended",
+      "match": "matched",
+      "candidate_id": "20",
+      "prior_box": [
+        695.03,
+        414.45,
+        789.86,
+        488.45
+      ],
+      "prior_point": [
+        733.0,
+        483.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "seat",
+      "box_iou": 0.9233447368421057,
+      "runner_up_iou": 0.067634013382446,
+      "runner_up_id": "16",
+      "contact_agrees": true,
+      "support_agrees": true,
+      "point_distance_px": 19.235384061671343
+    },
+    {
+      "source_frame": 5473,
+      "batch": "B",
+      "blind_contact": "hidden",
+      "blind_box": [
+        518.0,
+        334.0,
+        553.0,
+        419.0
+      ],
+      "blind_point": null,
+      "blind_support_type": null,
+      "blind_note": "Rear dancer's lower legs blocked by foreground group",
+      "match": "ambiguous",
+      "candidate_id": "4",
+      "prior_box": [
+        514.0,
+        333.0,
+        541.0,
+        433.0
+      ],
+      "prior_point": null,
+      "prior_contact": "hidden",
+      "prior_support_type": "none",
+      "box_iou": 0.5255376344086021,
+      "runner_up_iou": 0.4475869226777374,
+      "runner_up_id": "101",
+      "contact_agrees": true,
+      "support_agrees": null,
+      "point_distance_px": null
+    },
+    {
+      "source_frame": 5524,
+      "batch": "C",
+      "blind_contact": "uncertain",
+      "blind_box": [
+        471.0,
+        408.0,
+        550.0,
+        486.0
+      ],
+      "blind_point": null,
+      "blind_support_type": null,
+      "blind_note": "Foreground figure distinguishable but support obscured by layered poses and darkness",
+      "match": "matched",
+      "candidate_id": "5",
+      "prior_box": [
+        478.0,
+        416.0,
+        532.0,
+        483.0
+      ],
+      "prior_point": [
+        495.0,
+        476.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "seat",
+      "box_iou": 0.5871470301850049,
+      "runner_up_iou": 0.3055045871559633,
+      "runner_up_id": "109",
+      "contact_agrees": false,
+      "support_agrees": null,
+      "point_distance_px": null
+    },
+    {
+      "source_frame": 5579,
+      "batch": "A",
+      "blind_contact": "hidden",
+      "blind_box": [
+        652.0,
+        343.0,
+        684.0,
+        433.0
+      ],
+      "blind_point": null,
+      "blind_support_type": null,
+      "blind_note": "Standing figure's feet blocked by seated group",
+      "match": "matched",
+      "candidate_id": "2",
+      "prior_box": [
+        657.0,
+        348.0,
+        686.0,
+        445.0
+      ],
+      "prior_point": null,
+      "prior_contact": "hidden",
+      "prior_support_type": "none",
+      "box_iou": 0.6753972925250147,
+      "runner_up_iou": 0.5238095238095238,
+      "runner_up_id": "14",
+      "contact_agrees": true,
+      "support_agrees": null,
+      "point_distance_px": null
+    },
+    {
+      "source_frame": 5626,
+      "batch": "B",
+      "blind_contact": "uncertain",
+      "blind_box": [
+        562.0,
+        418.0,
+        618.0,
+        492.0
+      ],
+      "blind_point": null,
+      "blind_support_type": null,
+      "blind_note": "Dark central seated silhouette merges at the base",
+      "match": "matched",
+      "candidate_id": "15",
+      "prior_box": [
+        568.3,
+        414.9,
+        617.08,
+        499.62
+      ],
+      "prior_point": [
+        603.0,
+        492.0
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "seat",
+      "box_iou": 0.7734691750553522,
+      "runner_up_iou": 0.26131511528608026,
+      "runner_up_id": "6",
+      "contact_agrees": false,
+      "support_agrees": null,
+      "point_distance_px": null
+    },
+    {
+      "source_frame": 5651,
+      "batch": "A",
+      "blind_contact": "uncertain",
+      "blind_box": [
+        469.0,
+        406.0,
+        550.0,
+        484.0
+      ],
+      "blind_point": null,
+      "blind_support_type": null,
+      "blind_note": "Dim white-top foreground dancer with unclear support",
+      "match": "matched",
+      "candidate_id": "5",
+      "prior_box": [
+        468.08,
+        413.9,
+        537.44,
+        482.17
+      ],
+      "prior_point": [
+        494.489990234375,
+        475.3999938964844
+      ],
+      "prior_contact": "visible",
+      "prior_support_type": "seat",
+      "box_iou": 0.7322581257885764,
+      "runner_up_iou": 0.31398416886543534,
+      "runner_up_id": "107",
+      "contact_agrees": false,
+      "support_agrees": null,
+      "point_distance_px": null
+    },
+    {
+      "source_frame": 5670,
+      "batch": "C",
+      "blind_contact": "indistinguishable",
+      "blind_box": null,
+      "blind_point": null,
+      "blind_support_type": null,
+      "blind_note": "Right foreground silhouettes overlap and separate body boundaries are unclear",
+      "match": "abstained"
+    }
+  ]
+}

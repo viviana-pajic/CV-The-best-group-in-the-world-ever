@@ -14,23 +14,34 @@ st.set_page_config(page_title="Dance Floor Contact", layout="wide")
 st.title("Dance Floor Contact")
 st.write("Upload a fixed-camera MP4 to see the dancer detections and the synchronized 12 × 12 m stage map.")
 
-source_choice = st.radio("Video source", ["Bundled sample", "Upload an MP4"], horizontal=True)
-upload = st.file_uploader("Fixed-camera clip", type=["mp4"]) if source_choice == "Upload an MP4" else None
+
+def clear_result():
+    st.session_state.pop("result", None)
+
+
+source_choice = st.radio("Video source", ["Bundled sample", "Upload an MP4"],
+                         horizontal=True, on_change=clear_result)
+upload = st.file_uploader("Fixed-camera clip", type=["mp4"],
+                          on_change=clear_result) if source_choice == "Upload an MP4" else None
 if upload:
     st.video(upload)
 with st.expander("Calibration and device"):
-    method = st.radio("Stage calibration", ["Match the original venue", "Enter four floor corners"])
+    method = st.radio("Stage calibration", ["Match the original venue", "Enter four floor corners"],
+                      on_change=clear_result)
     corner_text = ""
     if method == "Enter four floor corners":
         corner_text = st.text_area("Corner pixels as JSON", placeholder="[[320, 390], [960, 390], [1200, 610], [80, 610]]",
-                                   help="Enter back-left, back-right, front-right, front-left in the source image.")
-    device = st.radio("Device", ["Auto", "CPU"], horizontal=True)
+                                   help="Enter back-left, back-right, front-right, front-left in the source image.",
+                                   on_change=clear_result)
+    device = st.radio("Device", ["Auto", "CPU"], horizontal=True, on_change=clear_result)
 
 if st.button("Run fresh inference", type="primary", disabled=source_choice == "Upload an MP4" and upload is None):
-    st.session_state.pop("result", None)
+    clear_result()
     progress = st.progress(0, text="Checking the video")
     try:
         corners = json.loads(corner_text) if method == "Enter four floor corners" else None
+        if method == "Enter four floor corners" and corners is None:
+            raise ValueError("Enter four numeric pixel coordinate pairs.")
         with TemporaryDirectory(prefix="dance-floor-contact-") as directory:
             workspace = Path(directory)
             source = ROOT / "media/sample_static.mp4"

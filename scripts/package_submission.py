@@ -53,6 +53,10 @@ def assemble(folder):
     for path in sorted((ROOT / "build/external-test-videos").glob("*.tracks.json")):
         copy(path, folder / "experiments/replays/cache" / path.name)
     copy(ROOT / "build/check_external_dashboard.cjs", folder / "tests/check_dashboard.cjs")
+    for filename in ("Open Formation Review.cmd", "open_dashboard.py"):
+        launcher = ROOT / "experiments/final_product_validation" / filename
+        if launcher.is_file():
+            copy(launcher, folder / filename)
 
     for label, source in {
         "stage_calibration.json": "Experiment/Dance_CVAT_Pilot/calibration_draft.json",

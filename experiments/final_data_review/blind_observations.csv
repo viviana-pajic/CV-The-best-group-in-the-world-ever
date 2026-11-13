@@ -1,0 +1,37 @@
+source_frame,x1,y1,x2,y2,contact_state,support_type,point_x,point_y,observation
+3383,261,449,324,541,visible,feet,295,536,Front folded dancer with two visible feet
+3468,648,428,705,519,visible,feet,680,516,Dark top and rust trousers with both feet down
+3553,1154,418,1219,524,visible,knees,1197,520,Rightmost kneeler with contact near lower knee
+3574,808,413,933,535,visible,knees,883,530,Front kneeler with forearms spread
+3627,1132,396,1219,547,visible,palms,1170,537,Inverted dancer supported by both hands
+3671,753,457,874,543,visible,seat,842,533,Front seated dancer with an extended hand
+3733,915,382,1014,545,visible,feet,1007,541,Foreground long stride with rear toe at the floor
+3760,459,373,612,509,airborne,,,,Foreground split leap above shadow
+3843,945,395,1009,457,visible,mixed knee and foot,986,449,Right crouched dancer with bent knee and forward foot
+3866,538,417,604,484,visible,seat,581,481,Front seated dancer by green reflection
+3886,255,352,297,497,visible,feet,275,493,Left isolated standing dancer
+4096,357,346,416,541,visible,feet,386,535,Front green skirt with back to camera
+4157,402,379,477,530,visible,feet,448,527,Foreground olive top with one clear supporting foot
+4219,555,467,616,537,visible,palms,609,531,Seated green top beneath split stance with right palm clear
+4239,875,292,963,375,airborne,,,,Lifted dancer above carrier on right
+4261,129,356,222,500,visible,feet,137,495,Motion-blurred white top with one visible planted foot
+4284,645,442,710,532,visible,palms,655,527,Front low crouch with planted hand
+4343,682,466,789,539,visible,palms,736,531,Front lowered dancer with both palms clear
+4476,465,435,546,535,visible,feet,512,533,Folded dancer against green reflection
+4665,165,354,253,545,visible,feet,212,540,White top balanced on one foot
+4692,727,350,775,570,visible,feet,740,568,Arms raised and toe at floor
+4812,160,468,225,550,visible,mixed knee and foot,194,546,Left foreground kneeler with opposite foot down
+4850,725,485,792,575,visible,mixed knee and foot,765,566,Front right kneeler with opposite forefoot down
+4887,722,337,758,438,visible,feet,737,433,Rear standing dancer above crouched group
+4924,470,455,551,548,visible,mixed knee and foot,497,539,Left foot and right knee in foreground kneel
+4980,493,467,578,545,visible,palms,568,542,Clear right palm under curled foreground dancer
+5025,841,392,943,516,visible,feet,893,510,Front bending dancer with separated toes
+5077,1130,439,1208,524,visible,feet,1170,521,Isolated right deep bend with foot and hand visible
+5131,491,339,531,467,visible,feet,507,465,White top at left of dense group with feet visible
+5422,695,409,790,489,visible,seat,714,480,Front right seated dancer with arm extended
+5473,518,334,553,419,hidden,,,,Rear dancer's lower legs blocked by foreground group
+5524,471,408,550,486,uncertain,,,,Foreground figure distinguishable but support obscured by layered poses and darkness
+5579,652,343,684,433,hidden,,,,Standing figure's feet blocked by seated group
+5626,562,418,618,492,uncertain,,,,Dark central seated silhouette merges at the base
+5651,469,406,550,484,uncertain,,,,Dim white-top foreground dancer with unclear support
+5670,,,,,indistinguishable,,,,Right foreground silhouettes overlap and separate body boundaries are unclear

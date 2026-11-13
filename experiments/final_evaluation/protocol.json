@@ -1,0 +1,34 @@
+{
+  "source": "dashboard/assets/CbpSMoPItu0.mp4",
+  "title": "Wicked Games",
+  "fps": 25,
+  "frames": [50, 275, 425, 625, 1125, 1750, 2375, 3000, 3750, 4250],
+  "strata": {
+    "opening": [50, 275, 425, 625],
+    "later": [1125, 1750, 2375, 3000, 3750, 4250]
+  },
+  "sampling": "Frozen time samples selected before inspecting these frames or model predictions. Includes four opening samples and six samples distributed across the rest of the performance. Keep every frame even if the stage is empty.",
+  "annotation": {
+    "image_size": [1280, 720],
+    "box_policy": "Draw the visible extent of each distinguishable dancer on stage. Keep visibly separate bodies in overlaps. Exclude onlookers and equipment. Do not infer fully hidden dancers.",
+    "contact_policy": "Record an approximate point for discernible stage support. Use the midpoint of supporting contacts where practical. Mark the support uncertain when hidden, airborne, too dark or ambiguous.",
+    "provenance": "Approximate visual annotation by an AI contributor from clean frames before running or reading predictions. New performance excluded from training. The project had already used this performance for dashboard demonstrations."
+  },
+  "detector_protocol": {
+    "resize": "OpenCV INTER_AREA to 1280x720",
+    "candidate_floor": 0.06,
+    "tile_image_size": 960,
+    "tile_protocol": "Use the same three overlapping crops as tools/evaluate_submission_detector.py.",
+    "merge_iou": 0.55,
+    "ablation_merge_iou": 0.40,
+    "fixed_confidence": 0.25,
+    "fixed_match_iou": 0.50,
+    "ap": "Ultralytics AP50 and AP50:95 across the same full-frame references and candidate policy for all three checkpoints. The .40 merge diagnostic uses the same final model candidates and changes only cross-crop suppression."
+  },
+  "contact_protocol": {
+    "box_match_iou": 0.50,
+    "map_thresholds_m": [0.24, 0.48],
+    "paired_baseline": "Compare box-bottom center and the dashboard's solid contact positions on the same matched track boxes. Report end-to-end correct counts including missing predictions, a paired error comparison, and uncertain-contact outputs separately.",
+    "distance": "Euclidean distance after projecting reference and baseline through the same cached stage calibration. The 12 m scale is approximate and does not independently validate calibration."
+  }
+}

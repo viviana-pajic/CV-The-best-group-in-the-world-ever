@@ -1,0 +1,11 @@
+# Formation Review submission handoff
+
+Start with the master notebook. To demonstrate the dashboard on Windows, extract the ZIP and double-click **Open Formation Review.cmd** with Python 3 installed. Keep its window open while using the browser. The four clips are included. The Streamlit app demonstrates fresh inference and exports. [Master notebook](../Master_Notebook.ipynb) · [Dashboard](../dashboard/index.html) · [Fresh inference setup](reproduction.md)
+
+1. Open **onare** at **03:04.68**. The dashboard shows the fitted row and how closely the reported dancer positions align. In the accompanying check, the six-dancer row scored 91.67% from detected positions and 91.37% from approximate visual picks for the same six dancers. [Formation evidence](../experiments/final_formation_validation/README.md)
+2. Open **Dernek** and scrub from the beginning to the end. The live heat map shows cumulative stage use. At the final frame, detected contacts have reached 123 of 144 stage squares. [Dashboard guidance](../dashboard/README.md)
+3. Open **Wicked Games** during the dark opening to show how missing contacts limit the formation view. The later frozen evaluation covers ten frames. Generic YOLO had the highest detector AP, and box bottoms had lower position error than the solid replay dots on this sample. The replay reported fewer positions when reference contacts were uncertain. [Evaluation report](../experiments/final_evaluation/README.md)
+
+The overnight work used three AI contributors for data review, model evaluation, and product validation. The 36-frame training audit checked one selected dancer per frame. The Wicked Games references came from a clean-frame AI visual pass before scoring. The product rehearsal used the extracted local package on BESTIJA. [Training-label audit](../experiments/final_data_review/REPORT.md) · [Product checks and rehearsal](../experiments/final_product_validation/README.md) · [AI disclosure](genai_disclosure.md)
+
+The team can use the blank frame pack for independent annotation agreement. Each teammate should verify their own contribution record and rehearse their part. Complete any course declarations or attendance requirements that apply to the team. [Independent review pack](../data/final_annotation_review/README.md) · [Defense notes](defense_notes.md) · [Rubric and limits](rubric_and_gaps.md)

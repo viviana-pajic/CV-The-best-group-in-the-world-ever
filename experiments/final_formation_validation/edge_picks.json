@@ -1,0 +1,15 @@
+{
+  "method": "Approximate visual picks of exposed mat edges on raw replay stills at 1280 × 720. Picks were entered before calculating residuals.",
+  "cases": [
+    {"id": "CbpSMoPItu0", "clip": "Wicked Games", "frame": 1922,
+      "edges": {"front": [[40, 592], [330, 596], [490, 596], [670, 597], [850, 598], [1050, 598], [1220, 597]],
+        "left": [[10, 495], [65, 479], [120, 460], [181, 440], [234, 422], [286, 405]]}},
+    {"id": "YoF0XeYhPL0", "clip": "onare", "frame": 4617,
+      "edges": {"front": [[40, 639], [290, 642], [500, 645], [740, 646], [940, 648], [1180, 648]],
+        "left": [[7, 512], [54, 496], [109, 474], [167, 453], [225, 433]],
+        "right": [[1130, 440], [1210, 469], [1270, 490]]}},
+    {"id": "0BorT97NOmQ", "clip": "Dernek", "frame": 2699,
+      "edges": {"front": [[20, 626], [330, 630], [540, 632], [710, 633], [920, 632], [1100, 633], [1220, 634]],
+        "left": [[23, 492], [86, 470], [140, 452], [191, 434]]}}
+  ]
+}

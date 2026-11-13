@@ -1,0 +1,29 @@
+{
+  "environment": {
+    "python": "3.12.10",
+    "streamlit": "1.67.0",
+    "torch": "2.11.0+cu128",
+    "opencv": "5.0.0",
+    "gpu_visible": false
+  },
+  "device": "CPU",
+  "input": "experiments/integration/cpu_smoke/input.mp4",
+  "input_frames": 16,
+  "fps": 25.0,
+  "calibrated_frames": 16,
+  "frames_with_contacts": 16,
+  "contact_rows": 288,
+  "elapsed_seconds": 20.23,
+  "download_files": [
+    "annotated_replay.mp4",
+    "calibration.json",
+    "contacts.csv",
+    "frames.json",
+    "metadata.json"
+  ],
+  "missing_upload_run_disabled": true,
+  "output_video_first_and_last_decodable": true,
+  "invalid_upload_message": "This MP4 could not be decoded or is too short.",
+  "old_downloads_visible_after_file_change": false,
+  "invalid_manual_corners_message": "Enter four numeric pixel coordinate pairs."
+}

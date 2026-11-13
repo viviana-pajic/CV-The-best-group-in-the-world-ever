@@ -1,0 +1,9 @@
+{
+  "clip": "onare",
+  "id": "YoF0XeYhPL0",
+  "frame": 4617,
+  "resolution": [1280, 720],
+  "source": "Unannotated source image at frame 4617. The seven points were visually picked at the midpoint of the supporting feet before pairing against replay detections.",
+  "provenance": "Approximate AI visual references for a previously viewed frame. No planned choreography coordinates were supplied.",
+  "points_px": [[401, 544], [485, 548], [608, 540], [695, 543], [761, 540], [821, 545], [918, 541]]
+}

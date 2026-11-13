@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Original choreography",
+    "coverage": [
+      {
+        "frame": 0,
+        "visited": 12,
+        "reported_contact_samples": 12
+      },
+      {
+        "frame": 1211,
+        "visited": 98,
+        "reported_contact_samples": 14858
+      },
+      {
+        "frame": 2423,
+        "visited": 102,
+        "reported_contact_samples": 29418
+      },
+      {
+        "frame": 1657,
+        "visited": 100,
+        "reported_contact_samples": 22407
+      },
+      {
+        "frame": 0,
+        "visited": 12,
+        "reported_contact_samples": 12
+      },
+      {
+        "frame": 2423,
+        "visited": 102,
+        "reported_contact_samples": 29418
+      }
+    ]
+  },
+  {
+    "title": "Wicked Games",
+    "coverage": [
+      {
+        "frame": 0,
+        "visited": 0,
+        "reported_contact_samples": 0
+      },
+      {
+        "frame": 2236,
+        "visited": 82,
+        "reported_contact_samples": 6799
+      },
+      {
+        "frame": 4472,
+        "visited": 100,
+        "reported_contact_samples": 15081
+      },
+      {
+        "frame": 1922,
+        "visited": 79,
+        "reported_contact_samples": 5331
+      },
+      {
+        "frame": 0,
+        "visited": 0,
+        "reported_contact_samples": 0
+      },
+      {
+        "frame": 4472,
+        "visited": 100,
+        "reported_contact_samples": 15081
+      }
+    ]
+  },
+  {
+    "title": "onare",
+    "coverage": [
+      {
+        "frame": 0,
+        "visited": 0,
+        "reported_contact_samples": 0
+      },
+      {
+        "frame": 2356,
+        "visited": 97,
+        "reported_contact_samples": 10383
+      },
+      {
+        "frame": 4712,
+        "visited": 103,
+        "reported_contact_samples": 20068
+      },
+      {
+        "frame": 4617,
+        "visited": 102,
+        "reported_contact_samples": 19530
+      },
+      {
+        "frame": 0,
+        "visited": 0,
+        "reported_contact_samples": 0
+      },
+      {
+        "frame": 4712,
+        "visited": 103,
+        "reported_contact_samples": 20068
+      }
+    ]
+  },
+  {
+    "title": "Dernek",
+    "coverage": [
+      {
+        "frame": 0,
+        "visited": 0,
+        "reported_contact_samples": 0
+      },
+      {
+        "frame": 3138,
+        "visited": 108,
+        "reported_contact_samples": 20205
+      },
+      {
+        "frame": 6277,
+        "visited": 123,
+        "reported_contact_samples": 54377
+      },
+      {
+        "frame": 2699,
+        "visited": 104,
+        "reported_contact_samples": 15356
+      },
+      {
+        "frame": 0,
+        "visited": 0,
+        "reported_contact_samples": 0
+      },
+      {
+        "frame": 6277,
+        "visited": 123,
+        "reported_contact_samples": 54377
+      }
+    ]
+  }
+]

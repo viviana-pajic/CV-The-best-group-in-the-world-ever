@@ -1,0 +1,31 @@
+{
+  "environment": "In-app browser over localhost using the extracted submission dashboard",
+  "clip_options": ["Original choreography", "Wicked Games", "onare", "Dernek"],
+  "onare_at_03_04_68": {
+    "frame": 4617,
+    "default_minimum_dots": 4,
+    "default_maximum_angle_degrees": 10,
+    "visible_dots": 7,
+    "fitted_rows": 1,
+    "row_dots": 6,
+    "row_angle_degrees": -5.5,
+    "alignment_percent": 91.7,
+    "horizontal_only_alignment_percent": 83.4,
+    "ten_dot_minimum_rows": 0
+  },
+  "dernek": {
+    "end_coverage_squares": 123,
+    "total_squares": 144,
+    "end_coverage_percent_displayed": 85.4,
+    "coverage_squares_after_rewind": 0,
+    "playhead_when_paused": "00:00.40",
+    "heatmap_time_when_paused": "00:00.40"
+  },
+  "wicked_games_at_00_17_88": {
+    "frame": 447,
+    "visible_dots": 2,
+    "coverage_squares": 23
+  },
+  "console_errors_observed": 0,
+  "direct_file_url_playback": "Unverified because browser automation blocks the file scheme"
+}
